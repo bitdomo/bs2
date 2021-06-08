@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 公爵夫人の館
+display_name: Duchess' Mansion
 tileset_id: 31
 width: 20
 height: 30
@@ -332,7 +332,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]行き止まりの予感…。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Visions of dead end...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -442,11 +442,11 @@ events:
       priority_type: 1
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]腕を入れてみる\c[0]', 何もしない], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]腕を入れてみる\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Try putting your arm inside\c[0]', Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]Try putting your arm inside\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: syasei0, pitch: 150, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [………。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['......']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [2, A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -457,7 +457,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 何もしない]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

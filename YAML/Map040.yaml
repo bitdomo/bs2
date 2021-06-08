@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 裏庭
+display_name: Backyard
 tileset_id: 39
 width: 35
 height: 30
@@ -683,10 +683,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [この建築で貴方の魂が少しでも救われるのなら幸いだ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [皆が貴方を忘れたとしても、この家は忘れはしないだろう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'd be happy if this work could save your soul even a little.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Even if all forget about you, this house never will.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [どうか安らかに。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Rest in peace.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -732,12 +732,12 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [霧に包まれている……。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[足を踏み入れる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 足を踏み入れる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Dense fog wraps the path...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Traverse the white fog, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Traverse the white fog]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [40]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1678,7 +1678,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [クロ　ウサギ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [BLACK   RABBIT]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   21: !ruby/object:RPG::Event
     id: 21

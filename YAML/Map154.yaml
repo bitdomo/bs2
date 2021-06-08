@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 図書室
+display_name: Library
 tileset_id: 87
 width: 44
 height: 50
@@ -503,7 +503,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [あなたのアリスはどんな顔ですか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What face does your Alice have?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘２, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 184, false, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 601, p: []}
@@ -670,27 +670,30 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「貴方は……。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　\n[1]様でお間違いありませんね？」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You......']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' You must be master \n[1],']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' am I correct?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「貴方をマスターとして本登録…承認…。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　私はアリス02-D型。ドールとお呼びください」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You''ve been registered as my master...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' recognized...I''m model Alice 02-D.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Please use my designated name, Doll."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「私ことドールの存在役割は主に観賞用。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' 芸術作品としての理解を深め、創造力を高める為にあります。']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' 自律は不可能な為、身の回りのお世話は不可能です」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Being a doll, I mainly exist to be admired. To']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' cultivate a better understanding of art and nurture']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' your creativity. Lacking physical autonomy,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I cannot assist you in your daily life."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ただし、疑似女性器が付いているので]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　マスターの\c[2]性欲の解消\c[0]が可能です」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"That said, as I have mock female genitalia installed,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I''m capable of providing \c[2]sexual relief\c[0] for master."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「どうぞ、好きなようにご使用くださいませ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Please, use me as you see fit."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・ドール, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [人形が置いてある。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [There's a doll sitting here.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}]}
@@ -743,23 +746,24 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 1045, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [2, D, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「マスター、覚えていませんか？]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　私と貴方は遠い昔に認識し合っていたのです」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Master, do you remember?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Far in the past, you and I came to']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' perceive each other."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「私が]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　このドールが]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['　\c[2]貴方を創り生み出した\c[0]のです」']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' This doll']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' \c[2]brought you into being\c[0]."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「その時から、私達は黒い糸で結ばれていました。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　こうして巡り会ったのも必然でしょう」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"From that moment, we were bound by a black thread."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Even meeting like this must''ve been inevitable."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「\n[1]様。']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　不思議の国のアリスは全て贋作です。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　"本物"を探し出してください」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Master \n[1].']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' All of Alice in Wonderland is fake.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Please, track down what is ''real''."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「舞台の上に立つ人形だけが]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　最後に寄り添うべき、愛しき少女の形をしています」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Only the puppet standing on the stage in the shape']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' of the dear little girl you should be with at the end."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [7, 7, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 241, p: [!ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [D, 0]}
@@ -769,11 +773,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「マスター。どうしました？」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[性処理をする, 話す, '\c[2]殺害する\c[0]', 立ち去る], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 性処理をする]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Master, what can I do for you?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Sexual relief, Talk, '\c[2]Kill\c[0]', Leave], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Sexual relief]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「お愉しみください」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Please enjoy it."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 20, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [20]}
@@ -790,70 +794,68 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [38, 38, 1, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 話す]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Talk]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 1045, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「私は設計図が無ければ]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　何も創れません」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I cannot create anything without a blueprint."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ですから]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　一から創作のできるマスターは大変素晴らしいです」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Therefore, I find you, who can create things']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' from scratch, to be most admirable."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「マスターは美味しそうですね」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"You look rather delicious today, Master."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ご賞味してもよろしいでしょうか？」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"May I have a taste?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ふ、ふ、ふ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　ジョーク。ジョークです」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ha  ha  ha.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' A joke. It was a joke."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [2, A, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「歯車を停止したいですか？」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Do you want to stop the gears?"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[はい, いいえ], 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, はい]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「…………」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"......"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['「\c[2]ウィンターベル\c[0]へといらしてください」']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"Then please visit \c[2]Winterbell\c[0]."']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「私を創ったアリス01が]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [　マスターをお待ちしております」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"Alice 01, who created me, awaits you, Master."']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, いいえ]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「…………」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"......"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「対話が必要でしょうか？]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　私には心が無いので]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　コミュニケーション能力が終了しています」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Is a conversation necessary?']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' As I do not have a heart, my communication']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' skills have been terminated."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「私は、マスターの全てを受け入れます」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I''ll accept all of you, Master."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [2, D, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「愛してます。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　愛してます。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　愛してます。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　愛してます。」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I love you.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I love you.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I love you.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I love you."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [55]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [2, D, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ア」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand
@@ -893,9 +895,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [38, 38, 2, 0, 30]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [79, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・ドール, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「私はここにずっといます」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I''ll always be waiting for you here."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}]}
@@ -939,7 +941,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [リデルのおにんぎょう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Liddell's doll.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -979,7 +981,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [リデルのおにんぎょう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Liddell's doll.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1063,8 +1065,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]伝統無くしては、芸術は主なき羊の群れです。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['革新無くしては、芸術は死体にすぎません。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Without tradition, art is a flock of sheep without a']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['shepherd. Without innovation, it is a corpse.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10

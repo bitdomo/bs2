@@ -115,11 +115,11 @@ module ITEM_KEEPER
   
   #預かり所モードから所持品モードに切り替えた際のメッセージを設定します。
   
-  TEXT1     = "所持品モードに切り替えます"
+  TEXT1     = "Switched to buying to Inventory"
   
   #所持品モードから預かり所モードに切り替えた際のメッセージを設定します。
   
-  TEXT2     = "預かり所モードに切り替えます"
+  TEXT2     = "Switched to buying to Storage"
   
   #モードに切り替え時のSEを設定します。
   #配列内は、名前、音量、ピッチの順に設定して下さい。
@@ -128,7 +128,7 @@ module ITEM_KEEPER
   
   #ショップでの預けている数の項目名を設定します。
   
-  SHOP_POS  = "預けている数"
+  SHOP_POS  = "Stored:"
   
   #預かり所モードの際の数字入力幅の増加値を設定します。（3桁以上の入力を考慮）
   
@@ -181,12 +181,12 @@ module ITEM_KEEPER
   #（基本的にこの部分を変更する必要はありません）
   
   D         = [
-  ["下キー",":1個引き出す"],
-  ["上キー",":1個預ける"],
-  ["左キー",":10個引き出す"],
-  ["右キー",":10個預ける"],
-  ["CTRLキー",":100個引き出す"],
-  ["SHIFTキー",":100個預ける"]
+  ["Down",": withdraw 1"],
+  ["Up",": deposit 1"],
+  ["Left",": withdraw 10"],
+  ["Right",": deposit 10"],
+  ["Ctrl",": withdraw 100"],
+  ["Shift",": deposit 100"]
   ]
   
 end
@@ -599,13 +599,13 @@ class Window_PTItemList < Window_ItemList
     rect.width -= 4
     draw_item_name(item, rect.x, rect.y, enable?(item))
     change_color(text_color(5))
-    draw_text(180, rect.y, 100, line_height, "所持", 2)
+    draw_text(180, rect.y, 100, line_height, "On Hand", 2)
     change_color(text_color(0))
     draw_text(220, rect.y, 100, line_height, $game_party.item_number(item), 2)
     draw_text(240, rect.y, 100, line_height,"／", 2)
     draw_text(270, rect.y, 100, line_height, $game_party.max_item_number(item), 2)
     change_color(text_color(5))
-    draw_text(330, rect.y, 100, line_height, "倉庫", 2)
+    draw_text(330, rect.y, 100, line_height, "Stored", 2)
     change_color(text_color(0))
     draw_text(370, rect.y, 100, line_height, $game_party.item_keep_number(item), 2)
     draw_text(390, rect.y, 100, line_height, "／", 2)
@@ -787,8 +787,8 @@ class Window_IKInput < Window_Selectable
     
     draw_item_name(@item_window.item, 0, 0)
     change_color(system_color)
-    draw_text(0, line_height * 1, 80, line_height, "所持", 1)
-    draw_text(self.contents.width - 80, line_height * 1, 80, line_height, "倉庫", 1)
+    draw_text(0, line_height * 1, 80, line_height, "Inventory", 1)
+    draw_text(self.contents.width - 80, line_height * 1, 80, line_height, "Storage", 1)
     draw_text(0, line_height * 1, self.contents.width, line_height, "→", 1)
     draw_text(0, line_height * 2, self.contents.width, line_height, "←", 1)
     

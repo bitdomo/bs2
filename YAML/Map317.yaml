@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 棺
+display_name: Coffin
 tileset_id: 123
 width: 21
 height: 22
@@ -116,6 +116,1148 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
 events:
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    x: 10
+    y: 8
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [18, 18, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, ele, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Open, Select floor], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Open]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, ele-2, 0, 0, 0, 0, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 110, 110, 255, 0, 120, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 312, 38, 10, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 316, 27, 9, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 319, 36, 9, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 321, 25, 10, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Select floor]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[1F, 2F, 3F, 4F], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 1F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [240]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 2F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 3F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 4F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [240]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: true
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 881
+        variable_value: 3
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [18, 18, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, ele, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Open, Select floor], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Open]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, ele-2, 0, 0, 0, 0, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 110, 110, 255, 0, 120, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 312, 38, 10, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 316, 27, 9, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 319, 36, 9, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 321, 25, 10, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 135, p: [0]}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &1 !ruby/object:RPG::MoveCommand {code: 29, parameters: [4]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [869, 869, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 325, 29, 11, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Select floor]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[10]5F\c[0]', '\c[10]5F\c[0]', '\c[10]5F\c[0]', '\c[10]5F\c[0]'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [2, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [3, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[10]5F\c[0]'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[1F, 2F, 3F, 4F], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 1F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [240]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 2F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 3F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 4F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [240]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[10]5F\c[0]'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 10, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 10, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 5, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 10, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: スポットライト, pitch: 150, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, black, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [220]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [360]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 75, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, ele-1, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: -34.0, g: -34.0, b: -34.0, a: 0.0}, 1, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [886, 886, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [882, 882, 0, 0, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [2, '161', 0, 0, -100, -680, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [2, ! '', 0, 0, -100, 0, 100, 100, 255, 0, 10, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: MBJH_SE_Noise, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [45]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, black, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 310, 20, 6, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [18, 18, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [18, 18, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 886
+        switch2_id: 1
+        variable_id: 881
+        variable_value: 3
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [18, 18, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, ele, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Open, Select floor], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Open]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, ele-2, 0, 0, 0, 0, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 110, 110, 255, 0, 120, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 312, 38, 10, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 316, 27, 9, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 319, 36, 9, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 321, 25, 10, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 135, p: [0]}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &2 !ruby/object:RPG::MoveCommand {code: 29, parameters: [4]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [869, 869, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 325, 29, 11, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Select floor]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[10]5F\c[0]', '\c[10]5F\c[0]', '\c[10]5F\c[0]', '\c[10]5F\c[0]'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [2, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [3, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[10]5F\c[0]'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[1F, 2F, 3F, 4F], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 1F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [240]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 2F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 3F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 4F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [240]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[10]5F\c[0]'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[10]5F\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 5, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 10, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 75, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [882, 882, 0, 0, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 885
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [18, 18, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, ele, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Open, Select floor], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Open]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, ele-2, 0, 0, 0, 0, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 110, 110, 255, 0, 120, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 312, 38, 10, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 316, 27, 9, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 319, 36, 9, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 321, 25, 10, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Select floor]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[1F, 2F, 3F, 4F], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 1F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [240]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 2F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 3F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 4F]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [240]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   1: !ruby/object:RPG::Event
     id: 1
     name: EV001
@@ -207,1149 +1349,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 245, p: [!ruby/object:RPG::BGS {name: '', volume: 50, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 245, p: [!ruby/object:RPG::BGS {name: chilly_hell, volume: 0, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  3: !ruby/object:RPG::Event
-    id: 3
-    name: EV003
-    x: 10
-    y: 8
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 1
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [18, 18, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, ele, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[開ける, 階層を選ぶ], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 開ける]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, ele-2, 0, 0, 0, 0, 100, 100, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 110, 110, 255, 0, 120, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 312, 38, 10, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 316, 27, 9, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 319, 36, 9, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 321, 25, 10, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 階層を選ぶ]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[1階, 2階, 3階, 4階], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 1階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [240]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 2階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 3階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 4階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [240]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: true
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 881
-        variable_value: 3
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 1
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [18, 18, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, ele, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[開ける, 階層を選ぶ], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 開ける]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, ele-2, 0, 0, 0, 0, 100, 100, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 110, 110, 255, 0, 120, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 312, 38, 10, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 316, 27, 9, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 319, 36, 9, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 321, 25, 10, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 135, p: [0]}
-      - !ruby/object:RPG::EventCommand
-        i: 2
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
-          - &1 !ruby/object:RPG::MoveCommand {code: 29, parameters: [4]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [869, 869, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 325, 29, 11, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 階層を選ぶ]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[10]5階\c[0]', '\c[10]5階\c[0]', '\c[10]5階\c[0]', '\c[10]5階\c[0]'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [2, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [3, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[10]5階\c[0]'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[1階, 2階, 3階, 4階], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 1階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [240]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 2階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 3階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 4階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [240]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[10]5階\c[0]'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 10, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 10, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [20]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 5, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 10, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: スポットライト, pitch: 150, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, black, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [220]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [360]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 75, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, ele-1, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: -34.0, g: -34.0, b: -34.0, a: 0.0}, 1, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [886, 886, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [882, 882, 0, 0, 5]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [2, '161', 0, 0, -100, -680, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [2, ! '', 0, 0, -100, 0, 100, 100, 255, 0, 10, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: MBJH_SE_Noise, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [45]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, black, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [3]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 310, 20, 6, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [18, 18, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [18, 18, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: true
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 886
-        switch2_id: 1
-        variable_id: 881
-        variable_value: 3
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 1
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [18, 18, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, ele, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[開ける, 階層を選ぶ], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 開ける]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, ele-2, 0, 0, 0, 0, 100, 100, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 110, 110, 255, 0, 120, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 312, 38, 10, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 316, 27, 9, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 319, 36, 9, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 321, 25, 10, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 135, p: [0]}
-      - !ruby/object:RPG::EventCommand
-        i: 2
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
-          - &2 !ruby/object:RPG::MoveCommand {code: 29, parameters: [4]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [869, 869, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 325, 29, 11, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 階層を選ぶ]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 5, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[10]5階\c[0]', '\c[10]5階\c[0]', '\c[10]5階\c[0]', '\c[10]5階\c[0]'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [2, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [3, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[10]5階\c[0]'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[1階, 2階, 3階, 4階], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 1階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [240]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 2階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 3階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 4階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [240]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[10]5階\c[0]'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[10]5階\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 5, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 10, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 2, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 75, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [882, 882, 0, 0, 5]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: true
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 885
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 1
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [18, 18, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, ele, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 118, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[開ける, 階層を選ぶ], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 開ける]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, ele-2, 0, 0, 0, 0, 100, 100, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 110, 110, 255, 0, 120, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 312, 38, 10, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 316, 27, 9, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 319, 36, 9, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [6]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 321, 25, 10, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 階層を選ぶ]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[1階, 2階, 3階, 4階], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 1階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [240]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 2階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [882, 882, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 3階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [882, 882, 0, 0, 3]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 4階]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 882, 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [240]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 2, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [180]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 882, 0, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・動く, pitch: 100, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: エレベーターベル, pitch: 140, volume: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [882, 882, 0, 0, 4]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 882, 0, 4, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 119, p: ['1']}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [18, 18, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

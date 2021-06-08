@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: クリミア看護墓地
+display_name: Crimean Nursing Graveyard
 tileset_id: 123
 width: 23
 height: 20
@@ -401,7 +401,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]うごくな。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['           don''t move\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition

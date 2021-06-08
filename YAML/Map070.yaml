@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 魔女の家の残骸
+display_name: Witch's House Ruins
 tileset_id: 8
 width: 30
 height: 30
@@ -572,7 +572,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]女から男、男から女、女から男、男から女……。']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Female to male, male to female,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['female to male, male to female...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['本当の俺はどこにいる？\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Where''s the real me?\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

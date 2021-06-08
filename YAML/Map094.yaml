@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 倉庫
+display_name: Storage
 tileset_id: 47
 width: 20
 height: 20
@@ -607,12 +607,14 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「わ！ あ、ああ……。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　脅かさないでくれ、ベルマンかと思ったじゃないか」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Uah! A-haa...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Don''t startle me like that, I thought']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' it was the Bellman coming."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「靴を磨いて欲しいのか？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　悪いけど……君の靴は腐ってるみたいだからもう手遅れだよ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Would you like your shoes polished?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Ahh, too bad...it appears your shoes have already']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' rotted, it''s much too late to polish them."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -654,22 +656,24 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「バリスター、バンカー、ビーバー、ブッチャー、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ブローカー、ベイカー、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ボンネット・メーカー、ビリヤード・マーカー、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　そして、ベルマン」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Barrister, Banker, Beaver, Butcher,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Broker, Baker,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Bonnet maker, Billiard marker,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' and finally, Bellman."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「スナーク狩りの団は勇敢で、そして同時に無知だった」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The team that went hunting the Snark was brave,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' and coincidentally ignorant."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「恐ろしいブージャムに襲われて狩りは大失敗。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　俺はただひたすら逃げ延びて、靴皮を食べて生き残った」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The hunt ended terribly when the dreaded Boojum']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' attacked. I then fled for my life and survived']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' by the skin of my shoes."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「なのにベルマン船長ときたら意地が悪く、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　亡者になってもスナーク狩りを続けようとしている。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　俺はそいつは馬鹿げてるって嘲笑ってやるのさ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"But Captain Bellman, oh, he''s nasty enough to']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' keep trying to continue the hunt even in death.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I can only sneer at his idiocy."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -712,38 +716,41 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [10, 74, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「嗚呼…この船員服、懐かしき香りだ…。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　あんた、エレバスを見つけてくれたのか…？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ahh...these sailor clothes have']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' a familiar smell to them...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Did you find the Erebus?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「船員達を残して先に逝ってしまった事…。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　俺はずっと…後悔していたんだ……。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　嗚呼、なのに俺は…弔いもせずに、こんな…。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　訳のわからない夢に囚われて……」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"We left these sailors behind and kept going...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' That''s something I''ve always regretted...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Oh, and yet I, not even mourned, just...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I''m caught in an incomprehensible dream..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「う、う、うう、う……っ]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　あんまりじゃないか……。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　彼等は、何の為に遠征に向かったんだ……。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　こんな馬鹿げた役はもう沢山だというのに………」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Uu-uu-uuuu...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Isn''t it too much...?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' For what have they joined the expedition?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' And we had so many ridiculous roles..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「希望、配慮、いずれも消え失せた。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　三足のブーツを重ねて履く奴は死んで当然なんだよ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Hope, consideration, both vanished."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' It''s only natural for the guy with three pairs']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' of boots worn one atop the other to die."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[何か買わせてくれ, '\c[2]殺害する\c[0]', 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 何か買わせてくれ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Do you have something for sale?', '\c[2]Kill\c[0]', Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Do you have something for sale?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 靴磨きブーツ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ブローカーの置き土産だ。欲しいかい？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Broker''s parting gift.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' What would you like?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 302, p: [0, 26, 0, 0, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 605, p: [0, 27, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 605, p: [0, 28, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘３, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 128, true, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -759,7 +766,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -802,10 +809,11 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 髱ｴ逎ｨ縺阪ヶ繝ｼ繝]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「繧擾ｼ 縺ゅ?√≠縺や?ｦ窶ｦ縲']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['縲?閼?°縺輔↑縺?〒縺上ｌ縲√?繝ｫ繝槭Φ縺九→諤昴▲縺溘§繧?↑縺?°」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"ДbiZ@а`ibbKKK']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['%@дwv}Ё@╚Ёb⌡Ёtf@uf@tqsf@ЁibЁk@и@Ёiw╢hiЁ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['%@qЁ@╤b╚@бfttubv@dwuqvhK"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [会話にならない…。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A conversation isn't happening...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -889,5 +897,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]殺せ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Kill.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

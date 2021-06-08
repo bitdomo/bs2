@@ -234,12 +234,12 @@ class Game_Battler < Game_BattlerBase
   #--------------------------------------------------------------------------
   def state_regenerate_message_set(id)
     case id
-    when 0; return  "%sはＨＰが %s 回復した！"
-    when 1; return  "%sは %s のＨＰダメージを受けた！"
-    when 2; return  "%sはＭＰが %s 回復した！"
-    when 3; return  "%sは %s のＭＰダメージを受けた！"
-    when 4; return  "%sはＴＰが %s 回復した！"
-    when 5; return  "%sは %s のＴＰダメージを受けた！"
+    when 0; return  "%s recovered %s HP!"
+    when 1; return  "%s took %s damage!"
+    when 2; return  "%s recovered %s MP!"
+    when 3; return  "%s lost %s MP!"
+    when 4; return  "%s recovered %s TP!"
+    when 5; return  "%s lost %s TP!"
     end
   end
 end

@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: クイーン・キャッスル
+display_name: Queen's Castle
 tileset_id: 97
 width: 41
 height: 30
@@ -802,7 +802,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: ドアノブ（がちゃがちゃ）02, pitch: 70, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [鍵が掛かっている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's locked.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -987,18 +987,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 15, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['NW名前指定 螂ｴ髫ｷ蟶昴す繝薙Γ繝?ヨ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [KH05_faces_VXAce_01, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「謌代′蟄舌ｒ螂ｪ繧上ｓ縺ｨ縺吶ｋ螳ｶ逡懊ａ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"аv@qv╚wtfvЁ@dbЁЁtfk@╦w╢@eb⌡f@╚Ёfbt@w╢⌡@diqteoZ"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['NW名前指定 螂ｴ髫ｷ蜷弱ち繝薙き繝?ヨ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [KH05_faces_VXAce_01, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「逍大ｿ?→谺ｺ迸槭↓霄ｫ繧呈ｻ?⊂縺」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"дf╚Ё⌡w╦@╦w╢⌡╚ftg@╤qЁi@ew╢cЁ@bve@efdfqЁZ"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 奴隷后タビカット]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [KH05_faces_VXAce_01, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「我が子を奪わんとする無礼な家畜め」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Insolent cattle, you dare steal our child?!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 奴隷帝シビメット]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [KH05_faces_VXAce_01, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「疑心と欺瞞に身を滅ぼせ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Destroy yourself with doubt and deceit!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Fire7, pitch: 70, volume: 100}]}
@@ -1250,12 +1250,12 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [霧に包まれている……。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[足を踏み入れる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 足を踏み入れる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Dense fog wraps the path...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Traverse the white fog, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Traverse the white fog]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [40]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1371,14 +1371,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*44]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*45]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [夢霊　あしながおじさんを召喚しますか？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[はい, いいえ], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, はい]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Summon Dream Spirit Daddy-Long-Legs?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [439, 439, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 212, p: [0, 250, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, いいえ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand
         i: 1

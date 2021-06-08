@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: セイウチの棲家
+display_name: Walrus' Dwelling
 tileset_id: 62
 width: 28
 height: 24
@@ -408,7 +408,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、間抜けがいるぞ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Idiot ahead.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -597,7 +597,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [（ぽけー…………）]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [(Spaced out......)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [396, 396, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -639,20 +639,20 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「海には……塩が多すぎますの」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"In the sea...there''s too much salt."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「コックを七人雇って、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　半年塩の調味料を使ったおかず作りでどうでしょう。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　そしたら塩は消えますの」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[それに賛成しよう, 噛み合わない会話はうんざりだ], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, それに賛成しよう]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Say we hired seven cooks and made them cook']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' nothing but salted dishes for half a year.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Do you suppose that they could get it clear?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[I suppose they could, 'What are you even talking about?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, I suppose they could]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「貴方は一体誰ですの？]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　横槍で突かないでほしいですの」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Who in the sea are you?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I wish you wouldn''t interrupt uninvitedly so."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 噛み合わない会話はうんざりだ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'What are you even talking about?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わたくしの一人会話に混ざりたいんですの？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You wish to join my one-person conversation?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [B, 0]}
@@ -697,57 +697,62 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [10, 69, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ああっ！その兜は……！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　大工っ！大工のものですのっ！！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　貴方がそれを持っているということは…………」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ah! That helmet...!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' The Carpenter''s! It was the Carpenter''s!!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' And now you have it, which means..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「うううっ……！！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　大工は亡くなったんですの…！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　ああ、可哀想な大工…！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　もう一度カキを食べようと約束交じり得たのに…っ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Uuuuuuu!!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' The Carpenter died! Aah, the poor, poor']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Carpenter! Even though we exchanged promises']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' to go for another batch of oysters!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ぐすんぐすん……っ]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　大工、ほんと、可哀想……ですの」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Sniffle-sniffle...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Carpenter, how truly sad......."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [565, 565, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ぽろぽろ……ちょろちょろり。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　わたくし、ため息と涙が止まりませんの」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"They''re bubbling, dripping, trickling.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I can''t stop my sighs and tears,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' it''s just too sad."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「もう何年も\c[2]大工\c[0]の姿を見ていませんの。']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　\c[4]深い海の底へ行く\c[0]と告げてから……」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I haven''t seen \c[2]the Carpenter\c[0] for years already.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Ever since he told me that he''s \c[4]heading to']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' the bottom of the sea.\c[0]"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わたくしは深い悲しみの底にいますの。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　悲しくて悲しくて、朝も夜も食べずにはいられませんの。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　嗚呼……今朝食べたパンが喉に詰まりましたの」]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[誓約, '\c[2]殺害する\c[0]', '\c[2]犯す\c[0]', 立ち去る], 4]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 誓約]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I''m at the very bottom of sorrow. In this']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' miserable anguish, I can''t go a morning or']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' night without eating.\! Ahhh...the pastries I']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' ate in the morn won''t even go past my throat."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Covenant, '\c[2]Kill\c[0]', '\c[2]Rape\c[0]', Leave], 4]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Covenant]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ああ…歌よ、乙女の歌よ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　太陽をかすめ、魚の如く泳いでゆけ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ahh...it''s a song, my maiden''s song.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Grazing the sun, swim like a fish."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [2, C, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「そこな紳士様。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　もし、深い海の底で大工を見つけましたら、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　これを渡してほしいですの」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"You, the gentleman there.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Supposing you find the Carpenter on']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' the bottom of the deep sea, I''d like']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' you to pass this to him."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 128, p: [142, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「きっと、壮大な建築計画の真っ最中に違いありませんの。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　でも…わたくしの想いをいつか忘れないように。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　この指輪を、どうかよろしくお願いしますの」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"He must surely be in the midst of organizing']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' another magnificent construction. But...this']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' is so he wouldn''t forget my feelings one day.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Please, I only ask you to carry this ring."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [C, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [55]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「あ、ぃ……った………？？」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ah, it...hurts...??"']}
       - !ruby/object:RPG::EventCommand
         i: 2
         c: 205
@@ -790,9 +795,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 2, 0, 30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 125, p: [0, 0, 20000]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, '\c[2]犯す\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, '\c[2]Rape\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [（ぽけー……？）]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['(Spaced out......?)']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [0, 20, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [20]}
@@ -812,14 +817,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [548, 548, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Magic1, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [溟海の捕食者シヴーチを地下室へ監禁しました。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I locked Predator of the Deep Sea Wolris into the Dungeon.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [$game_party.remove_spirit(49)]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: [$game_party.remove_spirit(50)]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: [$game_party.remove_spirit(51)]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: [$game_party.remove_spirit(52)]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -865,18 +870,21 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 548, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 160, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ふう……沢山泣き晴らしてすっきりしましたの。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　大工の死を知らせて頂き、わたくし貴方に感謝しますの」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Whew...it''s rather refreshing to go through']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' so much crying. I''m very grateful to you for']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' bringing me the news of the Carpenter''s']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' passing."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「そうですの、名前……。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　わたくし、貴方の名前を知りたいですのっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ah, of course, your name...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Would you please give me your name!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「\n[1]さん……。']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　なんだか、初めて会った気がしないですの。ふふふ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\n[1]...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Somehow, it feels as if we''ve met before.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Fufufu."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「わたくしはセイウチのシヴーチ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['　今日から\n[1]さんとは同士ですの～」']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I''m the walrus Wolris.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Let us be comrades from today on～."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [160, 160, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -890,31 +898,31 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [0, 216, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 213, p: [0, 6, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「ぐすんぐすん……ぽろぽろ」]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[大工の為に泣いているのか？, 何が悲しい？], 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 大工の為に泣いているのか？]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Sniffle-sniffle...drip-drip..."']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [['Crying for the Carpenter?', 'Why are you sad?'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 'Crying for the Carpenter?']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「大工、ああ、可哀想！]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [　それと同じくして、]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [　迷子の哀れなカキたちを思い出してしまいましたの」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"Carpenter, aah, the poor Carpenter!']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' And then, thinking of his sad fate,']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' I recalled the pitiful little oysters  too!"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 何が悲しい？]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 'Why are you sad?']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「気にしないでください。]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [　わたくし、いつもこうふとした瞬間に……。]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [　思い出し泣きをしてしまうんですの」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"Please don''t worry about me.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' I often have these moments...I recall']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' something sad and can''t help but weep for it."']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「太陽と月の間でおてて繋いで楽しく浜を歩きました。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　泡立つ波間をぴょんぴょこ舞って、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　がやがや騒ぐカキたちをわたくしは見ていられず、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　ぺろりと平らげてしまったんですのっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Under the sun and moon together, we were having']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' a great walk on a beach, hand in hand. The chatty']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' oysters dancing on bubbly waves didn''t notice']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' us and we made short work of them, we did!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「こうして瞳を閉じれば今でも、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　あのカキたちのさざ波と共に愉快な歌声が]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　笑い声が聞こえてくるんですの。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　ほら、すぐにでもぴょんぴょんぴょんっと……」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Even now, should I close my eyes, I can hear']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' the waves and the joyous singing and laughter']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' of the poor oysters. Look, it''s here right']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' away, splish-splish-splish......"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [7, 7, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 241, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 90}]}
       - !ruby/object:RPG::EventCommand
@@ -983,24 +991,25 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*26]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*27]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['「\{\{おーっほっほっほっほっほっ！！！」']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"\{\{OOO-HO-HO-HO-HO-HO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「お呼びじゃないですの～」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"We didn''t call for you～!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「深海ウェーブから御機嫌よう～っ！]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　マルガレーテ・フォン・ティロルですわ～っ♪\!]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　わたくし、グルメツアーの真っ最中ですのよっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Greeting from the deep sea waves～!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' ''Tis I, Margaret von Tyrol～♪\!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' And at the moment, I''m in the middle of']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' a gourmet tour!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「ウミガメレストランは休業中のようで、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　窓からべったり張り付いても誰もいませんのっ！]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　やむを得ずご足労をかねて]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　海の幸に胃袋を掴まれに参りましたわっ♪」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Sea Turtle Restaurant appears to be closed and']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' even when I stuck to the windows, I couldn''t']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' see anyone inside! I had to settle on catching']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' bounties of the sea with my very own stomach♪"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 213, p: [6, 2, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「で、カキはどこですの？」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Well, the oysters, where are they?"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「ぐす……カキは全員亡くなってしまったんですの。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　ソウルはわたくしの胃の中で眠っていますの」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Sniffle...all of them, all the oysters died.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Their souls are resting in my stomach."']}
       - !ruby/object:RPG::EventCommand
         i: 3
         c: 205
@@ -1015,34 +1024,36 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*28]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「んもうっ！]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　大工と貴方で全部食べてしまったんですねっ！]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　ずるいですわっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"My goodness!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' You and the Carpenter ate them all?!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' How unfair!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「それはそれは大変美味しゅう……ぐすん。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　目に沁みて涙がちょちょぎれそうですの……」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"They, they were very, very delicious...sniffle.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Ahh, I can feel the tears ready to soak my poor']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' eyes again..."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「いやらしい獣だことっ！]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　偽のハンケチなんてよしてくださいましっ！]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　カキ達が哀れで可哀想ですわっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"What a detestable beast! Enough of these']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' fake tears, remove the handkerchief!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Ah, those poor, poor oysters!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 213, p: [6, 9, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「そしてその教訓とは、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　『憶えているだけでもダメなので、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　安全で気を抜ける時こそ危機管理と]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　対策をするのが大事である』]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"And the moral of that is, ''it''s not good enough']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' to remember, one ought to set up measures for']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' dealing with a crisis while they are still safe']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' and not in any danger.''"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「あるいは、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　『一時の欲求よりも大事なことがある事を]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　しっかりと身に染みさせろ』]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Alternatively, ''sink deeply into your mind']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' things more important than your temporary']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' desires.''"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「そして、『自分に非がなくても、自分が普通通りに注意]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　していても、気づいた時にはもう遅く、九死に一生など]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　という甘い奇跡を期待しても、自分の仲間や]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　他者の落ち度で捲き込まれる事は珍しくない』！]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Or, ''even if it isn''t your fault, even if you take']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' precautions, even if you expect a sweet miracle']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' to narrowly save you, it''s not at all uncommon to']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' be dragged into mistakes of friends and others.''"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 213, p: [6, 3, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「おーほっほっほっほ！ではでは御機嫌ようッ！！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"OOO-HO-HO-HO-HO-HO-HO!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' And with this, I bid you farewell!!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 242, p: [2]}
       - !ruby/object:RPG::EventCommand
         i: 3
@@ -1079,8 +1090,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*39]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 213, p: [10, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「泡一つも立てずに海で呼吸ができるなんて、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　マルガレーテ夫人もたいしたものですの」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Lady Margaret is quite something for sure,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' to be able to breathe underwater without']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' a single bubble made."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [7, 7, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [D, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 115, p: []}
@@ -1093,17 +1105,17 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 1094, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 1095, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「同士\n[1]さん～！']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　ご報告！ご報告！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Comrade \n[1],～!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Reporting! Reporting!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「遂にわたくしのお腹に]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['　私達の\c[2]愛の結晶\c[0]が宿りましたの～！」']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[ハラショー！, 堕ろせ], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, ハラショー！]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"At last, \c[2]the fruit of our love\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' resides within me～!"']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Чудесно!, Abort it], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Чудесно!]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「うふふ～！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Fufufu～!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 堕ろせ]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Abort it]}
       - !ruby/object:RPG::EventCommand
         i: 3
         c: 205
@@ -1118,17 +1130,18 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*40]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「非道～っ！？]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　非道ですの～っ！実在の団体に訴えますの～～っ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Monster～?! You monsteeer～!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' I''ll be making an appeal to']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' the Committee of Existence～～!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「休養中は\n[1]さんに不自由させると思いますの。']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　けれど……」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Now, I know my leave might inconvenience you,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' but..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [0, 4, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「夜の淑女としてお役目は果たしますの♡」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I will fulfill my duty as your lady of the night♡"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [0, 20, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [20]}
@@ -1149,16 +1162,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「まあ、同士\n[1]さんっ！']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ズドらーストヴィチェ、ですの～っ」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[誓約, '\c[2]殺害する\c[0]', '\c[2]犯す\c[0]', 立ち去る], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 誓約]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Oh, my comrade \n[1]!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Здравствуйте～."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Covenant, '\c[2]Kill\c[0]', '\c[2]Rape\c[0]', Leave], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Covenant]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [92]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [55]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「あ、ぃ……った………？？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ah, it...hurts...??"']}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 205
@@ -1201,9 +1214,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [38, 38, 2, 0, 30]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 125, p: [0, 0, 20000]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]犯す\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Rape\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [（ぽけー……？）]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['(Spaced out......?)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 20, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [20]}
@@ -1223,18 +1236,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [548, 548, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Magic1, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [溟海の捕食者シヴーチを地下室へ監禁しました。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I locked Predator of the Deep Sea Wolris into the Dungeon.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [$game_party.remove_spirit(49)]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [$game_party.remove_spirit(50)]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [$game_party.remove_spirit(51)]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [$game_party.remove_spirit(52)]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [38, 38, 1, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 81, 0, 3, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ダスヴィダーにゃ……]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　ぐす。お別れは心惜しいですの～」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"До свиданья...sniffle...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Farewells do so break one''s heart～!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1278,9 +1291,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [シヴーチ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「豬ｷ縺ｫ縺ｯ窶ｦ窶ｦ蝪ｩ縺悟､壹☆縺弱∪縺吶?｣']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"иv@Ёif@╚fbKKKЁif⌡f}╚@Ёww@u╢di@╚btЁK"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [会話にならない…。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A conversation isn't happening...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1320,9 +1333,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [魔獣, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「豬ｷ縺ｫ縺ｯ窶ｦ窶ｦ蝪ｩ縺悟､壹☆縺弱∪縺吶?｣」']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]殺害する\c[0]', 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"иv@Ёif@╚fbKKKЁif⌡f}╚@Ёww@u╢di@╚btЁK"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Kill\c[0]', Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: シヴーチ, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 356, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -1373,7 +1386,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1575,9 +1588,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]題名『捕食者と被食者』\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Title: ''Predator and Prey''\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                                 作・シヴーチですの！']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                                 Made By: Wolris!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6

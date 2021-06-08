@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 公爵夫人の館
+display_name: Duchess' Mansion
 tileset_id: 41
 width: 23
 height: 35
@@ -2547,7 +2547,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、蜘蛛がいるぞ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Spider ahead.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   80: !ruby/object:RPG::Event
     id: 80
@@ -2593,7 +2593,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]苦しい……。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Painful...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   81: !ruby/object:RPG::Event
     id: 81
@@ -12363,7 +12363,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]透明状態で、敵の後ろを突くことでバックスタブが発動する。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]While invisible, you can backstab enemies by']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['attacking them from behind.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   82: !ruby/object:RPG::Event
     id: 82

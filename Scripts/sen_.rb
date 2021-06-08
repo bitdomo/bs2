@@ -40,8 +40,8 @@ class Window_Getinfo < Window_Base
       color = $game_variables[38] > 70 ? 3 :
               $game_variables[38] > 30 ? 6 :
               $game_variables[38] > 1 ? 14 : 2
-      text = value > 0 ? "SEN上昇" : "SEN低下！"
-      note = "現在値: #{$game_variables[38]} (" +
+      text = value > 0 ? "SEN increased." : "SEN decreased!"
+      note = "Current value: #{$game_variables[38]} (" +
              (value > 0 ? "+" : "") +
              "#{value})"
       draw_icon(103, 4, 14)

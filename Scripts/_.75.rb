@@ -685,7 +685,7 @@ class Window_Base < Window
   #--------------------------------------------------------------------------
   def draw_partner_name(actor, x, y)
     change_color(system_color)
-    draw_text(x, y, contents_width, line_height, actor.spirit? ? "パートナー" : "誓約")
+    draw_text(x, y, contents_width, line_height, actor.spirit? ? "パートナー" : "Covenant")
     x += 100
     change_color(normal_color)
     if actor.has_partner?
@@ -697,7 +697,7 @@ class Window_Base < Window
   #--------------------------------------------------------------------------
   # ● 名前の描画
   #--------------------------------------------------------------------------
-  def draw_spirit_name(actor, x, y, enabled=true, width = 112)
+  def draw_spirit_name(actor, x, y, enabled=true, width = 140)
     change_color(normal_color, enabled)
     draw_text(x, y, width, line_height, actor.name)
   end

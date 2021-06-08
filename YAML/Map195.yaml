@@ -256,7 +256,7 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [アリス・リデル, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「―――――――」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"———————"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -385,7 +385,7 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [アリス・リデル, 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「―――す――っ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"———aa——"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -471,10 +471,10 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 204, p: [2, 4, 4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [アリス・リデル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ぐすっ……ぐすっ……うぇ……ううっ……ぅ……」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Uaa...sniff...uu...waa......"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[心配する, 警戒する], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 心配する]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Ask what happened, Remain on guard], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Ask what happened]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [6, 1, true]}
       - !ruby/object:RPG::EventCommand
         i: 1
@@ -490,11 +490,11 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・リデル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わ…わかんないの……。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　アリス、ずっとおうちにいたのに……。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　ねむってただけなのにっ……怖くて痛くて……っ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I, I don''t know...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Alice was at home, always at home...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I was only sleeping...now, scary, hurts...."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 警戒する]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Remain on guard]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [6, 1, true]}
       - !ruby/object:RPG::EventCommand
         i: 1
@@ -510,13 +510,14 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・リデル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「あなた、だぁれ……？]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　知らない人…。こわい、こわいよ……っ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Who, who are you?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I don''t know you...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Scary, it''s all so scary....."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [アリス・リデル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「うう、う……。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　キャロルせんせぇ……たすけて………」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Uu-uaaa...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Mister Carroll, teacher, save me....."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -573,14 +574,14 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*18]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [アリス・リデル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……せんせぇ……？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"....teacher...?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [お悲しみかい？アリス。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Alice, do you feel sad?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [なら歌を謡って慰めてあげる。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [さぁ、一緒に僕たちの国へ帰ろう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Then I'll sing you a nice little song.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come, let''s return back to our land, hand in hand.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [アリス・リデル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……うんっ……！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Yes!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205

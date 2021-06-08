@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: クリミア看護墓地
+display_name: Crimean Nursing Graveyard
 tileset_id: 123
 width: 75
 height: 25
@@ -172,15 +172,15 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [レバーを下ろしますか？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[はい, いいえ], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, はい]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Pull down the lever?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Switch3, pitch: 60, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [867, 867, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Earth4, pitch: 75, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, いいえ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1046,7 +1046,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]騙されるな。かわいい天使。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Don''t be deceived. Cute angel.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   18: !ruby/object:RPG::Event
     id: 18
@@ -1092,7 +1092,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]悪魔を殺せ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Kill devil.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   19: !ruby/object:RPG::Event
     id: 19
@@ -1416,9 +1416,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [6, -1, 8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [21, 3, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「くるるくるくるくるるる～～～っ♪♪」]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[声をかける, 無視する], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 声をかける]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Kukuru-kuru-kuru-kukuruku～～♪♪"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Call out, Ignore], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Call out]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [21, 2, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [883, 883, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand
@@ -1435,27 +1435,27 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*14]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「まあ、どちらさま？」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Now, who are you?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ああ！]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　待ってください、当ててみせますよぉ♪\!]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['　あなたもきっと、\c[2]わたしの救いが欲しくて\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　願いに来たのでしょうっ？」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ah!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Wait, wait, let me guess♪\!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I know, you too came here hoping to']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' \c[2]be saved by me\c[0], isn''t that right?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「言葉にしなくても]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　あなたの苦しみはぜーんぶ解っていますよぉぅ♪]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　わたしは優しい天使なので救ってあげますぅ～♪」　]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"No need to say anything, I know how']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' much you''re suffering, I know all about it♪']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' And I''m a kind angel, so I''ll save you～♪"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[2]救いが欲しい\c[0]', 救いはいらない], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[2]救いが欲しい\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[2]Save me\c[0]', No need], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[2]Save me\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 213, p: [21, 4, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「うんうん♪]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　泣きたくなるほどつら～い現実。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　解っちゃうんです♪天使ですからぁ♪」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Yup-yup♪']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Reality is sooo～ painful it makes you wanna cry.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' I absolutely get it♪ Cause I''m an angel♪"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「すぐに天国へ連れていってあげますねぇ～♪♪]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　痛かったら声を出してくださぁい♪」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"I''ll take you to Heaven in just a moment～♪♪']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' If it hurts, make sure to tell me♪"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 212, p: [-1, 108, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: Bow1, pitch: 100, volume: 80}]}
@@ -1518,10 +1518,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: gucha004a, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「ああ、そんなに喜びの悲鳴を上げなくても～！]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　お礼なんていりませんっ！]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　安心して天国へと下ってください～♪♪]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　あはあははっ♪」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Ah, you didn''t have to scream in joy so much～!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' No need to thank me!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Just relax and fall into Heaven～♪♪']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Aaah, hahahaha♪"']}
       - !ruby/object:RPG::EventCommand
         i: 3
         c: 205
@@ -1543,23 +1543,23 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 117, p: [11]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [883, 883, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 救いはいらない]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, No need]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 213, p: [21, 7, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「……あなたはまだ生欲に縋りついているようですねぇ\!]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　つまんな……\.]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　いえいえ！なんでもありませ～んっ♪」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"...Still clinging to your mortal desires?\!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Laaame......\.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' No-no! Don''t you mind me～♪"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「そんな頑張り屋のあなたにはなんとなんとぉ♪]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　天使の祝福を授けますぅ♪♪」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"And for being such a hard, hard worker, you get...♪']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' An angel''s blessing to ease your journey♪♪"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 212, p: [-1, 119, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 20, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [60, 60, 0, 0, 9]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ランジェ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「心が折れそうな時は天使に祈ってくださいっ♪]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　このわたしがぁ]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　いつでも天国に導いてあげますからねぇ♪♪」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Make sure to pray when your heart is about to break♪']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' And no matter when, this angel will guide you']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' straight into Heaven♪♪"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 212, p: [61, 107, false]}
       - !ruby/object:RPG::EventCommand
         i: 3
@@ -1596,7 +1596,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 無視する]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Ignore]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -4902,7 +4902,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]心が折れそうだ…。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]I can''t take this...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   58: !ruby/object:RPG::Event
     id: 58
@@ -4992,7 +4992,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]よく見ろ、死体があるぞ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Look carefully. Huh. It''s a corpse.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   57: !ruby/object:RPG::Event
     id: 57
@@ -5038,36 +5038,36 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[死体を探る, 死体を食べる, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 死体を探る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [………。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 128, p: [222, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 死体を食べる]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[死体を探る, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 死体を探る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [………。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 128, p: [222, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -5111,18 +5111,18 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[死体を探る, 死体を食べる, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 死体を探る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [何も持っていない。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There's nothing of value on it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 死体を食べる]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

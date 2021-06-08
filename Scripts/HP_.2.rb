@@ -59,30 +59,30 @@ module ConvertAttack
   #アクターHP/MP/TPダメージ時メッセージ
   
   MA[0] = {
-  :hp => "%sの%sが %s 減少した！",
-  :mp => "%sの%sが %s 減少した！",
-  :tp => "%sの%sが %s 減った！"}
+  :hp => "%s lost %s %s!",
+  :mp => "%s lost %s %s!",
+  :tp => "%s lost %s %s!"}
   
   #アクターHP/MP/TP回復時メッセージ
   
   MA[1] = {
-  :hp => "%sの%sが %s 回復した！",
-  :mp => "%sの%sが %s 回復した！",
-  :tp => "%sの%sが %s 増えた！"}
+  :hp => "%s gained %s %s!",
+  :mp => "%s gained %s %s!",
+  :tp => "%s gained %s %s!"}
   
   #エネミーHP/MP/TPダメージ時メッセージ
   
   ME[0] = {
-  :hp => "%sの%sが %s 減少した！",
-  :mp => "%sの%sが %s 減少した！",
-  :tp => "%sの%sが %s 減った！"}
+  :hp => "%s lost %s %s!",
+  :mp => "%s lost %s %s!",
+  :tp => "%s lost %s %s!"}
   
   #エネミーHP/MP/TP回復時メッセージ
   
   ME[1] = {
-  :hp => "%sの%sが %s 回復した！",
-  :mp => "%sの%sが %s 回復した！",
-  :tp => "%sの%sが %s 増えた！"}
+  :hp => "%s gained %s %s!",
+  :mp => "%s gained %s %s!",
+  :tp => "%s gained %s %s!"}
   
   #--------------------------------------------------------------------------
   # メッセージ取得

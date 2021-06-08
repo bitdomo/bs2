@@ -1,8 +1,10 @@
 ---
 - 
 - !ruby/object:RPG::Armor
-  description: "回避率＋5%　魔法防御＋5%　素早さ-3%\r\n気高い貴族どもの服。"
-  name: 貴族の服
+  description: |-
+    EVA&MEV+5%  MDF+5%  SPD-3%
+    Clothes fit for noble aristocracy.
+  name: Aristocrat's Clothes
   icon_index: 442
   price: 1000
   note: 公爵夫人の館
@@ -36,8 +38,10 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "攻撃力＋5%　魔力＋5%　素早さ-3%\r\n暴力者の血濡れた上衣。"
-  name: 暴力のマント
+  description: |-
+    ATK+5%  MAG+5%  SPD-7%
+    The bloodied coat of a violent man.
+  name: Cloak of Violence
   icon_index: 449
   price: 1000
   note: 公爵館
@@ -67,8 +71,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "魔力＋15%　魔法防御＋15%　素早さ-10%\r\n闇に呑まれたアンドール国の王が着けていた上衣。"
-  name: 狂乱王のマント
+  description: |-
+    MAG+15%  MDF+15%  SPD-10%
+    Worn by the king of Andor, a land swallowed by darkness.
+  name: Cloak of the Frenzy King
   icon_index: 454
   price: 1000
   note: フリッセル
@@ -98,8 +104,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "HP＋50%　素早さ-4%\r\n天使は堕ちた女神を捜しに地上へと堕ちていった。"
-  name: 天使の羽衣
+  description: |-
+    HP+50%  SPD-4%
+    The angel came down in search of the fallen Goddess.
+  name: Angel's Raiment
   icon_index: 448
   price: 1000
   note: 名無しの森
@@ -125,8 +133,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "攻撃力＋8%　防御力＋5%　素早さ-3%\r\n魔獣の皮で作られた鎧。着ているだけで暴力衝動に襲われる。"
-  name: レザーアーマー
+  description: |-
+    ATK+8%  DEF+5%  SPD-3%
+    Crafted of beast skin, this armor incites violent urges.
+  name: Leather Armor
   icon_index: 434
   price: 1000
   note: ラドウィッジ
@@ -156,8 +166,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "回避率＋10%　素早さ-2%　頭装備不可\r\n魔獣の血を払うために、狩人が着込む黒い狩装束。"
-  name: 狩人の装束
+  description: |-
+    EVA&MEV+10%  SPD-2%  Takes Up Head Slot
+    Black garb worn by hunters to repel the blood of demonbeasts.
+  name: Hunter's Attire
   icon_index: 710
   price: 1000
   note: "初期\r\n橋のたもと"
@@ -191,8 +203,10 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "回避率＋5%　炎耐性＋80%　燃焼耐性＋80%\r\nマッチ売りの少女の上衣。懐かしき温もりが柔らかく包んでくれる。"
-  name: マッチ売りの服
+  description: |-
+    EVA&MEV+5%  Fire RES+80%  Burn RES+80%
+    Little Match Girl's tunic. It wraps you in nostalgic warmth.
+  name: Match-Seller's Clothes
   icon_index: 450
   price: 1000
   note: ラドウィッジ
@@ -226,8 +240,10 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "回避率＋5%　油まみれ耐性＋100%\r\n屠殺場の解体者が身に付けるもの。血生臭い。"
-  name: 作業服
+  description: |-
+    EVA&MEV+5%  Oil RES+100%
+    Worn by the slaughterhouse's demolishers. Reeks of blood.
+  name: Work Clothes
   icon_index: 168
   price: 1000
   note: 屠殺場
@@ -257,8 +273,10 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "回避率＋5%　防御力＋3%　\r\n知識と教養を身につけた男が着るもの。"
-  name: 紳士のコート
+  description: |-
+    EVA&MEV+5%  DEF+3%
+    Worn by men of knowledge and culture.
+  name: Gentleman's Coat
   icon_index: 726
   price: 1000
   note: ドロップ　紳士
@@ -288,8 +306,10 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "回避率＋5%　発狂耐性＋50%\r\n夜の女が着るもの。女装に手を出せばいよいよ見限られるだろう。"
-  name: 娼婦の服
+  description: |-
+    EVA&MEV+5% Madness RES+50%
+    Cross-dressing would really mark you as someone beyond help.
+  name: Whore's Clothes
   icon_index: 441
   price: 1000
   note: グール　ドロップ
@@ -319,8 +339,10 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "防御力＋10%　素早さ-3%\r\n前面に金属の板を拵えただけの鎧。"
-  name: プレートメイル
+  description: |-
+    DEF+10%  SPD-3%
+    A simple metal sheet to cover your front.
+  name: Plate Mail
   icon_index: 432
   price: 1000
   note: 精神病棟
@@ -346,8 +368,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御力＋10%　全異常耐性＋30%　素早さ-10%\r\n深淵から生まれし悪魔の力が宿る鎧。"
-  name: 深淵の鎧
+  description: |-
+    DEF+10%  All Ailments RES+30%  SPD-10%
+    Armor harboring the power of demons born of the Abyss.
+  name: Armor of the Abyss
   icon_index: 435
   price: 1000
   note: 病みたる時計塔
@@ -441,8 +465,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "攻撃力＋15%　防御力＋15%　素早さ-10%　\r\n太陽を求める熱き者の鎧。もっとも、この国では拝む事はないだろうが。"
-  name: 太陽の鎧
+  description: |-
+    ATK+15%  DEF+15%  SPD-10%
+    Worn by a sun-seeking zealot lost in a land without prayer.
+  name: Armor of the Sun
   icon_index: 437
   price: 1000
   note: 燻りの森
@@ -472,8 +498,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御力＋5%　魔法防御＋7%　回避率＋5%　素早さ-4%\r\n神の教えを説く為に旅の聖職者が身に付けるもの。"
-  name: 聖職者の装衣
+  description: |-
+    DEF+5%  MDF+7%  EVA&MEV+5%  SPD-4%
+    Garments worn by preachers and missionaries.
+  name: Clergy Clothes
   icon_index: 456
   price: 1000
   note: "初期\r\nリポン大聖堂"
@@ -511,8 +539,10 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "魔力＋5%　魔法防御＋10%　回避率＋5%　素早さ-4%\r\n魔術学院エルハイムの生徒が卒業記念として贈与されたコート。"
-  name: 魔術師のコート
+  description: |-
+    MAG+5%  MDF+10%  EVA&MEV+5%  SPD-4%
+    A coat awarded to graduates of Elheim's Academy of Magic.
+  name: Magician's Coat
   icon_index: 443
   price: 1000
   note: "初期\r\n血涙の池"
@@ -550,8 +580,10 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "防御力＋8%　回避率＋5%　素早さ-2%\r\n暗殺者や盗賊が付ける影に溶け込むためのもの。"
-  name: 影の装衣
+  description: |-
+    DEF+8%  EVA&MEV+5%  SPD-2%
+    Worn by assassins and bandits to blend into shadows.
+  name: Cloak of Shadows
   icon_index: 171
   price: 1000
   note: "初期\r\nリデル墓地"
@@ -585,8 +617,10 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "防御力＋15%　素早さ-5%　スタン耐性+30%\r\n騎士の間で多く普及されている鋼の鎧。"
-  name: 騎士の鎧
+  description: |-
+    DEF+15%  SPD-5%  Stun RES+30%
+    Steel armor popular among knights.
+  name: Knight's Armor
   icon_index: 436
   price: 1000
   note: "初期\r\n公爵夫人の館"
@@ -616,8 +650,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "攻撃力＋5%　防御力＋10%　素早さ-5%\r\n戦いに飢える戦士たちの鎧。"
-  name: 戦士の鎧
+  description: |-
+    ATK+5%  DEF+10%  SPD-5%
+    Armor of warriors hungry for battle.
+  name: Warrior's Armor
   icon_index: 169
   price: 1000
   note: "初期\r\nビリングズゲート"
@@ -647,8 +683,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御力＋10%　炎耐性＋25%　燃焼耐性＋25%　素早さ-3%\r\n羊神ミルトンの加護を持つ神殿騎士たちにとって名誉ある鎧。"
-  name: ミルトンの鎧
+  description: |-
+    DEF+10%  Flame RES+25%  Burn RES+25%  SPD-3%
+    Templar armor imbued with the blessing of Sheep God Milton.
+  name: Armor of Milton
   icon_index: 170
   price: 1000
   note: "初期\r\nフリッセル"
@@ -682,8 +720,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御力＋30%　素早さ-20%\r\n巨塔の騎士たちの鎧。傲慢な彼らは小さき者を踏み潰したという。"
-  name: バベルの鎧
+  description: |-
+    DEF+30%  SPD-20%
+    Armor of the despotic knights of the Great Tower.
+  name: Armor of Babel
   icon_index: 676
   price: 1000
   note: 屠殺場
@@ -709,8 +749,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "回避率＋15%　防御力-10%\r\nアルセーヌ・ルパンが着用した軽い上衣。"
-  name: 怪盗のマント
+  description: |-
+    EVA&MEV+15%  DEF-10%
+    The cloak worn by Arsène Lupin.
+  name: Phantom Thief's Mantle
   icon_index: 446
   price: 1000
   note: 心臓の庭園
@@ -740,8 +782,10 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "防御力＋2%　魔法防御＋3%　素早さ-1%\r\nそれは天使の輪を現しており、聖職者は神からの啓示を受けるという。"
-  name: 聖職者のサークレット
+  description: |-
+    DEF+2%  MDF+3%  SPD-1%
+    Like a halo, it's said to reveal God's Word to the clergy.
+  name: Clergy Circlet
   icon_index: 166
   price: 1000
   note: "初期\r\nリポン大聖堂"
@@ -771,8 +815,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "魔力＋3%　魔法防御＋5%　素早さ-2%\r\n魔術学院エルハイムの生徒が卒業記念として贈与された帽子。"
-  name: 魔術師の帽子
+  description: |-
+    MAG+3%  MDF+5%  SPD-2%
+    A hat awarded to graduates of Elheim's Academy of Magic.
+  name: Magician Hat
   icon_index: 162
   price: 1000
   note: "初期\r\n血涙の池"
@@ -802,8 +848,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "防御力＋4%　素早さ-1%\r\n影に隠れ、声を殺し、顔を隠すために使われるマスク。"
-  name: 盗賊のマスク
+  description: |-
+    DEF+4%  SPD-1%
+    To conceal one's face, silence voice, and hide in shadows.
+  name: Thief's Mask
   icon_index: 163
   price: 1000
   note: "初期\r\nリデル墓地"
@@ -829,8 +877,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "防御力＋8%　素早さ-3%　スタン耐性+20%\r\n騎士の間で多く普及されている鋼の兜。"
-  name: 騎士の兜
+  description: |-
+    DEF+8%  SPD-3%  Stun RES+20%
+    A steel helm popular among knights.
+  name: Knight's Helmet
   icon_index: 164
   price: 1000
   note: "初期\r\n公爵夫人の館"
@@ -860,8 +910,10 @@
   etype_id: 2
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "攻撃力＋4%　防御力＋4%　素早さ-3%\r\n乱暴者の証である角の生えた兜。"
-  name: ヴァイキングヘッド
+  description: |-
+    ATK+4%  DEF+4%  SPD-3%
+    A horned helm indicating a preference for violence.
+  name: Viking Helm
   icon_index: 459
   price: 1000
   note: "初期\r\n血涙"
@@ -891,8 +943,10 @@
   etype_id: 2
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御力＋6%　炎耐性＋25%　燃焼耐性＋25%　素早さ-3%\r\n羊神ミルトンの加護を持つ神殿騎士たちにとって名誉ある兜。"
-  name: ミルトンの兜
+  description: |-
+    DEF+6%  Flame RES+25%  Burn RES+25%  SPD-3%
+    Templar helm imbued with the blessing of Sheep God Milton.
+  name: Helm of Milton
   icon_index: 458
   price: 1000
   note: "初期\r\nフリッセル"
@@ -926,8 +980,10 @@
   etype_id: 2
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "素早さ+5%　発狂耐性+50%\r\n不思議の国で二度三度、大流行を起こした付け耳。"
-  name: バニーヘッド
+  description: |-
+    SPD+5%  Madness RES+50%
+    Ears that were all the rage in Wonderland many times.
+  name: Bunny Headpiece
   icon_index: 462
   price: 1000
   note: マリー・ハドソンイベント　死体
@@ -953,8 +1009,10 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "魔法防御＋20%　素早さ-2%\r\n貴方に仕え、貴方を想い、貴方の為に命を賭したメイドのもの。"
-  name: ホワイトブリム
+  description: |-
+    MDF+20%  SPD-2%
+    Of a maid who served, thought of, and risked her life for you.
+  name: Maid Headdress
   icon_index: 463
   price: 1000
   note: 名無しの森
@@ -980,8 +1038,10 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "防御力＋20%　素早さ-10%\r\n巨塔の騎士たちの兜。傲慢な彼らは小さき者を踏み潰したという。"
-  name: バベルの兜
+  description: |-
+    DEF+20%  SPD-10%
+    Helmet of the despotic knights of the Great Tower.
+  name: Helmet of Babel
   icon_index: 674
   price: 1000
   note: 屠殺場
@@ -1007,8 +1067,10 @@
   etype_id: 2
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "攻撃力＋2%　防御力＋2%\r\n鉢巻きに金属の板を貼り付けて防具としたもの。"
-  name: ハチガネ
+  description: |-
+    ATK+2%  DEF+2%
+    A headband with a metal plate attached.
+  name: Hachigane
   icon_index: 460
   price: 1000
   note: ラドウィッジ
@@ -1034,8 +1096,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "魔力＋8%　素早さ-4%\r\n被ると頭の中が幸福で満たされるおかしな帽子。"
-  name: ワンダーハット
+  description: |-
+    MAG+8%  SPD-4%
+    A strange hat that brings happiness when worn.
+  name: Wonder Hat
   icon_index: 165
   price: 1000
   note: 無限食
@@ -1061,8 +1125,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "魔力＋15%　素早さ-2%　\r\n10/6は10シリング6ペンスという意味なんですヨ！-帽子屋"
-  name: 帽子屋の帽子
+  description: |-
+    MAG+15%  SPD-2%
+    10/6 means 10 shillings and 6 pence! -The Hatter
+  name: The Hatter's Hat
   icon_index: 727
   price: 57000
   note: 帽子屋
@@ -1088,8 +1154,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "回避率＋5%　\r\n蒼い空を自由に飛び回った騎士の帽子。"
-  name: 空騎士の帽子
+  description: |-
+    EVA&MEV+5%
+    The hat of a knight who flew freely in the sky.
+  name: Sky Knight's Cap
   icon_index: 457
   price: 1000
   note: ラドウィッジ街　上層
@@ -1115,8 +1183,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "魔法防御＋10%　防御力＋5%　素早さ-3%\r\n死刑が先、判決は後。可哀想なバリスターは首を刎ねられた。"
-  name: 弁護士のマスク
+  description: |-
+    MDF+10%  DEF+5%  SPD-3%
+    Sentence first, verdict afterwards, poor barrister beheaded.
+  name: Lawyer's Mask
   icon_index: 465
   price: 1000
   note: フリッセル
@@ -1146,8 +1216,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "攻撃力＋20%　魔力＋20%　素早さ-15%\r\n醜いイゴールが顔を隠す為に用いたマスク。"
-  name: イゴールのマスク
+  description: |-
+    ATK+20%  MAG+20%  SPD-15%
+    The mask used by Igor to hide his hideous face.
+  name: Igor's Mask
   icon_index: 466
   price: 1000
   note: 名無しの森
@@ -1177,8 +1249,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "素早さ+5%　発狂耐性+50%\r\n露出が激しい為に規制された衣装。あの兎の女性に贈ってみようか。"
-  name: バニースーツ
+  description: |-
+    SPD+5%  Madness RES+50%
+    Clothes banned for overexposure. That rabbit might like them.
+  name: Bunny Suit
   icon_index: 826
   price: 1000
   note: ウィンターベル
@@ -1204,8 +1278,10 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "防御効果率【小】 HP再生率+5% 素早さ-3%\r\n何かの肉、想像は容易いが。"
-  name: 食人族の盾
+  description: |-
+    GRD Up [Small]  HP Regen+5%  SPD-3%
+    Some sort of meat, easy to imagine which kind.
+  name: Cannibal's Shield
   icon_index: 291
   price: 1000
   note: ソニー・ビーン
@@ -1235,8 +1311,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 魔力＋10%　素早さ-4%\r\n聖なる神殿を護る騎士の盾。"
-  name: 神殿騎士の盾
+  description: |-
+    GRD Up [Medium]  MAG+10%  SPD-4%
+    A shield of the knights guarding a holy temple.
+  name: Templar Shield
   icon_index: 556
   price: 1000
   note: "初期\r\nフリッセル"
@@ -1266,8 +1344,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "攻撃力＋5%　素早さ-2%\r\n周りが刃で覆われた攻撃的な盾。"
-  name: 刃の盾
+  description: |-
+    ATK+5%  SPD-2%
+    An offensive shield encircled with an edge.
+  name: Blade Shield
   icon_index: 431
   price: 1000
   note: 血涙
@@ -1293,8 +1373,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【小】 素早さ＋5%\r\n紋章が縁取られた由来の分からぬ金属盾。"
-  name: 草紋の盾
+  description: |-
+    GRD Up [Small]  SPD+5%
+    A metal shield of unknown origin adorned with a crest.
+  name: Grass Crest Shield
   icon_index: 430
   price: 1000
   note: 無限食　ミミック
@@ -1320,8 +1402,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【小】\r\n格好もつかないみじめな木の板の盾。"
-  name: 木の盾
+  description: |-
+    GRD Up [Small]
+    Wooden planks barely qualifying as a shield.
+  name: Wooden Shield
   icon_index: 505
   price: 50
   note: ラドウィッジ
@@ -1343,8 +1427,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "回避率＋10%\r\n攻撃を受け流すための小型盾。"
-  name: バックラー
+  description: |-
+    EVA&MEV+10%
+    A small shield made to deflect attacks.
+  name: Buckler
   icon_index: 160
   price: 1000
   note: ウサギ穴
@@ -1370,8 +1456,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【小】 毒耐性＋50%　毒率＋30% 素早さ-1%\r\n表面に毒茸が密集している盾。"
-  name: キノコの盾
+  description: |-
+    GRD Up [Small] Poison RES+50% Poison Chance+30% SPD-1%
+    A shield covered with poisonous mushrooms.
+  name: Mushroom Shield
   icon_index: 504
   price: 1000
   note: 胞子の森
@@ -1409,8 +1497,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【小】 回避率＋5%　素早さ-2%\r\n標準的な円い木の盾。"
-  name: ラウンドシールド
+  description: |-
+    GRD Up [Small]  EVA&MEV+5%  SPD-2%
+    A standard round wooden shield.
+  name: Round Shield
   icon_index: 502
   price: 1000
   note: ラドウィッジ
@@ -1444,8 +1534,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】　素早さ-1%\r\n一般兵士が使う円型の金属盾。"
-  name: 鉄の円盾
+  description: |-
+    GRD Up [Medium]  SPD-1%
+    A round metal shield commonly used by soldiers.
+  name: Iron Round Shield
   icon_index: 507
   price: 1000
   note: リデル墓地
@@ -1471,8 +1563,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【小】 攻撃力＋2%　素早さ-2%\r\n古代の戦士が使ったとされる金属盾。"
-  name: 戦士の円盾
+  description: |-
+    GRD Up [Small]  ATK+2%  SPD-2%
+    A metal shield said to have been used by ancient warriors.
+  name: Warrior's Round Shield
   icon_index: 508
   price: 1000
   note: 血涙
@@ -1502,8 +1596,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "回避率＋15%　素早さ-3%\r\n突起のある形で攻撃を受け流す金属の小盾。"
-  name: ターゲットシールド
+  description: |-
+    EVA&MEV+15%  SPD-3%
+    A small metal shield with protrusions to deflect attacks.
+  name: Target Shield
   icon_index: 161
   price: 1000
   note: 心臓の庭園
@@ -1533,8 +1629,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 反撃率+30%　出血率+30%　素早さ-3%\r\n表面にヤマアラシの様な棘がびっしりと生えている歪な盾。"
-  name: ヤマアラシの盾
+  description: |-
+    GRD Up [Medium]  Counter+30%  Bleed+30%  SPD-2%
+    A distorted shield covered in porcupine-like thorns.
+  name: Porcupine Shield
   icon_index: 666
   price: 1000
   note: 憂さ晴らしソウル
@@ -1568,8 +1666,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【小】 回避率＋15%　素早さ-5%\r\nグリフィが使う身軽で力強い盾。"
-  name: 鷲獅子の盾
+  description: |-
+    GRD Up [Small]  EVA&MEV+15%  SPD-5%
+    A light and powerful shield used by Griffy.
+  name: Griffin Shield
   icon_index: 501
   price: 1000
   note: ''
@@ -1603,8 +1703,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【大】 素早さ-2%　スタン耐性+50%\r\n騎士の間で多く普及されている鋼の盾。"
-  name: 騎士の盾
+  description: |-
+    GRD Up [Large]  SPD-2%  Stun RES+50%
+    A steel shield popular among knights.
+  name: Knight's Shield
   icon_index: 497
   price: 1000
   note: 公爵夫人の館
@@ -1634,8 +1736,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 回避率＋5%　素早さ-4%\r\nオーソドックスな中型の金属盾。"
-  name: カイトシールド
+  description: |-
+    GRD Up [Medium]  EVA&MEV+5%  SPD-4%
+    An orthodox medium-sized metal shield.
+  name: Kite Shield
   icon_index: 509
   price: 1000
   note: リポン　ミミック
@@ -1669,8 +1773,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 炎耐性＋50%　燃焼耐性＋50%　素早さ-2%\r\n放火を象徴する真っ赤な金属盾。"
-  name: 赤の盾
+  description: |-
+    GRD Up [Medium]  Flame RES+50%  Burn RES+50%  SPD-2%
+    A bright red metal shield symbolizing arson.
+  name: Red Shield
   icon_index: 496
   price: 1000
   note: フランクリンボルヴォルト
@@ -1704,8 +1810,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 雷耐性＋50%　素早さ-2%\r\nウミガメモドキの甲羅。きっとこれもまがいものだろう。"
-  name: ウミガメモドキの甲羅
+  description: |-
+    GRD Up [Medium]  Lightning RES+50%  SPD-2%
+    Mock Turtle's shell. Surely it's an imitation.
+  name: Mock Turtle's Shell
   icon_index: 510
   price: 1000
   note: ウミガメレストラン
@@ -1735,8 +1843,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 出血耐性＋100%　素早さ-2%\r\n豚兄弟の末っ子が作った盾。獣の爪から防ぐ事は容易いだろう。"
-  name: 煉瓦の盾
+  description: |-
+    GRD Up [Medium]  Bleed RES+100%  SPD-2%
+    The youngest pig's shield. Must be great against beasts.
+  name: Brick Shield
   icon_index: 503
   price: 1000
   note: 名無しの森
@@ -1766,8 +1876,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 闇耐性＋50%　素早さ-2%\r\n黒の尖兵が使ったとされる闇の盾。"
-  name: 黒尖兵の盾
+  description: |-
+    GRD Up [Medium]  Dark RES+50%  SPD-2%
+    A dark shield said to have been used by the black vanguard.
+  name: Black Vanguard's Shield
   icon_index: 500
   price: 1000
   note: オックス・ウォード
@@ -1797,8 +1909,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 光耐性＋50%　素早さ-2%\r\n聖騎士が使ったとされる光の盾。少し焦げた匂いがする。"
-  name: 聖騎士の盾
+  description: |-
+    GRD Up [Medium]  Light RES+50%  SPD-2%
+    Said to have been used by the holy knight. Smells burnt.
+  name: Holy Knight's Shield
   icon_index: 675
   price: 10000
   note: 燻りの森
@@ -1828,8 +1942,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】魔法耐性+50%　素早さ-3%\r\n頑丈で大きな変色している貝殻。中身は無い。"
-  name: シェルシールド
+  description: |-
+    GRD Up [Medium]  Magic Resistance+50%  SPD-3%
+    A big, sturdy discolored seashell. There's nothing inside.
+  name: Shell Shield
   icon_index: 363
   price: 1000
   note: カキお使い
@@ -1859,8 +1975,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【特大】　素早さ-3%\r\n名高いアンドール騎士団の一人、デガーが使ったとされる大盾。"
-  name: デガーの大盾
+  description: |-
+    GRD Up [Extra-Large]  SPD-3%
+    A shield used by one of Andor's knights of renown—Dega.
+  name: Dega's Great Shield
   icon_index: 499
   price: 1000
   note: フリッセル
@@ -1886,8 +2004,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【特大】 全属性耐性＋25%　素早さ-5%\r\n栄誉とされていた大盾。しかし、栄誉こそ怠惰の始まりなのである。"
-  name: 怠惰の大盾
+  description: |-
+    GRD Up [Extra-Large]  All Element RES+25%　SPD-5%
+    A sign of glory, but glory is the beginning of sloth.
+  name: Greatshield of Sloth
   icon_index: 498
   price: 1000
   note: イグゾー
@@ -1933,8 +2053,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【特大】 全異常耐性＋30%　素早さ-5%\r\n深淵から生まれし悪魔の力が宿る大盾。"
-  name: 深淵の大盾
+  description: |-
+    GRD Up [Extra-Large]  All Ailments RES+30%  SPD-5%
+    Shield harboring the power of demons born of the Abyss.
+  name: Shield of the Abyss
   icon_index: 690
   price: 1000
   note: クイーン・ランド
@@ -2028,8 +2150,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "防御効果率【特大】 弱体無効　素早さ-8%\r\n身侭な神は一匹の稚魚を盗み出し、紅の物語に利用した。"
-  name: 深海の大盾
+  description: |-
+    GRD Up [Extra-Large]  Debuff Immunity  SPD-8%
+    A selfish god stole a small fish to use in the crimson tale.
+  name: Deep Sea Shield
   icon_index: 686
   price: 1000
   note: 深海
@@ -2087,8 +2211,10 @@
   etype_id: 1
   atype_id: 6
 - !ruby/object:RPG::Armor
-  description: "魔法反射率＋50%　素早さ-5%\r\nとある姫に愛用されていた真実を映し出す大鏡。"
-  name: 鏡の大盾
+  description: |-
+    Magic Reflect+50%  SPD-5%
+    The mirror of truth favored by a certain princess.
+  name: Mirror Greatshield
   icon_index: 282
   price: 10000
   note: クイーン・ランド
@@ -2137,8 +2263,10 @@
   etype_id: 1
   atype_id: 0
 - !ruby/object:RPG::Armor
-  description: "ブレイクがガンブレイクに変化する。命中率＋5%　\r\n狩人が獣狩りに用いる、銀の力が込められた銃。"
-  name: 銀の短銃
+  description: |-
+    Break turns into Gun Break.  ACC+5%
+    A gun imbued with the power of silver. Used to hunt beasts.
+  name: Silver Pistol
   icon_index: 706
   price: 1000
   note: "初期\r\n橋のたもと"
@@ -2172,8 +2300,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "ブレイクがガンブレイクに変化する。命中率＋20% 素早さ-5%\r\n教会の狩人が用いる、命中精度を高めた長銃。"
-  name: 教会の長銃
+  description: |-
+    Break turns into Gun Break.  ACC+20%  SPD-5%
+    A long gun with high accuracy used by church hunters.
+  name: Church Rifle
   icon_index: 633
   price: 1000
   note: リポン
@@ -2211,8 +2341,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "ブレイクがガンブレイクに変化する。素早さ-5%\r\n切り裂きジャックが使う、威力の高い散弾銃。"
-  name: 殺人鬼の散弾銃
+  description: |-
+    Break turns into Gun Break.  SPD-5%
+    A powerful shotgun used by Jack the Ripper.
+  name: Manslayer's Shotgun
   icon_index: 634
   price: 1000
   note: ジャックのソウル
@@ -2246,8 +2378,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "ブレイクがガンブレイクに変化する。会心率＋5%\r\n政争に巻き込まれた悲劇の海賊、キッドの拳銃。"
-  name: 海賊の拳銃
+  description: |-
+    Break turns into Gun Break.  Crit Chance+5%
+    A handgun of Kidd, a tragic pirate dragged into politics.
+  name: Pirate Handgun
   icon_index: 707
   price: 1000
   note: キャプテン・キッド
@@ -2281,8 +2415,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御力＋40%　素早さ-20%\r\n大工が制作した、深海の負荷に耐える為の防具。"
-  name: 深海騎士の兜
+  description: |-
+    DEF+40%  SPD-20%
+    Crafted by the Carpenter to withstand the deep sea.
+  name: Deep Sea Knight's Helm
   icon_index: 699
   price: 1000
   note: 深海
@@ -2308,8 +2444,10 @@
   etype_id: 2
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御力＋50%　素早さ-30%\r\n大工が制作した、深海の負荷に耐える為の防具。"
-  name: 深海騎士の鎧
+  description: |-
+    DEF+50%  SPD-30%
+    Crafted by the Carpenter to withstand the deep sea.
+  name: Deep Sea Knight's Armor
   icon_index: 700
   price: 1000
   note: 深海
@@ -2335,8 +2473,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "会心率＋5%　素早さ-1%\r\n生き残る為には、仲間の肉を食べるのも厭わなかった。"
-  name: 船員のバンダナ
+  description: |-
+    Crit Chance+5%  SPD-1%
+    For survival, even a friend's flesh isn't too nasty.
+  name: Sailor's Bandana
   icon_index: 685
   price: 1000
   note: エレバス号
@@ -2362,8 +2502,10 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "会心率＋15%　防御力＋15%　素早さ-10%\r\nその鬼武者は桃から産まれ、老夫婦に災いを齎した。"
-  name: 鬼武者の兜
+  description: |-
+    Crit Chance+15%  DEF+15%  SPD-10%
+    Born from a peach, she brought misfortune to the old couple.
+  name: Helmet of Onimusha
   icon_index: 683
   price: 1000
   note: 船の墓場
@@ -2393,8 +2535,10 @@
   etype_id: 2
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "会心率＋20%　防御力＋20%　素早さ-20%\r\nその鬼武者は桃から産まれ、老夫婦に災いを齎した。"
-  name: 鬼武者の鎧
+  description: |-
+    Crit Chance+20%  DEF+20%  SPD-20%
+    Born from a peach, she brought misfortune to the old couple.
+  name: Armor of Onimusha
   icon_index: 684
   price: 1000
   note: 船の墓場
@@ -2424,8 +2568,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "会心率＋5%　回避率＋5%　\r\n多くの船乗りが自由を求めて外海へ飛び出したが、全て深海へと誘われた。"
-  name: 船員服
+  description: |-
+    Crit Chance+5%  EVA&MEV+5%
+    Many a sailor have found themselves invited to the deep sea.
+  name: Sailor Clothes
   icon_index: 433
   price: 1000
   note: 船乗り　ドロップ
@@ -2455,8 +2601,10 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "ブレイクがガンブレイクに変化する。素早さ-20%\r\nバかげた重さにバカげた威力……漢のロマンだ-海の王者シンドバッド"
-  name: 大砲
+  description: |-
+    Break turns into Gun Break. SPD-20%
+    Absurd weight and absurd power, a man's dream. -Sinbad
+  name: Cannon
   icon_index: 655
   price: 1000
   note: ビリングズゲート
@@ -2490,8 +2638,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "回避率＋5% 猛毒率+100% 素早さ-2% 戦闘開始時に猛毒状態。\r\n中に蛇が蠢いている服。「フランシス・リデル」と刺繍されている。"
-  name: 毒蛇の服
+  description: |-
+    EVA&MEV+5% Toxicity+100% SPD-2% Start Combat Poisoned
+    Snakes wriggle inside. Embroidered with "Francis Liddell."
+  name: Viper's Clothing
   icon_index: 440
   price: 1000
   note: "<戦闘前ステート付与:3,100>\r\nリデル墓地"
@@ -2525,8 +2675,8 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 全ステータス-99%
-  name: 脆き生命の指輪
+  description: All Parameters-99%.
+  name: Ring of Fragile Life
   icon_index: 513
   price: 500
   note: 首切り案内所
@@ -2599,8 +2749,8 @@
   etype_id: 1
   atype_id: 0
 - !ruby/object:RPG::Armor
-  description: HP+5%
-  name: 生命の指輪
+  description: HP+5%.
+  name: Ring of Life
   icon_index: 513
   price: 1500
   note: "チェシャ贈り物\r\nリデル墓地\r\n"
@@ -2622,8 +2772,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御効果率【小】
-  name: 耐える者の指輪
+  description: GRD Up [Small].
+  name: Ring of the Enduring
   icon_index: 513
   price: 1500
   note: 酒場
@@ -2645,8 +2795,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: HP再生率+3%
-  name: 邪眼の指輪
+  description: HP Regen+3%.
+  name: Evil Eye Ring
   icon_index: 513
   price: 1500
   note: 橋のたもと
@@ -2668,8 +2818,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 物理耐性+20%
-  name: 鉄の加護の指輪
+  description: Physical Damage Resistance+20%.
+  name: Ring of Steel Protection
   icon_index: 513
   price: 1500
   note: "橋のたもと\r\n大鷲のソウル"
@@ -2695,8 +2845,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 炎耐性+50%
-  name: 炎方石の指輪
+  description: Fire Resistance+50%.
+  name: Flame Stoneplate Ring
   icon_index: 513
   price: 1500
   note: "屠殺場\r\n燻りの森"
@@ -2718,8 +2868,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 雷耐性+50%
-  name: 雷方石の指輪
+  description: Lightning Resistance+50%.
+  name: Thunder Stoneplate Ring
   icon_index: 513
   price: 1500
   note: "胞子の森\r\nオイスター"
@@ -2741,8 +2891,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 闇耐性+50%
-  name: 闇方石の指輪
+  description: Darkness Resistance+50%.
+  name: Dark Stoneplate Ring
   icon_index: 513
   price: 1500
   note: "ブラックウェル　魔獣\r\n名無しの森"
@@ -2764,8 +2914,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔法耐性+20%
-  name: 魔法方石の指輪
+  description: Increases Magic Defense. Magic Damage Reduction+20%.
+  name: Spell Stoneplate Ring
   icon_index: 513
   price: 1500
   note: "精神病棟\r\n妊婦のソウル"
@@ -2787,8 +2937,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 敵から貰えるソウルが2倍になる。
-  name: 貪欲な銀の指輪
+  description: Doubles the Souls gained from enemies.
+  name: Silver Ring of Avarice
   icon_index: 513
   price: 0
   note: "図書室の夢\r\n<保存禁止>"
@@ -2810,8 +2960,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: ドロップ率2倍。
-  name: 貪欲な金の指輪
+  description: Doubles item droprates.
+  name: Golden Ring of Avarice
   icon_index: 512
   price: 0
   note: "図書室の夢\r\n<保存禁止>"
@@ -2833,8 +2983,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 毒、猛毒耐性+100%
-  name: 毒咬みの指輪
+  description: Poison&Toxic Resistance+100%.
+  name: Poisonbite Ring
   icon_index: 513
   price: 1500
   note: ビル
@@ -2860,8 +3010,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 'HP再生率+2% 出血耐性+100% '
-  name: 血咬みの指輪
+  description: HP Regen+2%  Bleed Resistance+100%.
+  name: Bloodbite Ring
   icon_index: 513
   price: 1500
   note: ブラウンリッグ
@@ -2887,8 +3037,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃力を上げる。
-  name: 刃の指輪
+  description: Increases Attack.
+  name: Ring of the Edge
   icon_index: 513
   price: 1500
   note: 血涙
@@ -2906,8 +3056,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 会心、即死無効。
-  name: 復活屋の指輪
+  description: Prevents enemy critical strikes and Instant Kill abilities.
+  name: Resurrectionist's Ring
   icon_index: 513
   price: 1500
   note: 死体盗みヘア
@@ -2933,8 +3083,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: '会心率+20% '
-  name: スズメバチの指輪
+  description: Crit Chance+20%.
+  name: Hornet Ring
   icon_index: 513
   price: 1500
   note: 霧の公園
@@ -2956,8 +3106,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御力を上げる。
-  name: 護りの指輪
+  description: Increases Defense.
+  name: Ring of the Wall
   icon_index: 513
   price: 1500
   note: 無限食物
@@ -2975,8 +3125,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: MP再生率+5%
-  name: 女神の指輪
+  description: MP Regen+5%.
+  name: Ring of Goddess
   icon_index: 513
   price: 1500
   note: ウェインライト
@@ -2998,8 +3148,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 謎の液体。HP+15%
-  name: ぶよぶよ
+  description: Mysterious fluid. HP+15%.
+  name: Sloppy
   icon_index: 99
   price: 1500
   note: ヘイグ
@@ -3021,8 +3171,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 謎の液体。MP+5%
-  name: ぷよぷよ
+  description: Mysterious fluid. MP+5%.
+  name: Squishy
   icon_index: 99
   price: 1500
   note: ヘイグ
@@ -3044,8 +3194,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 素早さを上げる。
-  name: 風神の指輪
+  description: Increases Speed.
+  name: Wind God's Ring
   icon_index: 513
   price: 1500
   note: 胞子の森
@@ -3063,8 +3213,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔力を上げる。
-  name: 呪術の指輪
+  description: Increases Magic.
+  name: Sorcery Ring
   icon_index: 513
   price: 1500
   note: リポン大聖堂
@@ -3082,8 +3232,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: '狙われ率+300% '
-  name: 被虐の指輪
+  description: Chance to be targeted+300%.
+  name: Tyrant Ring
   icon_index: 513
   price: 10
   note: 死んだ回数30
@@ -3105,8 +3255,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 装備者は高所から落下死せずに済む。
-  name: チェシャ猫の指輪
+  description: The wearer will no longer die from falling from high places.
+  name: Cheshire Cat's Ring
   icon_index: 512
   price: 10000
   note: 霧の公園
@@ -3128,8 +3278,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: ブレイクがハードブレイクに変化する。
-  name: 叛逆の指輪
+  description: Changes Break into Hard Break.
+  name: Ring of Rebellion
   icon_index: 513
   price: 1500
   note: アーチボルド
@@ -3155,8 +3305,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 恐怖率+50%　恐怖耐性+100%
-  name: 恐怖の指輪
+  description: Chance to Fear+50%  Fear Resistance+100%.
+  name: Ring of Fear
   icon_index: 513
   price: 1500
   note: フレデリック
@@ -3182,8 +3332,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: HP再生率-20%
-  name: 鉄の処女の指輪
+  description: Increases all parameters. HP Regen-20%.
+  name: Ring of Iron Maiden
   icon_index: 513
   price: 1500
   note: 血涙
@@ -3205,8 +3355,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: スタン率+10%　スタン耐性+50%
-  name: 騎士の指輪
+  description: Chance to Stun+10%  Stun Resistance+50%.
+  name: Knight's Ring
   icon_index: 513
   price: 1500
   note: 逃亡騎士ジム
@@ -3232,8 +3382,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: MP再生率+3%
-  name: 天使の指輪
+  description: MP Regen+3%.
+  name: Angel's Ring
   icon_index: 513
   price: 1500
   note: 悪夢霊　アメリア
@@ -3255,8 +3405,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 回避率+5%　睡眠耐性+100%
-  name: ティンカーベルの指輪
+  description: EVA&MEV+5%  Sleep Resistance+100%.
+  name: Tinkerbell's Ring
   icon_index: 513
   price: 1500
   note: 病みたる時計塔
@@ -3286,8 +3436,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 回避率+10%　
-  name: 虚ろの指輪
+  description: EVA&MEV+10%.
+  name: Empty Ring
   icon_index: 513
   price: 1500
   note: クリスティ
@@ -3313,8 +3463,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "戦闘不能になった際に自動で復活する。\r\n75%の確率で壊れる。"
-  name: 竜の加護の指輪
+  description: |-
+    Automatically revive when incapacitated.
+    75% chance to break.
+  name: Ring of Draconic Blessing
   icon_index: 512
   price: 10000
   note: "<自動蘇生:500,42,100>\r\n<自動蘇生破損:75>\r\nカボチャの拠点"
@@ -3332,8 +3484,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔力＋50%　HPMP-50%　
-  name: 宵闇の指冠
+  description: MAG+50%  Max HP&MP-50%.
+  name: Dusk Crown Ring
   icon_index: 513
   price: 1500
   note: ハロルド
@@ -3363,8 +3515,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 回復効果+100%　割合被ダメージ+100%
-  name: 奇跡の指輪
+  description: Recovery+100%  %-based Damage Taken+100%.
+  name: Miracle Ring
   icon_index: 513
   price: 1500
   note: オックス・ウォード
@@ -3386,8 +3538,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 被ダメージが倍になる。
-  name: 殺人道化の指輪
+  description: |-
+    Increases Attack and Magic.
+    Damage received is doubled.
+  name: Ring of the Clown Murderer
   icon_index: 513
   price: 1500
   note: ピエロ
@@ -3413,8 +3567,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 全ステータスが大幅に上がるが、MPが0になる。
-  name: 黒山羊の指輪
+  description: Greatly increases all parameters, sets MP to 0.
+  name: Ring of the Black Goat
   icon_index: 176
   price: 100000
   note: "ぺろぺろちょうだい\r\n<合成設定:0,49,30>"
@@ -3464,8 +3618,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 回避率-50%
-  name: 死神の指輪
+  description: |-
+    Increases Attack.
+    Evasion&Magic Evasion-50%.
+  name: Ring of the Reaper
   icon_index: 513
   price: 1500
   note: オイスター
@@ -3491,8 +3647,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 弱体無効。
-  name: 理髪師の指輪
+  description: Grants immunity to debuffs.
+  name: Barber's Ring
   icon_index: 513
   price: 1500
   note: スウィーニートッド
@@ -3542,8 +3698,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: HP+100%　MP+100%　防御力-50%　魔法防御-50%
-  name: 虚飾の指輪
+  description: HP+100%  MP+100%  Defense-50%  Magic Defense-50%.
+  name: Ring of Vanity
   icon_index: 513
   price: 1500
   note: オックス・ウォード
@@ -3577,8 +3733,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: '睡眠率+50% 睡眠耐性+100% '
-  name: リンゴの指輪
+  description: Chance to put to Sleep+50%  Sleep Resistance+100%.
+  name: Apple Ring
   icon_index: 513
   price: 1500
   note: 屠殺場
@@ -3604,8 +3760,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 全ステータス+5%　回避率-5%
-  name: ロンディニウムの指輪
+  description: All Parameters+5%  Evasion&Magic Evasion-5%.
+  name: Londinium Ring
   icon_index: 513
   price: 1500
   note: キャロル川
@@ -3663,8 +3819,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃追加回数+1
-  name: カボチャ騎士の指輪
+  description: Basic Attack Hit Count+1.
+  name: Pumpkin Knight's Ring
   icon_index: 513
   price: 1500
   note: パンプキン・オー
@@ -3686,8 +3842,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 命中率+30%
-  name: 狙撃手の指輪
+  description: Accuracy+30%.
+  name: Sniper's Ring
   icon_index: 513
   price: 1500
   note: 精神病棟
@@ -3709,8 +3865,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: MP再生率+10%
-  name: 深者の指輪
+  description: MP Regen+10%.
+  name: Ring of the Deep
   icon_index: 513
   price: 1500
   note: ビリングズゲート
@@ -3732,8 +3888,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 素早さを上げる。
-  name: 白鴉の指輪
+  description: Increases Speed.
+  name: Ring of White Crow
   icon_index: 513
   price: 1500
   note: 嘆きの浜辺
@@ -3751,8 +3907,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "東の地で作られる特殊な指輪。\r\n回避がアクロバット回避に変化する。"
-  name: 暗い木目指輪
+  description: |-
+    Special ring crafted in an Eastern land.
+    Changes Dodge into Acrobatics.
+  name: Dark Wood Grain Ring
   icon_index: 513
   price: 1500
   note: "ぺろぺろ\r\n<合成設定:0,49,5>"
@@ -3778,8 +3936,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 回復アイテムの効果が上昇する。
-  name: トトの指輪
+  description: Doubles the effectiveness of recovery items.
+  name: Toto's Ring
   icon_index: 513
   price: 1500
   note: 魔女の家の残骸
@@ -3801,8 +3959,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 運を上げる。
-  name: 四葉のクローバーの指輪
+  description: Increases Luck.
+  name: Four-leaf Clover Ring
   icon_index: 513
   price: 1500
   note: "名無しの森\r\nぺろぺろちょうだい\r\n<合成設定:0,49,5>"
@@ -3820,8 +3978,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 自動戦闘。
-  name: 傀儡の指輪
+  description: Auto-combat.
+  name: Puppet's Ring
   icon_index: 513
   price: 1500
   note: 亡者コック
@@ -3843,8 +4001,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 会心率+60%　防御力-99% 魔法防御-99%
-  name: 無謀な勇者の指輪
+  description: Crit Chance+60%  Defense-99%  Magic Defense-99%.
+  name: Ring of Reckless Hero
   icon_index: 513
   price: 5000
   note: 屠殺場
@@ -3874,8 +4032,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 油まみれ率+100%　
-  name: 銀行家の指輪
+  description: Chance to cover enemies in Oil+100%.
+  name: Banker's Ring
   icon_index: 513
   price: 5000
   note: 燻りの森
@@ -3897,8 +4055,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 光耐性+50%
-  name: 天の指輪
+  description: Light Resistance+50%.
+  name: Ring of Heaven
   icon_index: 513
   price: 1500
   note: "輝星のビーストソウル\r\nオックス・ウォード"
@@ -3920,8 +4078,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 素早さ+15%
-  name: 靴磨きの指輪
+  description: Speed+15%.
+  name: Shoeshiner's Ring
   icon_index: 513
   price: 1500
   note: ブージャム
@@ -3943,8 +4101,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 回避率+20%
-  name: リィフの指輪
+  description: Increases Speed  Evasion&Magic Evasion+20%.
+  name: Leaf's Ring
   icon_index: 512
   price: 20000
   note: "クイーン・ランド\r\n<保存禁止>"
@@ -3970,8 +4128,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 発狂耐性+100%　
-  name: ブッチャーの指輪
+  description: Madness Resistance+100%.
+  name: Butcher's Ring
   icon_index: 513
   price: 5000
   note: ブッチャーのソウル
@@ -3993,8 +4151,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 虚弱耐性+100%　行動回数追加＋10%
-  name: 娼婦の指輪
+  description: Feeble Resistance+100%  Bonus Action Chance 10%.
+  name: Harlot's Ring
   icon_index: 513
   price: 5000
   note: ラドウィッジ上層
@@ -4020,8 +4178,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 炎雷光闇耐性＋20%
-  name: 退魔の指輪
+  description: Fire/Lightning/Light/Darkness Resistance+20%.
+  name: Exorcist's Ring
   icon_index: 513
   price: 5000
   note: ラドウィッジ上層
@@ -4055,8 +4213,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: '会心率+40% '
-  name: 深淵の指輪
+  description: Crit Chance+40%.
+  name: Ring of the Abyss
   icon_index: 513
   price: 5000
   note: 名無しの森
@@ -4078,8 +4236,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: スタン耐性+50%　反撃率+10%
-  name: 闘士の指輪
+  description: Stun Resistance+50%  Counterattack Chance+10%.
+  name: Champion's Ring
   icon_index: 513
   price: 5000
   note: バイロン
@@ -4105,8 +4263,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 行動回数追加＋100%　MP消費率2倍
-  name: 黒兎の指輪
+  description: Bonus Action Chance 100%  MP Costs doubled.
+  name: Black Rabbit Ring
   icon_index: 512
   price: 10000
   note: 巨人の家のソウル
@@ -4132,8 +4290,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃力+50%　命中率-50%　会心率-50%
-  name: トロールの指輪
+  description: Attack+50%  Accuracy-50%  Crit Chance-50%.
+  name: Troll Ring
   icon_index: 513
   price: 5000
   note: 時計塔
@@ -4163,8 +4321,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 毒率+30%　猛毒率+30%　出血率+30%
-  name: 蚊の指輪
+  description: |-
+    Chance to apply Poison+30%  Chance to apply Deadly Poison+30%
+    Chance to apply Bleed+30%.
+  name: Mosquito Ring
   icon_index: 513
   price: 5000
   note: ハノーヴァー
@@ -4194,8 +4354,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃力＋20%　魔力＋20%　アイテム回復効果半減。
-  name: 紅い涙石の指輪
+  description: |-
+    Attack+20%  Magic+20%.
+    Recovery from items halved.
+  name: Red Tearstone Ring
   icon_index: 513
   price: 1500
   note: 血涙
@@ -4225,8 +4387,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 装備者はオックス・ウォード学院の門を通り抜けられる。
-  name: イーディスの指輪
+  description: Allows passage through the gates of Ox Ward University.
+  name: Edith's Ring
   icon_index: 512
   price: 0
   note: "イーディス\r\n<保存禁止>\r\n"
@@ -4244,8 +4406,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: HP再生率+50%　HP-50%
-  name: セイウチの指輪
+  description: HP Regen+50%  HP-50%.
+  name: Walrus Ring
   icon_index: 512
   price: 10000
   note: オイスター
@@ -4271,8 +4433,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃力＋50% 素早さ-50%
-  name: 獄滅の指輪
+  description: Attack+50%  Speed-50%.
+  name: Ring of Broken Shackles
   icon_index: 513
   price: 1500
   note: "ぺろぺろちょうだい\r\n<合成設定:0,49,15>"
@@ -4298,8 +4460,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: HP再生率+10% MP再生率+10%
-  name: ハートの騎士の指輪
+  description: HP Regen+10%  MP Regen+10%.
+  name: Knight of Hearts' Ring
   icon_index: 513
   price: 1500
   note: ハートの騎士のソウル
@@ -4325,8 +4487,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 素早さ+20%
-  name: スペードの騎士の指輪
+  description: Speed+20%.
+  name: Knight of Spades' Ring
   icon_index: 513
   price: 1500
   note: スペードの騎士のソウル
@@ -4348,8 +4510,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御力+10%　スタン耐性+50%
-  name: クラブの騎士の指輪
+  description: DEF+10%  Stun Resistance+50%.
+  name: Knight of Clubs' Ring
   icon_index: 513
   price: 1500
   note: クラブの騎士のソウル
@@ -4375,8 +4537,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 行動回数追加＋50% 全ステータス+20%
-  name: 白兎の指輪
+  description: Bonus Action Chance 50%  All Parameters+20%.
+  name: White Rabbit Ring
   icon_index: 512
   price: 10000
   note: 童話コンプリート
@@ -4430,8 +4592,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御力+100%　HP回復無効。
-  name: 神魚の指輪
+  description: DEF+100%  HP Recovery Disabled.
+  name: God Fish's Ring
   icon_index: 513
   price: 10000
   note: "<HP回復無効:100>\r\n神魚のソウル"
@@ -4453,8 +4615,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 会心率+50% 命中率+50% 物理回避率+50% 反撃率+50% 全ステータス-30%
-  name: 罪悪の指輪
+  description: |-
+    Crit Chance+50%  Accuracy+50%  Evasion+50%
+    Counterattack Chance+50%  All Parameters-30%.
+  name: Ring of Sin
   icon_index: 513
   price: 5000
   note: 深海
@@ -4520,8 +4684,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃力＋100%　魔力-100%
-  name: 星辰の指輪
+  description: ATK+100%  Sets Magic to 1.
+  name: Celestial Ring
   icon_index: 512
   price: 10000
   note: クティ
@@ -4547,8 +4711,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 即死率+20%
-  name: 黒髭の指輪
+  description: Instant Kill Chance+20%.
+  name: Blackbeard's Ring
   icon_index: 513
   price: 5000
   note: 黒髭
@@ -4570,8 +4734,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 愛しき少女の解せぬ言語を理解できる。
-  name: プリケットの指輪
+  description: |-
+    Grants understanding of the incomprehensible language
+    of the dear little girl.
+  name: Prickett's Ring
   icon_index: 512
   price: 20000
   note: "<保存禁止>\r\nプリケット誓約\r\n"
@@ -4589,8 +4755,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御力+50%　物理回避率-50%
-  name: オーガの指輪
+  description: Defense+50%  Evasion-50%.
+  name: Ogre Ring
   icon_index: 513
   price: 5000
   note: 侯爵夫人の館
@@ -4616,8 +4782,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 戦闘開始時に回避状態になる。
-  name: ミツバチの指輪
+  description: Begin battles Evading.
+  name: Honeybee Ring
   icon_index: 513
   price: 1500
   note: "<戦闘前ステート付与:16,100>\r\nぺろぺろちょうだい\r\n<合成設定:0,49,5>"
@@ -4635,8 +4801,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 戦闘開始時に暴走状態になる。
-  name: 狂乱王の指輪
+  description: Begin battles in a state of Rampage.
+  name: Frenzy King's Ring
   icon_index: 513
   price: 1500
   note: "<戦闘前ステート付与:38,100>\r\nぺろぺろちょうだい\r\n<合成設定:0,49,10>"
@@ -4654,8 +4820,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 素早さ＋50%
-  name: 韋駄天の指輪
+  description: Speed+50%.
+  name: Skanda's Ring
   icon_index: 513
   price: 1500
   note: "ぺろぺろちょうだい\r\n<合成設定:0,49,15>"
@@ -4677,8 +4843,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 戦闘開始時にステータスが上昇。
-  name: 我が闘争の指輪
+  description: All parameters increase at the start of combat.
+  name: Ring of My Struggle
   icon_index: 513
   price: 1500
   note: "<戦闘前強化付与:2,10,100>\r\n<戦闘前強化付与:3,10,100>\r\n<戦闘前強化付与:4,10,100>\r\n<戦闘前強化付与:5,10,100>\r\n<戦闘前強化付与:6,10,100>\r\n<戦闘前強化付与:7,10,100>\r\nおぞましいヒンドリー"
@@ -4696,8 +4862,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃力-99%
-  name: 姦淫の指輪
+  description: Attack-99%.
+  name: Adultery Ring
   icon_index: 513
   price: 500
   note: ハノーヴァー
@@ -4719,8 +4885,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: HP+10%
-  name: 生命の指輪＋1
+  description: HP+10%.
+  name: Ring of Life+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -4743,7 +4909,7 @@
   atype_id: 1
 - !ruby/object:RPG::Armor
   description: HP+25%
-  name: 生命の指輪＋2
+  name: Ring of Life+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -4766,7 +4932,7 @@
   atype_id: 1
 - !ruby/object:RPG::Armor
   description: HP+50%
-  name: 生命の指輪＋3
+  name: Ring of Life +3
   icon_index: 513
   price: 1500
   note: "混沌ダンジョン\r\nクリミア"
@@ -4788,8 +4954,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御効果率【中】
-  name: 耐える者の指輪＋1
+  description: Guard Effectiveness Up [Medium].
+  name: Ring of the Enduring+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -4811,8 +4977,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御効果率【大】
-  name: 耐える者の指輪＋2
+  description: Guard Effectiveness Up [Large].
+  name: Ring of the Enduring+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -4834,8 +5000,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御効果率【特大】
-  name: 耐える者の指輪＋3
+  description: Guard Effectiveness Up [Extra Large].
+  name: Ring of the Enduring+3
   icon_index: 513
   price: 1500
   note: "混沌ダンジョン\r\n白の城下町"
@@ -4857,8 +5023,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "魔法防御＋25%　MP再生率+5%　素早さ-6%\r\n終末の女神に魂を奪われた教戒師が羽織ったとされる黒のローブ。"
-  name: 教戒師のローブ
+  description: |-
+    MDF+25%  MP Regen+5%  SPD-6%
+    Worn by a chaplain whose soul was taken by the Goddess.
+  name: Chaplain's Robe
   icon_index: 714
   price: 1000
   note: 混沌ダンジョン
@@ -4888,8 +5056,10 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "防御力＋8%　全異常耐性＋20%　素早さ-6%\r\n深淵から生まれし悪魔の力が宿る兜。"
-  name: 深淵の兜
+  description: |-
+    DEF+8%  All Ailments RES+20%  SPD-6%
+    Helm harboring the power of demons born of the Abyss.
+  name: Helm of the Abyss
   icon_index: 717
   price: 1000
   note: 混沌ダンジョン
@@ -4983,8 +5153,10 @@
   etype_id: 2
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御効果率【大】 HP再生率+5% 炎耐性-50% 素早さ-3%\r\n刃を通さぬ蔓で覆われた丈夫な盾。反面、炎には成す術がない。"
-  name: 豆の木の盾
+  description: |-
+    GRD Up [L]  HP Regen+5%  Fire RES-50%  SPD-3%
+    Covered in vines harder than steel. Vulnerable to fire.
+  name: Bean Tree Shield
   icon_index: 716
   price: 10000
   note: 混沌ダンジョン
@@ -5018,8 +5190,8 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 会心、即死無効。 素早さ-3%\r\n伝承に語られる不老不死の王の盾。"
-  name: 水銀の盾
+  description: "GRD Up [M] SPD-3% Nullifies Enemy Crits&Instant Kill\r\nThe shield of the legendary King of Immortality."
+  name: Mercury Shield
   icon_index: 667
   price: 10000
   note: 混沌ダンジョン
@@ -5053,8 +5225,10 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "回避率＋30%　HP回復無効。\r\n夥しい黒血で塗られた上衣。羽織るだけで底知れぬ邪悪を抱いてしまう。"
-  name: 忌々しき上衣
+  description: |-
+    EVA&MEV+30%  HP Recovery Disabled
+    Painted with black blood, it radiates bottomless evil.
+  name: Abhorrent Coat
   icon_index: 715
   price: 1000
   note: "キャロル川\r\n<HP回復無効:100>"
@@ -5080,8 +5254,10 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "会心率＋15%　防御力＋15%　素早さ-10%　　\r\n武力帝国ロンガイアで作られた攻守万能の鎧。"
-  name: 武鉄の鎧
+  description: |-
+    Crit Chance+15%  DEF+15%  SPD-10%
+    All-purpose armor made in the military empire Longaia.
+  name: Armor of Iron Valor
   icon_index: 718
   price: 1000
   note: 混沌ダンジョン
@@ -5111,8 +5287,8 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: 謎の液体。HP+30%
-  name: ぶよぶよ＋1
+  description: Mysterious fluid. HP+30%.
+  name: Sloppy+1
   icon_index: 99
   price: 1500
   note: 混沌ダンジョン
@@ -5134,8 +5310,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 謎の液体。HP+40%
-  name: ぶよぶよ＋2
+  description: Mysterious fluid. HP+40%.
+  name: Sloppy+2
   icon_index: 99
   price: 1500
   note: 混沌ダンジョン
@@ -5157,8 +5333,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 謎の液体。HP+50%
-  name: ぶよぶよ＋3
+  description: Mysterious fluid. HP+50%.
+  name: Sloppy+3
   icon_index: 99
   price: 1500
   note: 混沌ダンジョン
@@ -5180,8 +5356,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 謎の液体。MP+10%
-  name: ぷよぷよ＋1
+  description: Mysterious fluid. MP+10%.
+  name: Squishy+1
   icon_index: 99
   price: 1500
   note: 混沌ダンジョン
@@ -5203,8 +5379,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 謎の液体。MP+25%
-  name: ぷよぷよ＋2
+  description: Mysterious fluid. MP+25%.
+  name: Squishy+2
   icon_index: 99
   price: 1500
   note: 混沌ダンジョン
@@ -5226,8 +5402,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 謎の液体。MP+40%
-  name: ぷよぷよ＋3
+  description: Mysterious fluid. MP+40%.
+  name: Squishy+3
   icon_index: 99
   price: 1500
   note: 混沌ダンジョン
@@ -5249,8 +5425,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 回避率+15%　
-  name: 虚ろの指輪＋1
+  description: Evasion&Magic Evasion+15%.
+  name: Empty Ring+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5276,8 +5452,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 回避率+20%　
-  name: 虚ろの指輪＋2
+  description: Increases Speed  Evasion&Magic Evasion+20%.
+  name: Empty Ring +2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5303,8 +5479,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 回避率+25%　
-  name: 虚ろの指輪＋3
+  description: Evasion&Magic Evasion+25%.
+  name: Empty Ring +3
   icon_index: 513
   price: 1500
   note: "混沌ダンジョン\r\n白の城下町"
@@ -5353,8 +5529,8 @@
   etype_id: 1
   atype_id: 0
 - !ruby/object:RPG::Armor
-  description: HP再生率+8%
-  name: 邪眼の指輪＋1
+  description: HP Regen+8%.
+  name: Evil Eye Ring+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5376,8 +5552,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: HP再生率+15%
-  name: 邪眼の指輪＋2
+  description: HP Regen+15%.
+  name: Evil Eye Ring+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5399,8 +5575,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: HP再生率+20%
-  name: 邪眼の指輪＋3
+  description: HP Regen+20%.
+  name: Evil Eye Ring+3
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5422,8 +5598,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: MP再生率+10%
-  name: 女神の指輪＋1
+  description: MP Regen+10%.
+  name: Ring of Goddess+1
   icon_index: 513
   price: 1500
   note: "混沌ダンジョン\r\nクリミア"
@@ -5445,8 +5621,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: MP再生率+15%
-  name: 女神の指輪＋2
+  description: MP Regen+15%.
+  name: Ring of Goddess+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5468,8 +5644,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: MP再生率+20%
-  name: 女神の指輪＋3
+  description: MP Regen+20%.
+  name: Ring of Goddess+3
   icon_index: 513
   price: 1500
   note: "混沌ダンジョン\r\n白の城"
@@ -5491,8 +5667,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 物理耐性+25%
-  name: 鉄の加護の指輪＋1
+  description: Physical Damage Resistance+25%.
+  name: Ring of Steel Protection+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5518,8 +5694,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 物理耐性+30%
-  name: 鉄の加護の指輪＋2
+  description: Physical Damage Resistance+30%.
+  name: Ring of Steel Protection+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5545,8 +5721,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 物理耐性+35%
-  name: 鉄の加護の指輪＋3
+  description: Physical Damage Resistance+35%.
+  name: Ring of Steel Protection+3
   icon_index: 513
   price: 1500
   note: "混沌ダンジョン\r\n雪原"
@@ -5572,8 +5748,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔法耐性+25%
-  name: 魔法方石の指輪＋1
+  description: Increases Magic Defense, Magic Damage Resistance+25%.
+  name: Spell Stoneplate Ring+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5595,8 +5771,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔法耐性+30%
-  name: 魔法方石の指輪＋2
+  description: Increases Magic Defense, Magic Damage Resistance+30%
+  name: Spell Stoneplate Ring+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5618,8 +5794,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔法耐性+35%
-  name: 魔法方石の指輪＋3
+  description: Increases Magic Defense, Magic Damage Resistance+35%
+  name: Spell Stoneplate Ring+3
   icon_index: 513
   price: 1500
   note: "混沌ダンジョン\r\n雪原"
@@ -5641,8 +5817,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 命中率+40%
-  name: 狙撃手の指輪＋1
+  description: Accuracy+40%.
+  name: Sniper's Ring+1
   icon_index: 513
   price: 1500
   note: 精神病棟
@@ -5664,8 +5840,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 命中率+50%
-  name: 狙撃手の指輪＋2
+  description: Accuracy+50%.
+  name: Sniper's Ring+2
   icon_index: 513
   price: 1500
   note: 精神病棟
@@ -5687,8 +5863,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 命中率+60%
-  name: 狙撃手の指輪＋3
+  description: Accuracy+60%.
+  name: Sniper's Ring+3
   icon_index: 513
   price: 1500
   note: "精神病棟\r\nクリミア"
@@ -5710,8 +5886,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: '会心率+30% '
-  name: スズメバチの指輪＋1
+  description: Crit Chance+30%.
+  name: Hornet Ring+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5733,8 +5909,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: '会心率+40% '
-  name: スズメバチの指輪＋2
+  description: Crit Chance+40%.
+  name: Hornet Ring+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5756,8 +5932,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: '会心率+50% '
-  name: スズメバチの指輪＋3
+  description: Crit Chance+50%.
+  name: Hornet Ring+3
   icon_index: 513
   price: 1500
   note: "混沌ダンジョン\r\n雪原"
@@ -5779,8 +5955,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃力を上げる。
-  name: 刃の指輪＋1
+  description: Increases Attack.
+  name: Ring of the Edge+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5798,8 +5974,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃力を上げる。
-  name: 刃の指輪＋2
+  description: Increases Attack.
+  name: Ring of the Edge+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5817,8 +5993,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 攻撃力を上げる。
-  name: 刃の指輪＋3
+  description: Increases Attack.
+  name: Ring of the Edge+3
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5836,8 +6012,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御力を上げる。
-  name: 護りの指輪＋1
+  description: Increases Defense.
+  name: Ring of the Wall+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5855,8 +6031,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御力を上げる。
-  name: 護りの指輪＋2
+  description: Increases Defense.
+  name: Ring of the Wall+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5874,8 +6050,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 防御力を上げる。
-  name: 護りの指輪＋3
+  description: Increases Defense.
+  name: Ring of the Wall+3
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5893,8 +6069,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 素早さを上げる。
-  name: 風神の指輪＋1
+  description: Increases Speed.
+  name: Wind God's Ring+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5912,8 +6088,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 素早さを上げる。
-  name: 風神の指輪＋2
+  description: Increases Speed.
+  name: Wind God's Ring+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5931,8 +6107,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 素早さを上げる。
-  name: 風神の指輪＋3
+  description: Increases Speed.
+  name: Wind God's Ring+3
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5950,8 +6126,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔力を上げる。
-  name: 呪術の指輪＋1
+  description: Increases Magic.
+  name: Sorcery Ring+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5969,8 +6145,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔力を上げる。
-  name: 呪術の指輪＋2
+  description: Increases Magic.
+  name: Sorcery Ring+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -5988,8 +6164,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔力を上げる。
-  name: 呪術の指輪＋3
+  description: Increases Magic.
+  name: Sorcery Ring+3
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -6007,8 +6183,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 全ステータス+10%　回避率-10%
-  name: ロンディニウムの指輪＋1
+  description: All Parameters+10% Evasion&Magic Evasion-10%.
+  name: Londinium Ring+1
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -6066,8 +6242,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 全ステータス+20%　回避率-15%
-  name: ロンディニウムの指輪＋2
+  description: All Parameters+20% Evasion&Magic Evasion-15%.
+  name: Londinium Ring+2
   icon_index: 513
   price: 1500
   note: 混沌ダンジョン
@@ -6125,8 +6301,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 全ステータス+30%　回避率-20%
-  name: ロンディニウムの指輪＋3
+  description: All Parameters+30% Evasion&Magic Evasion-20%.
+  name: Londinium Ring+3
   icon_index: 513
   price: 1500
   note: "混沌ダンジョン\r\n白の城下街"
@@ -6184,8 +6360,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 割合被ダメージ-20%　回復効果-20%
-  name: 削落の指輪
+  description: Recovery-20%  %-based Damage Taken-20%.
+  name: Whittled Ring
   icon_index: 513
   price: 1500
   note: 麻袋女
@@ -6207,8 +6383,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "素早さ+100%　発狂耐性-100%\r\n黄衣の王の布。信徒獲得の為に食屍鬼を欲しがる支配者は確かにいるらしい。"
-  name: 黄の布
+  description: |-
+    SPD+100%  Madness RES-100%
+    Indeed, there are Great Ones who wish for ghouls to follow them.
+  name: Yellow Cloth
   icon_index: 824
   price: 1000
   note: クリミア
@@ -6234,8 +6412,8 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "戦闘不能時、80%の確率で復活する。防御力-30% 魔法防御-30%\r\n楽園追放のち、墓地と成り果てた病院に麗しき天使たちが産まれた。"
-  name: ガーディアンエンジェル
+  description: "80% chance to revive during combat  DEF-30%  MDF-30%\r\nExiled from Eden, lovely angels were born in a hospital-graveyard."
+  name: Guardian Angel
   icon_index: 765
   price: 1000
   note: "<自動蘇生:500,42,80>\r\n乳母たちのソウル"
@@ -6261,8 +6439,8 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御効果率【小】 行動回数追加＋100% 素早さ-15%\r\n彼女への密かな欲望は全てハイドのせいです。私は悪くない。-ジキル博士"
-  name: 二面性の小盾
+  description: "GRD Up [S]  Bonus Action Chance 100%  SPD-15%\r\nSecret desires for her are on Hyde. I'm not to blame. - Dr. Jekyll"
+  name: Two-Faced Buckler
   icon_index: 777
   price: 1000
   note: ジキルとハイド
@@ -6292,8 +6470,8 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: "戦闘開始時に短い間、攻撃力+100% 魔力+100% 会心率+100% 命中率+100%\r\n地獄のプリンスと称された劇作家の頭巾。"
-  name: 劇作家の頭巾
+  description: "At the start of combat, gain ATK+100% MAG+100% Crit+100% ACC+100%\r\nThe hood of a playwright elected \"Prince of Hell\" by his peers."
+  name: Playwright's Hood
   icon_index: 781
   price: 1000
   note: "<戦闘前ステート付与:164,100>\r\nロルド"
@@ -6311,8 +6489,8 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "HP+30%　素早さ+50% \r\nランジェリーナから授かった花冠。何故か、血生臭い。"
-  name: 偽天使の花冠
+  description: "HP+30%  SPD+50%\r\nYou received it from Lingeriena. Somehow, it reeks of blood."
+  name: Fake Angel's Wreath
   icon_index: 315
   price: 1000
   note: ランジェリーナ
@@ -6338,8 +6516,10 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "HPMP再生率+30%　行動回数追加+50%\r\n夜空の彼方で編み出された、神秘そのもの。滑稽に視えるだろうか？"
-  name: 夜空の神秘
+  description: |-
+    HP&MP Regen+30%  Bonus Action Chance 50%
+    The mystery, woven beyond the night sky. Won't you look comical?
+  name: Mystery of Night Sky
   icon_index: 746
   price: 500000
   note: メイベル
@@ -6369,8 +6549,8 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 虚弱率+100%
-  name: 食屍鬼の指輪
+  description: Chance to apply Feeble+100%.
+  name: Corpse-Eater's Ring
   icon_index: 513
   price: 1500
   note: クリミア
@@ -6392,8 +6572,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 全ステータスを上げる。
-  name: 全能の指輪
+  description: Increases all parameters.
+  name: Almighty Ring
   icon_index: 513
   price: 1500
   note: クリミア看護墓地
@@ -6411,8 +6591,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 会心率+55% 命中率+55% 物理回避率+55% 反撃率+55% 全ステータス-35%
-  name: 罪悪の指輪+1
+  description: |-
+    Crit Chance+55%  Accuracy+55%  Evasion+55%
+    Counterattack Chance+55%  All Parameters-35%.
+  name: Ring of Sin+1
   icon_index: 513
   price: 1500
   note: 混沌
@@ -6478,8 +6660,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 会心率+60% 命中率+60% 物理回避率+60% 反撃率+60% 全ステータス-40%
-  name: 罪悪の指輪+2
+  description: |-
+    Crit Chance+60%  Accuracy+60%  Evasion+60%
+    Counterattack Chance+60%  All Parameters-40%.
+  name: Ring of Sin+2
   icon_index: 513
   price: 1500
   note: 混沌
@@ -6545,8 +6729,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 会心率+70% 命中率+70% 物理回避率+70% 反撃率+70% 全ステータス-45%
-  name: 罪悪の指輪+3
+  description: |-
+    Crit Chance+70%  Accuracy+70%  Evasion+70%
+    Counterattack Chance+70%  All Parameters-45%.
+  name: Ring of Sin+3
   icon_index: 513
   price: 1500
   note: "混沌\r\nウィンターベル"
@@ -6612,8 +6798,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 凍瘡耐性+100%　凍瘡率+50%
-  name: 一角獣の指輪
+  description: Frostbite Resistance+100%  Chance to apply Frostbite+50%.
+  name: Unicorn's Ring
   icon_index: 513
   price: 1500
   note: 一角獣の森
@@ -6639,8 +6825,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 裂傷耐性+100%　裂傷率+50%
-  name: 獅子の指輪
+  description: Laceration Resistance+100%  Chance to apply Laceration+50%.
+  name: Lion's Ring
   icon_index: 513
   price: 1500
   note: 獅子の砦
@@ -6666,8 +6852,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: '狙われ率-100% '
-  name: 虎狐の指輪
+  description: Chance to be targeted-100%.
+  name: Poser's Ring
   icon_index: 513
   price: 1500
   note: 心臓の庭園
@@ -6689,8 +6875,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 氷耐性+50%
-  name: 氷方石の指輪
+  description: Ice Resistance+50%.
+  name: Ice Stoneplate Ring
   icon_index: 513
   price: 1500
   note: "雪原\r\n城下街"
@@ -6712,8 +6898,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 魔力＋100%　攻撃力-100%
-  name: 古王の指輪
+  description: Magic+100%  Attack-100%.
+  name: Old King's Ring
   icon_index: 512
   price: 10000
   note: "ぺろぺろバード\r\nウィンターベル\r\n<合成設定:0,49,50>"
@@ -6739,8 +6925,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: HP-90%　会心率+100%
-  name: 白熊の指輪
+  description: HP-90%  Crit Chance+100%.
+  name: Polar Bear's Ring
   icon_index: 512
   price: 10000
   note: "ぺろぺろバード\r\nウィンターベル\r\n<合成設定:0,49,50>"
@@ -6766,8 +6952,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 戦闘開始時に少しの間、防御力+900% 魔法防御+900% HP再生率+100%
-  name: 防王の指輪
+  description: At the start of combat, gain DEF+900% MDF+900% HP&MP Regen+100%.
+  name: Ring of The Indomitable
   icon_index: 513
   price: 1500
   note: "<戦闘前ステート付与:170,100>\r\n白の城下街\r\n"
@@ -6785,8 +6971,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "魔法防御+10% 氷耐性＋20%　魔法反射率＋15%　素早さ-5%\r\n冬魔導士の外套。彼らは劇場の刺客であり、演者の導き手でもある。"
-  name: 冬魔導士のコート
+  description: |-
+    MDF+10%  Ice RES+20%  Magic Reflect+15%  SPD-5%
+    They serve as both the Theatre's assassins and performers' guides.
+  name: Winter Witch's Coat
   icon_index: 750
   price: 1000
   note: 白の城下
@@ -6820,8 +7008,10 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: "防御力＋15%　素早さ-10%　会心回避率+50% 氷耐性+30%\r\n冬騎士の鎧。元は冬鐘の民であったが、往々にして傀儡となった。"
-  name: 冬騎士の鎧
+  description: |-
+    DEF+15%  SPD-10%  Crit Avoidance+50%  Ice RES+30%
+    Once people of Winterbell, now they are nothing more than puppets.
+  name: Winter Warrior's Plate
   icon_index: 751
   price: 1000
   note: 白の城下
@@ -6855,8 +7045,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御力＋8%　素早さ-6%　会心回避率+50% 氷耐性+20%\r\n冬騎士の鎧。元は冬鐘の民であったが、往々にして傀儡となった。"
-  name: 冬騎士の兜
+  description: |-
+    DEF+8%  SPD-6%  Crit Avoidance+50%  Ice RES+20%
+    Once people of Winterbell, now they are nothing more than puppets.
+  name: Winter Warrior's Helm
   icon_index: 735
   price: 1000
   note: 白の城下
@@ -6890,8 +7082,10 @@
   etype_id: 2
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "物理回避率+100% 氷耐性-50%\r\n彼にとって計画も陰謀も蚊帳の外であり、環境が良かったために居坐った。"
-  name: 無風の衣
+  description: |-
+    Evasion+100%  Ice RES-50%
+    He cared not for schemes and plots, happy to be where he was.
+  name: Windless Wrap
   icon_index: 447
   price: 1000
   note: 冬鐘の風のソウル
@@ -6917,8 +7111,10 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: "防御効果率【中】 攻撃追加回数+2 攻撃力-50%\r\nカーナッキが使う盾。名声は富に繋がり、貧困から抜け出す光の道だ。"
-  name: 幽霊狩人の盾
+  description: |-
+    GRD Up [M]  Basic Attack Hit Count+2  ATK-50%
+    Fame is a path to wealth, a shining road to escape poverty.
+  name: Ghost-Finder's Shield
   icon_index: 767
   price: 1000
   note: カーナッキ
@@ -6948,8 +7144,8 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: 無防備耐性+100%
-  name: 破耐の指輪
+  description: Vulnerable Resistance+100%.
+  name: Unbreakable Ring
   icon_index: 513
   price: 1500
   note: クリミア
@@ -6975,8 +7171,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "防御効果率【大】 HP＋50% 素早さ-10%\r\n金で作られた大盾。強欲の罪人は熱せられた十字架を背負わされる。"
-  name: 十字架の大盾
+  description: |-
+    GRD Up [L]  HP+50%  SPD-10%
+    In the pits of Hell, the greedy will carry golden crosses.
+  name: Cross Greatshield
   icon_index: 281
   price: 1000
   note: 白の城下町
@@ -7006,8 +7204,8 @@
   etype_id: 1
   atype_id: 5
 - !ruby/object:RPG::Armor
-  description: 全異常耐性＋100%　
-  name: 黒騎士の指輪
+  description: All Ailments Resistance+100%.
+  name: Black Knight's Ring
   icon_index: 512
   price: 10000
   note: リンダメア
@@ -7093,8 +7291,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 反撃率+100%
-  name: 逆襲の指輪
+  description: Counterattack Chance+100%.
+  name: Counter Ring
   icon_index: 513
   price: 1500
   note: 狂気山脈
@@ -7116,8 +7314,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: 全異常耐性＋30%
-  name: 聖森の指輪
+  description: All Ailments Resistance+30%.
+  name: Ring of the Holy Forest
   icon_index: 513
   price: 1000
   note: "キャンディー\r\n<合成設定:0,49,1>"
@@ -7203,8 +7401,10 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "魔力+50%　魔法防御＋50%　MP-99%\r\n祟り祀る異形の社の御身は仰う。\"それはまさに奇怪な跡のような\""
-  name: 奇跡の巫女装束
+  description: |-
+    MAG+50%  MDF+50%  MP-99%
+    She of the grotesque shrine proclaims, "That's surely a miracle."
+  name: Miracle Maiden's Garb
   icon_index: 825
   price: 1000
   note: 混沌ダンジョン
@@ -7234,8 +7434,8 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: 魔法反射率+10%
-  name: 糖蜜の指輪
+  description: Magic Reflect+10%.
+  name: Treacle Ring
   icon_index: 513
   price: 1500
   note: 白の城下町

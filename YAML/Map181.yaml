@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 童話庫
+display_name: Fairy Tale Archive
 tileset_id: 20
 width: 25
 height: 25
@@ -399,12 +399,12 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [霧に包まれている……。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[足を踏み入れる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 足を踏み入れる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Dense fog wraps the path...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Traverse the white fog, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Traverse the white fog]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [40]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -490,11 +490,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「この先は夢霊が眠る\c[2]童話庫\c[0]です」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Beyond this door is the \c[2]Fairy Tale Archive\c[0],']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the place where Dream Spirits rest."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……中で暴れているのは]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　夢霊の中でもっとも危険な存在、\c[2]狂霊\c[0]です。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　どうかお気を付けください」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...The one rampaging inside is one of the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' most dangerous of Dream Spirits, \c[2]a Madness']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Spirit.\c[0] Please be very careful with it."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1077,21 +1078,25 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*21]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「\n[1]様、童話を手に入れたのですね」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Lord \n[1], I see you''ve obtained']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' a fairy tale."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「…その昔、とある身侭な作家に改変されてしまい]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　彼らの物語は悲惨で残酷なものとなりました」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"...Long ago, they were warped by a certain']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' egoistic writer. Their stories turned miserable']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' and cruel."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「結末に納得できない登場人物はページの外へ飛び出し、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　怒り狂う者や路頭に彷徨える者が]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　今現在も世界のどこかに存在しています」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"The characters, unsatisfied with the endings']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' given to them, leapt from their pages, and']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' even now they still exist somewhere in this']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' world as wanderers and madmen."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [7, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「\n[1]様、お願いです。\!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　どうか彼らを見つけましたら元の本棚へ還し、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　そして安穏の夢を見せて差し上げてください」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Lord \n[1], I have a request for you.\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Should you encounter them, please return them']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' to their original bookshelves and offer them']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' a chance to dream peaceful dreams."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「それが私たちに出来る最善の方法なのですから…」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Because that is the best we can do..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [491, 491, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [7, 7, 1]}
@@ -1220,108 +1225,112 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*29]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\n[1]様。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　童話を全て元に戻して頂き有難うございます」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Lord \n[1].']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I''m deeply grateful to you for returning all']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' of the fairy tales."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「…これで、彼らもしばしの安らぎを得る事でしょう」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...With this, they too should find some']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' tranquility, however brief it might be."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「では、\n[1]様。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　私から何かお礼をさせてください。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　えぇと、そうですね……お望みのものはありますか？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Lord \n[1], on this occasion I would']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' like to give you something in gratitude.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Hmm, but what...is there anything you desire?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 68, 0, 3, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[ソウルが欲しい, アイテムが欲しい, 指輪が欲しい, 水着のノーデが見たい], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, ソウルが欲しい]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I want souls, I want items, I want a ring, I want to see Node in a swimsuit], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I want souls]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 125, p: [0, 0, 1000000]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ご満足頂けましたでしょうか？]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　それでは、失礼します…」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I hope the reward is to your satisfaction.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Now then, if you would excuse me..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, アイテムが欲しい]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, I want items]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [29, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [23, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [49, 0, 0, 30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [19, 0, 0, 50]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ご満足頂けましたでしょうか？]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　それでは、失礼します…」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I hope the reward is to your satisfaction.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Now then, if you would excuse me..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 指輪が欲しい]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, I want a ring]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「はい。それでは、私の指輪を……」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Of course.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Then, please take my ring..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 128, p: [147, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「……あ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　これって、なんだか……。\!]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　い、いえ…！なんでもございません……っ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...Ah.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' This, isn''t it a little like...\!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' N-no! Never mind..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「…ご満足頂けましたでしょうか？]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　それではっ…し、失礼します……」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...I hope the reward is to your satisfaction.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Now then...i-if you would excuse me..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 水着のノーデが見たい]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, I want to see Node in a swimsuit]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「へ……？」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Huh...?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [7, 6, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ええと。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　その願いは、その…予想外でした。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　確かにいつか見せると言いましたが……」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ummm.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' This request...is not something I expected.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I certainly did promise to show you, but..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「はい……解りました。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['　それが…\n[1]様のお望みとあらば……。']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　着替えてきますので…少々、お待ちください」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Very well...so it will be.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' If that is what you desire...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I need to change, please wait just a moment..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: -255.0, g: -255.0, b: -255.0, a: 0.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, black, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 0.0}, 1, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [数分後…。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [A couple of minutes later...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「お待たせしました…\n[1]様…」']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Thank you for waiting, Lord \n[1]..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [2, '68', 0, 0, 0, 0, 100, 100, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「粗末な身体で申し訳ありません……。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　お目汚しをしていなければ良いのですが……」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I apologize for my plain body...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' It might be better for you not to stain']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' your eyes with the sight of it..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[似合っている, 可愛い, えっちだ], 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 似合っている]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[It fits you, It's cute, It's lewd], 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, It fits you]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [3, 68-1, 0, 0, 0, 0, 100, 100, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 232, p: [3, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 10, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「本当ですか……？]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　ずいぶんと昔のものなので、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　殿方に見せるのもこれが初めてで緊張しました…。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　有難うございます……♪」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Truly...? It''s from a long time ago,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' and this is the first time I''m showing it']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' to a gentleman, so I was rather nervous...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Thank you very much for your kind words...♪"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 可愛い]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, It's cute]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [3, 68-1, 0, 0, 0, 0, 100, 100, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 232, p: [3, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 10, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「かわ……っ]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　えっと、有難うございます……っ]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　嬉しいです……♡」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Cu...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Ah, um, thank you very much...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' I''m very glad to hear it...♡"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [2, えっちだ]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [2, It's lewd]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [3, 68-1, 0, 0, 0, 0, 100, 100, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 232, p: [3, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 10, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「……っ♡♡]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　はいっ申し訳ありません……。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['　私、\n[1]様の前だと…すごく劣情的な気分になって、']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　いつも必死で抑えているのです……」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"...♡♡']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Pardon me...when I''m before you, a wave of']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' carnal passion overtakes me and I have to']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' desperately try to pin it down at all times..."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 232, p: [3, ! '', 0, 0, 0, 0, 100, 100, 0, 0, 10, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「え……？そういう事ではない……？]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　きゃぅ…！？ 私ったらとんだ誤解を……！]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　ごめんなさいっ、今のはお忘れください…っ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Eh...? You didn''t mean it in that way?']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Kya?! Such misunderstanding! I''m very']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' sorry, please forget what I''ve just said!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[2]犯す\c[0]', もう十分だ], 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[2]犯す\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['\c[2]Rape\c[0]', That's enough], 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, '\c[2]Rape\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [0, 20, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
@@ -1344,46 +1353,47 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [38, 38, 1, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, もう十分だ]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, That's enough]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「は、はい……っ]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　それでは…失礼しますっ」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Y-Yes...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' Now then...if you would excuse me."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[ソウルが欲しい, アイテムが欲しい, 指輪が欲しい], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, ソウルが欲しい]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I want souls, I want items, I want a ring], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I want souls]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 125, p: [0, 0, 1000000]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ご満足頂けましたでしょうか？]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　それでは、失礼します…」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I hope the reward is to your satisfaction.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Now then, if you would excuse me..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, アイテムが欲しい]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, I want items]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [29, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [23, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [49, 0, 0, 30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [19, 0, 0, 50]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ご満足頂けましたでしょうか？]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　それでは、失礼します…」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I hope the reward is to your satisfaction.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Now then, if you would excuse me..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 指輪が欲しい]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, I want a ring]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「はい。それでは、私の指輪を……」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Of course.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Then, please take my ring..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 128, p: [147, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「……あ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　これって、なんだか……。\!]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　い、いえ…！なんでもございません……っ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...Ah.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' This, isn''t it a little like...\!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' N-no! Never mind..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ノーデ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「…ご満足頂けましたでしょうか？]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　それではっ…し、失礼します……」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...I hope the reward is to your satisfaction.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Now then...i-if you would excuse me..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1478,21 +1488,22 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[4]【夢霊】\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [少女が好きだった御伽噺の中の登場人物。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [懐かしき少女の香りを覚えている者は惹かれ逢い、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [そして、貴方に力を貸すだろう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[4][Dream Spirits]\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The characters from the fairy tales the girl liked.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Remembering the scent of the dear little girl,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [they'll be drawn to you and lend you their aid.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[10]【狂霊】\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [夢霊が現実の狂気に感化され、変わり果ててしまったもの。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [少女を忘れた彼らは獣の如く貴方に牙を剥くだろう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[10][Madness Spirits]\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Dream Spirits completely warped by the madness of]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['reality. Having forgotten the little girl, they''ll']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [bare their fangs at you like wild beasts.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[7]【悪夢霊】\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [其れは、少女の悪夢。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ゴシップ裏に載った世を震撼させた殺人鬼たち。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [怖恐るべき『現実』という『悪夢』が貴方を追ってくる。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[7][Nightmare Spirits]\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [They are the girl's nightmares. Murderers that shook]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the world with their terrible deeds. The horrific]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"nightmare" that is "reality" will chase after you.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
     id: 13
@@ -1538,21 +1549,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【遥かなる我がラスカル】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Rascal]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 194]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [194, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1594,11 +1605,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【遥かなる我がラスカル】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Rascal]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [アライグマの巣穴を見つけ、掘り起こす傲慢な少年。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [中から出てきたのは体長３０メートルある残虐嗜好持ちの魔獣でした。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [An arrogant boy found and dug up a raccoon's burrow.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Inside he found a 30-meters long cruel demonbeast.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -1644,17 +1655,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【とびっこ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Jumper]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 186]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [8, 187]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [8, 188]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [破れた童話の切れ端を集め、]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [元通りにした童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [I collected the pieces of the torn fairy tale and]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [returned them to the bookshelf in the proper order.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 126, p: [186, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 126, p: [187, 1, 0, 1]}
@@ -1663,19 +1674,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1717,11 +1728,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【とびっこ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Jumper]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「誰が一番トベるか勝負しようじゃないか」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ノミとバッタと玩具のカエルは薬物中毒でお空まで飛んでいきました。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Let''s see who among us will soar the highest!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Flea, Grasshopper, and Skipjack jumped on drugs.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event
     id: 15
@@ -1767,21 +1778,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【醜いアヒルの子】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Ugly Duckling]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 197]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [197, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1823,11 +1834,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【醜いアヒルの子】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Ugly Duckling]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [醜い彼は家族を失い、当てもなくひたすら戦場をくぐってきた。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本当に彼が望むのは闘争ではなく、永遠の安らぎなのかもしれない。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['His family lost, he aimlessly wandered many battlefields.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Perhaps what he wanted was not war but the eternal peace.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
     id: 16
@@ -1873,21 +1884,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【狼と×匹の子山羊】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Wolf and ××× Young Goats]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 199]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [199, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1929,11 +1940,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【狼と×匹の子山羊】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Wolf and ××× Young Goats]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ぺろり！悪い狼は山羊達を一匹残らず食べてしまいましたが。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [満腹も束の間、お腹の中で山羊達は繁殖し無事に脱出できましたとさ。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The bad wolf gobbled goats to the last.The goats]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [bred even inside his belly and erupted to safety.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   17: !ruby/object:RPG::Event
     id: 17
@@ -1979,21 +1990,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【すっぱい葡萄】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Fox and the Grapes]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 195]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [195, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2035,11 +2046,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【すっぱい葡萄】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Fox and the Grapes]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [あの木に実っている葡萄は酸っぱくてまずいに違いない。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [収穫の季節が来れば苦渋に満ちた奴の顔が見れる。それまで護ってやろう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This grape is surely sour. With the harvest I'll get to]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [see his bitter expression. Until then I'll protect it.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   18: !ruby/object:RPG::Event
     id: 18
@@ -2085,21 +2096,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【鎧を履いた騎士】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Knight in Armor]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 209]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [209, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2141,11 +2152,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【鎧を履いた騎士】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Knight in Armor]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [にゃんにゃん、ぼくらは騎士だぞ。仲間はみんないなくなったにゃん。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [でも寂しくないにゃん。ぼくには鎧がいるから　にゃん。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Meow-meow, we''re a knight. All my friends are gone, meow.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But I''m not lonely, meow. For I have my armor on, meow.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   19: !ruby/object:RPG::Event
     id: 19
@@ -2191,21 +2202,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ヘンゼルとグレーテル】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Hansel and Gretel]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 202]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [202, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2247,11 +2258,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ヘンゼルとグレーテル】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Hansel and Gretel]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [兄妹の両親は冷酷だった。愛情の欠片もなかった。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [虐待と口減らしに耐え切れず、遂に二人は両親を殺害してしまった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The siblings' parents were cruel. They received no love.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Unable to take it, at last the two murdered the parents.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   20: !ruby/object:RPG::Event
     id: 20
@@ -2297,21 +2308,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【さるかに合戦】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Crab and The Monkey]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 212]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [212, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2353,11 +2364,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【さるかに合戦】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Crab and The Monkey]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [狡賢い猿は柿を奪い、母蟹を殺害した。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [やがて母蟹の死骸から赤子が産まれ、復讐の産声を上げた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A sly monkey stole persimmons and killed the mother crab.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['From the corpse came a baby, its first cry one of revenge.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   21: !ruby/object:RPG::Event
     id: 21
@@ -2403,21 +2414,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【王様の耳はロバの耳】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The King with Donkey Ears]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 210]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [210, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2459,11 +2470,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【王様の耳はロバの耳】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The King with Donkey Ears]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [民衆を皆殺しにした王様は代わりに自分と同じロバを移住させた。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [そして遂にロバの王国が誕生したが、繁栄せずに滅び去ったという。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A similar donkey replaced the murderous king. Kingdom]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of Donkey was born, but fell to ruin without prospering.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   22: !ruby/object:RPG::Event
     id: 22
@@ -2509,21 +2520,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【因幡の黒ウサギ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Black Rabbit of Inaba]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 219]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [219, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2565,11 +2576,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【因幡の黒ウサギ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Black Rabbit of Inaba]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [親父は神様に祈りを捧げて無様にもその神に利用された。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [オレは絶対に親父の跡を追ってたまるか。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My father offered prayers to God and was used and discarded.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Is there no way for me but to follow in his footsteps?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   23: !ruby/object:RPG::Event
     id: 23
@@ -2615,21 +2626,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【シンドバッドの冒険】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Adventures of Sinbad]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 203]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [203, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2671,11 +2682,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【シンドバッドの冒険】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Adventures of Sinbad]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [己の武勇伝を自我の礎とし、呼び止める家族を見捨ててまで、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼は冒険を求めた。それは、異常な探究心に似た何かだろう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['His saga the foundation of his ego, he seeked adventure']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [at all costs. Inquisitiveness turned into obsession.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   24: !ruby/object:RPG::Event
     id: 24
@@ -2721,21 +2732,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【青ひげ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Bluebeard]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 221]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [221, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2777,11 +2788,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【青ひげ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Bluebeard]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私の理想の妻は犯しても殺しても探しても見つからない。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [望むのは金色の髪に…蒼色の瞳…神に愛されし白い肌だ…。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Raping, killing, searching, can''t find my perfect wife.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Golden hair, azure eyes, God-blessed white skin...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   25: !ruby/object:RPG::Event
     id: 25
@@ -2827,21 +2838,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]伝話【エリザベート・バートリー】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Folk Tale [Elizabeth Bathory]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 224]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [224, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2883,11 +2894,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]伝話【エリザベート・バートリー】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Folk Tale [Elizabeth Bathory]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [――――――――――――――――――――――今までごめんなさいね。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [————————————————————————————————————————————————————————————]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [——————————————Forgive me for what I've done.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   26: !ruby/object:RPG::Event
     id: 26
@@ -2933,21 +2944,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ブレーメンの音楽隊】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Musicians of Bremen]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 204]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [204, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2989,11 +3000,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ブレーメンの音楽隊】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Musicians of Bremen]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [不運な泥棒たち。演奏を聴いてしまった彼らの身体は吹き飛んだ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ますます自信が付いた音楽隊はこの世に名を広めようと誓った。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Unlucky thieves. The performance blown them to pieces.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Now confident, the musicians set to take on the world.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   27: !ruby/object:RPG::Event
     id: 27
@@ -3039,21 +3050,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【鉄のハンス】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Iron Hans]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 205]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [205, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3095,11 +3106,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【鉄のハンス】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Iron Hans]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [地中に沈んだ戦争兵器は再び目を覚まし、眩しい太陽の下に現れた。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ハンスは人類の本質的な攻撃性を完璧に具現化した存在であった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The weapon of war awakened and came from the depths once]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [more. Hans is the perfect avatar of human aggression.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   28: !ruby/object:RPG::Event
     id: 28
@@ -3145,21 +3156,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]伝話【ジャンヌダルク】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Folk Tale [Jeanne d''Arc]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 201]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [201, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3201,11 +3212,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]伝話【ジャンヌダルク】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Folk Tale [Jeanne d''Arc]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [神の声を聴いたなどという無学な農夫の娘の訴えに耳を貸してはならぬ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ジャンヌこそ異教の魔女であり、悪魔の賜物なのだ。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ignore the words of a farmer's daughter claiming to hear]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the voice of God. Jeanne is a witch, the devil''s lackey.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   29: !ruby/object:RPG::Event
     id: 29
@@ -3251,21 +3262,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]伝話【サンドリアの聖女】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Folk Tale [Saint of Alexandria]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 207]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [207, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3307,11 +3318,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]伝話【サンドリアの聖女】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Folk Tale [Saint of Alexandria]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼女は立派に殉教したとされるが、実際は死の恐怖に酷く怯えていた。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [そんな情けない話、世に伝えるわけにはいかないだろう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A fine martyr on words, in truth, she dreaded death.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Such miserable tale is not one to be told to the world.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   30: !ruby/object:RPG::Event
     id: 30
@@ -3357,21 +3368,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【星の王子様】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Little Prince]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 208]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [208, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3413,11 +3424,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【星の王子様】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Little Prince]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [心優しい王子様はたった一つの友達である薔薇を輝かせる為に、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [他の惑星の薔薇を滅ぼそうと小隕石となり夜空を旅しているそうです。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['For his only friend, the rose, to shine, the kind prince']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['traveled the sky, destroying the roses of other worlds.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   31: !ruby/object:RPG::Event
     id: 31
@@ -3463,21 +3474,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ピーター・パン】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Peter Pan]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 211]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [211, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3519,11 +3530,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ピーター・パン】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Peter Pan]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [永遠の少年は失恋をしてしまった。愛が伝わらなければどうすればいい？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [そうだ、ネバーランドへ連れて行こう！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The eternal boy's heart was broken. What to do if his]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['love was unrequited? Right, I''ll take her to Neverland!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   32: !ruby/object:RPG::Event
     id: 32
@@ -3569,21 +3580,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【マッチ売りの少女】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Little Match Girl]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 214]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [214, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3625,11 +3636,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【マッチ売りの少女】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Little Match Girl]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [真冬の夜。雑踏に蹴られる哀れなマッチ売りの少女。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [理不尽な世を呪い、民家に火を放って心と身体を暖めた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Midwinter night. A poor match-seller kicked in a crowd.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Cursing the world, she set a house aflame to warm herself.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   33: !ruby/object:RPG::Event
     id: 33
@@ -3675,21 +3686,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ガチョウと黄金の卵】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Goose That Laid Golden Eggs]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 215]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [215, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3731,11 +3742,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ガチョウと黄金の卵】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Goose That Laid Golden Eggs]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黄金の卵を産むガチョウの腹を裂いてしまえばなんと、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [血に混じった金！金！金！農夫は狂った様に笑い出す！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Cut the belly of the goose that lays golden eggs, and']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you find Gold! Gold! Gold! The farmer cackled like mad!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   34: !ruby/object:RPG::Event
     id: 34
@@ -3781,21 +3792,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【フランダースの犬】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Dog of Flanders]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 206]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [206, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3837,11 +3848,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【フランダースの犬】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Dog of Flanders]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [老犬は最愛のご主人を捕食した事も忘れてしまい、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ネロに似た男の子を見つけては手当たり次第、胃袋へ招待していたとさ。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Forgetting that he preyed on his beloved master, the old']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [dog invited boys resembling Nero to his stomach too.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   35: !ruby/object:RPG::Event
     id: 35
@@ -3887,21 +3898,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【欲張りな犬】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Dog and The Shadow]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 216]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [216, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3943,11 +3954,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【欲張りな犬】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Dog and The Shadow]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [水面に映る醜い犬はにたりとした笑みでこう言う。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「欲張る事は決して損じゃない。その牙で奪い尽くすのだ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The reflection of the ugly dog smirked and said:']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Greed is never wrong. Take it all with your fangs!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   36: !ruby/object:RPG::Event
     id: 36
@@ -3993,21 +4004,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【大きなカブ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Gigantic Turnip]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 217]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [217, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -4049,11 +4060,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【大きなカブ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [The Gigantic Turnip]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「うんとこしょ、どっこいしょ」おじいさんとおばあさんと孫娘と犬と猫と鼠と]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ヒロインと王と国民全員を巻き込んでそのカブは巨大な塊となった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Heave! Hoh!" Grandpa, Grandma, Daughter, Dog, Cat, Rat,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Heroine, King, and everyone were swallowed by Turnip.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   37: !ruby/object:RPG::Event
     id: 37
@@ -4099,21 +4110,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【クマのプーさん】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Pooh Bear]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 225]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [225, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -4155,11 +4166,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【クマのプーさん】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Pooh Bear]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [君ガ僕達ニシタ事ヲ僕ラハ決シテ忘レナイヨ、クリストファー・ロビン。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [大人ニ成ッテモ逃ガサナイ。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['WE WILL NEVER FORGET THE THINGS YOU DID TO US,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CHRISTOPHER ROBIN. ADULTHOOD IS NO ESCAPE.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   38: !ruby/object:RPG::Event
     id: 38
@@ -4205,21 +4216,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【かちかち山】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Mt. Kachi Kachi]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 218]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [218, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -4261,11 +4272,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【かちかち山】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Mt. Kachi Kachi]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [騙し騙され、殺し殺され、復讐が復讐を産むそんな世の中だ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いっそ燃えて無くなればいい。泥舟と共に沈む狸はそう悟った。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Kill or be killed, cheat or be cheated. I''d rather']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [burn. The raccoon sinking with a boat so realized.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   39: !ruby/object:RPG::Event
     id: 39
@@ -4311,21 +4322,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【あしながおじさん】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Daddy-Long-Legs]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 222]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [222, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -4367,11 +4378,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【あしながおじさん】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Daddy-Long-Legs]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [あいつのいつまでも続く沈黙と伸ばされた腕は、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [僕たちを怯えさせながら同時に安楽にもさせた……………。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [His never-ending silence and far-too-long arms were]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['frightening, yet also comforting to us.........']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   40: !ruby/object:RPG::Event
     id: 40
@@ -4417,21 +4428,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ロビン・フッド】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Robin Hood]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 220]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [220, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -4473,11 +4484,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ロビン・フッド】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Robin Hood]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼の美貌は男女問わずあらゆる者を虜にし、沢山の愛人をはべらせた。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [大股のロビンと呼ばれた彼の生涯は、嫉妬に狂った女の手により幕を閉じた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['His good looks captivated all, many were his lovers.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['He, called Robin of large groin, died to jealousy.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   41: !ruby/object:RPG::Event
     id: 41
@@ -4523,21 +4534,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【オズの魔法使い】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Wizard of Oz]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 213]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [213, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -4579,11 +4590,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【オズの魔法使い】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Wizard of Oz]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [竜巻に吹き飛ばされた家は地面に落下。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [中身はばらばらのぐちゃぐちゃになりました。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A house was blown by a tornado, and fell onto the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [earth. All that was inside turned into a soppy mess.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   42: !ruby/object:RPG::Event
     id: 42
@@ -4629,21 +4640,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【狼少年】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Boy Who Cried Wolf]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 223]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [223, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -4685,11 +4696,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【狼少年】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Boy Who Cried Wolf]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [男娼として売られた少年は精神を病み、「狼が来たぞ」と騒ぎを起こした。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [店主は少年の虚言を信じなかった。ベッドの上の客の死骸を見るまでは。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A boy sold into a brothel went mad and yelled, "The wolf']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['has come!". None believed, until a corpse under his bed.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   43: !ruby/object:RPG::Event
     id: 43
@@ -4735,21 +4746,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [本棚に文字が刻まれている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are words engraved into the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ピノッキオ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Pinocchio]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 226]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Crossbow, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [持っている童話を棚に入れた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I returned the fairy tale to the bookshelf.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [46, 46, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [226, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [80, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この童話はまだ持っていない…。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't have this fairy tale yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -4791,9 +4802,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]童話【ピノッキオ】\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fairy Tale [Pinocchio]\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [解体された身体、魂が無理矢理縫い付けられて人形にされる。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [記憶を辿れば、あの身勝手な神を恨むのは当然だ。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Dissected corpses and souls sewn together into a puppet.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Looking back, it''s natural you hate that selfish god.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

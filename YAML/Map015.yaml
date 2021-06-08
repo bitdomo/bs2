@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: エレバス号
+display_name: HMS Erebus
 tileset_id: 105
 width: 34
 height: 36
@@ -1520,7 +1520,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]下より出口。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Exit below.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   24: !ruby/object:RPG::Event
     id: 24
@@ -1917,12 +1917,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 15, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 闊ｹ荵励ｊ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「縺ｫ縺｡繧??ｦ窶ｦ縺ｫ縺｡繧??ｦ縲']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['縲?荳榊袖縺??∽ｸ榊袖縺?↑縺≫?ｦ窶ｦ縲']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['縲?繝ｴ繧｡繝ｫ繧ｯ繝輔か繝ｼ繧ｲ繝ｫ縺ｮ閧峨']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　?譁ｹ縺後∪縺?繝槭す縺?窶ｦ窶ｦ」']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[2]殺害する\c[0]', 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"т╢vdiKKKd⌡╢⌡sKKK']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['%@а╤g╢tk@╚w@b╤g╢tKKKKKK']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['%@и}e@⌡bЁif⌡@ib╣f@╤bthi╣whift}╚@ufbЁKKK"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[2]Kill\c[0]', Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 301, p: [0, 346, true, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 601, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [D, 0]}
@@ -1934,18 +1933,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 船乗り]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「にちゃ……にちゃ…。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　不味い、不味いなぁ……。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　ヴァルクフォーゲルの肉の方がまだマシだ……」]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[2]殺害する\c[0]', 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Munch...crurk...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Awful, so awful......']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I''d rather have walghvoghel meat..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[2]Kill\c[0]', Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 301, p: [0, 346, true, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 601, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [D, 0]}
@@ -1957,7 +1956,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

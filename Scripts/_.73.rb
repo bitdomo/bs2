@@ -40,7 +40,7 @@ class Window_Mapname < Window_Selectable
   def refresh
     contents.clear
     change_color(system_color)
-    draw_text(0,0,item_width,item_height, "現在地")
+    draw_text(0,0,item_width,item_height, "Location:")
     change_color(normal_color)
     draw_text(0,24,item_width,item_height, $game_map.display_name)
   end

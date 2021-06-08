@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 'オイスターの腐死海  '
+display_name: Oysters' Rotted Sea
 tileset_id: 61
 width: 31
 height: 30
@@ -193,15 +193,16 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 年寄りカキ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「オーイオイオイオイ……」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Oooh, oh-oh-oh-oooh..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 年寄りカキ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「みんな…セイウチと大工に喰われてしもうた…。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ああ、恐ろしや…。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　何も出来なかった婆やを許しておくれ……」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Everyone...everyone got eaten by the Walrus and']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the Carpenter...aah, how horrible it was...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' There was nothing I could do, please, grant']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' forgiveness to this old maid..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 年寄りカキ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「オーイオイオイオイ……」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Oooh, oh-oh-oh-oooh..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -241,7 +242,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「………」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"......"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   1: !ruby/object:RPG::Event
     id: 1
@@ -5849,7 +5850,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]可哀想……。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Pitiable...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   86: !ruby/object:RPG::Event
     id: 86
@@ -5895,7 +5896,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]うねうね……？\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Twisting and turning...?\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   87: !ruby/object:RPG::Event
     id: 87
@@ -5941,5 +5942,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]雷が有効だ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Try Lightning.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

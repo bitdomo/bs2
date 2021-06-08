@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: ウィンターベル
+display_name: Winterbell
 tileset_id: 133
 width: 80
 height: 25
@@ -1695,7 +1695,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]セーブを忘れるな……。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Don''t forget to save...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1780,26 +1780,29 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「あら良かった、帰ってこれたのね」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah, how nice. You''re back."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「怖い思いはしていないかしら？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"It wasn''t too scary, was it?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[気持ちの悪い夢だった, アリスはどこだ, 助かった], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 気持ちの悪い夢だった]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[It was a bad dream, Where is Alice, You saved me], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, It was a bad dream]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「確かに、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　主観的に観ても気持ちの良くない夢だったわね」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Certainly.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Even looking at it subjectively, I can tell']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' it wasn''t a pleasant dream."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, アリスはどこだ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Where is Alice]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「少女の皮を舐めても味は全くしなかったでしょう？]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　つまり、そういうことよ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Even if you lick the little girl''s skin,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' there''s no taste at all, right?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I know what you mean."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, 助かった]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, You saved me]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「フフ……当然よ。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　アナタはワタシのお気に入りなのだから。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　気が向けば何度だってお手引きしてあげる」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Fufu...but of course.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' You are my favorite, after all.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' If I feel like it, I''ll guide you as many']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' times as you want."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand
@@ -1818,12 +1821,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*13]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*14]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「さあ起きて」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Now, get up."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「アナタが俯瞰的に観ているのは]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　偽りの世界、偽りの幸せ。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　そんな星屑よりステキな未来が存在するの。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　アナタはハッピーエンドに興味があるのでしょう？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The view you''re enjoying right now is that']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' of a fake world, false happiness.\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' There''s a future better than such starwaste.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Wouldn''t you like a happy ending?"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -1838,7 +1841,7 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*15]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「見て」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Look."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 204, p: [2, 8, 6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 204, p: [4, 11, 6]}
@@ -2126,7 +2129,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*48]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*49]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「世界線が収束してきている」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The world lines have converged."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -2141,21 +2144,23 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*50]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「夢から醒めた後も、アナタは何故かまた此処に戻ってきた。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ワタシのシャトランジが恋しかったのか、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　あるいは時計の針が遡ったと考えたわ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Even after waking up from the dream, somehow']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' you''re back here. Was it your longing for my']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Shatranj, or maybe the clock hand was turned back,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I wondered."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「だけど、そうじゃない。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　つまりアナタの魂は\c[2]グラン・ギニョール\c[0]と']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　密接に結びついている」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"However, that wasn''t it.\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' In short, your soul is intimately bound with']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' \c[2]Grand Guignol.\c[0]"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「あの子もアナタに逢いたがっている。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　舞台装置が自我を持つなんて]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　這い寄る者は想定していなかったでしょうね」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"That child also wishes to meet you.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I''d wager the Crawling One didn''t predict']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the stage itself having an ego."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\c[2]終幕まであと数ヤード。\c[0]\!']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ワタシは少し、干渉し過ぎた。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　這い寄る者が扉を見つける前に終わらせましょう」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[2]You''ve only a few yards to go.\c[0]\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I''ve interfered a little too much.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Let''s finish this before the Crawling One']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' discovers the door."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -2448,7 +2453,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]我が与えうる全てを君に与えん。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]All that I can give, I will give to you.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   34: !ruby/object:RPG::Event
     id: 34
@@ -2942,5 +2947,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]アリスだ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Alice.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

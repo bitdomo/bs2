@@ -300,13 +300,14 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……して………もどして………もど………して………」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[アリスだ, アリスか？, アリス……？], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, アリスだ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...back......turn back.........']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' ........turn.........back......"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Alice, 'Alice?', 'Alice...?'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Alice]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, アリスか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Alice?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, アリス……？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, 'Alice...?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand
@@ -326,33 +327,33 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [アリス・リデル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「嫌」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [brain_noise_start]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: 異世界, volume: 100, pitch: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: 187.0, g: 68.0, b: 0.0, a: 0.0}, 1, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [189]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・リデル２, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]「やだやだやだやぁだぁぁやぁだやぁだやぁだぁやぁだぁぁ']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　やぁぁだぁぁぁあぁぁあぁやぁあぁぁあぁぁぁぁぁああぁあぁぁ]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　こ゛こじゃない゛いいぃぃぃぃいみるなみないで゛みないで]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　みないでぇぇぇぇえぇぇぇえぇっっっ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]"NONONONOoNnOoNONOOnONONnoONONOnOnonOOoNOONONo']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' NooOOnNONoNNOOOOOOoOOooOOooOOooOOOoooOOOOOOOOOOoOOo']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' HeRENOTNOTHEREEeEEeDON''TLOOK DoN''tLOOK DON''T LOOOOK']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' DON''T LOOKOokOOOOOOoOooOOOoOOoOoOKKKKKKKKKK"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・リデル２, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]「繧?□繧?□繧?□繧?＝縺?縺√＝繧?＝縺?繧?＝縺?繧?＝縺?縺√ｄ縺√□縺√＝']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['縲?繧?＝縺√□縺√＝縺√≠縺√＝縺ゅ＝繧?＝縺ゅ＝縺√≠縺√＝縺√＝縺√≠縺ゅ＝縺ゅ＝縺']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['縲?縺薙?縺薙§繧?↑縺??縺?＞縺?＜縺?＜縺?∩繧九↑縺ｿ縺ｪ縺?〒繧帙∩縺ｪ縺?〒']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['縲?縺ｿ縺ｪ縺?〒縺?∞縺?∞縺医∞縺?∞縺医∞縺｣縺｣縺｣」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]"п╔п■п╔п■п╔п■п╔п■пЄп╔я┘п■пЄп╔п■п╔п■п■я┘п■п╔п■п╔я┘пЄп■п╔п■п╔п■я┘п■я┘пЄя┘п■п■пЄп╔п■п■п╔п■п╔пЄ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [п╔пЄпЄп■п■я┘п╔п■п╔пЄп╔п╔п■п■п■п■п■п■пЄп■п■пЄпЄп■п■пЄпЄп■п■пЄпЄп■п■п■пЄпЄпЄп■п■п■п■п■п■п■п■п■п■пЄп■п■пЄ]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [п⌠п╣п≤п∙п╔п■п╗п╔п■п╗п⌠п∙п≤п∙п∙п╣п∙п∙п╣п░п■п╔я┤п╗п▓п■п■п² п░пЄп╔я┤я┬п▓п■п■п² п░п■п╔я┤п╗ п▓п■п■п■п■п²]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [п░п■п╔я┤п╗ п▓п■п■п²п■пЄпҐп■п■п■п■п■п■пЄп■пЄпЄп■п■п■пЄп■п■пЄп■пЄп■п²п²п²п²п²п²п²п²п²п²"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・リデル２, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]「いやﾞぁぁぁぁあﾞぁあﾞぁぁぁあﾞぁぁぁあぁぁぁぁぁぁっっっ」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]"NNNOOoOoOoOOOoOOoOOooOOooOooOOOOooooooOOOOOOOOOOO"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [アリス・リデル２, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]「縺?ｄ?槭＝縺√＝縺√≠?槭＝縺ゑｾ槭＝縺√＝縺ゑｾ槭＝縺√＝縺ゅ＝縺√＝縺√＝縺√▲縺｣縺｣｣」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]"п╔п╔п╔п■п■пЄп■пЄп■пЄп■п■п■пЄп■п■пЄп■п■пЄпЄп■п■пЄпЄп■пЄпЄп■п■п■п■пЄпЄпЄпЄпЄпЄп■п■п■п■п■п■п■п■п■п■п■"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [brain_noise_start]}

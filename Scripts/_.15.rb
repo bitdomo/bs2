@@ -12,7 +12,7 @@
 # 　アイテムやスキルの使用対象となるアクターを選択するウィンドウです。
 #==============================================================================
 module MARU_MenuActor  
-S_SIMPLE_STATUS = ["攻撃","防御","魔力","魔防","素早","運"]
+S_SIMPLE_STATUS = ["ATK","DEF","MAG","MDF","SPD","LCK"]
 end
 
 class Window_MenuActor < Window_MenuStatus

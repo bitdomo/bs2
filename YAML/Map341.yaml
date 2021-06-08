@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 雪洞
+display_name: Igloo
 tileset_id: 1
 width: 21
 height: 19
@@ -294,15 +294,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「あっ、\n[1]さんこんにちはっ！\!']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　えへへ、よかったっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　貴方の顔が見れてほっとしましたっ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah, \n[1], good day to you!\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Hehe, I''m glad and relieved to see']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' your face again!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「外、すっごく寒かったですよねっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　凍えていませんか？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　こっちに来て一緒に暖まりましょうっ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[傍に寄る, 断る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 傍に寄る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"It''s so terribly cold outside, isn''t it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Aren''t you freezing?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Come here and let''s warm up together!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Join her, Refuse], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Join her]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 20, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [20]}
@@ -319,9 +319,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [38, 38, 1, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 断る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Refuse]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「えへへ、そうですか……」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Hehe, oh well..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
@@ -342,28 +342,29 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\n[1]さんには家族がいますか？」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\n[1], do you have family?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「わたしにはお父様がいました。大好きだったお父様。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　けれど、狩りの途中で]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　獣に襲われてそのまま帰らぬ人に……」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I had my Father. I loved him very, very much.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' But one day when he was out hunting,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' he was attacked by a beast and now he''s dead..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「それからずっと一人だったわたしを]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　励まして助けてくれたのがカイちゃんだったんです」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"And then I had Kai.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I was all alone for so long, but Kai saved me']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' from the loneliness and cheered me up."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「わたし、思うんです。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　『世界が悪意に満ちているのなら、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　同じくらい善意で埋め尽くしてしまえばいい』って。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　どんな人も優しさに触れれば、温かくなれるんです」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You know what I think?\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' ''If there''s much malice in the world, then we']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' should fill it with just as much goodness. ''']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' A touch of kindness can warm anyone up."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「えへへっ……。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　今のは全部、カイちゃんの受け売りですけどねっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　彼は本当に優しい男の子なんですっ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ehehe...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' All of that now was me repeating Kai''s words']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' though. He really is a gentle boy."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\n[1]さんもカイちゃんとお友達になってくださいっ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　きっとすぐにカイちゃんのことが好きになれますよっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　うふふっ、わたしが保証しますっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\n[1], you should become Kai''s friend too!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I''m sure you''ll like him the moment you meet him.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Hihihi, I guarantee that!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -382,9 +383,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「吹雪も落ち着いてきましたねっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　はやく雪の女王に攫われたカイちゃんを]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　探しにいかなくっちゃ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The blizzard seems to have settled too.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I need to quickly find my dear Kai and']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' rescue him from the Snow Queen!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -399,7 +400,7 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ゲルダ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「それでは！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''ll get going!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [D, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [888, 888, 1, 0, 1]}

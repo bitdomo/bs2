@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 'オイスターの腐死海  '
+display_name: Oysters' Rotted Sea
 tileset_id: 61
 width: 50
 height: 60
@@ -5954,5 +5954,6 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]触手。だが、女はいない。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Tentacles.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But, there is no woman.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

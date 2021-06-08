@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 晩餐会
+display_name: Dinner Party
 tileset_id: 42
 width: 30
 height: 30
@@ -1190,32 +1190,34 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「それで、貴方はアリスを探しているのですね」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[何故知っている？, 教えてほしい], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 何故知っている？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Well, you are searching for Alice, yes?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['How do you know?', Please help me], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'How do you know?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わたくし、耳が早いのです。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　そしてその教訓は、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　『虫のぼやきは風の噂となって知らせになる』]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It is because I''m quick of hearing.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' And the moral of that is - ''grumblings of']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' insects turn rumors on the wind, which']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' then become news.''"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 教えてほしい]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Please help me]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ええ、もちろんっ！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　貴方になら教えて差し上げますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Yes, certainly!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' If it''s for you, then I shall help!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「金髪の彼女は\c[2]鏡の国に迷い込んだ\c[0]そうですわ」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"It seems the blonde girl \c[2]has lost her way in']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the Looking-Glass Land\c[0]."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「好奇心溢れる彼女ですもの。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　狙いは\c[2]赤の女王\c[0]が支配する遊園地、']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　\c[2]クイーンランド\c[0]でしょう」']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[行き方は？], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 行き方は？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The dear is overflowing with curiosity.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I would think her aim is the amusement park']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' ruled by the \c[2]Red Queen\c[0], \c[2]Queensland\c[0]."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['How do I get there?'], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'How do I get there?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「お待ちになって」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Wait a moment."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -1240,24 +1242,28 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「さあ遠慮なさらず受け取って？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Well, take it, no need for reservations."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [73, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\c[2]血涙の池の最下層\c[0]…。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　そこにある古ぼけた鏡が唯一つ、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　鏡の国へ行ける手段となっておりますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[2]The lowest layer of the Pond of Bloody']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Tears\c[0]...there you will find a single']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' old-looking mirror, it has become the way']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' to reach the Looking-Glass Land."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「無事に鏡の国に辿り着いたら、\c[2]廃駅\c[0]を探してください。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　クイーン・ランド行きの列車が来ているはずですわ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　車掌さんにその切符を見せるのを忘れずに」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Once you safely reach the Looking-Glass Land,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' find your way to the \c[2]Abandoned Station\c[0]. Trains']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' bound for Queensland pass through it. And don''t']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' forget to show this ticket to the conductor."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「赤の女王はハートの女王陛下と引けを取らない程恐ろしい。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　それでも貴方はアリスを助けに向かうのでしょう？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　なんと素晴らしいっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Red Queen is terrifying, no less so than']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Her Majesty of Hearts. Even so, you intend to']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' head there to save Alice, isn''t that right?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' How wonderful!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「その教訓は『ああ、愛、愛こそが世界を動かす！』]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　どうか心に教訓の意味を込めて忘れずに」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The moral of that is - ''Oh, ''tis love, ''tis love,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' that makes the world go round!''  Make sure to hold']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the meaning of this moral deep in your heart."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [11, 11, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1303,22 +1309,22 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 23, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [14, 1, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「貴方…その手に付けている指輪…。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　ああこの匂いは……知っておりますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Hmm...the ring on your finger.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Ah, this smell...I know it very well."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「わたくしの愛猫の匂いが染みついています。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　なんて、懐かしい………。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　あのニヤニヤ笑いが思い起こされますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"It''s wrapped in the smell of my dear cat.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Ah, how nostalgic...I can still recall']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' her broad grin."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [14, 2, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「いえ、けど少し違う……もしかして猫違い？\!]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　…それもそうですわね。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['　\c[2]あの猫はもうとっくに亡くなっているのですから\c[0]」']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"No, it''s just a little different...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' is it another cat?\!...It must be so.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' \c[2]My dear is already long dead, after all\c[0]."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ですが、懐かしい気持ちに浸れましたわ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　貴方にはお礼をしなければ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　そしてその教訓は、]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　『思い出は頭の中にあるもの。つまり消化される事はない』]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Nevertheless, it still allowed me to bask in']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' nostalgia. I ought to reward you somehow. And']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' the moral of that is - ''Memories are in your']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' head. In other words, they won''t be digested."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [389, 389, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [29, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
@@ -1332,27 +1338,29 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「\c[2]血涙の池の最下層\c[0]…。']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　そこにある古ぼけた鏡が唯一つ、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　鏡の国へ行ける手段となっておりますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"\c[2]The lowest layer of the Pond of Bloody']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Tears\c[0]...there you will find a single']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' old-looking mirror, it has become the way']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' to reach the Looking-Glass Land."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「無事に鏡の国に辿り着いたら、\c[2]廃駅\c[0]を探してください。']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　クイーン・ランド行きの列車が来ているはずですわ。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　車掌さんにその切符を見せるのを忘れずに」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Once you safely reach the Looking-Glass Land,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' find your way to the \c[2]Abandoned Station\c[0]. Trains']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' bound for Queensland pass through it. And don''t']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' forget to show this ticket to the conductor."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「御機嫌よう。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　わたくしに会いに来たのですね」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[誓約, '\c[2]殺害する\c[0]', '\c[2]犯す\c[0]', 立ち去る], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 誓約]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Greetings.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' You must be here to see me, yes?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Covenant, '\c[2]Kill\c[0]', '\c[2]Rape\c[0]', Leave], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Covenant]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [84]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 72, 0, 3, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「…丁度良いです。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　貴方をずっと食したかったのですわッ！！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...Quite perfect.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I''ve been wanting to eat you all this time!!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
@@ -1405,15 +1413,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]犯す\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Rape\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 72, 0, 3, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「…丁度良いです。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　貴方をずっと食したかったのですわッ！！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...Quite perfect.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I''ve been wanting to eat you all this time!!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「わたくしの肉を求めるなんて烏滸がましい人っ！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"What an impertinent man, demanding']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' MY flesh!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
@@ -1444,18 +1453,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Magic1, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [公爵夫人マルガレーテ・フォン・ティロルを地下室へ監禁しました。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I locked Duchess Margaret of Tyrol into the Dungeon.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 603, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [11]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 72, 0, 3, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「ごきげんよう\n[1]さん。']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　また戯れに来てくださいね？」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Farewell, \n[1].']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Do visit to play again, yes?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1499,9 +1508,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「縺翫?縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"жжж`хж`хж`хж`хжZ"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [会話にならない…。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A conversation isn't happening...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1541,9 +1550,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [魔獣, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「縺翫?縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣」']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]殺害する\c[0]', 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"жжж`хж`хж`хж`хжZ"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Kill\c[0]', Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 196, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -1594,7 +1603,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1674,11 +1683,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [これは公爵夫人だろうか。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [肉皮も繊維も綺麗に剥がれており]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [皿の上に頭蓋骨だけが残っている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Is this the Duchess?\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['There''s only a skull on the plate. The skin,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the muscles, everything has been cleanly peeled off.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [……身体はどこへ消えた？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...where did her body disappear to?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2534,41 +2543,43 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [2, false]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['本日は\c[2]ウミガメのレストラン\c[0]をご利用頂きありがとうございます。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ご注文頂いた品は以下の通りです。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Thank you very much for ordering from ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['\c[2]Sea Turtle Restaurant\c[0] today.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Your order is as follows:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [フル・ブレックファスト]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ローズティー]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ミートパイ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [カレー]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [シェパーズパイ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [スコッチエッグ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ハギス]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ウナギのゼリー寄せ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [キッパー]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ヨークシャー・プディング]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [スコーン]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [マフィン]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ブレッドソース]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ホットクロスパン]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [サンドイッチ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [スコッチ・ウッドコック]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ペストリー]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [アップルパイ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [カスタードプディング]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [揚げマーズバー]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ウェルシュケーキ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [クリスマスプディング]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ショートブレッド]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ジンジャーナッツ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [トライフル]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [シラバブ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [フィッシュ・アンド・チップス]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [ローストビーフ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Full Breakfast]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Rose Tea]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Meat Pie]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Curry]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Shepherd's Pie]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Scotch Egg]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Haggis]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Jellied Eels]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Kipper]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Yorkshire Pudding]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Scone]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Muffin]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Bread Sauce]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Hot Cross Bun]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Sandwich]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Scotch Woodcock]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Pastry]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Apple Pie]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Custard Pudding]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Deep-fried Mars Bar]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Welsch Cake]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Christmas Pudding]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Shortbread]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Gingernuts]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Trifle]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Syllabub]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Fish&Chips]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Roast Beef]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [―明日から休業致しますので、もう二度と注文しないでください。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [おねがいします。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['―As we will be closed from tomorrow onwards, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [please do not order from us ever again.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Never ever again, please.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   23: !ruby/object:RPG::Event
     id: 23
@@ -2792,27 +2803,25 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おーほっほっほっほっほっほっほっほっほっほっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"OOO-HO-HO-HO-HO-HO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「可愛い坊やにゃ怒鳴りましょっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　くしゃみをしたら叩きましょっ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「くしゃみをしたのはわざとですっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　大人をおちょくるしわざですっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Speak roughly to your little boy,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' And beat him when he sneezes:']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' He only does it to annoy,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Because he knows it teases."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 赤ん坊, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{わーっ！わーっ！わーっ！わーっ！わーっ！わーっ！']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{Wow! wow! wow! wow! wow! wow! wow!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [212, 212, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「坊やは厳しくしつけましょっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　くしゃみをしたなら殴りましょっ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「だって嬉しいはずでしょっ？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　いっぱい吸えるこの胡椒っ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I speak severely to my boy,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I beat him when he sneezes;']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' For he can thoroughly enjoy']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' The pepper when he pleases!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{わーっ！わーっ！わーっ！わーっ！わーっ！わーっ！']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{Wow! wow! wow! wow! wow! wow! wow!']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -2910,10 +2919,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Disappointment, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「むしっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　むしっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　むしっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ばりっ ぼりっ がりっ ごりっ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Tear-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Tear-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Tear-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Rip-Grip-Munch-Crunch!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -2948,9 +2957,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*59]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「………胡椒の味付けが足りないッ！！\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　お前、何度言えば分かるのっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ペッパーミルを振る回数は５たす５ひく５たす５にしろと！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...It''s not peppery enough!\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' How many times do you need to be told!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Shake the pepper mill five times, plus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' five, minus five, and then plus five!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [15, 6, false]}
       - !ruby/object:RPG::EventCommand
         i: 0
@@ -2967,13 +2977,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*61]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 料理人]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ああ、お許しを奥様っ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　なにぶん我が家の胡椒は粗方使い切ってしまったもので…」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah, forgive me madam!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' It happens that we''ve nearly run out of pepper..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [14, 5, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「なら取ってこいッ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　\c[2]無限食物\c[0]の腸内にへばり付いているものを']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　一粒残さず回収してこいッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Then fetch some!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Collect every drop sticking to the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' intestines of \c[2]Infinite Food\c[0], don''t']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' leave a grain!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -3005,16 +3016,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*70]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [214, 214, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「まったく…」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Good grief..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……ところで貴方はどなたです？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　わたくし、女王陛下とのクロッケーに敗れて]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　胃がイラついておりますのよッ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[アリスを訪ねる, 宥める, '\c[2]殺害する\c[0]', 逃げる], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, アリスを訪ねる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Incidentally, who are you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Ever since I lost to Her Majesty in croquet,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' my stomach has been mighty angry!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[I'm going to Alice, Calm her, '\c[2]Kill\c[0]', Escape], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, I'm going to Alice]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わたくしにはどうだっていいですわっ！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　この男の首を切っておしまいっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It matters not to me!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Chop off his head!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -3065,30 +3076,33 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 宥める]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Calm her]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「皆が余計なお世話を焼かなければ、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　世界はもっと早く回る事ができますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"If everybody minded their own business,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' the world would go round a deal faster']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' than it does."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「貴方、わたくしに胡椒を捧げなさい。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　でなければわたくしの胃の中で]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　消化を待ち続ける余生を過ごす事になりますわッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You, bring me pepper.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Otherwise, you''ll be spending the rest']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' of your life in my stomach, waiting to']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' be digested!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[胡椒を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 胡椒を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Give her pepper, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Give her pepper]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [8, 20]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [217, 217, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 126, p: [20, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「まあっ！代用品の効かない良い胡椒ですことっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"My! Fine pepper that nothing can replace!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「でも困りました…。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　調味料があっても喰する物がなければ意味がありませんわ」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"However, what a conundrum...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' If there''s flavoring, but nothing to flavor,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' then none of it has any meaning."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「貴方、肉は持っておりまして？」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"You, do you have any meat?"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [0, 196, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[肉を捧げる, ドドを連れて来る, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[Give her meat, Bring her Dodo, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
@@ -3118,7 +3132,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 9, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 8, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 9, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 601, p: []}
@@ -3177,13 +3191,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, ドドを連れて来る]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, Bring her Dodo]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 121, p: [219, 219, 0]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -3192,8 +3206,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[肉を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[Give her meat, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
@@ -3223,7 +3237,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 9, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 8, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 9, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 601, p: []}
@@ -3282,7 +3296,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -3294,7 +3308,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 601, p: []}
@@ -3347,7 +3361,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -3355,7 +3369,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -3406,7 +3420,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 逃げる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Escape]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -3469,14 +3483,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*127]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*128]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……ところで貴方はどなたです？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　わたくし、女王陛下とのクロッケーに敗れて]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　胃がイラついておりますのよッ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[アリスを訪ねる, 宥める, '\c[2]殺害する\c[0]', 逃げる], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, アリスを訪ねる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Incidentally, who are you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Ever since I lost to Her Majesty in croquet,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' my stomach has been mighty angry!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[I'm going to Alice, Calm her, '\c[2]Kill\c[0]', Escape], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, I'm going to Alice]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わたくしにはどうだっていいですわっ！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　この男の首を切っておしまいっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It matters not to me!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Chop off his head!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -3527,14 +3541,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 宥める]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Calm her]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 217, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「貴方、肉は持っておりまして？」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"You, do you have any meat?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [0, 196, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[肉を捧げる, ドドを連れて来る, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Give her meat, Bring her Dodo, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [8, 65]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 126, p: [65, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
@@ -3552,7 +3566,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 6, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 601, p: []}
@@ -3607,14 +3621,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, ドドを連れて来る]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, Bring her Dodo]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 203, p: [16, 0, 15, 21, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 121, p: [219, 219, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -3623,8 +3637,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[肉を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Give her meat, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
@@ -3658,7 +3672,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 8, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 7, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 8, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 8, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 8, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 8, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 8, c: 601, p: []}
@@ -3717,7 +3731,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -3729,28 +3743,31 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「皆が余計なお世話を焼かなければ、]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　世界はもっと早く回る事ができますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"If everybody minded their own business,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' the world would go round a deal faster']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' than it does."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「貴方、わたくしに胡椒を捧げなさい。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　でなければわたくしの胃の中で]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　消化を待ち続ける余生を過ごす事になりますわッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"You, bring me pepper.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Otherwise, you''ll be spending the rest']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' of your life in my stomach, waiting to']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' be digested!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[胡椒を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 胡椒を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Give her pepper, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Give her pepper]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [8, 20]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 121, p: [217, 217, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 126, p: [20, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「まあっ！代用品の効かない良い胡椒ですことっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"My! Fine pepper that nothing can replace!"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「でも困りました…。]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [　調味料があっても喰する物がなければ意味がありませんわ」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"However, what a conundrum...']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' If there''s flavoring, but nothing to flavor,']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' then none of it has any meaning."']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「貴方、肉は持っておりまして？」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"You, do you have any meat?"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [0, 196, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[肉を捧げる, ドドを連れて来る, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[Give her meat, Bring her Dodo, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 221, p: []}
@@ -3784,7 +3801,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 10, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 10, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 10, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 601, p: []}
@@ -3843,14 +3860,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, ドドを連れて来る]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, Bring her Dodo]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 203, p: [16, 0, 15, 21, 0]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 121, p: [219, 219, 0]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -3859,8 +3876,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 5, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[肉を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[Give her meat, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 221, p: []}
@@ -3894,7 +3911,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 10, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 10, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 10, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 601, p: []}
@@ -3953,7 +3970,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -3965,7 +3982,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 601, p: []}
@@ -4018,7 +4035,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -4028,7 +4045,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -4079,7 +4096,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 逃げる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Escape]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -4125,9 +4142,9 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「縺翫?縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"жжж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хжZ"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [会話にならなそうだ…。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A conversation isn't happening...]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -4285,12 +4302,13 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [14, 3, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「くちゃっ！ぐちゃっ！ぶちゃっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Chomp! Splat! Glomp!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ああ、美味しいっ…！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　この世の美食はまさに胡椒付きに限りますわっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ahh, delicious...!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' All that is peppered, and just that,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' are the world''s gastronomic delights!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おーっほっほっほっほっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"OOO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [221, 221, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -4333,28 +4351,30 @@ events:
       trigger: 3
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ドド, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……これはこれは公爵夫人っ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　遂に我が輩に公爵の称号を授与してくれるとでもっ？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...This, this is the Duchess!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Are we finally to be awarded with']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the title of a duke?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「美味しそうなもも肉ですことっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Aah, such delicious-looking legs!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ドド, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「んんんんっ？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Mmm, uh?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -255.0, g: -255.0, b: -255.0, a: 0.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ドド, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ま、待ちたまえっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　そんないきなりは、あッ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　やだッ！待ってッ食べないでッ！助けッッ」　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"W-wait, wait!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' It''s too sudden- uah!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' No! Wait! Don''t eat me! Sav-!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [221, 221, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -34.0, g: -34.0, b: -34.0, a: 0.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [14, 3, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「くちゃっ！ぐちゃっ！ぶちゃっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Chomp! Splat! Glomp!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ああ、美味しいっ…！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　この世の美食はまさに胡椒付きに限りますわっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ahh, delicious...!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' All that is peppered, and just that,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' are the world''s gastronomic delights!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おーっほっほっほっほっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"OOO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [194, 194, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [196, 196, 1]}
@@ -4484,27 +4504,25 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おーほっほっほっほっほっほっほっほっほっほっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"OOO-HO-HO-HO-HO-HO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「可愛い坊やにゃ怒鳴りましょっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　くしゃみをしたら叩きましょっ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「くしゃみをしたのはわざとですっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　大人をおちょくるしわざですっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Speak roughly to your little boy,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' And beat him when he sneezes:']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' He only does it to annoy,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Because he knows it teases."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 赤ん坊, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{わーっ！わーっ！わーっ！わーっ！わーっ！わーっ！']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{Wow! wow! wow! wow! wow! wow! wow!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [212, 212, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「坊やは厳しくしつけましょっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　くしゃみをしたなら殴りましょっ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「だって嬉しいはずでしょっ？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　いっぱい吸えるこの胡椒っ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I speak severely to my boy,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I beat him when he sneezes;']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' For he can thoroughly enjoy']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' The pepper when he pleases!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{わーっ！わーっ！わーっ！わーっ！わーっ！わーっ！']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{Wow! wow! wow! wow! wow! wow! wow!']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -4602,10 +4620,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Disappointment, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「むしっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　むしっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　むしっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ばりっ ぼりっ がりっ ごりっ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Tear-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Tear-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Tear-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Rip-Grip-Munch-Crunch!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -4640,9 +4658,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*251]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*252]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「………胡椒の味付けが足りないッ！！\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　お前、何度言えば分かるのっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ペッパーミルを振る回数は５たす５ひく５たす５にしろと！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...It''s not peppery enough!\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' How many times do you need to be told!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Shake the pepper mill five times, plus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' five, minus five, and then plus five!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [15, 6, false]}
       - !ruby/object:RPG::EventCommand
         i: 0
@@ -4659,13 +4678,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*253]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 料理人]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ああ、お許しを奥様っ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　なにぶん我が家の胡椒は粗方使い切ってしまったもので…」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah, forgive me madam!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' It happens that we''ve nearly run out of pepper..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [14, 5, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「なら取ってこいッ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　\c[2]無限食物\c[0]の腸内にへばり付いているものを']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　一粒残さず回収してこいッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Then fetch some!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Collect every drop sticking to the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' intestines of \c[2]Infinite Food\c[0], don''t']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' leave a grain!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -4697,16 +4717,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*262]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [214, 214, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「まったく…」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Good grief..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……ところで貴方はどなたです？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　わたくし、女王陛下とのクロッケーに敗れて]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　胃がイラついておりますのよッ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[アリスを訪ねる, 宥める, '\c[2]殺害する\c[0]', 逃げる], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, アリスを訪ねる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Incidentally, who are you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Ever since I lost to Her Majesty in croquet,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' my stomach has been mighty angry!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[I'm going to Alice, Calm her, '\c[2]Kill\c[0]', Escape], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, I'm going to Alice]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わたくしにはどうだっていいですわっ！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　この男の首を切っておしまいっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It matters not to me!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Chop off his head!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -4757,30 +4777,33 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 宥める]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Calm her]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「皆が余計なお世話を焼かなければ、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　世界はもっと早く回る事ができますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"If everybody minded their own business,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' the world would go round a deal faster']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' than it does."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「貴方、わたくしに胡椒を捧げなさい。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　でなければわたくしの胃の中で]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　消化を待ち続ける余生を過ごす事になりますわッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You, bring me pepper.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Otherwise, you''ll be spending the rest']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' of your life in my stomach, waiting to']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' be digested!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[胡椒を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 胡椒を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Give her pepper, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Give her pepper]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [8, 20]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [217, 217, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 126, p: [20, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「まあっ！代用品の効かない良い胡椒ですことっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"My! Fine pepper that nothing can replace!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「でも困りました…。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　調味料があっても喰する物がなければ意味がありませんわ」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"However, what a conundrum...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' If there''s flavoring, but nothing to flavor,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' then none of it has any meaning."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「貴方、肉は持っておりまして？」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"You, do you have any meat?"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [0, 196, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[肉を捧げる, ドドを連れて来る, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[Give her meat, Bring her Dodo, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
@@ -4810,7 +4833,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 9, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 8, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 9, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 601, p: []}
@@ -4869,13 +4892,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, ドドを連れて来る]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, Bring her Dodo]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 121, p: [219, 219, 0]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -4884,8 +4907,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[肉を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[Give her meat, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
@@ -4915,7 +4938,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 9, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 8, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 9, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 601, p: []}
@@ -4974,7 +4997,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -4986,7 +5009,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 601, p: []}
@@ -5039,7 +5062,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -5047,7 +5070,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -5098,7 +5121,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 逃げる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Escape]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -5161,14 +5184,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*319]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*320]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……ところで貴方はどなたです？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　わたくし、女王陛下とのクロッケーに敗れて]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　胃がイラついておりますのよッ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[アリスを訪ねる, 宥める, '\c[2]殺害する\c[0]', 逃げる], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, アリスを訪ねる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Incidentally, who are you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Ever since I lost to Her Majesty in croquet,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' my stomach has been mighty angry!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[I'm going to Alice, Calm her, '\c[2]Kill\c[0]', Escape], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, I'm going to Alice]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わたくしにはどうだっていいですわっ！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　この男の首を切っておしまいっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It matters not to me!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Chop off his head!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -5219,14 +5242,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 宥める]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Calm her]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 217, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「貴方、肉は持っておりまして？」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"You, do you have any meat?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [0, 196, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[肉を捧げる, ドドを連れて来る, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Give her meat, Bring her Dodo, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [8, 65]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 126, p: [65, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
@@ -5244,7 +5267,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 6, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 601, p: []}
@@ -5299,14 +5322,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, ドドを連れて来る]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, Bring her Dodo]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 203, p: [16, 0, 15, 21, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 121, p: [219, 219, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -5315,8 +5338,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[肉を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Give her meat, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
@@ -5350,7 +5373,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 8, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 7, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 8, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 8, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 8, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 8, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 8, c: 601, p: []}
@@ -5409,7 +5432,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -5421,28 +5444,31 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「皆が余計なお世話を焼かなければ、]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　世界はもっと早く回る事ができますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"If everybody minded their own business,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' the world would go round a deal faster']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' than it does."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「貴方、わたくしに胡椒を捧げなさい。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　でなければわたくしの胃の中で]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　消化を待ち続ける余生を過ごす事になりますわッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"You, bring me pepper.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Otherwise, you''ll be spending the rest']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' of your life in my stomach, waiting to']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' be digested!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[胡椒を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 胡椒を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Give her pepper, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Give her pepper]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [8, 20]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 121, p: [217, 217, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 126, p: [20, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「まあっ！代用品の効かない良い胡椒ですことっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"My! Fine pepper that nothing can replace!"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「でも困りました…。]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [　調味料があっても喰する物がなければ意味がありませんわ」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"However, what a conundrum...']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' If there''s flavoring, but nothing to flavor,']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' then none of it has any meaning."']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「貴方、肉は持っておりまして？」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"You, do you have any meat?"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [0, 196, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[肉を捧げる, ドドを連れて来る, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[Give her meat, Bring her Dodo, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 221, p: []}
@@ -5476,7 +5502,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 10, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 10, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 10, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 601, p: []}
@@ -5535,14 +5561,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, ドドを連れて来る]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, Bring her Dodo]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 203, p: [16, 0, 15, 21, 0]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 121, p: [219, 219, 0]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -5551,8 +5577,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 5, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[肉を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[Give her meat, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 221, p: []}
@@ -5586,7 +5612,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 10, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 10, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 10, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 601, p: []}
@@ -5645,7 +5671,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -5657,7 +5683,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 601, p: []}
@@ -5710,7 +5736,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -5720,7 +5746,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -5771,7 +5797,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 逃げる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Escape]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -5817,9 +5843,9 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「縺翫?縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"жжж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хжZ"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [会話にならなそうだ…。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A conversation isn't happening...]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -5977,12 +6003,13 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [14, 3, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「くちゃっ！ぐちゃっ！ぶちゃっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Chomp! Splat! Glomp!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ああ、美味しいっ…！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　この世の美食はまさに胡椒付きに限りますわっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ahh, delicious...!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' All that is peppered, and just that,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' are the world''s gastronomic delights!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おーっほっほっほっほっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"OOO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [221, 221, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -6025,28 +6052,30 @@ events:
       trigger: 3
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ドド, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……これはこれは公爵夫人っ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　遂に我が輩に公爵の称号を授与してくれるとでもっ？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...This, this is the Duchess!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Are we finally to be awarded with']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the title of a duke?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「美味しそうなもも肉ですことっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Aah, such delicious-looking legs!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ドド, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「んんんんっ？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Mmm, uh?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -255.0, g: -255.0, b: -255.0, a: 0.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ドド, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ま、待ちたまえっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　そんないきなりは、あッ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　やだッ！待ってッ食べないでッ！助けッッ」　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"W-wait, wait!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' It''s too sudden- uah!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' No! Wait! Don''t eat me! Sav-!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [221, 221, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -34.0, g: -34.0, b: -34.0, a: 0.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [14, 3, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「くちゃっ！ぐちゃっ！ぶちゃっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Chomp! Splat! Glomp!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ああ、美味しいっ…！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　この世の美食はまさに胡椒付きに限りますわっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ahh, delicious...!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' All that is peppered, and just that,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' are the world''s gastronomic delights!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おーっほっほっほっほっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"OOO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [194, 194, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [196, 196, 1]}
@@ -6176,27 +6205,25 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おーほっほっほっほっほっほっほっほっほっほっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"OOO-HO-HO-HO-HO-HO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「可愛い坊やにゃ怒鳴りましょっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　くしゃみをしたら叩きましょっ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「くしゃみをしたのはわざとですっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　大人をおちょくるしわざですっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Speak roughly to your little boy,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' And beat him when he sneezes:']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' He only does it to annoy,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Because he knows it teases."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 赤ん坊, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{わーっ！わーっ！わーっ！わーっ！わーっ！わーっ！']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{Wow! wow! wow! wow! wow! wow! wow!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [212, 212, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「坊やは厳しくしつけましょっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　くしゃみをしたなら殴りましょっ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「だって嬉しいはずでしょっ？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　いっぱい吸えるこの胡椒っ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I speak severely to my boy,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I beat him when he sneezes;']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' For he can thoroughly enjoy']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' The pepper when he pleases!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{わーっ！わーっ！わーっ！わーっ！わーっ！わーっ！']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\{\{Wow! wow! wow! wow! wow! wow! wow!']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -6294,10 +6321,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Disappointment, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「むしっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　むしっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　むしっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ばりっ ぼりっ がりっ ごりっ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Tear-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Tear-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Tear-']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Rip-Grip-Munch-Crunch!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -6332,9 +6359,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*443]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*444]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「………胡椒の味付けが足りないッ！！\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　お前、何度言えば分かるのっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ペッパーミルを振る回数は５たす５ひく５たす５にしろと！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...It''s not peppery enough!\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' How many times do you need to be told!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Shake the pepper mill five times, plus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' five, minus five, and then plus five!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [15, 6, false]}
       - !ruby/object:RPG::EventCommand
         i: 0
@@ -6351,13 +6379,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*445]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 料理人]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ああ、お許しを奥様っ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　なにぶん我が家の胡椒は粗方使い切ってしまったもので…」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah, forgive me madam!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' It happens that we''ve nearly run out of pepper..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [14, 5, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「なら取ってこいッ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　\c[2]無限食物\c[0]の腸内にへばり付いているものを']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　一粒残さず回収してこいッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Then fetch some!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Collect every drop sticking to the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' intestines of \c[2]Infinite Food\c[0], don''t']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' leave a grain!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -6389,16 +6418,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*454]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [214, 214, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「まったく…」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Good grief..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……ところで貴方はどなたです？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　わたくし、女王陛下とのクロッケーに敗れて]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　胃がイラついておりますのよッ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[アリスを訪ねる, 宥める, '\c[2]殺害する\c[0]', 逃げる], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, アリスを訪ねる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Incidentally, who are you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Ever since I lost to Her Majesty in croquet,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' my stomach has been mighty angry!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[I'm going to Alice, Calm her, '\c[2]Kill\c[0]', Escape], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, I'm going to Alice]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わたくしにはどうだっていいですわっ！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　この男の首を切っておしまいっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It matters not to me!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Chop off his head!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -6449,30 +6478,33 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 宥める]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Calm her]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「皆が余計なお世話を焼かなければ、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　世界はもっと早く回る事ができますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"If everybody minded their own business,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' the world would go round a deal faster']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' than it does."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「貴方、わたくしに胡椒を捧げなさい。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　でなければわたくしの胃の中で]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　消化を待ち続ける余生を過ごす事になりますわッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You, bring me pepper.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Otherwise, you''ll be spending the rest']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' of your life in my stomach, waiting to']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' be digested!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[胡椒を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 胡椒を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Give her pepper, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Give her pepper]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [8, 20]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [217, 217, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 126, p: [20, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「まあっ！代用品の効かない良い胡椒ですことっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"My! Fine pepper that nothing can replace!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「でも困りました…。]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [　調味料があっても喰する物がなければ意味がありませんわ」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"However, what a conundrum...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' If there''s flavoring, but nothing to flavor,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [' then none of it has any meaning."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「貴方、肉は持っておりまして？」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"You, do you have any meat?"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [0, 196, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[肉を捧げる, ドドを連れて来る, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[Give her meat, Bring her Dodo, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
@@ -6502,7 +6534,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 9, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 8, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 9, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 601, p: []}
@@ -6561,13 +6593,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, ドドを連れて来る]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, Bring her Dodo]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 121, p: [219, 219, 0]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -6576,8 +6608,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[肉を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[Give her meat, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
@@ -6607,7 +6639,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 9, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 8, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 9, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 9, c: 601, p: []}
@@ -6666,7 +6698,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -6678,7 +6710,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 601, p: []}
@@ -6731,7 +6763,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -6739,7 +6771,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -6790,7 +6822,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 逃げる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Escape]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -6853,14 +6885,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*511]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*512]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……ところで貴方はどなたです？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　わたくし、女王陛下とのクロッケーに敗れて]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　胃がイラついておりますのよッ！」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[アリスを訪ねる, 宥める, '\c[2]殺害する\c[0]', 逃げる], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, アリスを訪ねる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Incidentally, who are you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Ever since I lost to Her Majesty in croquet,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' my stomach has been mighty angry!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[I'm going to Alice, Calm her, '\c[2]Kill\c[0]', Escape], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, I'm going to Alice]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「わたくしにはどうだっていいですわっ！]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　この男の首を切っておしまいっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It matters not to me!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Chop off his head!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -6911,14 +6943,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 宥める]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Calm her]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 217, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「貴方、肉は持っておりまして？」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"You, do you have any meat?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [0, 196, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[肉を捧げる, ドドを連れて来る, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Give her meat, Bring her Dodo, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [8, 65]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 126, p: [65, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
@@ -6936,7 +6968,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 6, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 6, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 601, p: []}
@@ -6991,14 +7023,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, ドドを連れて来る]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, Bring her Dodo]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 203, p: [16, 0, 15, 21, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 121, p: [219, 219, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -7007,8 +7039,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[肉を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Give her meat, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 221, p: []}
@@ -7042,7 +7074,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 8, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 7, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 8, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 8, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 8, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 8, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 8, c: 601, p: []}
@@ -7101,7 +7133,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -7113,28 +7145,31 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「皆が余計なお世話を焼かなければ、]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　世界はもっと早く回る事ができますわ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"If everybody minded their own business,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' the world would go round a deal faster']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' than it does."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「貴方、わたくしに胡椒を捧げなさい。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　でなければわたくしの胃の中で]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　消化を待ち続ける余生を過ごす事になりますわッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"You, bring me pepper.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Otherwise, you''ll be spending the rest']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' of your life in my stomach, waiting to']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' be digested!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[胡椒を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 胡椒を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Give her pepper, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Give her pepper]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [8, 20]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 121, p: [217, 217, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 126, p: [20, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「まあっ！代用品の効かない良い胡椒ですことっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"My! Fine pepper that nothing can replace!"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「でも困りました…。]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [　調味料があっても喰する物がなければ意味がありませんわ」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"However, what a conundrum...']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' If there''s flavoring, but nothing to flavor,']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' then none of it has any meaning."']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「貴方、肉は持っておりまして？」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"You, do you have any meat?"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [0, 196, 0]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[肉を捧げる, ドドを連れて来る, 立ち去る], 3]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[Give her meat, Bring her Dodo, Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 221, p: []}
@@ -7168,7 +7203,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 10, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 10, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 10, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 601, p: []}
@@ -7227,14 +7262,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, ドドを連れて来る]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, Bring her Dodo]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 203, p: [16, 0, 15, 21, 0]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 121, p: [219, 219, 0]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [2, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -7243,8 +7278,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 5, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[肉を捧げる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, 肉を捧げる]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [[Give her meat, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, Give her meat]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 111, p: [8, 90]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 126, p: [90, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 7, c: 221, p: []}
@@ -7278,7 +7313,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 10, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 9, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 10, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 10, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 10, c: 601, p: []}
@@ -7337,7 +7372,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 6, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 6, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -7349,7 +7384,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [「その教訓は、人に嘘を吐いてはならないッ！」]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['"The moral of that is - you mustn''t tell lies!"']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 601, p: []}
@@ -7402,7 +7437,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -7412,7 +7447,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 公爵夫人, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 197, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -7463,7 +7498,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 逃げる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Escape]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 79, 16, 8, 2, 0]}
@@ -7509,9 +7544,9 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「縺翫?縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣縺ｻ縺｣?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"жжж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хж`хжZ"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [会話にならなそうだ…。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A conversation isn't happening...]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -7669,12 +7704,13 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [14, 3, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「くちゃっ！ぐちゃっ！ぶちゃっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Chomp! Splat! Glomp!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ああ、美味しいっ…！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　この世の美食はまさに胡椒付きに限りますわっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ahh, delicious...!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' All that is peppered, and just that,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' are the world''s gastronomic delights!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おーっほっほっほっほっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"OOO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [221, 221, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -7717,28 +7753,30 @@ events:
       trigger: 3
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ドド, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……これはこれは公爵夫人っ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　遂に我が輩に公爵の称号を授与してくれるとでもっ？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...This, this is the Duchess!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Are we finally to be awarded with']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the title of a duke?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「美味しそうなもも肉ですことっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Aah, such delicious-looking legs!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ドド, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「んんんんっ？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Mmm, uh?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -255.0, g: -255.0, b: -255.0, a: 0.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ドド, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ま、待ちたまえっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　そんないきなりは、あッ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　やだッ！待ってッ食べないでッ！助けッッ」　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"W-wait, wait!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' It''s too sudden- uah!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' No! Wait! Don''t eat me! Sav-!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [221, 221, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -34.0, g: -34.0, b: -34.0, a: 0.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [14, 3, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「くちゃっ！ぐちゃっ！ぶちゃっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Chomp! Splat! Glomp!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ああ、美味しいっ…！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　この世の美食はまさに胡椒付きに限りますわっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ahh, delicious...!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' All that is peppered, and just that,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' are the world''s gastronomic delights!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [公爵夫人, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おーっほっほっほっほっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"OOO-HO-HO-HO-HO!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [194, 194, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [196, 196, 1]}

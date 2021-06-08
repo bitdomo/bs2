@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 収蔵庫
+display_name: Storeroom
 tileset_id: 5
 width: 25
 height: 25
@@ -217,10 +217,10 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「うわっ！驚かすな！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Gah! Don''t sneak up on me!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「お前さんもこの隠し部屋を見つけたのか。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　まあ、最初に見つけたのはこのカーナッキだがな」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"So you found this hidden room too?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Well, naturally, I was the first to find it."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -235,12 +235,13 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「あれを見たまえ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Look over there."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 204, p: [8, 5, 5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「鍵のついた鉄格子の中に、宝の山ときた。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　あの中に冠があるのではないか？」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Inside that barred, locked room, there''s']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' an absolute mountain of treasure.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Could the crown be inside it?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 204, p: [2, 5, 5]}
       - !ruby/object:RPG::EventCommand
         i: 0
@@ -256,29 +257,30 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「お前さんの意見を聞こう。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　私はあれを開けるべきかね？」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[開けるべき, 引き返せ], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 開けるべき]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Let''s hear your opinion.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Should I go and open it?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[You should, Turn back], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, You should]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [0, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「……実は、その。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　高所が苦手なのだが……。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　仕方ない。私も勇気を出して進んでみるか」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"......As a matter of fact, uh, I''m not that good']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' with heights.\! But I guess there isn''t much choice.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I''ll just have to summon my courage and go for it."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「しかし、鍵のかかった鉄格子をどう開ければよいか……」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Still, what to do about the locked door..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [886, 886, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 引き返せ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Turn back]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [0, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「確かに、嫌な予感がする。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　冠がこう簡単に手に入るとは思えないしな」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Certainly, I do have a bad feeling about it.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' And it would be unthinkable for the crown']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' to be so easily obtainable."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「お前さんの助言で考えを改めることができた。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　礼を言ってやる。どうもありがとう」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Your advice has helped me clear my mind.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' You have my thanks for that."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「あとはお前さんの好きにするといい」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I''ll be going, the rest is up to you."']}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 205
@@ -303,9 +305,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*7]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「もし、お前さんを私の本に出すのなら]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　有望な助手にしてやりたいところだな。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　はっはっはっ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Were I to put you into my book, you''d be']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' the assistant showing lots of promise.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Ho-ho-ho-ho."']}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 205
@@ -368,19 +370,20 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「鍵のかかった鉄格子をどう開ければよいか……」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[万能鍵を渡す, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 万能鍵を渡す]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Now, what to do about the door..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Give him a Master Key, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Give him a Master Key]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [8, 47]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [47, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「ほほう。見直したぞ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　さすがは私の見込んだ助手だなっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Oho. I''m seeing you in a new light.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' That''s my trusty assistant!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「いつ助手にしたかだと？]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　ただのジョークだよ。私は優秀なので助手は要らない。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　だが、お前さんの厚意は無駄にしない」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Since when were you my assistant?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' That was only a joke. My excellence needs']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' no assistance.  That said, I won''t be wasting']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' your kindness."']}
       - !ruby/object:RPG::EventCommand
         i: 2
         c: 205
@@ -395,8 +398,7 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*12]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [カーナッキ, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「そこで見ていたまえ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　私の開錠さばきというやつを！」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Now watch as I handle this lock!"']}
       - !ruby/object:RPG::EventCommand
         i: 2
         c: 205
@@ -419,11 +421,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [万能鍵がありません。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I don't have any Master Keys.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

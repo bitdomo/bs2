@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 昇降機
+display_name: Elevator
 tileset_id: 62
 width: 40
 height: 100
@@ -1402,7 +1402,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [極端異常に美化されし、セイウチ像。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A statue of the Walrus, beautified far beyond what']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [would be considered normal.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1442,9 +1443,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [神様、呑気な肥え知らずな親友を助けてください。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [舞台の人形として扱わないでください。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [消費しないでください。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['O God, please help my gluttonous, carefree friend.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Please don't treat her like a puppet on a stage.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Please don't expend her.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -2797,7 +2798,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]力が足りなければ引き返せ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Only the mighty may proceed.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   37: !ruby/object:RPG::Event
     id: 37
@@ -2843,7 +2844,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]癪に障る！\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Irritating!\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   38: !ruby/object:RPG::Event
     id: 38
@@ -2889,7 +2890,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、絶望が待っているんだ…。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Despair is waiting ahead...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   39: !ruby/object:RPG::Event
     id: 39

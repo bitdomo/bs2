@@ -8,78 +8,78 @@
 module Vocab
 
   # ショップ画面
-  ShopBuy         = "購入する"
-  ShopSell        = "売却する"
-  ShopCancel      = "やめる"
-  Possession      = "持っている数"
+  ShopBuy         = "Buy"
+  ShopSell        = "Sell"
+  ShopCancel      = "Leave"
+  Possession      = "Possession"
 
   # ステータス画面
-  ExpTotal        = "現在の経験値"
-  ExpNext         = "次の%sまで"
+  ExpTotal        = "Current EXP"
+  ExpNext         = "To next %s"
 
   # セーブ／ロード画面
-  SaveMessage     = "どのファイルにセーブしますか？"
-  LoadMessage     = "どのファイルをロードしますか？"
-  File            = "ファイル"
+  SaveMessage     = "Save to which file?"
+  LoadMessage     = "Load which file?"
+  File            = "File"
 
   # 複数メンバーの場合の表示
-  PartyName       = "%sたち"
+  PartyName       = "%s's party"
 
   # 戦闘基本メッセージ
-  Emerge          = "%sが出現！"
-  Preemptive      = "%sは先手を取った！"
-  Surprise        = "%sは不意をつかれた！"
-  EscapeStart     = "%sは逃げ出した！"
-  EscapeFailure   = "しかし逃げることはできなかった！"
+  Emerge          = "%s appeared!"
+  Preemptive      = "%s took initiative!"
+  Surprise        = "%s was caught off guard!"
+  EscapeStart     = "%s starts running away!"
+  EscapeFailure   = "But the escape path was blocked!"
 
   # 戦闘終了メッセージ
-  Victory         = "%sの勝利！"
-  Defeat          = "%sは戦いに敗れた。"
-  ObtainExp       = "%s の経験値を獲得！"
-  ObtainGold      = "ソウルを %s\\G 手に入れた！"
-  ObtainItem      = "%sを手に入れた！"
-  LevelUp         = "%sは%s %s に上がった！"
-  ObtainSkill     = "%sを覚えた！"
+  Victory         = "%s won!"
+  Defeat          = "%s lost the battle."
+  ObtainExp       = "%s EXP received!"
+  ObtainGold      = "%s Souls found!"
+  ObtainItem      = "%s found!"
+  LevelUp         = "%s is now %s %s!"
+  ObtainSkill     = "%s learned!"
 
   # アイテム使用
-  UseItem         = "%sは%sを使った！"
+  UseItem         = "%s uses %s!"
 
   # クリティカルヒット
-  CriticalToEnemy = "会心の一撃！！"
-  CriticalToActor = "痛恨の一撃！！"
+  CriticalToEnemy = "Critical hit!!"
+  CriticalToActor = "Critical hit!!"
 
   # アクター対象の行動結果
-  ActorDamage     = "%sは %s のダメージを受けた！"
-  ActorRecovery   = "%sの%sが %s 回復した！"
-  ActorGain       = "%sの%sが %s 増えた！"
-  ActorLoss       = "%sの%sが %s 減った！"
-  ActorDrain      = "%sは%sを %s 奪われた！"
-  ActorNoDamage   = "%sはダメージを受けていない！"
-  ActorNoHit      = "ミス！　%sはダメージを受けていない！"
+  ActorDamage     = "%s took %s damage!"
+  ActorRecovery   = "%s recovered %s %s!"
+  ActorGain       = "%s gained %s %s!"
+  ActorLoss       = "%s lost %s %s!"
+  ActorDrain      = "%s was drained of %s %s!"
+  ActorNoDamage   = "%s took no damage!"
+  ActorNoHit      = "Miss! %s took no damage!"
 
   # 敵キャラ対象の行動結果
-  EnemyDamage     = "%sに %s のダメージを与えた！"
-  EnemyRecovery   = "%sの%sが %s 回復した！"
-  EnemyGain       = "%sの%sが %s 増えた！"
-  EnemyLoss       = "%sの%sが %s 減った！"
-  EnemyDrain      = "%sの%sを %s 奪った！"
-  EnemyNoDamage   = "%sにダメージを与えられない！"
-  EnemyNoHit      = "ミス！　%sにダメージを与えられない！"
+  EnemyDamage     = "%s was dealt %s damage!"
+  EnemyRecovery   = "%s recovered %s %s!"
+  EnemyGain       = "%s gained %s %s!"
+  EnemyLoss       = "%s lost %s %s!"
+  EnemyDrain      = "Drained %s %s from %s!"
+  EnemyNoDamage   = "%s took no damage!"
+  EnemyNoHit      = "Miss! %s took no damage!"
 
   # 回避／反射
-  Evasion         = "%sは攻撃をかわした！"
-  MagicEvasion    = "%sは魔法をかわした！"
-  MagicReflection = "%sは魔法を跳ね返した！"
-  CounterAttack   = "%sの反撃！"
-  Substitute      = "%sが%sをかばった！"
+  Evasion         = "%s evaded the attack!"
+  MagicEvasion    = "%s avoided the magic!"
+  MagicReflection = "%s negated the magic!"
+  CounterAttack   = "%s counterattacked!"
+  Substitute      = "%s protected %s!"
 
   # 能力強化／弱体
-  BuffAdd         = "%sの%sが上がった！"
-  DebuffAdd       = "%sの%sが下がった！"
-  BuffRemove      = "%sの%sが元に戻った！"
+  BuffAdd         = "%s's %s went up!"
+  DebuffAdd       = "%s's %s went down!"
+  BuffRemove      = "%s's %s returned to normal!"
 
   # スキル、アイテムの効果がなかった
-  ActionFailure   = "%sには効かなかった！"
+  ActionFailure   = "%s wasn't affected!"
 
   # エラーメッセージ
   PlayerPosError  = "プレイヤーの初期位置が設定されていません。"

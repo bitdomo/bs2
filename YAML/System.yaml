@@ -12,7 +12,7 @@ elements:
 - 光
 - 闇
 - 出血２倍
-- ヘルブレス
+- Helbreath
 - 獣特攻
 - ジャバウォック特攻
 - スタン２倍
@@ -39,7 +39,7 @@ test_battlers:
   - 37
   - 155
 _: 7829367
-edit_map_id: 339
+edit_map_id: 324
 battle_end_me: !ruby/object:RPG::ME
   name: sei_ge_cowbell01
   pitch: 100
@@ -1103,7 +1103,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}
-version_id: 43239858
+version_id: 36162949
 start_map_id: 185
 battler_name: Skeleton
 magic_number: 77696160
@@ -2213,55 +2213,55 @@ gameover_me: !ruby/object:RPG::ME
   name: ''
   pitch: 100
   volume: 100
-game_title: BLACK SOULS Ⅱ
+game_title: BLACK SOULS II
 title_bgm: !ruby/object:RPG::BGM {name: タイトル, volume: 100, pitch: 100}
 terms: !ruby/object:RPG::System::Terms
   params:
-  - 最大ＨＰ
-  - 最大ＭＰ
-  - 攻撃力
-  - 防御力
-  - 魔力
-  - 魔法防御
-  - 素早さ
-  - 運
+  - MaxHP
+  - MaxMP
+  - ATK
+  - DEF
+  - MAG
+  - MDF
+  - SPD
+  - LCK
   etypes:
-  - 武器
-  - 盾
-  - 頭
-  - 身体
-  - 指輪
+  - Weapon
+  - Shield
+  - Head
+  - Body
+  - Ring
   commands:
-  - 戦う
-  - 逃走
-  - 攻撃
-  - 防御
-  - アイテム
-  - スキル
-  - 装備
-  - ステータス
+  - Fight
+  - Run
+  - Attack
+  - Guard
+  - Items
+  - Skills
+  - Equip
+  - Status
   - ''
-  - セーブ
-  - GAME END
+  - Save
+  - Quit
   - ''
-  - 武器
-  - 防具
-  - 大事なもの
-  - 装備変更
-  - 最強装備
-  - 全て外す
-  - NEW GAME
-  - CONTINUE
-  - END
-  - TITLE
-  - BACK
+  - Weapons
+  - Armors
+  - Key Items
+  - Equip
+  - Optimize
+  - Clear
+  - New Game
+  - Continue
+  - Quit
+  - To Title
+  - Cancel
   - ''
   basic:
-  - レベル
+  - Level
   - Lv
-  - ＨＰ
   - HP
-  - ＭＰ
+  - HP
+  - MP
   - MP
   - ''
   - ''
@@ -2275,7 +2275,7 @@ boat: !ruby/object:RPG::System::Vehicle
   start_map_id: 0
 skill_types:
 - ''
-- 技・魔法
+- Techniques
 weapon_types:
 - ''
 - 斧

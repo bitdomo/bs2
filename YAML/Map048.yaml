@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 屋根裏階段
+display_name: Stairs to the Attic
 tileset_id: 19
 width: 30
 height: 180
@@ -928,5 +928,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]セーブデータは分けておけ…。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Create a separate save...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

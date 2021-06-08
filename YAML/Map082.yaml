@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 食道
+display_name: Gullet
 tileset_id: 46
 width: 40
 height: 37
@@ -1199,7 +1199,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、擬態はないぞ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]No mimicry ahead.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
     id: 16
@@ -1414,8 +1414,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、落下があるぞ。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['つまり、梯子が重要だ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Fall ahead.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['In short, ladder required.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   18: !ruby/object:RPG::Event
     id: 18

@@ -1,8 +1,10 @@
 ---
 - 
 - !ruby/object:RPG::Item
-  description: "HPを50%回復する。篝火に触れる事で何度でも使える。\r\nハーブの香りこそ、この国の悪臭を誤魔化すには丁度いい。"
-  name: ハーブ瓶
+  description: |-
+    Restores 50% HP, can be refilled at bonfires.
+    The scent of herbs disguises the stench of this country.
+  name: Herb Flask
   consumable: true
   occasion: 0
   icon_index: 635
@@ -36,8 +38,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "MPを50%回復する。篝火に触れる事で何度でも使える。\r\n魔素を浴びて濁り切っている。まるで工場廃液に染まったキャロル川の様。"
-  name: ハーブ瓶M
+  description: |-
+    Restores 50% MP, can be refilled at bonfires.
+    Bathed in impure magic, tainted like the Carroll River.
+  name: Herb Flask (M)
   consumable: true
   occasion: 0
   icon_index: 636
@@ -71,8 +75,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを30%回復する。\r\n血を流せば死ぬ。狂人はその意味を理解せずによく血を流す。"
-  name: 輸血薬
+  description: |-
+    Recovers 30% of HP.
+    If you bleed, you die. Madmen often can't grasp that.
+  name: Blood Vial
   consumable: true
   occasion: 0
   icon_index: 649
@@ -106,8 +112,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "毒状態を治療する。\r\n生より天ぷらの方が美味しいと、誰かが言っていた気がする。"
-  name: 毒消し草
+  description: |-
+    Cures Poison. You're sure someone said deep-fried it
+    tastes much better than raw.
+  name: Antidote Herb
   consumable: true
   occasion: 0
   icon_index: 201
@@ -141,8 +149,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "出血状態を治療する。\r\n血を止める間もなく殺されるのだから無意味なのかもしれない。"
-  name: 出血止め
+  description: |-
+    Cures Bleeding.
+    Though it may be meaningless if you're killed soon after.
+  name: Blood Stanch
   consumable: true
   occasion: 0
   icon_index: 651
@@ -171,8 +181,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "発狂状態を治療する。\r\n最も畏怖するものが垣間見える時、これは必要になってくるだろう。"
-  name: 鎮静剤
+  description: |-
+    Treats Madness.
+    For when you glimpse what you fear most.
+  name: Sedative
   consumable: true
   occasion: 0
   icon_index: 664
@@ -201,8 +213,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "MPを30%回復する。\r\n少女が生卵嫌いでも、蛇は大好きさ。"
-  name: 鳩の卵
+  description: |-
+    Recovers 30% MP.
+    Girls hate raw eggs, but snakes love them.
+  name: Pigeon's Egg
   consumable: true
   occasion: 0
   icon_index: 299
@@ -231,8 +245,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "状態異常を解除し、HPとMPを完全に回復する。\r\nある女神が天より墜死し、吹き出た血で大地を潤わせた。"
-  name: 女神の血
+  description: |-
+    Restores all HP and MP and removes all ailments.
+    A goddess fell from heaven; her blood covered the earth.
+  name: Goddess' Blood
   consumable: true
   occasion: 0
   icon_index: 211
@@ -341,8 +357,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを上げる。\r\n緑色の実は退廃主の死によってソウルへと形作られた。"
-  name: 緑のソウル
+  description: |-
+    Raises Max HP.
+    Fruit formed into a soul by Lord of Corruption's death.
+  name: Green Soul
   consumable: false
   occasion: 2
   icon_index: 189
@@ -371,8 +389,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "MPを上げる。\r\n紫色の実は淫魔の血に染まりソウルへと形作られた。"
-  name: 紫のソウル
+  description: |-
+    Raises Max MP.
+    Fruit formed into a soul with the blood of the succubus.
+  name: Purple Soul
   consumable: false
   occasion: 2
   icon_index: 191
@@ -401,8 +421,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "攻撃力を上げる。\r\n赤色の実は骸骨将軍の憤怒によりソウルへと形作られた。"
-  name: 赤のソウル
+  description: |-
+    Raises Attack.
+    Fruit formed into a soul by the rage of the skeletal general.
+  name: Red Soul
   consumable: false
   occasion: 2
   icon_index: 187
@@ -431,8 +453,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "防御力を上げる。\r\n青色の実は犬の子の涙によりソウルへと形作られた。"
-  name: 青のソウル
+  description: |-
+    Raises Defense.
+    Fruit formed into a soul because of the tears of the puppy.
+  name: Blue Soul
   consumable: false
   occasion: 2
   icon_index: 188
@@ -461,8 +485,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "素早さを上げる。\r\n黄色の実は恐竜により踏み潰されソウルへと形作られた。"
-  name: 黄のソウル
+  description: |-
+    Raises Speed.
+    Fruit formed into a soul under the heavy feet of a dinosaur.
+  name: Yellow Soul
   consumable: false
   occasion: 2
   icon_index: 190
@@ -491,8 +517,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "魔力を上げる。\r\n桃色の実は灰かぶりによりソウルへと形作られた。"
-  name: 灰のソウル
+  description: |-
+    Raises Magic.
+    A pink fruit formed into a soul by a cover of ash.
+  name: Ashen Soul
   consumable: false
   occasion: 2
   icon_index: 186
@@ -521,8 +549,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "魔法防御を上げる。\r\n白の実は白竜の願いによりソウルへと形作られた。"
-  name: 白のソウル
+  description: |-
+    Raises Magic Defense.
+    Fruit formed into a soul by the White Dragon's wish.
+  name: White Soul
   consumable: false
   occasion: 2
   icon_index: 184
@@ -551,8 +581,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "運を上げる。\r\n四葉探しなんて白兎を探すのと一緒ね。 -アリス"
-  name: 四葉のソウル
+  description: |-
+    Raises Luck.
+    Searching is similar for clovers and white hares. -Alice
+  name: Four-Leaf Soul
   consumable: false
   occasion: 2
   icon_index: 202
@@ -581,8 +613,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "全ステータスを上げるが、SEN値が減少する。\r\n肉体が朽ちようとも魂は消えず。"
-  name: 黒のソウル
+  description: |-
+    Raises all parameters, but lowers SEN.
+    The body may rot, but the soul will never disappear.
+  name: Black Soul
   consumable: false
   occasion: 2
   icon_index: 185
@@ -611,8 +645,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "最後に休息した篝火へと帰る。\r\n少女と共に暖め合った火を思い出すといい。"
-  name: 帰還の骨粉
+  description: |-
+    Return to the last bonfire you rested at.
+    Remember the warm fire shared with the little girl.
+  name: Homeward Bonedust
   consumable: true
   occasion: 2
   icon_index: 339
@@ -641,8 +677,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "クールダウン中のスキルを短縮する。\r\n規律された白兎は裁判に遅刻するなど断じて無い。"
-  name: 兎の懐中時計
+  description: |-
+    Speeds up recovery for skills on cooldown.
+    The disciplined white rabbit is never late to a trial.
+  name: Rabbit's Pocket Watch
   consumable: true
   occasion: 1
   icon_index: 648
@@ -676,8 +714,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "身体に振りまく事で姿を消す。\r\n公爵夫人も、赤ん坊も、胡椒地獄でくしゃみの嵐。"
-  name: 見えざる胡椒
+  description: |-
+    Sprinkle it on your body to disappear.
+    The duchess and baby sneezed a storm due to this pepper.
+  name: Unseen Pepper
   consumable: true
   occasion: 2
   icon_index: 306
@@ -706,8 +746,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "何の役にも立たないゴミの塊。\r\nだが無駄な物こそ、使い道を見出そうとする者は必ずいるものだ。"
-  name: ゴミクズ
+  description: |-
+    A lump of garbage of no use whatsoever.
+    But there always will be those who try to find a use.
+  name: Rubbish
   consumable: false
   occasion: 3
   icon_index: 638
@@ -731,8 +773,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "戦闘中に使用する事で数ターンMPを回復し続ける。\r\n溢れる魔力に呑まれてしまえば、それも魔獣化への道となる。"
-  name: 魔石
+  description: |-
+    Gives MP Regen for a few turns in combat.
+    Sorcery is yet another path to becoming a demonbeast.
+  name: Magistone
   consumable: true
   occasion: 1
   icon_index: 341
@@ -761,8 +805,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを全回復し、亡者状態を解除する。\r\n愛しきアリスはどこにいる？ 早く彼女を見つけなければ。"
-  name: 少女の香り
+  description: |-
+    Restores all HP and removes Hollowing ailment.
+    Where is my dear Alice? I must find her soon.
+  name: Girl's Scent
   consumable: true
   occasion: 0
   icon_index: 448
@@ -796,8 +842,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "戦闘中に使用する事で敵１体を眠らせる。\r\n絶滅危惧種となった妖精の保護を求めます。 -妖精愛護委員会"
-  name: 妖精の燐粉
+  description: |-
+    Puts the target enemy to sleep in battle.
+    Our goal is the safety of fairies. -Fairy Protection Committee
+  name: Fairy Powder
   consumable: true
   occasion: 1
   icon_index: 365
@@ -826,8 +874,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 特別な武器を強化するための石。
-  name: 神秘の欠片
+  description: Ore used for reinforcing special weapons.
+  name: Mysterious Shard
   consumable: true
   occasion: 3
   icon_index: 347
@@ -851,8 +899,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 武器を強化するための石。
-  name: 強化石の欠片
+  description: Ore used for reinforcing weapons.
+  name: Ore Shard
   consumable: true
   occasion: 3
   icon_index: 343
@@ -876,8 +924,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 武器を強化するための石。
-  name: 強化石の大欠片
+  description: Ore used for reinforcing weapons.
+  name: Large Ore Shard
   consumable: true
   occasion: 3
   icon_index: 342
@@ -901,8 +949,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 武器を強化するための石。
-  name: 強化石の塊
+  description: Ore used for reinforcing weapons.
+  name: Ore Chunk
   consumable: true
   occasion: 3
   icon_index: 345
@@ -926,8 +974,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 武器を強化するための石。
-  name: 強化石の原盤
+  description: Ore used for reinforcing weapons.
+  name: Ore Slab
   consumable: true
   occasion: 3
   icon_index: 351
@@ -951,8 +999,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "爆発して炎属性ダメージを与える。\r\nいささかこの国は獣臭すぎる。炎で消毒したまえよ。"
-  name: 火炎壷
+  description: |-
+    Explodes and deals Fire damage.
+    This country stinks of beasts, let the flame cleanse it.
+  name: Firebomb
   consumable: true
   occasion: 1
   icon_index: 271
@@ -976,8 +1026,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵を毒状態にする。\r\nこの糞の塊を喰らったらバンダースナッチもたまったもんじゃない。"
-  name: 糞団子
+  description: |-
+    Poison the target enemy.
+    Even the Bandersnatch won't be able to endure eating it.
+  name: Dung Pie
   consumable: true
   occasion: 1
   icon_index: 348
@@ -1011,8 +1063,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、使用者に炎属性を付与する。\r\n獣や蠢く木など、炎を恐れる生物に特に有効となる。"
-  name: 炭松脂
+  description: |-
+    Gives Fire attribute to attacks for some time.
+    Works best on beasts, plants, all who fear the flame.
+  name: Charcoal Pine Resin
   consumable: true
   occasion: 1
   icon_index: 207
@@ -1046,8 +1100,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、使用者に雷属性を付与する。\r\n水棲生物や鳥など、雷を恐れる生物に特に有効となる。"
-  name: 黄金松脂
+  description: |-
+    Gives Lightning attribute to attacks for some time.
+    Works best on fish, birds, all who fear the thunder.
+  name: Gold Pine Resin
   consumable: true
   occasion: 1
   icon_index: 207
@@ -1076,8 +1132,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、使用者に闇属性を付与する。\r\n聖職者や魔法生物など、闇を恐れる敵に特に有効となる。"
-  name: 闇松脂
+  description: |-
+    Gives Dark attribute to attacks for some time.
+    Works best on clergy, magicals, all who fear the dark.
+  name: Dark Pine Resin
   consumable: true
   occasion: 1
   icon_index: 207
@@ -1106,8 +1164,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用により僅かなソウルを獲得する。
-  name: 消えかけのソウル
+  description: Use to gain a smattering of Souls.
+  name: Fading Soul
   consumable: true
   occasion: 2
   icon_index: 120
@@ -1136,8 +1194,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 捨てられた遺体のソウル
+  description: Use to acquire souls.
+  name: Soul of a Deserted Corpse
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1166,8 +1224,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 捨てられた遺体の大きなソウル
+  description: Use to acquire souls.
+  name: Large soul of a Deserted Corpse
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1196,8 +1254,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 故も知らぬ旅人のソウル
+  description: Use to acquire souls.
+  name: Soul of an Unknown Traveler
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1226,8 +1284,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 故も知らぬ旅人の大きなソウル
+  description: Use to acquire souls.
+  name: Large Soul of an Unknown Traveler
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1256,8 +1314,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 名も無き兵士のソウル
+  description: Use to acquire souls.
+  name: Soul of a Nameless Soldier
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1286,8 +1344,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 名も無き兵士の大きなソウル
+  description: Use to acquire souls.
+  name: Large Soul of a Nameless Soldier
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1316,8 +1374,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 力尽きた戦士のソウル
+  description: Use to acquire souls.
+  name: Soul of a Seasoned Warrior
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1346,8 +1404,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 力尽きた戦士の大きなソウル
+  description: Use to acquire souls.
+  name: Large Soul of a Seasoned Warrior
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1376,8 +1434,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 心折れた騎士のソウル
+  description: Use to acquire souls.
+  name: Soul of a Crestfallen Knight
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1406,8 +1464,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 心折れた騎士の大きなソウル
+  description: Use to acquire souls.
+  name: Large Soul of a Crestfallen Knight
   consumable: true
   occasion: 2
   icon_index: 119
@@ -1436,8 +1494,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵を猛毒状態にする。\r\nポケットにライ麦を詰めて歌うは街の唄。 -マザー・グース"
-  name: オレンジママレード
+  description: |-
+    Inflicts Deadly Poison on the target enemy.
+    "A Pocket Full of Rye" is the town's jam. -Mother Goose
+  name: Orange Marmalade
   consumable: true
   occasion: 1
   icon_index: 199
@@ -1466,8 +1526,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "どんな鍵も開けられる。\r\n魔術学院エルハイムで作られた、鍵穴に合わせて変化する魔法の鍵。"
-  name: 万能鍵
+  description: |-
+    Unlocks all locks.
+    A shapeshifting key crafted at Elheim's Academy of Magic.
+  name: Master Key
   consumable: true
   occasion: 3
   icon_index: 242
@@ -1491,8 +1553,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを70%回復するが…。\r\n私は区別はするが、差別はしない。-医師ブラックウェル"
-  name: ブラックウェルの輸血薬
+  description: |-
+    Restores 70% HP...
+    I distinguish, but I don't discriminate. -Doctor Blackwell
+  name: Blackwell's Blood Vial
   consumable: true
   occasion: 0
   icon_index: 649
@@ -1526,8 +1590,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "少女も夢中になってしまう美味しい飴。\r\n集めておくと何かいいことがあるかもしれない。"
-  name: キャンディー
+  description: |-
+    A delicious candy that even the girl goes crazy for.
+    Something nice may happen if you collect them.
+  name: Candy
   consumable: true
   occasion: 3
   icon_index: 340
@@ -1551,8 +1617,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵を油まみれにして、炎属性のダメージを増加させる。\r\nこんな使い方ではきっとコックが怒るに違いない。"
-  name: 油壷
+  description: |-
+    Inflicts Oiled on the target, increasing Fire damage taken.
+    The Cook is sure to get angry about this.
+  name: Oil Urn
   consumable: true
   occasion: 1
   icon_index: 223
@@ -1581,8 +1649,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "投擲用の小型ナイフ。\r\nダメージは使用者の素早さに依存する。"
-  name: 投げナイフ
+  description: |-
+    A small knife for throwing.
+    Its damage scales with the user's Speed.
+  name: Throwing Knife
   consumable: true
   occasion: 1
   icon_index: 384
@@ -1606,8 +1676,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵を虚弱状態にし、HP回復効果を阻害する。\r\nそれは不死を苦しめる為に自然進化した性悪な毒茸。"
-  name: 不死殺しのキノコ
+  description: |-
+    Inflicts Feeble on the enemy and inhibits HP recovery.
+    Wicked mushroom which evolved simply to torment undead.
+  name: Undead-Killer Shroom
   consumable: true
   occasion: 1
   icon_index: 305
@@ -1636,8 +1708,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "燃焼、油まみれ状態を解除する。\r\n汚染されていて飲めたものではない。"
-  name: 水
+  description: |-
+    Can be used to remove Oiled and Burning.
+    Polluted, it's no longer drinkable.
+  name: Water
   consumable: true
   occasion: 1
   icon_index: 193
@@ -1671,8 +1745,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "虚弱状態を解除する。\r\n子孫を作るのは暗黙の義務ですよ。-トカゲのビル"
-  name: 精力剤
+  description: |-
+    Removes Feeble ailment.
+    It's an unspoken duty to produce children. -Lizard Bill
+  name: Vigor Medicine
   consumable: true
   occasion: 0
   icon_index: 221
@@ -1701,8 +1777,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "最後に休息した篝火へと帰る。\r\n蛇神様はきっと貴方の拠り所になる筈ですよ。-トカゲのビル"
-  name: 帰還の蛇骨
+  description: |-
+    Return to the last bonfire you rested at.
+    The Serpent God will surely be your support. -Lizard Bill
+  name: Homeward Snakebone
   consumable: false
   occasion: 2
   icon_index: 324
@@ -1731,8 +1809,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、味方単体の魔法防御が上がる。\r\n腹部は膨れており、濁った瞳で此方を見つめている。"
-  name: 濁った魚
+  description: |-
+    Increase the target ally's Magic Defense for some time.
+    The abdomen is bloated and it stares with cloudy eyes.
+  name: Polluted Fish
   consumable: true
   occasion: 1
   icon_index: 292
@@ -1761,8 +1841,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、味方単体の魔力が上がる。\r\n愛しき少女にこれを贈ればどんな顔をするだろうか。"
-  name: 白くべたつく何か
+  description: |-
+    Increase the target ally's Magic for some time.
+    How would the dear little girl react to being given it?
+  name: Something White and Sticky
   consumable: true
   occasion: 1
   icon_index: 321
@@ -1791,8 +1873,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、味方単体の防御力が上がる。\r\nヘンゼルとグレーテルなら迷わず口にするだろう。"
-  name: 鉄クズのお菓子
+  description: |-
+    Increase the target ally's Defense for some time.
+    Hansel and Gretel would eat it without hesitation.
+  name: Scrap Iron Candy
   consumable: true
   occasion: 1
   icon_index: 329
@@ -1821,8 +1905,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、味方単体の素早さが上がる。\r\n強引に毟り取った羽だろう。触れてみれば今も悲鳴が聞こえてくる。"
-  name: 妖精の羽
+  description: |-
+    Increase the target ally's Speed for some time.
+    A forcibly plucked wing. Even now you can hear the screams.
+  name: Fairy's Wing
   consumable: true
   occasion: 1
   icon_index: 286
@@ -1851,8 +1937,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "発狂状態になる。\r\n翼ある貴婦人が好む蜂蜜酒。"
-  name: 黄金の蜂蜜酒
+  description: |-
+    Causes Madness.
+    The mead preferred by the winged lady.
+  name: Golden Mead
   consumable: true
   occasion: 0
   icon_index: 214
@@ -1881,8 +1969,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、味方単体の攻撃力が上がる。\r\n愛国心溢れる大工は、次第に狂気を失い、正気に触れたのだ。"
-  name: 大工の釘
+  description: |-
+    Increase the target ally's Attack for some time.
+    The Carpenter gradually lost his madness and went sane.
+  name: Carpenter's Screws
   consumable: true
   occasion: 1
   icon_index: 682
@@ -1911,8 +2001,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "SEN値が上昇する。\r\nどうぞお大事に。 "
-  name: 処方薬
+  description: |-
+    Raises your SEN.
+    Please take care of yourself.
+  name: Prescription Drugs
   consumable: false
   occasion: 2
   icon_index: 307
@@ -1941,8 +2033,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "SEN値が10減少する。\r\nああ、愛しき少女はこんな顔をしていただろうか？"
-  name: 少女の写真
+  description: |-
+    Decreases SEN by 10.
+    Ah, my dear, were you making such a face?
+  name: Girl's Photo
   consumable: false
   occasion: 2
   icon_index: 233
@@ -1971,8 +2065,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "落としたソウルを取り戻す。\r\nトランプ遊び？子供じゃないのよっ！ -心臓の女王ロリーナ"
-  name: 再思のトランプ
+  description: |-
+    Returns the souls you last dropped.
+    Playing cards? I'm not a child! -Queen of the Heart
+  name: Cards of Hindsight
   consumable: true
   occasion: 2
   icon_index: 228
@@ -2001,8 +2097,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを上げる。\r\nああ、愛しいぼうや達…。どこへ消えてしまったの？-山羊の母"
-  name: 山羊の肉
+  description: |-
+    Raises Max HP.
+    Ah, my dears...where did you vanish to? -Mother Goat
+  name: Goat Meat
   consumable: true
   occasion: 2
   icon_index: 291
@@ -2031,8 +2129,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを上げる。\r\n散乱した肉塊の一部。"
-  name: 妊婦ケーキの肉
+  description: |-
+    Raises Max HP.
+    One of the scattered parts of the torn body.
+  name: Flesh of Pregnant Cake
   consumable: true
   occasion: 2
   icon_index: 291
@@ -2061,8 +2161,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "手持ちのソウルを全て消費し、図書室の夢へと帰る。\r\n君は何度でも生まれ変わり、この物語を体験できるんだ。"
-  name: 黒の灰
+  description: |-
+    Consumes all held souls and returns to the Library Dream.
+    Revive as many times as you need to experience this tale.
+  name: Black Ash
   consumable: false
   occasion: 2
   icon_index: 357
@@ -2091,8 +2193,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 血がべっとりと付着した鍵。
-  name: 血塗れの鍵
+  description: A key thickly covered in blood.
+  name: Bloody Key
   consumable: true
   occasion: 3
   icon_index: 240
@@ -2116,8 +2218,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "サクランボタルトと、カスタードと、パイナップルと、七面鳥の丸焼きと、\r\nキャラメルと焼き立てのバター付トーストの混ざった様な味がする硝子瓶。"
-  name: 私をお飲み
+  description: |-
+    A glass bottle with a sort of mixed flavour of cherry-tart,
+    custard, pine-apple, roast turkey, toffee, and buttered toast.
+  name: Drink Me
   consumable: true
   occasion: 2
   icon_index: 219
@@ -2146,8 +2250,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 「やめてっ！食べないで！私まだ死にたくないっ！」
-  name: 私をお食べ
+  description: '"Stop! Don''t eat me! I don''t want to die yet!"'
+  name: Eat Me
   consumable: true
   occasion: 2
   icon_index: 637
@@ -2176,8 +2280,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "ウサギの国に入る為の鍵。\r\n勇士は兎達が悪夢から逃れられるよう、兎の楽園を築いた。"
-  name: 兎の鍵
+  description: |-
+    The key to enter the land of rabbits. The hero built a
+    paradise for rabbits to let them escape the nightmare.
+  name: Rabbit Key
   consumable: true
   occasion: 3
   icon_index: 653
@@ -2201,8 +2307,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\nあの小鳥を殺せば捧げたソウルを取り戻せるかもしれない。"
-  name: 黄金の卵
+  description: |-
+    Use to acquire souls.
+    Maybe if you kill the chick you'll get the souls back?
+  name: Golden Egg
   consumable: true
   occasion: 2
   icon_index: 639
@@ -2231,8 +2339,9 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "クイーン・ランド行きと書かれている。\r\n"
-  name: 列車の切符
+  description: |
+    It shows it's going to Queensland.
+  name: Train Ticket
   consumable: true
   occasion: 3
   icon_index: 239
@@ -2256,8 +2365,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 頭の緩い門兵もこれを掲げればおっかなびっくり！
-  name: 通行証
+  description: |-
+    Even the dim-witted gate guards will go timid once
+    you show it to them!
+  name: Gate Pass
   consumable: true
   occasion: 3
   icon_index: 238
@@ -2281,8 +2392,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを上げる。\r\n奴に教えちゃいけないよ、絶対内緒、秘密だよ。"
-  name: 女王のタルト
+  description: |-
+    Raises Max HP.
+    You mustn't tell. It's a secret, absolutely confidential!
+  name: Queen's Tarts
   consumable: true
   occasion: 2
   icon_index: 637
@@ -2311,8 +2424,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "恐怖状態を解除する。\r\nどんな光にも照らされざる暗闇が存在する。"
-  name: 蝋燭の燃えさし
+  description: |-
+    Removes Fear ailment.
+    There is darkness no light can illuminate.
+  name: Candle Embers
   consumable: true
   occasion: 0
   icon_index: 274
@@ -2341,8 +2456,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPとMPを上げる。\r\nラドウィッジ街はなんてチーズ臭いんだ！-鼠のパット"
-  name: 炙ったチーズ
+  description: |-
+    Raises Max HP and Max MP.
+    Cheesy stink all throughout Ludwidge City! -Pat the Rat
+  name: Roasted Cheese
   consumable: true
   occasion: 2
   icon_index: 301
@@ -2376,8 +2493,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPとMPを50%回復する。\r\n肉や魚もいらない、皆の希望さ美味しいスープ！"
-  name: ウミガメスープ
+  description: |-
+    Restores 50% HP and 50% MP.
+    No need for fish or meat, here's everyone's favorite soup!
+  name: Turtle Soup
   consumable: true
   occasion: 0
   icon_index: 208
@@ -2411,8 +2530,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "全ステータスを大幅に上げるが、SEN値が減少する。\r\nこの国は黒い魂が大量に溢れている！最高だね！-黒の車掌ハイン"
-  name: 穢れた黒のソウル
+  description: |-
+    Significantly raises all parameters, but lowers SEN.
+    Full of black souls! The greatest land! -Conductor Hein
+  name: Tainted Black Soul
   consumable: false
   occasion: 2
   icon_index: 185
@@ -2441,8 +2562,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "レベルを上げる。\r\nたとえ貴方が忘れ去っても少女の夢物語は終わらない。"
-  name: 夢のソウル
+  description: |-
+    Raises your level.
+    Even if you forget, the girl's dream never ends.
+  name: Dream Soul
   consumable: false
   occasion: 2
   icon_index: 557
@@ -2471,8 +2594,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "飲むと短い間、戦闘不能無効になる。\r\n血は狂気の表れであり、人であろうが獣であろうが皆平等に酔い狂わせる。"
-  name: 蛇神の血
+  description: |-
+    Provides immortality for a short time.
+    Brimming with madness, the blood will drive anyone insane.
+  name: Serpent God's Blood
   consumable: true
   occasion: 1
   icon_index: 197
@@ -2501,8 +2626,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 彼女が見つかった。
-  name: アリス
+  description: I didn't find her.
+  name: Alice
   consumable: false
   occasion: 2
   icon_index: 696
@@ -2526,8 +2651,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "MPを全回復する。\r\nバスケットの中に卵や色とりどりの果物が詰まっている。"
-  name: ビルのお弁当
+  description: |-
+    Completely restores MP.
+    There are eggs and colorful fruits packed inside.
+  name: Bill's Box Lunch
   consumable: true
   occasion: 0
   icon_index: 266
@@ -2556,8 +2683,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "全ステータスを大幅に上げるが、SEN値が上昇する。\r\n貴方と黒の魂を解ち合いたいの。-虚無の少女メイベル"
-  name: 外なる者のソウル
+  description: |-
+    Significantly raises all parameters, but increases SEN.
+    Let's solve the Black Soul together. -Mabel of Nihility
+  name: Soul of the Outer One
   consumable: false
   occasion: 2
   icon_index: 185
@@ -2586,8 +2715,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 英雄のソウル
+  description: Use to acquire souls.
+  name: Soul of a Champion
   consumable: true
   occasion: 2
   icon_index: 119
@@ -2616,8 +2745,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用によりソウルを獲得する。
-  name: 偉大な英雄のソウル
+  description: Use to acquire souls.
+  name: Soul of a Great Champion
   consumable: true
   occasion: 2
   icon_index: 119
@@ -2646,8 +2775,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPとMPを3000回復するが……。\r\n素敵なマッチ♪貴方にマッチ♪ -マッチ売りの少女"
-  name: マッチ薬
+  description: |-
+    Restores 3000 HP and MP...
+    Beautiful Match♪ A match for you♪ -Little Match Girl
+  name: Match Drug
   consumable: true
   occasion: 0
   icon_index: 216
@@ -2686,8 +2817,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "SEN値を調整できる。\r\n鳴り響いて病まない脳を轢き潰す歯車の音は、いずれ狂気を孕む。"
-  name: 狂気の歯車
+  description: |-
+    Can be used to adjust the value of SEN.
+    Rumbling of gears will birth insanity even in a sound mind.
+  name: Gear of Madness
   consumable: false
   occasion: 2
   icon_index: 559
@@ -2716,8 +2849,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "爆発して炎属性ダメージを与え、燃焼状態にする。\r\n毎晩襲い来る激しい悪夢が、私の創造性を開花させたのだ。"
-  name: 悪夢のランタン
+  description: |-
+    Explodes and deals Fire damage, applies Burning.
+    Every night a violent nightmare, my creativity blossoms.
+  name: Nightmare Lantern
   consumable: true
   occasion: 1
   icon_index: 272
@@ -2746,8 +2881,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを上げる。\r\n油でべとべとになっている肉。"
-  name: チキン
+  description: |-
+    Raises Max HP.
+    Meat sticky with oil.
+  name: Chicken
   consumable: true
   occasion: 2
   icon_index: 291
@@ -2776,8 +2913,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを上げる。\r\nトリニクンの一生は寒冷の地で終え、私たちの元へ届けられた。"
-  name: クリスマスチキン
+  description: |-
+    Raises Max HP.
+    Chikerost perished in a cold land and was delivered to us.
+  name: Christmas Chicken
   consumable: true
   occasion: 2
   icon_index: 291
@@ -2806,8 +2945,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを上げる。\r\n…本当に食べてしまうのか？"
-  name: 得体の知れない肉
+  description: |-
+    Raises Max HP.
+    ...Are you sure you want to eat this?
+  name: Suspicious Meat
   consumable: true
   occasion: 2
   icon_index: 291
@@ -2836,8 +2977,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "ビクビクとのたうち回っている立派な一物。\r\n使用により白くべたつく何かを獲得する。最悪だ。"
-  name: 色情魔の一物
+  description: |-
+    A splendid tool, still twitching and writhing.
+    Produces something white and sticky on use. Just awful.
+  name: Lust Demon's Member
   consumable: true
   occasion: 2
   icon_index: 762
@@ -2866,8 +3009,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "沈黙状態を解除する。\r\n海の魔女が喉笛ごと刈り取った美しき人魚の歌声。"
-  name: 人魚の歌声
+  description: |-
+    Breaks silence.
+    Mermaid's voice harvested by Sea Witch, windpipe included.
+  name: Mermaid's Voice
   consumable: true
   occasion: 0
   icon_index: 118
@@ -2896,8 +3041,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "混沌ダンジョンから帰還する。\r\n古王の血脈は絶大な力を得たが、何れも「暴君」と化し身を亡ぼした。"
-  name: 古王の骨粉
+  description: |-
+    Return from the Chaos Dungeon.
+    Old King's bloodline boasted power and despotic madness.
+  name: Old King's Bonedust
   consumable: true
   occasion: 2
   icon_index: 332
@@ -2926,8 +3073,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "混沌ダンジョンでのみ使用可能。現階層をスキップする。\r\n修羅場を駆け巡り生存の道を歩んだリスの尻尾。今や行方は知れぬまま。"
-  name: リスの毛
+  description: |-
+    Only available in the Chaos Dungeon. Skip the current level.
+    The tail of the lost squirrel who walked the path of carnage.
+  name: Squirrel Fur
   consumable: true
   occasion: 2
   icon_index: 323
@@ -2956,8 +3105,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、使用者に氷属性を付与する。\r\n炎棲生物や竜など、氷を恐れる生物に特に有効となる。"
-  name: 氷松脂
+  description: |-
+    Gives Ice attribute to attacks for some time.
+    Works best on the flameborn, dragons, all who fear the cold.
+  name: Frigid Pine Resin
   consumable: true
   occasion: 1
   icon_index: 207
@@ -2986,8 +3137,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵に投げつけて10の固定ダメージを与え、出血状態にする。\r\n脳を切開し、星を植え付ける施術により、彼らは死を克服する。"
-  name: 手術刀
+  description: |-
+    Inflict 10 fixed damage and bleeding on the target enemy.
+    Through trepanation and star implantation, they conquered death.
+  name: Scalpel
   consumable: true
   occasion: 1
   icon_index: 748
@@ -3016,8 +3169,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "飲むと-90%割合ダメージ受けるが、短い間、戦闘不能無効になる。\r\n扉の無い箱庭には漂流者が流れ着く。中には外なる者も混じるようだ。"
-  name: 星水
+  description: |-
+    Take 90% of HP as damage and become Immortal for a short time.
+    Drifters wash up on the gateless Garden. Mortal and Outer ones alike.
+  name: Star Fluid
   consumable: true
   occasion: 1
   icon_index: 215
@@ -3051,8 +3206,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "戦闘中に使用する事で数ターンHPを回復し続ける。\r\n狂信的な患者は医学の正しさを証明する為に、自ら病に冒される。"
-  name: 臓液
+  description: |-
+    Gives HP Regen for a few turns in combat.
+    To prove the cure right, fanatical patients would infect themselves.
+  name: Preserved Viscera
   consumable: true
   occasion: 1
   icon_index: 196
@@ -3081,8 +3238,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、味方単体の運が上がる。\r\n世界中を飛び廻る蒼い鳥。全ては主の為に、その爪で題材どもを搔っ攫う。"
-  name: 蒼鳥の羽根
+  description: |-
+    Increase the target ally's Luck for some time.
+    It flies across the world, snatching themes for its master.
+  name: Blue Bird's Feather
   consumable: true
   occasion: 1
   icon_index: 336
@@ -3111,8 +3270,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "味方全体を長い間、回避状態にする。\r\nまさか、怒り狂った男の拳が飛んでくるとは夢にも思わなかっただろう。"
-  name: ティンカーベルの燐粉
+  description: |-
+    Activates Dodge for all allies for a long time.
+    She never thought the fist of an angry man would fly at her.
+  name: Tinker Bell's Powder
   consumable: true
   occasion: 1
   icon_index: 365
@@ -3141,8 +3302,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体に闇属性ダメージを与え、90%の確率で即死させる。\r\nいわくつきの占いボード。"
-  name: ヴィジャ盤
+  description: |-
+    Inflict Dark damage on all enemies with a 90% chance to Kill.
+    An old board with a dark history.
+  name: Ouija Board
   consumable: true
   occasion: 1
   icon_index: 256
@@ -3171,8 +3334,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、味方単体のHPとMPが上がる。\r\n劇作家愛用のペンの一つ。先端が欠けており、何も書く事が出来ない。"
-  name: ロルドの万年筆
+  description: |-
+    Increase the target ally's HP and MP for some time.
+    One of the playwright's favorite pens. Chipped, it can't write.
+  name: Lorde's Fountain Pen
   consumable: true
   occasion: 1
   icon_index: 776
@@ -3206,8 +3371,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵単体の防御力と魔法防御を下げる。ターンを消費しない。\r\nお喋りが過ぎた花は首を切られたが、今度は恨み言を呟き始めた。"
-  name: 呪言の花
+  description: |-
+    Reduce DEF and MDF of the target enemy. Doesn't spend a turn.
+    Dismissed for being a chatterbox, the flower now mutters curses.
+  name: Curse Blossom
   consumable: true
   occasion: 1
   icon_index: 314
@@ -3241,8 +3408,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体に氷属性ダメージを与え、凍瘡状態にする。\r\nどこか冷たい谷に吹雪くという雪結晶。"
-  name: 冷谷の息吹
+  description: |-
+    Inflict Ice damage and Frostbite on all enemies.
+    A crystal said to call blizzards deep in the Frozen Valley.
+  name: Frozen Valley's Breath
   consumable: true
   occasion: 1
   icon_index: 97
@@ -3271,8 +3440,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "行動回数追加+100%　何度でも使える。\r\n交易都市フラニスで造られる美酒。"
-  name: フラニス酒
+  description: |-
+    Gain a Bonus Action until the end of combat. Not consumed on use.
+    Excellent wine from the trading city Hlanith.
+  name: Hlanith Wine
   consumable: false
   occasion: 1
   icon_index: 308
@@ -3301,8 +3472,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "数ターン発狂状態になり、MP消費率が0になる。\r\n外なる者の存在を書き綴った魔道書。"
-  name: ネクロノミコン
+  description: |-
+    Embrace Madness and reduce mana costs to 0 for several turns.
+    A grimoire chronologizing the existence of the Outer Ones.
+  name: Necronomicon
   consumable: true
   occasion: 1
   icon_index: 372
@@ -5111,8 +5284,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "曇りなき手鏡。見覚えのある者が映っている\r\n回想部屋に新たな姿が追加される。"
-  name: 南瓜の手鏡
+  description: |-
+    A clear hand-mirror. You see someone you know.
+    Adds a new person to the room of reminiscence.
+  name: Pumpkin's Hand-Mirror
   consumable: false
   occasion: 3
   icon_index: 283
@@ -5136,8 +5311,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "曇りなき手鏡。見覚えのある者が映っている\r\n回想部屋に新たな姿が追加される。"
-  name: 探偵の手鏡
+  description: |-
+    A clear hand-mirror. You see someone you know.
+    Adds a new person to the room of reminiscence.
+  name: Detective's Hand-Mirror
   consumable: false
   occasion: 3
   icon_index: 283
@@ -5161,8 +5338,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "曇りなき手鏡。見覚えのある者が映っている\r\n回想部屋に新たな姿が追加される。"
-  name: 黒兎の手鏡
+  description: |-
+    A clear hand-mirror. You see someone you know.
+    Adds a new person to the room of reminiscence.
+  name: Black Rabbit's Hand-Mirror
   consumable: false
   occasion: 3
   icon_index: 283
@@ -5186,8 +5365,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "曇りなき手鏡。見覚えのある者が映っている\r\n回想部屋に新たな姿が追加される。"
-  name: 少女の手鏡
+  description: |-
+    A clear hand-mirror. You see someone you know.
+    Adds a new person to the room of reminiscence.
+  name: Girl's Hand-Mirror
   consumable: false
   occasion: 3
   icon_index: 283
@@ -5261,8 +5442,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "とある童話の切れ端。\r\n全部で3つあるようだ。"
-  name: 童話の切れ端1
+  description: |-
+    One scrap of a certain tale.
+    There appear to be three in all.
+  name: Fairy Tale Scrap One
   consumable: true
   occasion: 3
   icon_index: 236
@@ -5286,8 +5469,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "とある童話の切れ端。\r\n全部で3つあるようだ。"
-  name: 童話の切れ端2
+  description: |-
+    One scrap of a certain tale.
+    There appear to be three in all.
+  name: Fairy Tale Scrap Two
   consumable: true
   occasion: 3
   icon_index: 236
@@ -5311,8 +5496,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "とある童話の切れ端。\r\n全部で3つあるようだ。"
-  name: 童話の切れ端3
+  description: |-
+    One scrap of a certain tale.
+    There appear to be three in all.
+  name: Fairy Tale Scrap Three
   consumable: true
   occasion: 3
   icon_index: 236
@@ -5361,8 +5548,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "ランプを灯すもの。\r\n光掲げる貴婦人は患者たちの希望である。灯りさえ、崇拝の対象なのだ。"
-  name: ランプの種火
+  description: |-
+    Used to light lamps. The lady with the lamp is the patients'
+    salvation. Even the light itself becomes an object of worship.
+  name: Lamp Spark
   consumable: false
   occasion: 2
   icon_index: 609
@@ -5386,8 +5575,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "フローレンスという女性に宛てた手紙。\r\n震えた文字で書かれているが、綺麗に読み取れる筆跡だ。"
-  name: ブラックウェルの手紙
+  description: |-
+    A letter addressed to a woman named Florence. Though written in
+    a trembling script, its handwriting is undoubtedly beautiful.
+  name: Blackwell's Letter
   consumable: false
   occasion: 2
   icon_index: 235
@@ -5461,8 +5652,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "アライグマの巣穴を見つけ、掘り起こす傲慢な少年。\r\n中から出てきたのは体長３０メートルある残虐嗜好持ちの魔獣でした。"
-  name: 童話【遥かなる我がラスカル】
+  description: |-
+    An arrogant boy found and dug up a raccoon's burrow.
+    Inside he found a 30-meters long cruel demonbeast.
+  name: Fairy Tale [Rascal]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5486,8 +5679,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "あの木に実っている葡萄は酸っぱくてまずいに違いない。\r\n収穫の季節が来れば苦渋に満ちた奴の顔が見れる。それまで護ってやろう。"
-  name: 童話【すっぱい葡萄】
+  description: |-
+    This grape is surely sour. With the harvest I'll get to
+    see his bitter expression. Until then I'll protect it.
+  name: Fairy Tale [The Fox and The Grapes]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5536,8 +5731,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "醜い彼は家族を失い、当てもなくひたすら戦場をくぐってきた。\r\n本当に彼が望むのは闘争ではなく永遠の安らぎなのかもしれない。"
-  name: 童話【醜いアヒルの子】
+  description: |-
+    His family lost, he aimlessly wandered many battlefields.
+    Perhaps what he wanted was not war but the eternal peace.
+  name: Fairy Tale [The Ugly Duckling]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5561,8 +5758,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "「誰が一番トベるか勝負しようじゃないか」\r\nノミとバッタと玩具のカエルは薬物中毒でお空まで飛んでいきました。"
-  name: 童話【とびっこ】
+  description: |-
+    "Let's see who among us will soar the highest!"
+    Flea, Grasshopper, and Skipjack jumped on drugs.
+  name: Fairy Tale [The Jumper]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5586,8 +5785,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "ぺろり！悪い狼は山羊達を一匹残らず食べてしまいましたが。\r\n満腹も束の間、お腹の中で山羊達は繁殖し無事に脱出できましたとさ。"
-  name: 童話【狼と×匹の子山羊】
+  description: |-
+    The bad wolf gobbled goats to the last.The goats
+    bred even inside his belly and erupted to safety.
+  name: Fairy Tale [Wolf and ××× Young Goats]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5636,8 +5837,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "神の声を聴いたなどという無学な農夫の娘の訴えに耳を貸してはならぬ。\r\nジャンヌこそ異教の魔女であり、悪魔の賜物なのだ。"
-  name: 伝話【ジャンヌダルク】
+  description: |-
+    Ignore the words of a farmer's daughter claiming to hear
+    the voice of God. Jeanne is a witch, the devil's lackey.
+  name: Folk Tale [Jeanne d'Arc]
   consumable: true
   occasion: 3
   icon_index: 369
@@ -5661,8 +5864,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "兄妹の両親は冷酷だった。愛情の欠片もなかった。\r\n虐待と口減らしに耐え切れず、遂に二人は両親を殺害してしまった。"
-  name: 童話【ヘンゼルとグレーテル】
+  description: |-
+    The siblings' parents were cruel. They received no love.
+    Unable to take it, at last the two murdered the parents.
+  name: Fairy Tale [Hansel and Gretel]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5686,8 +5891,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "己の武勇伝を自我の礎とし、呼び止める家族を見捨ててまで、\r\n彼は冒険を求めた。それは、異常な探究心に似た何かだろう。"
-  name: 童話【シンドバッドの冒険】
+  description: |-
+    His saga the foundation of his ego, he seeked adventure
+    at all costs. Inquisitiveness turned into obsession.
+  name: Fairy Tale [Adventures of Sinbad]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5711,8 +5918,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "不運な泥棒たち。演奏を聴いてしまった彼らの身体は吹き飛んだ。\r\nますます自信が付いた音楽隊はこの世に名を広めようと誓った。"
-  name: 童話【ブレーメンの音楽隊】
+  description: |-
+    Unlucky thieves. The performance blown them to pieces.
+    Now confident, the musicians set to take on the world.
+  name: Fairy Tale [Musicians of Bremen]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5736,8 +5945,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "地中に沈んだ戦争兵器は再び目を覚まし、眩しい太陽の下に現れた。\r\nハンスは人類の本質的な攻撃性を完璧に具現化した存在であった。"
-  name: 童話【鉄のハンス】
+  description: |-
+    The weapon of war awakened and came from the depths once
+    more. Hans is the perfect avatar of human aggression.
+  name: Fairy Tale [Iron Hans]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5761,8 +5972,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "老犬は最愛のご主人を捕食した事も忘れてしまい、\r\nネロに似た男の子を見つけては手当たり次第、胃袋へ招待していたとさ。"
-  name: 童話【フランダースの犬】
+  description: |-
+    Forgetting that he preyed on his beloved master, the old
+    dog invited boys resembling Nero to his stomach too.
+  name: Fairy Tale [Dog of Flanders]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5786,8 +5999,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "彼女は立派に殉教したとされるが、実際は死の恐怖に酷く怯えていた。\r\nそんな情けない話、世に伝えるわけにはいかないだろう。"
-  name: 伝話【サンドリアの聖女】
+  description: |-
+    A fine martyr on words, in truth, she dreaded death.
+    Such miserable tale is not one to be told to the world.
+  name: Folk Tale [Saint of Alexandria]
   consumable: true
   occasion: 3
   icon_index: 369
@@ -5811,8 +6026,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "心優しい王子様はたった一つの友達である薔薇を輝かせる為に、\r\n他の惑星の薔薇を滅ぼそうと小隕石となり夜空を旅しているそうです。"
-  name: 童話【星の王子様】
+  description: |-
+    For his only friend, the rose, to shine, the kind prince
+    traveled the sky, destroying the roses of other worlds.
+  name: Fairy Tale [The Little Prince]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5836,8 +6053,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "にゃんにゃん、ぼくらは騎士だぞ。仲間はみんないなくなったにゃん。\r\nでも寂しくないにゃん。ぼくには鎧がいるから　にゃん。"
-  name: 童話【鎧を履いた騎士】
+  description: |-
+    Meow-meow, we're a knight. All my friends are gone, meow.
+    But I'm not lonely, meow. For I have my armor on, meow.
+  name: Fairy Tale [Knight in Armor]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5861,8 +6080,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "民衆を皆殺しにした王様は代わりに自分と同じロバを移住させた。\r\nそして遂にロバの王国が誕生したが、繁栄せずに滅び去ったという。"
-  name: 童話【王様の耳はロバの耳】
+  description: |-
+    A similar donkey replaced the murderous king. Kingdom
+    of Donkey was born, but fell to ruin without prospering.
+  name: Fairy Tale [The King with Donkey Ears]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5886,8 +6107,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "永遠の少年は失恋をしてしまった。愛が伝わらなければどうすればいい？\r\nそうだ、ネバーランドへ連れて行こう！"
-  name: 童話【ピーター・パン】
+  description: |-
+    The eternal boy's heart was broken. What to do if his
+    love was unrequited? Right, I'll take her to Neverland!
+  name: Fairy Tale [Peter Pan]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5911,8 +6134,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "狡賢い猿は柿を奪い、母蟹を殺害した。\r\nやがて母蟹の死骸から赤子が産まれ、復讐の産声を上げた。"
-  name: 童話【さるかに合戦】
+  description: |-
+    A sly monkey stole persimmons and killed the mother crab.
+    From the corpse came a baby, its first cry one of revenge.
+  name: Fairy Tale [The Crab and The Monkey]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5936,8 +6161,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "竜巻に吹き飛ばされた家は地面に落下。\r\n中身はばらばらのぐちゃぐちゃになりました。"
-  name: 童話【オズの魔法使い】
+  description: |-
+    A house was blown by a tornado, and fell onto the
+    earth. All that was inside turned into a soppy mess.
+  name: Fairy Tale [Wizard of Oz]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5961,8 +6188,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "真冬の夜。雑踏に蹴られる哀れなマッチ売りの少女。\r\n理不尽な世を呪い、民家に火を放って心と身体を暖めた。"
-  name: 童話【マッチ売りの少女】
+  description: |-
+    Midwinter night. A poor match-seller kicked in a crowd.
+    Cursing the world, she set a house aflame to warm herself.
+  name: Fairy Tale [The Little Match Girl]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -5986,8 +6215,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "黄金の卵を産むガチョウの腹を裂いてしまえばなんと、\r\n血に混じった金！金！金！農夫は狂った様に笑い出す！"
-  name: 童話【ガチョウと黄金の卵】
+  description: |-
+    Cut the belly of the goose that lays golden eggs, and
+    you find Gold! Gold! Gold! The farmer cackled like mad!
+  name: Fairy Tale [Goose That Laid Golden Eggs]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6011,8 +6242,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "水面に映る醜い犬はにたりとした笑みでこう言う。\r\n「欲張る事は決して損じゃない。その牙で奪い尽くすのだ！」"
-  name: 童話【欲張りな犬】
+  description: |-
+    The reflection of the ugly dog smirked and said:
+    "Greed is never wrong. Take it all with your fangs!"
+  name: Fairy Tale [The Dog and The Shadow]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6036,8 +6269,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "「うんとこしょ、どっこいしょ」おじいさんとおばあさんと孫娘と犬と猫と鼠と\r\nヒロインと王と国民全員を巻き込んでそのカブは巨大な塊となった。"
-  name: 童話【大きなカブ】
+  description: |-
+    "Heave! Hoh!" Grandpa, Grandma, Daughter, Dog, Cat, Rat,
+    Heroine, King, and everyone were swallowed by Turnip.
+  name: Fairy Tale [The Gigantic Turnip]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6061,8 +6296,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "騙し騙され、殺し殺され、復讐が復讐を産むそんな世の中だ。\r\nいっそ燃えて無くなればいい。泥舟と共に沈む狸はそう悟った。"
-  name: 童話【かちかち山】
+  description: |-
+    Kill or be killed, cheat or be cheated. I'd rather
+    burn. The raccoon sinking with a boat so realized.
+  name: Fairy Tale [Mt. Kachi Kachi]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6086,8 +6323,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "親父は神に祈りを捧げて無様にもその神に利用された。\r\nオレは絶対に親父の跡を追ってたまるか。"
-  name: 童話【因幡の黒ウサギ】
+  description: |-
+    My father offered prayers to God and was used and discarded.
+    Is there no way for me but to follow in his footsteps?
+  name: Fairy Tale [Black Rabbit of Inaba]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6111,8 +6350,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "彼の美貌は男女問わずあらゆる者を虜にし、沢山の愛人をはべらせた。\r\n大股のロビンと呼ばれた彼の生涯は、嫉妬に狂った女の手により幕を閉じた。"
-  name: 童話【ロビン・フッド】
+  description: |-
+    His good looks captivated all, many were his lovers.
+    He, called Robin of large groin, died to jealousy.
+  name: Fairy Tale [Robin Hood]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6136,8 +6377,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "私の理想の妻は犯しても殺しても探しても見つからない。\r\n望むのは金色の髪に…蒼色の瞳…神に愛されし白い肌だ…。"
-  name: 童話【青ひげ】
+  description: |-
+    Raping, killing, searching, can't find my perfect wife.
+    Golden hair, azure eyes, God-blessed white skin...
+  name: Fairy Tale [Bluebeard]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6161,8 +6404,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "あいつのいつまでも続く沈黙と伸ばされた腕は、\r\n僕たちを怯えさせながら同時に安楽にもさせた……………。"
-  name: 童話【あしながおじさん】
+  description: |-
+    His never-ending silence and far-too-long arms were
+    frightening, yet also comforting to us.........
+  name: Fairy Tale [Daddy-Long-Legs]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6186,8 +6431,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "男娼として売られた少年は精神を病み、「狼が来たぞ」と騒ぎを起こした。\r\n店主は少年の虚言を信じなかった。ベッドの上の客の死骸を見るまでは。"
-  name: 童話【狼少年】
+  description: |-
+    A boy sold into a brothel went mad and yelled, "The wolf
+    has come!". None believed, until a corpse under his bed.
+  name: Fairy Tale [Boy Who Cried Wolf]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6211,8 +6458,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――\r\n――――――――――――――――――――――今までごめんなさいね。"
-  name: 伝話【エリザベート・バートリー】
+  description: |-
+    ————————————————————————————————————————————————————————————
+    ——————————————Forgive me for what I've done.
+  name: Folk Tale [Elizabeth Bathory]
   consumable: true
   occasion: 3
   icon_index: 370
@@ -6236,8 +6485,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "君ガ僕達ニシタ事ヲ僕ラハ決シテ忘レナイヨ、クリストファー・ロビン。\r\n大人ニ成ッテモ逃ガサナイ。"
-  name: 童話【クマのプーさん】
+  description: |-
+    WE WILL NEVER FORGET THE THINGS YOU DID TO US,
+    CHRISTOPHER ROBIN. ADULTHOOD IS NO ESCAPE.
+  name: Fairy Tale [Pooh Bear]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6261,8 +6512,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "解体された身体、魂が無理矢理縫い付けられて人形にされる。\r\n記憶を辿れば、あの身勝手な神を恨むのは当然だ。"
-  name: 童話【ピノッキオ】
+  description: |-
+    Dissected corpses and souls sewn together into a puppet.
+    Looking back, it's natural you hate that selfish god.
+  name: Fairy Tale [Pinocchio]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6286,8 +6539,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "美しい聲で唄を奏でる小鳥♪王族や貴族にも賞賛されていた♪\r\n硝子細工の小鳥が複製され、彼女は捨てられた。もう誰にも唄は届かない。"
-  name: 童話【ナイチンゲール】
+  description: "What voice the nightingale has♪ To charm the most noble class♪\r\nCast aside, remade in glass♪    Now her song is but a past♪"
+  name: Fairy Tale [Nightingale]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6337,7 +6590,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: 童話【　　　　】
+  name: Fairy Tale [              ]
   consumable: true
   occasion: 3
   icon_index: 369
@@ -6361,8 +6614,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "私の愛は文字や挿絵では表現できない。閉ざされた純白の世界で二人きり。\r\n 誰にも邪魔できない　これからもずっと　私の傍に もういかさないから"
-  name: 童話【雪の女王】
+  description: |-
+    No words or paintings can express my love. A pure-white world
+    only for the two of us. Forevermore you must stay by my side.
+  name: Fairy Tale [The Snow Queen]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6386,8 +6641,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: -カラスの背に乗ったゲルダの挿絵が描かれている。
-  name: 童話【雪の少女】
+  description: -There's an illustration of Gerda riding on a crow's back.
+  name: Fairy Tale [The Snow Girl]
   consumable: true
   occasion: 3
   icon_index: 368
@@ -6411,8 +6666,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "怪奇現象、人為的な詐術、武勇伝を書き纏めた創造の宝庫。\r\n友人達と食卓を囲み、最後に締めくくる言葉は『さあ、帰りたまえ』"
-  name: カーナッキの手帳
+  description: |-
+    A treasure trove of tales of bizarre phenomena and manmade hoaxes.
+    For a dinner with friends, a nice talk, and a final "Out you go!".
+  name: Carnacki's Notebook
   consumable: true
   occasion: 3
   icon_index: 226
@@ -7436,8 +7693,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n邪竜の呪いにより嘗ての勇士の面影は無く、屍肉を貪る白獣の姿のみ。"
-  name: 首狩り獣のソウル
+  description: |-
+    Use to acquire souls. By the dragon's curse the hero had
+    vanished, and only a corpse-feasting white beast remained.
+  name: Soul of the Head-Hunting Beast
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7466,8 +7725,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n父母と引き離された醜いアグガギは憂さ晴らしに弱者を虐め始めた。"
-  name: 憂さ晴らしのソウル
+  description: |-
+    Use to acquire souls. Torn from his parents, the ugly Uggug
+    turned to tormenting the weak to distract himself.
+  name: Soul of Distraction
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7496,8 +7757,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n近親交配によって出来た子のほとんどは早死にするそうだ。"
-  name: 妊婦のソウル
+  description: |-
+    Use to acquire souls.
+    Inbred offspring tend to die prematurely.
+  name: Soul of the Pregnant Cake
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7526,8 +7789,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\nそして、笑いと歓声がほとばしり続けた。そして、不吉な一言「ブー――」。"
-  name: 呼鐘のソウル
+  description: |-
+    Use to acquire souls. Then followed a torrent of laughter
+    and cheers. Then the ominous words, "It's a Boo—"
+  name: Soul of the Bellcaller
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7556,8 +7821,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\nすこぶるつきの阿呆は専門家の教え通り、ビーバーの皮を剥いで愛し合った。"
-  name: 獣被りのソウル
+  description: |-
+    Use to acquire souls.
+    The idiot skinned the Beaver in lust, just as taught.
+  name: Soul of the Butcher
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7586,8 +7853,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n三女イーディス・リデルは王子様の夢を見た。"
-  name: 大鷲のソウル
+  description: |-
+    Use to acquire souls.
+    The third daughter, Edith Liddell, dreamed of the prince.
+  name: Soul of the Gray Eagle
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7616,8 +7885,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n小さな可愛い鰐さんが、尻尾を磨いてにっこにこ。"
-  name: 己惚れのソウル
+  description: |-
+    Use to acquire souls. How doth the little crocodile improves
+    his shining tail, how cheerfully he seems to grin.
+  name: Soul of Conceit
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7646,8 +7917,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n大量の娼婦を殺害し、それを正当化する彼はまさに狂人といえよう。"
-  name: ジャックのソウル
+  description: |-
+    Use to acquire souls. The one who justifies a mass-murder of
+    prostitutes can certainly be called a madman.
+  name: Soul of Jack
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7676,8 +7949,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n一介の数学教師が娘に恋だと？馬鹿げている。"
-  name: 学寮長のソウル
+  description: |-
+    Use to acquire souls.
+    A mere math teacher in love with my daughter? You jest.
+  name: Soul of the Dean
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7706,8 +7981,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\nきらきらコウモリ、お空は曇り。"
-  name: 輝星のソウル
+  description: |-
+    Use to acquire souls.
+    Twinkle, twinkle, little bat, how I wonder what you're at!
+  name: Soul of the Bright Star
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7736,8 +8013,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\nウィリアム父さん、もう年だよ。怒りボケで息子を斬り潰した。"
-  name: 老騎士のソウル
+  description: |-
+    Use to acquire souls. "You are old, father William."
+    But the angry fool cut down his son.
+  name: Soul of the Old Knight
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7766,8 +8045,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n不思議の国の建築家、その大工が造り上げた生きた建造物。"
-  name: 巨人の家のソウル
+  description: |-
+    Use to acquire souls.
+    Architect of Wonderland, the Carpenter, built a living home.
+  name: Soul of the Giant's Home
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7796,8 +8077,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n愛と美を追求する騎士であったが、梅毒に感染し魔獣となった。"
-  name: ハートの騎士のソウル
+  description: |-
+    Use to acquire souls. A knight seeking love and beauty,
+    turned demonbeast by syphilis.
+  name: Soul of the Knight of Hearts
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7826,8 +8109,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n誠実な騎士であったが、想い人に裏切られ魔獣となった。"
-  name: スペードの騎士のソウル
+  description: |-
+    Use to acquire souls. A sincere knight, turned demonbeast
+    by the betrayal of his beloved.
+  name: Soul of the Knight of Spades
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7856,8 +8141,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n怪力自慢な騎士であったが、筋弛緩剤を盛られ魔獣となった。"
-  name: クラブの騎士のソウル
+  description: |-
+    Use to acquire souls. A knight boasting superhuman strength,
+    turned demonbeast by muscle-relaxant poisoning.
+  name: Soul of the Knight of Clubs
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7886,8 +8173,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n彼は道化役であり、自分の子の顔が判らぬ愚か者である。"
-  name: 奴隷帝のソウル
+  description: |-
+    Use to acquire souls. A ridiculous character, he was a
+    fool who didn't even know the face of his own child.
+  name: Soul of the Slave Emperor
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7916,8 +8205,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n溺愛する娘メアリィ・アンの為に彼女は自分の全人生を捧げた。"
-  name: 奴隷后のソウル
+  description: |-
+    Use to acquire souls. Content to spend all her
+    time doting over her daughter, Mary Ann.
+  name: Soul of the Slave Empress
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7946,8 +8237,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n残虐な女王の恨みが宿った拷問具。己を殺害した憎き妖精を捜し続けている。"
-  name: 拷問具の女王のソウル
+  description: |-
+    Use to acquire souls. A tool carrying the grudge of the cruel
+    queen, forever searching the detestable fairy who killed her.
+  name: Soul of Queen of Torture Tools
   consumable: true
   occasion: 2
   icon_index: 119
@@ -7976,8 +8269,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n其の彼女は、純粋無垢に隠れ潜む暴力の影。"
-  name: バンダースナッチのソウル
+  description: |-
+    Use to acquire souls.
+    She is a shadow of violence, concealed in pure innocence.
+  name: Soul of the Bandersnatch
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8006,8 +8301,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n其の彼女は、愛憎に狂わされた表裏一体の影。"
-  name: ジャブジャブのソウル
+  description: |-
+    Use to acquire souls.
+    She's a shadow of duality, driven mad by love and hate.
+  name: Soul of the Jubjub
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8036,8 +8333,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n其の彼女は、偽りの母性に包隠された独占欲の影。"
-  name: ジャバウォックのソウル
+  description: |-
+    Use to acquire souls. She is a shadow of possessiveness,
+    covered up by a false motherly front.
+  name: Soul of the Jabberwock
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8066,8 +8365,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n水の支配者の眷属であり、無数の稚魚を深海で産み落とすという。"
-  name: 神の異魚のソウル
+  description: |-
+    Use to acquire souls. The household of the Great One of
+    water gave birth to a legion of fry in the deep ocean.
+  name: Soul of the God's Odd Fish
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8096,8 +8397,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n柔らかく細長いものが脳に突き刺さる。やがて、忠実な騎士へと生まれ変わった。"
-  name: 深海騎士のソウル
+  description: |-
+    Use to acquire souls. Something soft, long, and narrow
+    pierced his brain, and he was born anew as a loyal knight.
+  name: Soul of the Deep Sea Knight
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8126,8 +8429,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n永き時を移ろうとも、ヴォーパルの血は受け継がれるのだ。"
-  name: 邪竜狩りのソウル
+  description: |-
+    Use to acquire souls. It may take a long time, but the vorpal
+    blood will always be inherited.
+  name: Soul of the Dragon Hunter
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8156,8 +8461,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n貴女様の正しい医療に貢献できるのなら、我々は喜んで血肉を捧げましょう。"
-  name: 拝命されし乳母たちのソウル
+  description: |-
+    Use to acquire souls. If it can contribute to the advancement of
+    the Lady's treatments, then we'll gladly offer our flesh and blood.
+  name: Soul of the Wet Nurses
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8186,8 +8493,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n穢れなき清らかな手であっても、人を救えぬのなら不要だ。"
-  name: フローレンスのソウル
+  description: |-
+    Use to acquire souls.
+    Untainted hands are worthless if they cannot save human lives.
+  name: Soul of Florence
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8216,8 +8525,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n風の支配者の眷属であり、生贄を殺しながら冬至の世界を遊歩している。"
-  name: 冬鐘の風のソウル
+  description: |-
+    Use to acquire souls. A member of the Lord of Winds' household,
+    he wanders the frozen world, killing sacrifices offered to him.
+  name: Soul of the Winterbell's Wind
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8246,8 +8557,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n白獅子とは切っても切れない間柄であり、追放刑の後も続くと思っていた。"
-  name: 白の一角獣のソウル
+  description: |-
+    Use to acquire souls. She thought her bond with the White Lion
+    would remain unbreakable even after the exile sentence.
+  name: Soul of the White Unicorn
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8276,8 +8589,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "使用によりソウルを獲得する。\r\n力を支配してこそ生きる術となる。彼女にとって弱者は強者の贄である。"
-  name: 白獅子のソウル
+  description: |-
+    Use to acquire souls. For her, to live became to dominate,
+    and the weak a sacrifice to the strong.
+  name: Soul of the White Lion
   consumable: true
   occasion: 2
   icon_index: 119
@@ -8332,7 +8647,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: 玄関の鍵
+  name: Vestibule Key
   consumable: true
   occasion: 3
   icon_index: 240
@@ -8656,8 +8971,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "聖なるソウルの矢を放つ。\r\n威力は使用者の魔力に依存する。"
-  name: 魔書【ソウルの矢】
+  description: |-
+    Shoot a holy soul arrow at the target enemy.
+    The power scales with the caster's Magic.
+  name: Sorcery [Soul Arrow]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8686,8 +9003,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "ソウルの矢を単体に4回放つ。\r\n威力は使用者の魔力に依存する。CD:4"
-  name: 魔書【ソウルの連射】
+  description: |-
+    Shoot 4 soul arrows at the target enemy.
+    The power scales with the caster's Magic. CD:4
+  name: Sorcery [Soul Discharge]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8716,8 +9035,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "聖なるソウルの癒し。\r\n回復量は使用者の魔力に依存する。"
-  name: 魔書【ソウルの光】
+  description: |-
+    Uses the power of holy souls to heal.
+    The amount restored scales with the caster's Magic.
+  name: Sorcery [Soul Light]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8746,8 +9067,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体にソウルの矢を浴びせる。\r\n威力は使用者の魔力に依存する。"
-  name: 魔書【ソウルの放射】
+  description: |-
+    Rain soul arrows upon all enemies.
+    The power scales with the caster's Magic.
+  name: Sorcery [Soul Radiance]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8776,8 +9099,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵単体の強化効果を解除する。
-  name: 魔書【ディスペル】
+  description: Cancel all buffs on the target enemy.
+  name: Sorcery [Dispel]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8806,8 +9129,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵単体に必中攻撃。
-  name: 魔書【見切り攻撃】
+  description: Attack the target enemy. Unavoidable.
+  name: Sorcery [Omniblow]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8836,8 +9159,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 自らのHPを減らし、MPを回復する。
-  name: 魔書【ブラッディカーサス】
+  description: Restore MP at the cost of HP.
+  name: Sorcery [Bloody Carthus]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8866,8 +9189,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵全体を毒状態にする。
-  name: 魔書【ポイズン】
+  description: Poison all enemies.
+  name: Sorcery [Poison]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8896,8 +9219,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵全体を猛毒状態にする。
-  name: 魔書【ポイズンⅡ】
+  description: Inflict all enemies with Deadly Poison.
+  name: Sorcery [Poison II]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8926,8 +9249,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵全体を睡眠状態にする。
-  name: 魔書【スリープ】
+  description: Puts all enemies to sleep.
+  name: Sorcery [Sleep]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -8956,8 +9279,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 味方単体の戦闘不能以外の状態異常を治療する。
-  name: 聖書【キュア】
+  description: |-
+    Cure all ailments with the exception of incapacitation
+    from the target ally.
+  name: Miracle [Cure]
   consumable: true
   occasion: 2
   icon_index: 374
@@ -8986,8 +9311,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 使用者の魔力を上げる。
-  name: 魔書【マジカルブレス】
+  description: Increase Magic of the user.
+  name: Sorcery [Blessing of Magic]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9016,8 +9341,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵3体に対して攻撃を行う。
-  name: 魔書【大暴れ】
+  description: Attack 3 random enemies.
+  name: Sorcery [Rampage]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9046,8 +9371,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 味方全体のステータスを上げる。
-  name: 魔書【オールブレス】
+  description: Increase all parameters of all allies.
+  name: Sorcery [Omnibless]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9076,8 +9401,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 戦闘不能から復活させる。
-  name: 聖書【レイズ】
+  description: Revive a fallen ally.
+  name: Miracle [Raise]
   consumable: true
   occasion: 2
   icon_index: 374
@@ -9106,8 +9431,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵単体のＭＰを吸収する。
-  name: 魔書【マナドレイン】
+  description: Drain MP off the target enemy.
+  name: Sorcery [Mana Drain]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9136,8 +9461,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 味方全体の弱体状態を解除する。
-  name: 聖書【イレース】
+  description: Cancel all debuffs on all allies.
+  name: Miracle [Erase]
   consumable: true
   occasion: 2
   icon_index: 374
@@ -9166,8 +9491,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "味方全体の攻撃力と防御力を上げる。\r\n更に会心率と命中率も上げる。"
-  name: 魔書【王の号令】
+  description: |-
+    Greatly increase Attack, Defense, and Accuracy of all
+    allies. Increase Crit Chance of all allies by 30%.
+  name: Sorcery [King's Order]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9196,8 +9523,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "少しの間、戦闘不能を無効化する。\r\nCD:8"
-  name: 魔書【鎮魂歌】
+  description: |-
+    Become Immortal for a short time.
+    CD:8
+  name: Sorcery [Requiem]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9226,8 +9555,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 致死量のダメージを受けてもHPを1残す。
-  name: 魔書【食いしばり】
+  description: |-
+    If a lethal amount of damage is received,
+    survive at 1 HP instead.
+  name: Sorcery [Grit]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9256,8 +9587,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 炎を出して、敵単体を燃焼状態にする。
-  name: 魔書【火炎】
+  description: |-
+    Unleash flames to deal Fire damage and set
+    the target enemy on fire.
+  name: Sorcery [Flame]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9286,8 +9619,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵単体を溺れさせ、恐怖状態にする。
-  name: 魔書【沈溺の泡】
+  description: Drown the target enemy. Inflicts Fear.
+  name: Sorcery [Silence Bubble]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9316,8 +9649,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵のHPを吸収する。
-  name: 魔書【ダークサイドムーン】
+  description: Drain HP of the target enemy.
+  name: Sorcery [Dark Side Moon]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9346,8 +9679,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵３体に複数の氷の霰をぶつけて、素早さを下げる。\r\nCD:5"
-  name: 魔書【氷結の魔弾】
+  description: |-
+    Rain hail upon 3 random enemies, reducing their Speed.
+    CD:5
+  name: Sorcery [Frozen Magic Bullet]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9376,8 +9711,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体を激しく炎上させ、燃焼状態にする。\r\nCD:4"
-  name: 魔書【業火】
+  description: |-
+    Throughly burn all enemies. Inflicts Burning.
+    CD:4
+  name: Sorcery [Conflagration]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9406,8 +9743,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "破滅の風を6回起こし、防御無視のダメージを与える。\r\nCD:8"
-  name: 魔書【破滅の嵐】
+  description: |-
+    Summon 6 Ruinous Storms to deal pure damage to
+    3 random enemies twice. CD:8
+  name: Sorcery [Ruinous Storm]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9436,8 +9775,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、魔力が大幅に上昇する。\r\n効果中はＨＰが減り続ける。"
-  name: 魔書【内なる大力】
+  description: |-
+    Significantly increase Magic for some time.
+    During the effect HP continuously decreases.
+  name: Sorcery [Power Within]
   consumable: true
   occasion: 2
   icon_index: 136
@@ -9466,8 +9807,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "ソウルの太矢を放つ。\r\n威力は使用者の魔力に依存する。CD:7"
-  name: 魔書【ソウルの太矢】
+  description: |-
+    Shoot a heavy soul arrow at the target enemy.
+    The power scales with the caster's Magic. CD:7
+  name: Sorcery [Heavy Soul Arrow]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9496,8 +9839,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "HPを50%回復し、状態異常を解除する。\r\nCD:20"
-  name: 魔書【新緑の力】
+  description: |-
+    Restore 50% HP and dispel all ailments on the user.
+    CD:20
+  name: Sorcery [Green Power]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9526,8 +9871,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、防御力を上げてスタンと無防備を無効化する。\r\nただし素早さが下がる。CD:6"
-  name: 魔書【岩の体】
+  description: |-
+    For some time, increase Defense and become immune to
+    Vulnerability and Stuns at the cost of Speed. CD:6
+  name: Sorcery [Stone Flesh]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9556,8 +9903,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "深淵の魔術で闇の玉を放つ。\r\n威力は使用者の魔力に依存する。"
-  name: 魔書【闇の球】
+  description: |-
+    Conjure a ball of darkness with Abyssal sorcery.
+    The power scales with the caster's Magic.
+  name: Sorcery [Sphere of Darkness]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9586,8 +9935,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "闇の球をランダムに4回放つ。\r\n威力は使用者の魔力に依存する。CD:4"
-  name: 魔書【闇の乱射】
+  description: |-
+    Unleash spheres of darkness at 4 random enemies.
+    The power scales with the caster's Magic. CD:4
+  name: Sorcery [Rain of Darkness]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9616,8 +9967,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体に闇の球を放つ。\r\n威力は使用者の魔力に依存する。"
-  name: 魔書【闇の群来】
+  description: |-
+    Unleash spheres of darkness at all enemies.
+    The power scales with the caster's Magic.
+  name: Sorcery [Swarm of Darkness]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9646,8 +9999,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵単体に神の雷。スタン状態にする。\r\nCD:4"
-  name: 魔書【神雷】
+  description: |-
+    Drop divine lightning on the target enemy. Inflicts Stun.
+    CD:4
+  name: Sorcery [Divine Lightning]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9676,8 +10031,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体に対して3回雷を落とす。スタン状態にする。\r\nCD:8"
-  name: 魔書【神獣の雷鳴】
+  description: |-
+    Drop lightning on all enemies three times.
+    Inflicts Stun. CD:8
+  name: Sorcery [Divine Beast's Thunder]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9706,8 +10063,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体に特大必中ダメージを与える。\r\nCD:20"
-  name: 魔書【流星群】
+  description: |-
+    Inflicts significant unavoidable damage on all enemies.
+    CD:20
+  name: Sorcery [Meteor Shower]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9736,8 +10095,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵全体のステータスを下げる。
-  name: 魔書【オールカース】
+  description: Reduce all parameters of all enemies.
+  name: Sorcery [Omnicurse]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9766,8 +10125,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "ソウルの太矢を単体に4回放つ。\r\n威力は使用者の魔力に依存する。CD:20"
-  name: 魔書【ソウルの太矢連射】
+  description: |-
+    Shoot 4 heavy soul arrows at random enemies.
+    The power scales with the caster's Magic. CD:20
+  name: Sorcery [Heavy Soul Discharge]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9796,8 +10157,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 全身を透明にし、敵を欺く。
-  name: 魔書【見えない体】
+  description: Deceive enemies by turning invisible.
+  name: Sorcery [Hidden Body]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9826,8 +10187,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 味方全体がしばらくの間、敵の会心を回避する。
-  name: 聖書【致命護り】
+  description: |-
+    Protect all allies from being critically hit for
+    some time.
+  name: Miracle [Providence]
   consumable: true
   occasion: 2
   icon_index: 374
@@ -9856,8 +10219,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体に炎属性ダメージと5%の割合ダメージを与える。\r\nCD:5"
-  name: 魔書【幽火】
+  description: |-
+    Deal Fire damage to all enemies and burn away
+    5% of their HP. CD:5
+  name: Sorcery [Ghostfire]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9886,8 +10251,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "攻守一体の形態に変化する。\r\n形態中は素早さが下がるが、攻撃力と防御力が上昇する。"
-  name: 魔書【ファランクス】
+  description: |-
+    Change into a shape better suited for direct combat.
+    Reduces Speed, but increases Attack, Defense, and MDefense.
+  name: Sorcery [Phalanx]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9916,8 +10283,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: しばらくの間、物理・魔法スキルが必中になる。CD:20
-  name: 魔書【絶対必中】
+  description: |-
+    For some time, makes physical and magical skills always hit.
+    CD:20
+  name: Sorcery [Absolute Precision]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9946,8 +10315,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体に炎属性のダメージと1/4割合ダメージを与える。\r\n燃焼状態にする。CD:8"
-  name: 魔書【混沌の爆炎】
+  description: |-
+    Deal Fire damage to all enemies with 1/4 of their
+    current HP as bonus damage. Inflicts Burning. CD:8
+  name: Sorcery [Chaos Blast]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -9976,8 +10347,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵単体に物理攻撃。この攻撃は必ず会心になる。
-  name: 魔書【クリティカルヒット】
+  description: |-
+    Deal physical damage to the target enemy.
+    This attack is always a critical strike.
+  name: Sorcery [Critical Strike]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10006,8 +10379,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "少しの間、防御効果率を大幅に上げる。\r\nCD:8"
-  name: 聖書【ソウルの盾】
+  description: |-
+    Greatly increases Guard Effectiveness for a short time.
+    CD:8
+  name: Miracle [Soul Shield]
   consumable: true
   occasion: 2
   icon_index: 374
@@ -10036,8 +10411,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵に3000の固定ダメージを与え、虚弱状態にする。
-  name: 魔書【トレポネーマ】
+  description: |-
+    Deal 1000 fixed damage to the target enemy and
+    inflict Feeble.
+  name: Sorcery [Treponema]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10066,8 +10443,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 狙われやすい肉壁を召喚する。
-  name: 聖書【肉壁召喚】
+  description: Summon a highly-targetable meatwall.
+  name: Miracle [Summon Wall of Flesh]
   consumable: true
   occasion: 2
   icon_index: 374
@@ -10096,8 +10473,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵単体に対して強力な魔法攻撃を行う。\r\n自身のMPが低ければ低いほどダメージが上昇。CD:8"
-  name: 魔書【引き裂く遺恨】
+  description: |-
+    Unleash a powerful blast of magic at the target enemy.
+    The lower your MP, the higher the damage. CD:8
+  name: Sorcery [Tearing Grudge]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10126,8 +10505,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "必中の氷柱を単体に4回放つ。防御力を無視する。\r\n威力は使用者の魔力に依存する。CD:10"
-  name: 魔書【貫く氷柱】
+  description: |-
+    Fire 4 piercing, unavoidable Ice pillars at the target enemy.
+    The power scales with the caster's Magic. CD:10
+  name: Sorcery [Piercing Ice Pillars]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10156,8 +10537,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "闇の魔法矢を敵全体に2回放つ、必中魔法攻撃。\r\n対象のＨＰが低ければ低いほどダメージが上昇。CD:6"
-  name: 魔書【滅びの矢雨】
+  description: |-
+    Rain 2 volleys of unavoidable arrows of Dark magic upon all
+    enemies.The lower the target's HP, the higher the damage. CD:6
+  name: Sorcery [Ruinous Arrow Rain]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10186,8 +10569,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵単体に3%割合必中攻撃。回避状態を解除し、全ステータスを下げる。\r\nCD:3"
-  name: 魔書【陰る沼】
+  description: |-
+    Whittle 3% of MaxHP from the target enemy.
+    Unavoidable, removes Dodge, reduces all parameters. CD:3
+  name: Sorcery [Shadowy Bog]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10216,8 +10601,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体に2%割合必中攻撃。裂傷状態にする。\r\nCD:4"
-  name: 魔書【酸の雨】
+  description: |-
+    Whittle 2% of MaxHP from all enemies.
+    Unavoidable, inflicts Laceration. CD:4
+  name: Sorcery [Acid Rain]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10246,8 +10633,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "味方単体の全ステータスを上げ、炎・氷・雷の属性を付与する。\r\n更に会心率を大幅に上げる。CD:5"
-  name: 魔書【ロイヤルティー】
+  description: |-
+    Increase all parameters, greatly increase crit chance, and grant
+    Fire, Lightning, and Cold attributes to the target ally. CD:5
+  name: Sorcery [Royal Tea]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10276,8 +10665,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "味方全体を長い間、回避状態にする。\r\nCD:3"
-  name: 魔書【クイックダンス】
+  description: |-
+    Give all allies Dodge for a long time.
+    CD:3
+  name: Sorcery [Quick Dance]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10306,8 +10697,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵４体に対して強力な必中吸収攻撃を２回行い、出血状態にする。\r\n威力は使用者の魔力に依存する。CD:6"
-  name: 聖書【カタリナの車輪】
+  description: |-
+    Release 2 unavoidable draining attacks against 4 random enemies.
+    Inflicts Bleeding. The power scales with the caster's Magic. CD:6
+  name: Miracle [Catherine's Wheel]
   consumable: true
   occasion: 2
   icon_index: 374
@@ -10336,8 +10729,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "しばらくの間、味方全体の防御力と魔法防御を大幅に上げる。\r\nさらにターン終了時にHPを30％回復する。CD:20"
-  name: 聖書【聖騎士の御旗】
+  description: |-
+    Double all allies' DEF and MDF for a short time, and give
+    them 30% HP Regen. CD:20
+  name: Miracle [Holy Banner]
   consumable: true
   occasion: 2
   icon_index: 374
@@ -10366,8 +10761,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵全体に15%割合魔法ダメージを与え、脆弱状態にする。\r\nCD:50"
-  name: 魔書【黒の波動】
+  description: |-
+    Whittle 15% of MaxHP and inflict Frail on all enemies.
+    CD:50
+  name: Sorcery [Black Wave]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10396,8 +10793,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: 敵単体に対して４回、強力な必中攻撃を行う。
-  name: 魔書【黒の斬撃】
+  description: Deliver 4 powerful unavoidable blows to the target enemy.
+  name: Sorcery [Black Slash]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10426,8 +10823,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "少しの間、攻撃力が激減するが、魔力と会心率が大幅に上昇する。\r\n更に行動回数が増える。CD:20"
-  name: 魔書【覚醒】
+  description: |-
+    Lose all Attack but gain +100% Magic and Crit for a short time.
+    Additionally, grants a Bonus Action. CD:20
+  name: Sorcery [Awakening]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10456,8 +10855,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "敵単体に対して必中魔法攻撃を行い、毒と猛毒状態にする。\r\n毒・猛毒状態の敵に1,5倍ダメージ。CD:8"
-  name: 魔書【毒蛇の抱擁】
+  description: |-
+    Cast an unavoidable spell at the target enemy, dealing damage and
+    inflicting Poison and Deadly Poison. 1.5 damage to Poisoned. CD:8
+  name: Sorcery [Serpent's Embrace]
   consumable: true
   occasion: 2
   icon_index: 375
@@ -10486,8 +10887,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "ソウルの矢を敵全体に4回放つ。\r\n威力は使用者の魔力に依存する。CD:15"
-  name: 魔書【ソウルの奔流】
+  description: |-
+    Shoot 4 soul arrows at every enemy.
+    The power scales with the caster's Magic. CD:15
+  name: Sorcery [Soul Stream]
   consumable: true
   occasion: 2
   icon_index: 375

@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: ウィンターベル
+display_name: Winterbell
 tileset_id: 133
 width: 30
 height: 38
@@ -628,7 +628,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [召使い用ベル。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Help's Bell.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -674,7 +674,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [来客様用ベル。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Visitors' Bell.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -949,17 +949,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ハインリヒ, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「おかえりなさいませ。旦那様」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Welcome home, Milord."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[リヒ], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, リヒ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Heinrich], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Heinrich]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ハインリヒ, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「はい、なんなりと」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Anything I can do."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[娘たちを頼む], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 娘たちを頼む]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Look after my daughters], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Look after my daughters]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [ハインリヒ, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「はい。旦那様の仰せの通りに」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Most certainly, Milord."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
@@ -1004,15 +1004,15 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ハインリヒ, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「足取りは軽やかに……」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]殺害する\c[0]', 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Step lightly..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Kill\c[0]', Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [55]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [40]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [38, 38, 2, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [D, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1145,5 +1145,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]女王アリス。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Queen Alice.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

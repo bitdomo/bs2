@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: ぬいぐるみ捨て場
+display_name: Stuffed Toy Dump
 tileset_id: 1
 width: 26
 height: 22
@@ -252,7 +252,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、強敵がいるぞ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Tough enemy ahead.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4

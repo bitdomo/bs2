@@ -62,18 +62,18 @@
 # 追加モジュール
 module CUSTOM_GET_WINDOW
   DISPLAY_FLAG = 22
-  GOLD_TEXT_ADD      = "ソウル入手！"      #お金を入手した際の表示テキスト
-  GOLD_TEXT_REMOVE   = "ソウル消失…"      #お金を消失した際の表示テキスト
-  ITEM_TEXT_ADD      = "アイテム入手！"  #アイテムを入手した際の表示テキスト
-  ITEM_TEXT_REMOVE   = "アイテム消失…"  #アイテムを消失した際の表示テキスト
-  WEAPON_TEXT_ADD    = "武器入手！"      #武器を入手した際の表示テキスト
-  WEAPON_TEXT_REMOVE = "武器消失…"      #武器を消失した際の表示テキスト
-  ARMOR_TEXT_ADD     = "防具入手！"      #防具を入手した際の表示テキスト
-  ARMOR_TEXT_REMOVE  = "防具消失…"      #防具を消失した際の表示テキスト
-  SKILL_TEXT_ADD     = "スキル習得！"    #スキルを習得した際の表示テキスト
-  SKILL_TEXT_REMOVE  = "スキル忘却…"    #スキルを忘れた際の表示テキスト
-  EXP_TEXT_ADD       = "EXP入手！"       #EXPを入手した際の表示テキスト
-  EXP_TEXT_REMOVE    = "EXP消失…"       #EXPを消失した際の表示テキスト
+  GOLD_TEXT_ADD      = "Souls GET!"      #お金を入手した際の表示テキスト
+  GOLD_TEXT_REMOVE   = "Souls lost…"      #お金を消失した際の表示テキスト
+  ITEM_TEXT_ADD      = "Item GET!"  #アイテムを入手した際の表示テキスト
+  ITEM_TEXT_REMOVE   = "Item lost…"  #アイテムを消失した際の表示テキスト
+  WEAPON_TEXT_ADD    = "Weapon GET!"      #武器を入手した際の表示テキスト
+  WEAPON_TEXT_REMOVE = "Weapon lost…"      #武器を消失した際の表示テキスト
+  ARMOR_TEXT_ADD     = "Armor GET!"      #防具を入手した際の表示テキスト
+  ARMOR_TEXT_REMOVE  = "Armor lost…"      #防具を消失した際の表示テキスト
+  SKILL_TEXT_ADD     = "Skill learned!"    #スキルを習得した際の表示テキスト
+  SKILL_TEXT_REMOVE  = "Skill forgotten…"    #スキルを忘れた際の表示テキスト
+  EXP_TEXT_ADD       = "EXP GET!"       #EXPを入手した際の表示テキスト
+  EXP_TEXT_REMOVE    = "EXP lost…"       #EXPを消失した際の表示テキスト
 
 
 end

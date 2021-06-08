@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: ウィンターベル
+display_name: Winterbell
 tileset_id: 133
 width: 60
 height: 110
@@ -3303,7 +3303,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]海だ！\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]The sea!\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   67: !ruby/object:RPG::Event
     id: 67
@@ -3349,7 +3349,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、敵はいないぞ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]No enemies ahead.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   68: !ruby/object:RPG::Event
     id: 68
@@ -3395,7 +3395,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]よく辿り着いた！\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Well arrived!\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   69: !ruby/object:RPG::Event
     id: 69
@@ -3480,7 +3480,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*15]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [64, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ふぅん」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Hmmm."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -3495,13 +3495,15 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*16]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「何だか前衛的な箱庭だと思わない？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　なんというか工夫が見られないのよね。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　底が見えているというか……とにかく面白みがないわ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Quite an avant-garde Garden, don''t you think?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Although...I just don''t see any ingenuity to it,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' you know what I mean? It''s like you can see']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the bottom already...Anyway, boooring."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「ワタシならとても解りやすい正しき道を用意するわ。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　レバーを動かして、扉を開けて、先に進むだけっ！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ああ、なんて最適化された素晴らしい啓示なのかしら～！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Now I would''ve made following the right path']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' very easy.\! Pull the lever, the door opens,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' and down you go! That''s all!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Ah, what a wonderful and optimized revelation～!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -3519,7 +3521,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*18]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [64, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「むっ…！\!芳醇な香り！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Oh!\! This mellow aroma!"']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -4204,7 +4206,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]覚悟、そして信念が必要だ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Resolution, and then faith required.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   77: !ruby/object:RPG::Event
     id: 77
@@ -5767,7 +5769,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Fire1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 153.0, b: 68.0, a: 255.0}, 30, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　　　　　　　　　　　　 \{\{\C[14]BONFIRE LIT\C[0]\}\}']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1045, 1045, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -5857,23 +5859,24 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: チェシャ猫, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 猫, pitch: 105, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「やあ、来たね」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Heya, so you came?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「記憶の中に眠る鐘の音も]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　脳裏の歯車によってかき消されてしまう」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Even the chiming of the bell sleeping in your']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' memory is drowned out by the gears of your mind."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\c[2]この箱庭は凍結している。\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　だから、未来が無い。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　だから、過去を繰り返す」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[2]This garden is frozen.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' And so, there''s no future.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' And so, the past repeats."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「夢を見ているのはどっちだと思う？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　夢から醒めても、終わらなければそれもまた夢と同じ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Which of us do you think is dreaming?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' If you wake up, and yet the dream isn''t over,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' then that too is still a dream."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [107, 3, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 猫６, pitch: 80, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「それとも、飽くなき爪研ぎで]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　オマエたちのイカれた絆を引き裂いてやろうか。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　……にゃははっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Or, shall I rend your deranged bonds for']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' my insatiable need to sharpen claws?\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' ......Myahahaha!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [7, 7, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   98: !ruby/object:RPG::Event
@@ -6008,8 +6011,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [目指そう！]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [家族とともに輝かしい未来へ。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Let's go!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [To the bright future together with your family.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   66: !ruby/object:RPG::Event
     id: 66
@@ -6055,8 +6058,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]もぬけの人形では演じられない。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['だからこそ舞台には魂を持つ役者が必要だ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Hollow puppets cannot perform.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['That''s why the theatre needs actors with souls.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   41: !ruby/object:RPG::Event
     id: 41
@@ -6102,8 +6105,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]過去に葬り去りたい出来事は、誰にでもある。']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['いわば記憶とは、過去の墓標である。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]We all have something in our past that we want to forget.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['In a sense, a memory is the gravestone of the past.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   109: !ruby/object:RPG::Event
     id: 109
@@ -6149,7 +6152,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]隠された宝箱。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Hidden treasure.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   110: !ruby/object:RPG::Event
     id: 110

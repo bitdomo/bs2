@@ -200,7 +200,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [リデルのおにんぎょう]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Liddell's doll.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -377,8 +377,8 @@ events:
       priority_type: 1
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[助ける, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 助ける]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Save her, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Save her]}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 205
@@ -420,26 +420,27 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 9, 30, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「無意味よ。アナタの行動は空虚なのよ、\n[1]くん。\!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　これはワタシを\c[2]屠る為に創られた処刑装置。\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　停止も破壊もできないように「改変」されてある」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It''s pointless. Your actions are futile, \n[1].\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' This is \c[2]an execution site built just for me.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' It has been ''changed'' so that it cannot be stopped']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' or destroyed."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「……理解、できない」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"...I, I don''t get it."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「アナタはワタシが憎いのでしょう？]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　殺そうとしているのでしょう？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Do you not hate me?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Are you not trying to kill me?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「何故、悲しい表情をするの……？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Why do you look so sad.....?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「解らない。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　ワタシには人の心がどうしても解らないの。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　どうして、\n[1]くん……」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I don''t understand it.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I just can''t understand the human heart.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Why, \n[1], why......"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Earth4, pitch: 90, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 9, 30, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 366, 9, 14, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

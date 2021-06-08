@@ -200,7 +200,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [リデルのおにんぎょう]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Liddell's doll.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -377,8 +377,8 @@ events:
       priority_type: 1
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[牢を破壊する, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 牢を破壊する]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Destroy the bars, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Destroy the bars]}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 205
@@ -404,18 +404,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 剣打ち合い (7), pitch: 75, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 9, 10, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [……かなりの衝撃を与えたが、ビクともしない。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['......Despite the considerable impact,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the bars stand unyielding.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [17, 3, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「あらあら。ワタシが憎いかしら？\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　ワタシを殺したいでしょう、犯したいでしょう。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　……フフフ、当然の思考ね」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"My, my, do you hate me so?\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Do you want to kill me? To rape me?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' ....Fufufu, I suppose it''s only natural."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「でも残念、メイベルは放っておいても死ぬわ。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　もう用済みらしいから」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"But you''ve no need to worry, Mabel will die even']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' left as is. It seems I''ve served my purpose."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「愉しかったわよ？]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　アナタとの恋愛おままごとは……フフフ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I did enjoy it, you know?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Playing love with you...fufufu."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [10]}
       - !ruby/object:RPG::EventCommand
         i: 1
@@ -431,16 +432,17 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*6]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ワタシに構う時間はもうないでしょう？]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　さ、早く歩を進めなさい」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You''re running out of time even for yourself,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' much less to care about me.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Hurry ahead."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「それとも、ワタシのグロテスクな死に様を見たい？\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　……ワタシは見せたくないわ」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Or, do you want to see my grotesque demise?\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' ...I don''t particularly want it to be seen."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Earth4, pitch: 90, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [9, 9, 30, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 365, 9, 14, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

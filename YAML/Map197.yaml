@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 姫君の為の家
+display_name: House for the Princess
 tileset_id: 58
 width: 23
 height: 50
@@ -461,7 +461,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「……あっ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Ah."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -480,7 +480,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「皮膚、ある…」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You have...skin..."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -499,8 +499,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「男の人間……瞳の位置も正しい……。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　合ってる。そうだ。やっと来た」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Male human...the position of the eyes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' is correct too...it all fits.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I see. It''s finally happened."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -524,47 +525,49 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*11]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 3, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「あっあっあっ♪\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　よ…っ、ようこそ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　いらっしゃい。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　ずっと…貴方を待っていたの」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah-ah-aaah♪\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' W...welcome.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I''m happy to finally meet you.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I...have been waiting for you for so long."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「夢の王子様。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　クティに子供をくれるんだよねっ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　クティ、子供ほ、ほしいっ…。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　子供、ちょーだいっ？」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[順序が必要だ, 子作りしよう, '\c[2]犯す\c[0]', '\c[2]殺害する\c[0]'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 順序が必要だ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The prince I dreamed of.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' You will give Kuti children, yes?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Kuti, children, want...you, children, give?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Do you understand me?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[First things first, Let's make some kids, '\c[2]Rape\c[0]', '\c[2]Kill\c[0]'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, First things first]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [0, 2, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「………？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"......?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ひぁ、あっ……そ、そう。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　そうだ。名前、知らないとダメだよね。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　うん。王子様の名前、クティ知らないもん」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Uah...y-yes, it''s true.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Of course. The name, it''s no good to do']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' it without knowing the name, isn''t it? Yes.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Kuti doesn''t know the name of my prince."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「う、うん。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　クティ、覚えたよ。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　よろしくね、\n[1]ちゃん」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Y-yes.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Kuti memorized.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' It''s nice to meet you, my \n[1]."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 子作りしよう]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Let's make some kids]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [0, 4, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「くふ………♡」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Hihi......♡"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「あ、そう。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　子作りの前に大事なこと。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　王子様の名前を教えてくれる？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ah, that''s right.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' There''s something important we must']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' do before making children. My prince,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' would you teach Kuti your name?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「う、うん。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　クティ、覚えたよ。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　よろしくね、\n[1]ちゃん」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Y-yes.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Kuti memorized.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' It''s nice to meet you, my \n[1]."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]犯す\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Rape\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 秘密, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 332, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -586,7 +589,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Magic1, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [秘密の姫君クティを地下室へ監禁しました。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I locked Secret Princess Kuti into the Dungeon.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 603, p: []}
@@ -594,21 +597,21 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [7, 7, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [55]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「くふぁ………っ？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Kfuh......?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「痛い……クティ、攻撃された。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　誰に？]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　王子様に……王子様……？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It hurts....Kuti, was attacked?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' By whom?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' By my prince...my prince......?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「王子様、\!じゃない……………。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　敵だ。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　敵だ………。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　敵だっ敵だっ敵だッ敵だッ敵だッッッ！！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"My prince, \!you are not.........\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' An enemy.\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' An enemy......\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Enemy-enemy-enemy-ENEMY-ENEEEMYYYYY!!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 秘密, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 332, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -696,10 +699,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\n[1]ちゃんっ♡']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　クティと子供作りしよう？」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[子作りをする], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 子作りをする]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah, my \n[1]♡']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Will you make children with Kuti?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Make children], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Make children]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [575, 575, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [0, 4, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 20, 0]}
@@ -718,32 +721,33 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 82, 0, 3, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「く、くふふふ……♡]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['　誓約を結んでからだと、\n[1]ちゃんとの子供作りが']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　より満たされるものになったよう……♡」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Kfufu, kfufufu......♡']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Now that we''re tied by a covenant, making']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' children with my dear \n[1] has become so']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' much more fulfilling....♡"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[誓約, '\c[2]殺害する\c[0]', '\c[2]犯す\c[0]', 立ち去る], 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 誓約]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Covenant, '\c[2]Kill\c[0]', '\c[2]Rape\c[0]', Leave], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Covenant]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [93]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [7, 7, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [55]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「くふぁ………っ？」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Kfuh......?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「痛い……クティ、攻撃された。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　誰に？]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　\n[1]ちゃんに……\n[1]ちゃん……？」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It hurts....Kuti, was attacked?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' By whom?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' By my \n[1]...my \n[1]......?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「\n[1]ちゃん、\!じゃない……………。\!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　敵だ。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　敵だ………。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　敵だっ敵だっ敵だッ敵だッ敵だッッッ！！」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"My \n[1], \!you are not.........\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' An enemy.\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' An enemy......\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Enemy-enemy-enemy-ENEMY-ENEEEMYYYYY!!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 秘密, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 332, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -795,7 +799,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]犯す\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Rape\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 秘密, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 332, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -818,7 +822,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Magic1, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [秘密の姫君クティを地下室へ監禁しました。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I locked Secret Princess Kuti into the Dungeon.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [$game_party.remove_spirit(53)]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: [$game_party.remove_spirit(54)]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: [$game_party.remove_spirit(55)]}
@@ -830,7 +834,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -872,9 +876,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [クティ, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「繧ｯ繝?ぅ縺ｨ蟄蝉ｾ帑ｽ懊ｊ縺励ｈ縺?ｼ」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Фqtt@╦w╢@ubsf@diqte⌡fv@╤qЁi@р╢Ёqo"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [会話にならない…。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A conversation isn't happening...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -913,8 +917,8 @@ events:
       priority_type: 1
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]殺害する\c[0]', 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]殺害する\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Kill\c[0]', Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 秘密, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 332, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -965,7 +969,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

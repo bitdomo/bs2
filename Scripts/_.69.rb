@@ -171,10 +171,10 @@ module Oxib_status
   #--------------------------------------------------------------------------  
   # 表示する属性のIDと対応するアイコンのIDの配列
   # 属性ID=>アイコンID
-  ELEMENTS_WORD = "属性耐性"
+  ELEMENTS_WORD = "Resistances:"
   ELEMENTS = {1=>131, 3=>96,4=>97, 5=>98, 9=>102, 10=>103}
   # ステート耐性の表示対象となるステートID
-  STATES_WORD = "状態異常率"
+  STATES_WORD = "Ailment avoidance:"
   STATES = [2, 6, 13, 26, 28, 29,55,56]
   
   #--------------------------------------------------------------------------
@@ -209,16 +209,16 @@ module Vocab
   #追加能力値の用語設定
   def self.ex_param(param_id)
     case param_id
-    when 0; "命中率"
-    when 1; "回避率"
-    when 2; "会心率"
-    when 3; "会心回避率"
-    when 4; "魔法回避率"
-    when 5; "魔法反射率"
-    when 6; "反撃率"
-    when 7; "ＨＰ再生率"
-    when 8; "ＭＰ再生率"
-    when 9; "ＴＰ再生率"
+    when 0; "Accuracy"
+    when 1; "Evasion"
+    when 2; "Crit"
+    when 3; "Crit Evasion"
+    when 4; "MAG Eva"
+    when 5; "MAG Reflect"
+    when 6; "Counter"
+    when 7; "HP Regen"
+    when 8; "MP Regen"
+    when 9; "TP Regen"
     end
   end
 
@@ -226,10 +226,10 @@ module Vocab
   def self.sp_param(param_id)
     case param_id
     when 0; "狙われやすさ"
-    when 1; "防御効果"
+    when 1; "Guard"
     when 2; "回復効果"
     when 3; "薬の知識"
-    when 4; "ＭＰ消費"
+    when 4; "MP Cost"
     when 5; "ＴＰチャージ"
     when 6; "物理ダメージ"
     when 7; "魔法ダメージ"
@@ -561,7 +561,7 @@ class Window_Status < Window_Selectable
       icon_index = ELEMENTS[element_id]
       draw_icon(icon_index, icon_x, y)
       draw_text(icon_x + 18, y, 48, line_height,
-      sprintf("%d%%", (actor.element_rate(element_id) * 100).truncate), 2)
+      sprintf("%d%%", 100-(actor.element_rate(element_id) * 100).truncate), 2)
       icon_x += 68
     end
   end
@@ -580,7 +580,7 @@ class Window_Status < Window_Selectable
       icon_index = $data_states[state_id].icon_index
       draw_icon(icon_index, icon_x, y)
       draw_text(icon_x + 18, y, 48, line_height,
-        sprintf("%d%%", (actor.state_rate(state_id) * 100).truncate), 2)
+        sprintf("%d%%", 100-(actor.state_rate(state_id) * 100).truncate), 2)
       icon_x += 68
     end
   end

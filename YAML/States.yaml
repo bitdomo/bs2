@@ -1,12 +1,12 @@
 ---
 - 
 - !ruby/object:RPG::State
-  message2: を倒した！
-  name: 戦闘不能
+  message2: ' was slain!'
+  name: Incapacitated
   priority: 100
   icon_index: 1
-  message1: は倒れた。
-  message4: は復活した！
+  message1: ' fell.'
+  message4: ' got back up!'
   restriction: 4
   release_by_damage: false
   message3: ''
@@ -43,12 +43,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: は毒に冒された！
-  name: 毒
+  message2: ' was poisoned!'
+  name: Poison
   priority: 65
   icon_index: 18
-  message1: は毒に冒された！
-  message4: の毒が消えた。
+  message1: ' was poisoned!'
+  message4: ' has recovered from poison.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -73,12 +73,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: は猛毒に冒された！
-  name: 猛毒
+  message2: ' was inflicted with deadly poison!'
+  name: Deadly Poison
   priority: 65
   icon_index: 530
-  message1: は猛毒に冒された！
-  message4: の猛毒が消えた。
+  message1: ' was inflicted with deadly poison!'
+  message4: ' has recovered from deadly poison.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -103,12 +103,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: は劇毒に冒された！
-  name: 劇毒
+  message2: ' was inflicted with virulent poison!'
+  name: Virulent Poison
   priority: 65
   icon_index: 529
-  message1: は劇毒に冒された！
-  message4: の劇毒が消えた。
+  message1: ' was inflicted with virulent poison!'
+  message4: ' has recovered from virulent poison.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -129,12 +129,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: は油まみれになった！
-  name: 油まみれ
+  message2: ' was covered in oil!'
+  name: Oiled
   priority: 80
   icon_index: 561
-  message1: は油まみれになった！
-  message4: の油が落ちた。
+  message1: ' was covered in oil!'
+  message4: ' cleaned away oil.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -159,15 +159,15 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: を眠らせた！
-  name: 睡眠
+  message2: ' was put to sleep!'
+  name: Sleep
   priority: 85
   icon_index: 22
-  message1: は眠ってしまった！
-  message4: は目を覚ました！
+  message1: ' has fallen asleep!'
+  message4: ' woke up!'
   restriction: 4
   release_by_damage: true
-  message3: は眠っている……
+  message3: ' is asleep...'
   note: ''
   id: 6
   features:
@@ -189,12 +189,12 @@
   remove_by_damage: true
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: は大無防備になった！
-  name: ハードブレイク無防備
+  message2: ' is completely defenseless!'
+  name: Hard Break Vulnerable
   priority: 90
   icon_index: 8
-  message1: は大無防備になった！
-  message4: は体勢を立て直した！
+  message1: ' is completely defenseless!'
+  message4: ' has recovered their balance!'
   restriction: 4
   release_by_damage: false
   message3: ''
@@ -287,12 +287,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: は無防備になった！
-  name: ブレイク無防備
+  message2: ' is defenseless!'
+  name: Break Vulnerable
   priority: 90
   icon_index: 24
-  message1: は無防備になった！
-  message4: は体勢を立て直した！
+  message1: ' is defenseless!'
+  message4: ' has recovered their balance!'
   restriction: 4
   release_by_damage: false
   message3: ''
@@ -386,7 +386,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 防御
+  name: Guard
   priority: 50
   icon_index: 506
   message1: ''
@@ -460,7 +460,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 不死身
+  name: Immortal
   priority: 0
   icon_index: 0
   message1: ''
@@ -486,7 +486,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: かばう
+  name: Protect
   priority: 0
   icon_index: 121
   message1: ''
@@ -512,10 +512,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 亡者
+  name: Hollow
   priority: 50
   icon_index: 603
-  message1: は亡者になった！
+  message1: ' has been Hollowed!'
   message4: ''
   restriction: 0
   message3: ''
@@ -537,11 +537,11 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: をひるませた！
-  name: スタン
+  message2: ' got dazed!'
+  name: Stun
   priority: 80
   icon_index: 21
-  message1: はひるんでしまった！
+  message1: ' was dazed!'
   message4: ''
   restriction: 4
   release_by_damage: false
@@ -576,11 +576,11 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: HP再生
+  name: HP Regen
   priority: 50
   icon_index: 26
   message1: ''
-  message4: の自動HP回復効果が切れた！
+  message4: ' stopped regenerating HP!'
   restriction: 0
   message3: ''
   note: ''
@@ -602,11 +602,11 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: MP再生
+  name: MP Regen
   priority: 50
   icon_index: 26
   message1: ''
-  message4: の自動MP回復効果が切れた！
+  message4: ' stopped regenerating MP!'
   restriction: 0
   message3: ''
   note: ''
@@ -628,7 +628,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 回避
+  name: Dodge
   priority: 50
   icon_index: 28
   message1: ''
@@ -753,12 +753,12 @@
   remove_by_restriction: true
   description: ''
 - !ruby/object:RPG::State
-  message2: は沈黙になった！
-  name: 沈黙
+  message2: ' was silenced!'
+  name: Silence
   priority: 75
   icon_index: 20
-  message1: は沈黙になった！
-  message4: の沈黙が解けた！
+  message1: ' was silenced!'
+  message4: ' broke the silence!'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -784,7 +784,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 最期の力
+  name: Last Power
   priority: 8
   icon_index: 619
   message1: ''
@@ -834,7 +834,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 反撃の構え２
+  name: Counterattack Stance 2
   priority: 50
   icon_index: 27
   message1: ''
@@ -864,7 +864,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 反撃の構え
+  name: Counterattack Stance
   priority: 50
   icon_index: 27
   message1: ''
@@ -917,11 +917,11 @@
   remove_by_restriction: true
   description: ''
 - !ruby/object:RPG::State
-  message2: は炎の力を身にまとった。
-  name: 炎の力
+  message2: ' embraced the power of flames.'
+  name: Power of Flame
   priority: 50
   icon_index: 104
-  message1: は炎の力を身にまとった。
+  message1: ' embraced the power of flames.'
   message4: ''
   restriction: 0
   message3: ''
@@ -947,11 +947,11 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は氷の力を身にまとった。
-  name: 氷の力
+  message2: ' embraced the power of ice.'
+  name: Power of Ice
   priority: 50
   icon_index: 105
-  message1: は氷の力を身にまとった。
+  message1: ' embraced the power of ice.'
   message4: ''
   restriction: 0
   message3: ''
@@ -977,11 +977,11 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は雷の力を身にまとった。
-  name: 雷の力
+  message2: ' embraced the power of lightning.'
+  name: Power of Lightning
   priority: 50
   icon_index: 106
-  message1: は雷の力を身にまとった。
+  message1: ' embraced the power of lightning.'
   message4: ''
   restriction: 0
   message3: ''
@@ -1007,11 +1007,11 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は闇の力を身にまとった。
-  name: 闇の力
+  message2: ' embraced the power of darkness.'
+  name: Power of Darkness
   priority: 50
   icon_index: 111
-  message1: は闇の力を身にまとった。
+  message1: ' embraced the power of darkness.'
   message4: ''
   restriction: 0
   message3: ''
@@ -1038,7 +1038,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 異常防止
+  name: Condition Immunity
   priority: 50
   icon_index: 29
   message1: ''
@@ -1131,12 +1131,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は出血した！
-  name: 出血
+  message2: ' is bleeding!'
+  name: Bleeding
   priority: 65
   icon_index: 573
-  message1: は出血した！
-  message4: の出血が止まった。
+  message1: ' is bleeding!'
+  message4: '''s bleeding stopped!'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -1162,7 +1162,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 鎮魂歌
+  name: Requiem
   priority: 50
   icon_index: 112
   message1: ''
@@ -1188,14 +1188,14 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 発狂
+  name: Madness
   priority: 70
   icon_index: 605
-  message1: は発狂した！
-  message4: は落ち着いた。
+  message1: ' has gone mad!'
+  message4: ' regained sanity.'
   restriction: 0
   release_by_damage: false
-  message3: は発狂している！
+  message3: ' is insane!'
   note: ''
   id: 28
   features:
@@ -1221,12 +1221,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: の身体に炎が燃え移った！
-  name: 燃焼
+  message2: '''s body is on fire!'
+  name: Burning
   priority: 65
   icon_index: 609
-  message1: の身体に炎が燃え移った！
-  message4: の炎が消えた。
+  message1: '''s body is on fire!'
+  message4: ' put out the fire.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -1248,11 +1248,11 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 泥
+  name: Mud
   priority: 65
   icon_index: 19
-  message1: の眼に泥が入った！
-  message4: は泥を振り払った！
+  message1: '''s eyes were covered in mud!'
+  message4: ' shook off the mud!'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -1274,7 +1274,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 踏み込み
+  name: Limit Break
   priority: 0
   icon_index: 131
   message1: ''
@@ -1340,7 +1340,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 力貯め１５０
+  name: Store Power 150
   priority: 0
   icon_index: 30
   message1: ''
@@ -1398,7 +1398,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ブレイク不可
+  name: Forbidden Break
   priority: 0
   icon_index: 553
   message1: ''
@@ -1436,7 +1436,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 詠唱
+  name: Chanting
   priority: 0
   icon_index: 117
   message1: ''
@@ -1498,7 +1498,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 力溜め２００
+  name: Gather Power 200
   priority: 0
   icon_index: 122
   message1: ''
@@ -1556,7 +1556,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 腹を鳴らす
+  name: Scream
   priority: 0
   icon_index: 30
   message1: ''
@@ -1613,8 +1613,8 @@
   remove_by_restriction: true
   description: ''
 - !ruby/object:RPG::State
-  message2: の腹が満たされた！
-  name: ソニビン満腹
+  message2: '''s belly is full!'
+  name: SawneyBean Full Belly
   priority: 70
   icon_index: 619
   message1: ''
@@ -1667,14 +1667,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は暴走した！
-  name: 暴走
+  message2: ' stated rampaging!'
+  name: Rampage
   priority: 50
   icon_index: 25
-  message1: は暴走した！
-  message4: は疲れ果てた。
+  message1: ' stated rampaging!'
+  message4: ' tired out.'
   restriction: 1
-  message3: は暴走している！
+  message3: ' is rampaging!'
   note: ''
   id: 38
   features:
@@ -1722,7 +1722,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: アクロバット回避
+  name: Acrobatics
   priority: 50
   icon_index: 28
   message1: ''
@@ -1848,7 +1848,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 岩の体
+  name: Stone Flesh
   priority: 50
   icon_index: 613
   message1: ''
@@ -1890,7 +1890,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 騎士の誇り
+  name: Knight's Pride
   priority: 50
   icon_index: 555
   message1: ''
@@ -1935,14 +1935,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は怒り狂った！
-  name: 怒り
+  message2: ' had a fit of rage!'
+  name: Rage
   priority: 50
   icon_index: 571
-  message1: は怒り狂った！
-  message4: は疲れ果てた。
+  message1: ' had a fit of rage!'
+  message4: ' tired out.'
   restriction: 0
-  message3: は怒り狂っている！
+  message3: ' is raging!'
   note: ''
   id: 42
   features:
@@ -1982,7 +1982,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 紅ずきん怒り
+  name: Red Hood's Rage
   priority: 50
   icon_index: 608
   message1: ''
@@ -2032,14 +2032,14 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 頭探し中
+  name: Looking for Head
   priority: 90
   icon_index: 528
   message1: ''
-  message4: は頭を見つけたようだ。
+  message4: ' seems to have found her head.'
   restriction: 4
   release_by_damage: false
-  message3: は自分の頭を探している…。
+  message3: ' is looking for her own head...'
   note: ''
   id: 44
   features:
@@ -2062,7 +2062,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 会心率+30%
+  name: Crit Chance+30%.
   priority: 50
   icon_index: 14
   message1: ''
@@ -2088,7 +2088,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 自傷
+  name: Self-Mutilation
   priority: 50
   icon_index: 539
   message1: ''
@@ -2118,7 +2118,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 命中率＋100%
+  name: Accuracy+100%
   priority: 50
   icon_index: 591
   message1: ''
@@ -2144,11 +2144,11 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 自動回復５０
+  name: Auto-Recovery 50
   priority: 50
   icon_index: 26
   message1: ''
-  message4: の自動HP回復効果が切れた！
+  message4: ' stopped regenerating HP!'
   restriction: 0
   message3: ''
   note: ''
@@ -2170,7 +2170,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 回避率上昇
+  name: Increased Evasion
   priority: 50
   icon_index: 474
   message1: ''
@@ -2200,7 +2200,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 力貯めラスボス
+  name: Store Power Last Boss
   priority: 0
   icon_index: 30
   message1: ''
@@ -2258,7 +2258,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 力貯めラスボス２
+  name: Store Power Last Boss 2
   priority: 0
   icon_index: 30
   message1: ''
@@ -2316,10 +2316,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 内なる大力
+  name: Power Within
   priority: 50
   icon_index: 136
-  message1: の魔力が溢れる！
+  message1: ' is overflowing with magical energies!'
   message4: ''
   restriction: 0
   message3: ''
@@ -2346,7 +2346,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ファランクス
+  name: Phalanx
   priority: 50
   icon_index: 547
   message1: ''
@@ -2388,7 +2388,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: エクリプス
+  name: Eclipse
   priority: 50
   icon_index: 615
   message1: ''
@@ -2421,12 +2421,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は虚弱になった！
-  name: 虚弱
+  message2: ' was enfeebled!'
+  name: Weakness
   priority: 70
   icon_index: 552
-  message1: は虚弱になった！
-  message4: の虚弱が治った。
+  message1: ' was enfeebled!'
+  message4: '''s feebleness was cured!'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -2443,12 +2443,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: は恐怖した！
-  name: 恐怖
+  message2: ' was horrified!'
+  name: Fear
   priority: 70
   icon_index: 590
-  message1: は恐怖した！
-  message4: の震えが止まった。
+  message1: ' was horrified!'
+  message4: ' stopped shaking.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -2482,7 +2482,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 会心率+100%
+  name: Crit Rate+100%
   priority: 50
   icon_index: 25
   message1: ''
@@ -2508,7 +2508,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: バンスナ糞団子
+  name: Bandersnatch Dung Pie
   priority: 0
   icon_index: 0
   message1: ''
@@ -2530,7 +2530,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 食いしばり
+  name: Grit
   priority: 90
   icon_index: 139
   message1: ''
@@ -2552,7 +2552,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: バンスナ弱体化
+  name: Bandersnatch Weaken
   priority: 70
   icon_index: 1
   message1: ''
@@ -2597,12 +2597,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: の身体が脆くなった！
-  name: 脆弱
+  message2: '''s body became fragile!'
+  name: Frailty
   priority: 70
   icon_index: 618
-  message1: の身体が脆くなった！
-  message4: の身体が元に戻った。
+  message1: '''s body became fragile!'
+  message4: '''s body returned to normal.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -2628,10 +2628,10 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 加速
+  name: Accelerate
   priority: 50
   icon_index: 46
-  message1: は加速した！
+  message1: ' sped up!'
   message4: ''
   restriction: 0
   message3: ''
@@ -2658,10 +2658,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 減速
+  name: Decelerate
   priority: 50
   icon_index: 62
-  message1: は減速した！
+  message1: ' slowed down!'
   message4: ''
   restriction: 0
   message3: ''
@@ -2684,10 +2684,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 死刑宣告
+  name: Death Sentence
   priority: 50
   icon_index: 549
-  message1: は悪寒で動けない！
+  message1: ' can''t move due to chills!'
   message4: ''
   restriction: 0
   message3: ''
@@ -2710,7 +2710,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 会心回避
+  name: Crit Avoidance
   priority: 50
   icon_index: 110
   message1: ''
@@ -2736,7 +2736,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 一段目
+  name: First Stage
   priority: 0
   icon_index: 0
   message1: ''
@@ -2758,7 +2758,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 二段目
+  name: Second Stage
   priority: 0
   icon_index: 0
   message1: ''
@@ -2780,7 +2780,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 三段目
+  name: Third Stage
   priority: 0
   icon_index: 0
   message1: ''
@@ -2802,7 +2802,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 一リ
+  name: State 1
   priority: 0
   icon_index: 0
   message1: ''
@@ -2824,7 +2824,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 二リ
+  name: State 2
   priority: 0
   icon_index: 0
   message1: ''
@@ -2846,7 +2846,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 三リ
+  name: State 3
   priority: 0
   icon_index: 0
   message1: ''
@@ -2868,7 +2868,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 時計
+  name: Clock
   priority: 0
   icon_index: 0
   message1: ''
@@ -2890,7 +2890,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 遅延発動
+  name: Delay Action
   priority: 0
   icon_index: 0
   message1: ''
@@ -2912,7 +2912,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ワニ１
+  name: Croc 1
   priority: 0
   icon_index: 585
   message1: ''
@@ -2946,7 +2946,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ワニ２
+  name: Croc 2
   priority: 0
   icon_index: 585
   message1: ''
@@ -2980,7 +2980,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ワニ３
+  name: Croc 3
   priority: 0
   icon_index: 585
   message1: ''
@@ -3013,14 +3013,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は怒り狂った！
-  name: 怒りパトラッシュ
+  message2: ' had a fit of rage!'
+  name: Patrasche Anger
   priority: 50
   icon_index: 571
-  message1: は怒り狂った！
-  message4: は疲れ果てた。
+  message1: ' had a fit of rage!'
+  message4: ' tired out.'
   restriction: 0
-  message3: は怒り狂っている！
+  message3: ' is raging!'
   note: ''
   id: 77
   features:
@@ -3056,14 +3056,14 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 邪気
+  name: Malice
   priority: 70
   icon_index: 569
   message1: ''
   message4: ''
   restriction: 0
   release_by_damage: false
-  message3: は精気を吸い取られている！
+  message3: '''s spirit is being drained!'
   note: ''
   id: 78
   features:
@@ -3082,14 +3082,14 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 呪縛
+  name: Curse
   priority: 70
   icon_index: 568
   message1: ''
   message4: ''
   restriction: 0
   release_by_damage: false
-  message3: は呪われている！
+  message3: ' is cursed!'
   note: ''
   id: 79
   features:
@@ -3136,7 +3136,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ダイス１
+  name: Dice 1
   priority: 100
   icon_index: 753
   message1: ''
@@ -3158,7 +3158,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ダイス２
+  name: Dice 2
   priority: 100
   icon_index: 754
   message1: ''
@@ -3212,7 +3212,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ダイス３
+  name: Dice 3
   priority: 100
   icon_index: 755
   message1: ''
@@ -3266,7 +3266,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ダイス４
+  name: Dice 4
   priority: 100
   icon_index: 756
   message1: ''
@@ -3320,7 +3320,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ダイス５
+  name: Dice 5
   priority: 100
   icon_index: 757
   message1: ''
@@ -3374,7 +3374,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ダイス６
+  name: Dice 6
   priority: 100
   icon_index: 758
   message1: ''
@@ -3450,7 +3450,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 一溜め
+  name: Gather 1
   priority: 0
   icon_index: 0
   message1: ''
@@ -3472,7 +3472,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 二溜め
+  name: Gather 2
   priority: 0
   icon_index: 0
   message1: ''
@@ -3494,7 +3494,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 三溜め
+  name: Gather 3
   priority: 0
   icon_index: 0
   message1: ''
@@ -3516,7 +3516,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 四溜め
+  name: Gather 4
   priority: 0
   icon_index: 0
   message1: ''
@@ -3538,7 +3538,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 五溜め
+  name: Gather 5
   priority: 0
   icon_index: 0
   message1: ''
@@ -3560,7 +3560,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 六溜め
+  name: Gather 6
   priority: 0
   icon_index: 0
   message1: ''
@@ -3582,7 +3582,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 七溜め
+  name: Gather 7
   priority: 0
   icon_index: 0
   message1: ''
@@ -3604,7 +3604,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 八溜め
+  name: Gather 8
   priority: 0
   icon_index: 0
   message1: ''
@@ -3626,7 +3626,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 九溜め
+  name: Gather 9
   priority: 80
   icon_index: 589
   message1: ''
@@ -3648,7 +3648,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 十溜め
+  name: Gather 10
   priority: 0
   icon_index: 0
   message1: ''
@@ -3670,7 +3670,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 溜めてる
+  name: Gathering
   priority: 50
   icon_index: 0
   message1: ''
@@ -3714,7 +3714,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 行動回数追加１
+  name: Action Time 1
   priority: 0
   icon_index: 0
   message1: ''
@@ -3740,7 +3740,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 行動回数追加２
+  name: Action Time 2
   priority: 0
   icon_index: 0
   message1: ''
@@ -3766,7 +3766,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 行動回数追加３
+  name: Action Time 3
   priority: 0
   icon_index: 0
   message1: ''
@@ -3814,7 +3814,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 仲間難易度１
+  name: Friend Difficulty 1
   priority: 0
   icon_index: 0
   message1: ''
@@ -3868,7 +3868,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 仲間難易度２
+  name: Friend Difficulty 2
   priority: 0
   icon_index: 0
   message1: ''
@@ -3922,7 +3922,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 仲間難易度３
+  name: Friend Difficulty 3
   priority: 0
   icon_index: 0
   message1: ''
@@ -3976,7 +3976,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 仲間難易度４
+  name: Friend Difficulty 4
   priority: 0
   icon_index: 0
   message1: ''
@@ -4030,7 +4030,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 仲間難易度５
+  name: Friend Difficulty 5
   priority: 0
   icon_index: 0
   message1: ''
@@ -4084,7 +4084,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 仲間難易度６
+  name: Friend Difficulty 6
   priority: 0
   icon_index: 0
   message1: ''
@@ -4138,7 +4138,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 仲間難易度７
+  name: Friend Difficulty 7
   priority: 0
   icon_index: 0
   message1: ''
@@ -4192,7 +4192,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 仲間難易度８
+  name: Friend Difficulty 8
   priority: 0
   icon_index: 0
   message1: ''
@@ -4246,7 +4246,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 仲間難易度９
+  name: Friend Difficulty 9
   priority: 0
   icon_index: 0
   message1: ''
@@ -4321,14 +4321,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は高機動状態になった！
-  name: 高機動
+  message2: ' entered a highly mobile state!'
+  name: High Maneuverability
   priority: 50
   icon_index: 585
-  message1: は高機動状態になった！
-  message4: の動きが止まった。
+  message1: ' entered a highly mobile state!'
+  message4: ' stopped moving.'
   restriction: 0
-  message3: は異常な速度で動いている！
+  message3: ' is moving at extreme speeds!'
   note: ''
   id: 113
   features:
@@ -4360,7 +4360,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 高機動じゃない
+  name: Non-mobile state
   priority: 0
   icon_index: 0
   message1: ''
@@ -4382,7 +4382,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: セイウチ指輪つけてる
+  name: Equip Walrus Ring
   priority: 0
   icon_index: 0
   message1: ''
@@ -4403,14 +4403,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は高機動状態になった！
-  name: 高機動
+  message2: ' entered a highly mobile state!'
+  name: High Maneuverability
   priority: 50
   icon_index: 585
-  message1: は高機動状態になった！
-  message4: の動きが止まった。
+  message1: ' entered a highly mobile state!'
+  message4: ' stopped moving.'
   restriction: 0
-  message3: は異常な速度で動いている！
+  message3: ' is moving at extreme speeds!'
   note: ''
   id: 116
   features:
@@ -4433,8 +4433,8 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は華麗な動きで獲物を捉えた！
-  name: 黒猫ワルツ
+  message2: ' seizes prey with brilliant movements!'
+  name: Black Cat Waltz
   priority: 50
   icon_index: 560
   message1: ''
@@ -4472,13 +4472,13 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 触手守り
+  name: Tentacle Guard
   priority: 50
   icon_index: 555
   message1: ''
   message4: ''
   restriction: 0
-  message3: は触手により守られている…。
+  message3: ' is being protected by tentacles...'
   note: ''
   id: 118
   features:
@@ -4518,7 +4518,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ヴォーパル加速
+  name: Vorpal Acceleration
   priority: 0
   icon_index: 0
   message1: ''
@@ -4552,7 +4552,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ヴォーパル加速１
+  name: Vorpal Acceleration 1
   priority: 0
   icon_index: 0
   message1: ''
@@ -4586,7 +4586,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ヴォーパル加速２
+  name: Vorpal Acceleration 2
   priority: 0
   icon_index: 0
   message1: ''
@@ -4623,7 +4623,7 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: の行動回数が増えた。
+  message2: '''s action count increased.'
   name: ''
   priority: 50
   icon_index: 541
@@ -4650,7 +4650,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: １段目
+  name: First Stage
   priority: 0
   icon_index: 0
   message1: ''
@@ -4672,7 +4672,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ２段目
+  name: Second Stage
   priority: 0
   icon_index: 0
   message1: ''
@@ -4694,7 +4694,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ３段目
+  name: Third Stage
   priority: 0
   icon_index: 0
   message1: ''
@@ -4738,7 +4738,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 屠殺
+  name: Slaughter
   priority: 50
   icon_index: 281
   message1: ''
@@ -4760,7 +4760,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 必中化
+  name: Inevitable
   priority: 50
   icon_index: 698
   message1: ''
@@ -4804,7 +4804,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 憂さ晴らし反撃
+  name: Diversion Counterattack
   priority: 0
   icon_index: 0
   message1: ''
@@ -4830,7 +4830,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ジャバ邪気
+  name: Jabberwock Wickedness
   priority: 70
   icon_index: 569
   message1: ''
@@ -4856,7 +4856,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 魔法反射
+  name: Magic Reflection
   priority: 70
   icon_index: 31
   message1: ''
@@ -4882,7 +4882,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ソウルの盾
+  name: Soul Shield
   priority: 50
   icon_index: 161
   message1: ''
@@ -4930,7 +4930,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ブレイク不可（嘘）
+  name: Unbreakable(Lie)
   priority: 0
   icon_index: 30
   message1: ''
@@ -4968,7 +4968,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 力貯め１５０（嘘）
+  name: Accumulate power 150 (Lie)
   priority: 0
   icon_index: 553
   message1: ''
@@ -5026,10 +5026,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 炎耐性ダウン
+  name: Flame RES Down
   priority: 50
   icon_index: 561
-  message1: の炎耐性が下がった！
+  message1: '''s Fire resistance has fallen!'
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5051,11 +5051,11 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: の雷耐性が下がった！
-  name: 雷耐性ダウン
+  message2: '''s Lightning resistance has fallen!'
+  name: Thunder RES Down
   priority: 50
   icon_index: 562
-  message1: の雷耐性が下がった！
+  message1: '''s Lightning resistance has fallen!'
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5078,10 +5078,10 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 光耐性ダウン
+  name: Light RES Down
   priority: 50
   icon_index: 567
-  message1: の光耐性が下がった！
+  message1: '''s Light resistance has fallen!'
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5104,10 +5104,10 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 闇耐性ダウン
+  name: Dark RES Down
   priority: 50
   icon_index: 568
-  message1: の闇耐性が下がった！
+  message1: '''s Dark resistance has fallen!'
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5130,7 +5130,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 防御上昇
+  name: Defense UP
   priority: 50
   icon_index: 0
   message1: ''
@@ -5156,7 +5156,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 王子会心率+100%
+  name: Prince Crit UP+100%
   priority: 50
   icon_index: 570
   message1: ''
@@ -5185,12 +5185,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: の身体に消えぬ炎が燃え移った！
-  name: 消えぬ炎
+  message2: '''s body is being consumed by inextinguishable flame!'
+  name: Lingering Flame
   priority: 65
   icon_index: 747
-  message1: の身体に消えぬ炎が燃え移った！
-  message4: の炎が消えた。
+  message1: '''s body is being consumed by inextinguishable flame!'
+  message4: ' put out the fire.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -5216,11 +5216,11 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 自動回復10
+  name: Auto Recovery 10
   priority: 50
   icon_index: 26
   message1: ''
-  message4: の自動HP回復効果が切れた！
+  message4: ' stopped regenerating HP!'
   restriction: 0
   message3: ''
   note: ''
@@ -5242,7 +5242,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 1ゲージ
+  name: Gauge 1
   priority: 90
   icon_index: 187
   message1: ''
@@ -5268,7 +5268,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 2ゲージ
+  name: Gauge 2
   priority: 90
   icon_index: 187
   message1: ''
@@ -5294,7 +5294,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 3ゲージ
+  name: Gauge 3
   priority: 90
   icon_index: 187
   message1: ''
@@ -5320,7 +5320,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 切腹
+  name: Seppuku
   priority: 80
   icon_index: 0
   message1: ''
@@ -5362,14 +5362,14 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 深眠
+  name: Deep Sleep
   priority: 85
   icon_index: 534
-  message1: は深く眠ってしまった！
-  message4: は目を覚ました！
+  message1: ' fell into a deep sleep!'
+  message4: ' woke up!'
   restriction: 4
   release_by_damage: true
-  message3: は深く眠っている……。
+  message3: ' is in a deep sleep...'
   note: ''
   id: 149
   features:
@@ -5396,7 +5396,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: HP再生３
+  name: HP Recovery 3
   priority: 50
   icon_index: 26
   message1: ''
@@ -5422,7 +5422,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 反撃（シンデレラ）
+  name: Counterattack (Cinderella)
   priority: 70
   icon_index: 27
   message1: ''
@@ -5460,7 +5460,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 魔法反射（シンデレラ）
+  name: Magic Reflect (Cinderella)
   priority: 70
   icon_index: 31
   message1: ''
@@ -5494,10 +5494,10 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 内なる大力（シンデレラ）
+  name: Inner Power (Cinderella)
   priority: 50
   icon_index: 136
-  message1: の魔力が溢れる！
+  message1: ' is overflowing with magical energies!'
   message4: ''
   restriction: 0
   message3: ''
@@ -5528,7 +5528,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: グラーキ防御上昇
+  name: Gla'aki Defense Up
   priority: 50
   icon_index: 0
   message1: ''
@@ -5570,14 +5570,14 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 嘔吐物
+  name: Vomit
   priority: 70
   icon_index: 606
   message1: ''
   message4: ''
   restriction: 0
   release_by_damage: false
-  message3: は嘔吐物に足を取られている！
+  message3: '''s legs were sealed in vomit!'
   note: ''
   id: 155
   features:
@@ -5604,14 +5604,14 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 拘束
+  name: Restraint
   priority: 70
   icon_index: 535
-  message1: は拘束された！
+  message1: ' was restrained!'
   message4: ''
   restriction: 4
   release_by_damage: false
-  message3: は拘束されている！
+  message3: ' is bound!'
   note: ''
   id: 156
   features:
@@ -5646,10 +5646,10 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 重力
+  name: Gravity
   priority: 70
   icon_index: 568
-  message1: に重力がのしかかる！
+  message1: ' is being pressed down by gravity!'
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5684,7 +5684,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: HP再生５
+  name: HP Recovery 5
   priority: 50
   icon_index: 26
   message1: ''
@@ -5714,7 +5714,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ナース領域
+  name: Nurses Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -5740,7 +5740,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 天獣領域
+  name: Heavenly Beast Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -5769,11 +5769,11 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: はブレイク無効になった！
-  name: ブレイク無効
+  message2: ' cannot be broken!'
+  name: Break Immunity
   priority: 50
   icon_index: 501
-  message1: はブレイク無効になった！
+  message1: ' cannot be broken!'
   message4: ''
   restriction: 0
   message3: ''
@@ -5799,12 +5799,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: は凍瘡になった！
-  name: 凍瘡
+  message2: ' has been frostbitten!'
+  name: Frostbite
   priority: 65
   icon_index: 563
-  message1: は凍瘡になった！
-  message4: の凍瘡が治まった。
+  message1: ' has been frostbitten!'
+  message4: '''s frostbite passed.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -5829,12 +5829,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: は裂傷した！
-  name: 裂傷
+  message2: ' has been lacerated!'
+  name: Laceration
   priority: 65
   icon_index: 749
-  message1: は裂傷した！
-  message4: の裂傷が消えた。
+  message1: ' has been lacerated!'
+  message4: '''s laceration passed.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -5864,7 +5864,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ロルド効果
+  name: Lorde's Buff
   priority: 50
   icon_index: 781
   message1: ''
@@ -5902,11 +5902,11 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 脚切られ
+  name: Dislegging
   priority: 70
   icon_index: 476
-  message1: の脚が切断された！
-  message4: の脚が治った。
+  message1: '''s ankles have been sliced!'
+  message4: '''s ankles healed.'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -5940,7 +5940,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 反撃（スライム）
+  name: Counter(Slime)
   priority: 70
   icon_index: 0
   message1: ''
@@ -5974,7 +5974,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 肉壁生存状態
+  name: WoF Present
   priority: 100
   icon_index: 291
   message1: ''
@@ -5996,7 +5996,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 聖騎士の御旗
+  name: Holy Banner
   priority: 50
   icon_index: 509
   message1: ''
@@ -6030,7 +6030,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 覚醒
+  name: Awakening
   priority: 50
   icon_index: 619
   message1: ''
@@ -6068,7 +6068,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 防王効果
+  name: Indomitable Buff
   priority: 50
   icon_index: 676
   message1: ''
@@ -6132,7 +6132,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: １剣気
+  name: 1 BF
   priority: 20
   icon_index: 794
   message1: ''
@@ -6158,7 +6158,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ２剣気
+  name: 2 BF
   priority: 20
   icon_index: 794
   message1: ''
@@ -6184,7 +6184,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ３剣気
+  name: 3 BF
   priority: 20
   icon_index: 794
   message1: ''
@@ -6210,7 +6210,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ４剣気
+  name: 4 BF
   priority: 20
   icon_index: 794
   message1: ''
@@ -6236,7 +6236,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ５剣気
+  name: 5 BF
   priority: 20
   icon_index: 794
   message1: ''
@@ -6262,7 +6262,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ６剣気
+  name: 6 BF
   priority: 20
   icon_index: 794
   message1: ''
@@ -6288,7 +6288,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ７剣気
+  name: 7 BF
   priority: 20
   icon_index: 794
   message1: ''
@@ -6380,10 +6380,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: １スタック
+  name: 1 Stack
   priority: 0
   icon_index: 0
-  message1: は剣気を纏った！
+  message1: '''s focus on the blade sharpens!'
   message4: ''
   restriction: 0
   message3: ''
@@ -6402,10 +6402,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ２スタック
+  name: 2 Stacks
   priority: 0
   icon_index: 0
-  message1: は剣気を纏った！
+  message1: '''s focus on the blade sharpens!'
   message4: ''
   restriction: 0
   message3: ''
@@ -6424,10 +6424,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ３スタック
+  name: 3 Stacks
   priority: 0
   icon_index: 0
-  message1: は剣気を纏った！
+  message1: '''s focus on the blade sharpens!'
   message4: ''
   restriction: 0
   message3: ''
@@ -6446,10 +6446,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ４スタック
+  name: 4 Stacks
   priority: 0
   icon_index: 0
-  message1: は剣気を纏った！
+  message1: '''s focus on the blade sharpens!'
   message4: ''
   restriction: 0
   message3: ''
@@ -6468,10 +6468,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ５スタック
+  name: 5 Stacks
   priority: 0
   icon_index: 0
-  message1: は剣気を纏った！
+  message1: '''s focus on the blade sharpens!'
   message4: ''
   restriction: 0
   message3: ''
@@ -6490,10 +6490,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ６スタック
+  name: 6 Stacks
   priority: 0
   icon_index: 0
-  message1: は剣気を纏った！
+  message1: '''s focus on the blade sharpens!'
   message4: ''
   restriction: 0
   message3: ''
@@ -6512,10 +6512,10 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ７スタック
+  name: 7 Stacks
   priority: 0
   icon_index: 0
-  message1: の剣気が最大になった！
+  message1: '''s focus on the blade peaked!'
   message4: ''
   restriction: 0
   message3: ''
@@ -6556,7 +6556,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 銃弾切り替え１
+  name: Bullet Switch 1
   priority: 50
   icon_index: 753
   message1: ''
@@ -6578,7 +6578,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 銃弾切り替え２
+  name: Bullet Switch 2
   priority: 50
   icon_index: 754
   message1: ''
@@ -6600,7 +6600,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 銃弾切り替え３
+  name: Bullet Switch 3
   priority: 50
   icon_index: 755
   message1: ''
@@ -6644,7 +6644,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 天使の宣告
+  name: Angel's Verdict
   priority: 100
   icon_index: 337
   message1: ''
@@ -6688,7 +6688,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: イタクァ領域
+  name: Windless Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -6798,10 +6798,10 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 吹き飛ぶ
+  name: Blow Away
   priority: 70
   icon_index: 101
-  message1: は空へ打ち上げられた！
+  message1: ' has been launched into the sky!'
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -6835,12 +6835,12 @@
   remove_by_damage: true
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: は身体が痺れた！
-  name: 麻痺
+  message2: '''s body cannot move!'
+  name: Paralysis
   priority: 75
   icon_index: 7
-  message1: は身体が痺れた！
-  message4: の麻痺が消えた。
+  message1: '''s body cannot move!'
+  message4: ' recovered from the paralysis.'
   restriction: 4
   release_by_damage: false
   message3: ''
@@ -6858,7 +6858,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 魔法反射（カーナッキ）
+  name: MReflect(Carnacki)
   priority: 70
   icon_index: 31
   message1: ''
@@ -6892,7 +6892,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: シヨ領域
+  name: Sho Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -6922,7 +6922,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: リンダメア領域
+  name: Lindamea Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -6952,7 +6952,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 反撃（リンダメア）
+  name: Counter(Lindamea)
   priority: 70
   icon_index: 0
   message1: ''
@@ -6978,7 +6978,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: リンダメア領域２
+  name: Lindamea Domain2
   priority: 70
   icon_index: 568
   message1: ''
@@ -7011,12 +7011,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: の急所を発見した！
+  message2: '''s vital spot has been exposed!'
   name: ''
   priority: 50
   icon_index: 808
-  message1: の急所が発見された！
-  message4: は急所を突かれた！
+  message1: '''s vital spot has been exposed!'
+  message4: '''s vital spot has been pierced!'
   restriction: 0
   message3: ''
   note: ''
@@ -7037,12 +7037,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: の急所を発見した！
+  message2: '''s vital spot has been exposed!'
   name: ''
   priority: 50
   icon_index: 808
-  message1: の急所が発見された！
-  message4: は急所を突かれた！
+  message1: '''s vital spot has been exposed!'
+  message4: '''s vital spot has been pierced!'
   restriction: 0
   message3: ''
   note: ''
@@ -7063,12 +7063,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: の急所を発見した！
+  message2: '''s vital spot has been exposed!'
   name: ''
   priority: 50
   icon_index: 808
-  message1: の急所が発見された！
-  message4: は急所を突かれた！
+  message1: '''s vital spot has been exposed!'
+  message4: '''s vital spot has been pierced!'
   restriction: 0
   message3: ''
   note: ''
@@ -7089,12 +7089,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: の急所を発見した！
+  message2: '''s vital spot has been exposed!'
   name: ''
   priority: 50
   icon_index: 808
-  message1: の急所が発見された！
-  message4: は急所を突かれた！
+  message1: '''s vital spot has been exposed!'
+  message4: '''s vital spot has been pierced!'
   restriction: 0
   message3: ''
   note: ''
@@ -7116,7 +7116,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ↑急所ステート↑
+  name: ↑Vitals↑
   priority: 50
   icon_index: 0
   message1: ''
@@ -7138,7 +7138,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ↓リポスト↓
+  name: ↓Riposte↓
   priority: 50
   icon_index: 815
   message1: ''
@@ -7198,7 +7198,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ユニス領域
+  name: Unis Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -7344,7 +7344,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ライデン領域
+  name: Leiden Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -7440,7 +7440,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ↑力溜めライデン
+  name: ↑Leiden Power Stack
   priority: 50
   icon_index: 0
   message1: ''
@@ -7462,7 +7462,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 徐々に低下１
+  name: Gradual Drop 1
   priority: 1
   icon_index: 769
   message1: ''
@@ -7492,7 +7492,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 徐々に低下２
+  name: Gradual Drop 2
   priority: 1
   icon_index: 770
   message1: ''
@@ -7522,7 +7522,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 徐々に低下３
+  name: Gradual Drop 3
   priority: 1
   icon_index: 771
   message1: ''
@@ -7552,7 +7552,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 徐々に低下４
+  name: Gradual Drop 4
   priority: 1
   icon_index: 772
   message1: ''
@@ -7582,7 +7582,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 徐々に低下５
+  name: Gradual Drop 5
   priority: 1
   icon_index: 773
   message1: ''
@@ -7612,7 +7612,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 徐々に低下６
+  name: Gradual Drop 6
   priority: 1
   icon_index: 774
   message1: ''
@@ -7664,7 +7664,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 行動回数追加酒
+  name: Wine Bonus Action
   priority: 20
   icon_index: 308
   message1: ''
@@ -7690,7 +7690,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ネクロノミコン
+  name: Necronomicon
   priority: 20
   icon_index: 372
   message1: ''
@@ -7715,15 +7715,15 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: の時間が止まった。
-  name: 時間停止
+  message2: '''s time has been stopped.'
+  name: Time Stop
   priority: 70
   icon_index: 280
-  message1: の時間が止まった。
-  message4: の時間が動き出した！
+  message1: '''s time has been stopped.'
+  message4: '''s time resumed its flow!'
   restriction: 4
   release_by_damage: false
-  message3: は時間が止まっている…。
+  message3: '''s time is stopped...'
   note: ''
   id: 224
   features: []
@@ -7738,7 +7738,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 悪辣領域攻撃力-100%ダウン
+  name: Vicious Domain -100% ATK
   priority: 1
   icon_index: 816
   message1: ''
@@ -7764,7 +7764,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 悪辣領域防御力-100%ダウン
+  name: Vicious Domain -100% DEF
   priority: 1
   icon_index: 817
   message1: ''
@@ -7790,7 +7790,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 悪辣領域魔力-100%ダウン
+  name: Vicious Domain -100% MAG
   priority: 1
   icon_index: 818
   message1: ''
@@ -7816,7 +7816,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 悪辣領域魔法防御-100%ダウン
+  name: Vicious Domain -100% MDF
   priority: 1
   icon_index: 819
   message1: ''
@@ -7842,7 +7842,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 獅子と一角獣１
+  name: Lion and Unicorn 1
   priority: 1
   icon_index: 769
   message1: ''
@@ -7996,7 +7996,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 獅子と一角獣２
+  name: Lion and Unicorn 2
   priority: 1
   icon_index: 770
   message1: ''
@@ -8150,7 +8150,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 獅子と一角獣３
+  name: Lion and Unicorn 3
   priority: 1
   icon_index: 771
   message1: ''
@@ -8304,7 +8304,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 獅子と一角獣４
+  name: Lion and Unicorn 4
   priority: 1
   icon_index: 772
   message1: ''
@@ -8458,7 +8458,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 獅子と一角獣５
+  name: Lion and Unicorn 5
   priority: 1
   icon_index: 773
   message1: ''
@@ -8612,7 +8612,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 獅子と一角獣６
+  name: Lion and Unicorn 6
   priority: 1
   icon_index: 774
   message1: ''
@@ -8766,7 +8766,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 白の牢獄領域１
+  name: White Prison Domain 1
   priority: 1
   icon_index: 769
   message1: ''
@@ -8796,7 +8796,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 白の牢獄領域２
+  name: White Prison Domain 2
   priority: 1
   icon_index: 770
   message1: ''
@@ -8826,7 +8826,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 白の牢獄領域３
+  name: White Prison Domain 3
   priority: 1
   icon_index: 771
   message1: ''
@@ -8856,7 +8856,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 白の牢獄領域４
+  name: White Prison Domain 4
   priority: 1
   icon_index: 772
   message1: ''
@@ -8886,7 +8886,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 白の牢獄領域５
+  name: White Prison Domain 5
   priority: 1
   icon_index: 773
   message1: ''
@@ -8916,7 +8916,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 白の牢獄領域６
+  name: White Prison Domain 6
   priority: 1
   icon_index: 774
   message1: ''
@@ -8946,7 +8946,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ノーフェイス領域
+  name: No Face Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -9048,7 +9048,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ノーフェイス行動１
+  name: No Face BA1
   priority: 1
   icon_index: 753
   message1: ''
@@ -9070,7 +9070,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ノーフェイス行動２
+  name: No Face BA2
   priority: 1
   icon_index: 754
   message1: ''
@@ -9096,7 +9096,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ノーフェイス行動３
+  name: No Face BA3
   priority: 1
   icon_index: 755
   message1: ''
@@ -9126,7 +9126,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ノーフェイス行動４
+  name: No Face BA4
   priority: 1
   icon_index: 756
   message1: ''
@@ -9160,7 +9160,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ノーフェイス行動５
+  name: No Face BA5
   priority: 1
   icon_index: 757
   message1: ''
@@ -9198,7 +9198,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: ノーフェイス行動６
+  name: No Face BA6
   priority: 1
   icon_index: 758
   message1: ''
@@ -9240,7 +9240,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 女王アリス領域
+  name: Queen Alice Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -9334,7 +9334,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: グラン・ギニョール領域
+  name: Grand Guignol Domain
   priority: 70
   icon_index: 568
   message1: ''
@@ -9368,7 +9368,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 死灰
+  name: Ashes Reignited
   priority: 1
   icon_index: 0
   message1: ''
@@ -9390,7 +9390,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: 反撃（メイベル）
+  name: Counter(Mabel)
   priority: 70
   icon_index: 27
   message1: ''
@@ -9440,7 +9440,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 八相
+  name: Eight Aspects
   priority: 70
   icon_index: 27
   message1: ''

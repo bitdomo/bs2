@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: サーカス小屋
+display_name: Circus Tent
 tileset_id: 1
 width: 25
 height: 22
@@ -592,9 +592,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [切なく光る炎が揺らめいている……。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[手を触れる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 手を触れる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A painfully bright flame flickers before me...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Touch it, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Touch it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [7, 7, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [2]}
@@ -608,39 +608,43 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [start_noise]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: 回想, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [いまさら愛を想うの？ ずっと忘れていたくせに。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Now you think of love?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['After forgetting all of it for so very long?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [君が初めて恋をした人は言葉が届かずとも]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [明けても暮れても想っていたんだ。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You had been spending your every waking moment thinking]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['of your first love, yet never putting it in words.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [それなのに君は別の人を抱いて、偽りの愛を囁いている。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [似たような瞳で、寂しさと虚しさを紛らわしているんだ。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [And yet you embraced another and whispered fake love.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['His eyes so similar, the perfect distraction from']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the choking loneliness and hollowness of it all.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [煌めく夜空。嗤う星々。身分違いの恋。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [夢を見ることを忘れた少女は大人となり、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [身分の高い男性と結婚する事になる。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The glittering night sky. The laughing stars. The love]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [crossing social barriers. But the little girl forgot]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['about dreaming, became an adult, and married a man more']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [appropriate for her station.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [過去の思い出を捨て去るかのように]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [少女への想いを綴った手紙や贈り物は全て炎の中へ燻られていった。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['As if in an attempt to abandon the memories of the past,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [all the letters spelling out the feelings for the little]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [girl and presents became fuel for the flames.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [そして時は流れる。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [―我ながらありふれた人生だった。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [窓辺に佇み、物想いに耽りて夜空を覗く老婆。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [それを心配そうに見つめる息子。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [And the time goes on.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [―Your life turned out to be astonishingly unastonishing.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Now just an old woman lost in thought while peering into]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the night sky. Your son watching you in worry.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「母さん、天体観測はほどほどにしときなよ。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　夜風は身体に悪いのだから。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　さあ紅茶を淹れておいたから飲みなさい」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Mother, you ought to moderate your observations.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' The night wind is bad for your body.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I brewed some black tea, do drink it."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ええ、ありがとう。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　でも今は独りにして欲しいの。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　今夜はとても綺麗な星空だから」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Thank you, of course.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' But for now, I''d like to remain alone.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' The stars are awfully beautiful tonight, you see."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [星に魅入られたハーグリーヴス。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [身侭な神が這い寄って来る。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [世界は流転し、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [終わった筈の夢物語が再び始まろうとしていた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Hargreaves was enthralled by the stars.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The selfish god crawled closer.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['The world changes, and the fantastic tales which were']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [meant to be over were about to begin once more.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [4]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [end_noise]}
@@ -651,7 +655,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [7, 7, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [10, 10, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

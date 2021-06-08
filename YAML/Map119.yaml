@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 海底神殿
+display_name: Temple of Depths
 tileset_id: 13
 width: 51
 height: 50
@@ -1657,5 +1657,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、敵がいるぞ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Enemy ahead.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

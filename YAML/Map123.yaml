@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: オイスターの腐死海
+display_name: Oysters' Rotted Sea
 tileset_id: 61
 width: 30
 height: 25
@@ -220,7 +220,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Fire1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 153.0, b: 68.0, a: 255.0}, 30, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　　　　　　　　　　　　 \{\{\C[14]BONFIRE LIT\C[0]\}\}']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [150, 150, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -4163,11 +4163,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: チェシャ猫, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 猫１１, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「間抜けなセイウチ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　生ガキの喰い過ぎでぶっ倒れた」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Stupid Walrus.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' She ate too many raw brats']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' and collapsed in a heap."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「浜辺に砂が多すぎるなんて言ってる場合じゃにゃい。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　カキは焼いて喰えと、誰か教えてやれば良かったにゃ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Not the case to whine about there being too']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' much sand on the beach and such. Someone']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' should''ve taught her to roast oysters before']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' eating them, meow."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [7, 7, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -4208,9 +4211,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「???????????」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"?????????"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [会話にならない……。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A conversation isn't happening...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition

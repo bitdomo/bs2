@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 昇降機
+display_name: Elevator
 tileset_id: 14
 width: 40
 height: 100
@@ -1354,7 +1354,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ステキな建築に皆は感謝する！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Everyone is grateful for the wonderful architecture!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1394,7 +1394,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\n[1]にはアリスしかいない。']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['For \n[1] there''s only Alice.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6

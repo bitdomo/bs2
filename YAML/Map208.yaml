@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 混沌ダンジョン
+display_name: Chaos Dungeon
 tileset_id: 116
 width: 35
 height: 35
@@ -839,50 +839,54 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: ドアノブ（がちゃがちゃ）02, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [……開かない。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...It won''t open.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [62, 62, 0, 2, 1, 3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Ice4, pitch: 130, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 672, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「メイちゃんはぁ……]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　お茶会の時間なのよ～～～～……♪♪」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"May-may''s....']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' tea party tiiiime～～～～...♪♪"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「おさけおさけおさけ～♪]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　おさけ～が飲めると～♪]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　肝臓♪肝臓♪肝臓～♪]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　レバーが痛くなる～……っ♪」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Wine-wine-wine～♪']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I''m gonna drink some wine～♪']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Liver♪ Liver♪ Liiver～♪']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' My lever''s gonna diiie～...♪"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 3, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「メイちゃんにぃ～……げんかいはあぁりませ～んっ…♪]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　支配者なのでまぁだまぁだ呑めま～～……っ♪♪」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"May-may～...has noooo limits～...♪']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Cause I''m a Great One I ain''t even close to']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' being druuunk～～...♪♪"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「\n[1]くん。']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　扉を開く為のレバーを探しなさい。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　アリス捜しより明確かつ簡潔でしょ？フフッ…」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\n[1].']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' To open this door, look for a lever.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' A much more clear and concise search, compared']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' to looking for Alice, isn''t it? Fufu..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「鍵穴の無い扉を開けるには、レバーが有効よ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　……あら、お腹を弄っても肝臓の事じゃないわ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"To open doors without keyholes, try lever.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' ...Oh, not the one in your belly, that''s']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' a liver, not a lever."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 3, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「\n[1]くん、メイベルよ。']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　その頑固な扉ちゃんを諭すにはマナーがあるの。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　まずはレバーを探してごらんなさい」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\n[1], it''s Mabel.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' There''s etiquette to admonishing stubborn']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' little doors like that one.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' First, please find a lever."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -927,50 +931,54 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: ドアノブ（がちゃがちゃ）02, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [……開かない。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...It won''t open.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [62, 62, 0, 2, 1, 3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Ice4, pitch: 130, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 672, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「メイちゃんはぁ……]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　お茶会の時間なのよ～～～～……♪♪」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"May-may''s....']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' tea party tiiiime～～～～...♪♪"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「おさけおさけおさけ～♪]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　おさけ～が飲めると～♪]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　肝臓♪肝臓♪肝臓～♪]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　レバーが痛くなる～……っ♪」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Wine-wine-wine～♪']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' I''m gonna drink some wine～♪']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Liver♪ Liver♪ Liiver～♪']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' My lever''s gonna diiie～...♪"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 3, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「メイちゃんにぃ～……げんかいはあぁりませ～んっ…♪]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　支配者なのでまぁだまぁだ呑めま～～……っ♪♪」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"May-may～...has noooo limits～...♪']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' Cause I''m a Great One I ain''t even close to']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' being druuunk～～...♪♪"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「\n[1]くん。']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　扉を開く為のレバーを探しなさい。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　アリス捜しより明確かつ簡潔でしょ？フフッ…」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\n[1].']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' To open this door, look for a lever.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' A much more clear and concise search, compared']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' to looking for Alice, isn''t it? Fufu..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「鍵穴の無い扉を開けるには、レバーが有効よ。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　……あら、お腹を弄っても肝臓の事じゃないわ」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"To open doors without keyholes, try lever.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' ...Oh, not the one in your belly, that''s']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' a liver, not a lever."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 62, 0, 3, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [メイベル, 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['「\n[1]くん、メイベルよ。']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　その頑固な扉ちゃんを諭すにはマナーがあるの。]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　まずはレバーを探してごらんなさい」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\n[1], it''s Mabel.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' There''s etiquette to admonishing stubborn']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' little doors like that one.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' First, please find a lever."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -2951,24 +2959,25 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「フフフッ………。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　心躍るお酒は素晴らしいものよ。\n[1]くん？']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　この瞬間こそ、人生の唯一の美点と思えるわ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Fufufu...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Wine that gets your heart pounding is']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' wonderful. \n[1]? This very moment can be']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' thought of as life''s single merit, can''t it?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 3, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「すぅー………っ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　んぅ～～っ……♪善い匂い………♪\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　アナタも飲んでみる？」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[飲む, 飲まない], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 飲む]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Mmm.....']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Haaaa～～...♪ Excellent aroma...♪\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Want to try it too?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Drink, Don't drink], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Drink]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [60, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 飲まない]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't drink]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\n[1]くんの黒き魂に乾杯っ……♪」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"A toast to \n[1]''s black soul...♪"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [789, 789, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -3009,5 +3018,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [メイベル, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「フフッ……おしゃけが美味しいわ……♪」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...mm, delishus whiine...♪"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

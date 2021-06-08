@@ -12,7 +12,7 @@ class Window_MenuCommand < Window_Command
   alias add_original_commands_partner add_original_commands
   def add_original_commands
     add_original_commands_partner
-    add_command("誓約", :partner, partner_enable?) # if $game_switches[1]
+    add_command("Covenants", :partner, partner_enable?) # if $game_switches[1]
   end
   #--------------------------------------------------------------------------
   # ● コマンド追加？［パートナー設定］
@@ -123,7 +123,7 @@ class Window_SptActor < Window_Base
     draw_status_vocab
     part_refresh(false)
     change_color(system_color)
-    draw_text(contents_width - 200, 0, 200, line_height, "誓約")
+    draw_text(contents_width - 200, 0, 200, line_height, "Covenant")
   end
   #--------------------------------------------------------------------------
   # ● リフレッシュ
@@ -311,7 +311,7 @@ class Window_SptPartner < Window_SptListBase
   # ● 空項目の描画
   #--------------------------------------------------------------------------
   def draw_empty_text(rect)
-    draw_text(rect.x, rect.y, contents_width-8, line_height, "-- empty --", 1)
+    draw_text(rect.x, rect.y, contents_width-8, line_height, "-- none --", 1)
   end
   #--------------------------------------------------------------------------
   # ● ヘルプテキスト更新

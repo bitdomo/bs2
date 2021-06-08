@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 吊り橋
+display_name: Suspension Bridge
 tileset_id: 127
 width: 40
 height: 90
@@ -1230,22 +1230,23 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ユニス, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「流石です。私の脚についてこれるとは」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You were able to keep up with my legs.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I expect no less of you."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ユニス, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「私は懸念していました。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　雄である貴方が私に擦り寄って味方になろうというその実、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　身体の接点を持ちたいだけに過ぎないと」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I had some worries.\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' That you, a male, only approached me and became']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' my ally hoping to have physical contact with me."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ユニス, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「それも杞憂で終わってよかったですよ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  私の眼鏡に狂いはなかったというわけですね」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m glad to see these worries were unfounded.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' My glasses weren''t tinted with madness after all."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ユニス, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「しかし、これで認めた訳ではありません。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　女王に騎士の爵位を授かってこそ、]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　晴れて私達の仲間入りとなるわけですから」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"However, do not take that as me recognizing you.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Only when the Queen bestows you with a knighthood']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' will you be cleared and truly accepted as one of us."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ユニス, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「さあ、無駄話もこれくらいにして]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　城の中へ入りましょう」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Now, enough with the chit-chat.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Let us hurry into the castle."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -2133,10 +2134,10 @@ events:
       trigger: 3
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ライデン, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「外なる者を屠るか。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　その強さ、本物のようだ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"So you slew the Outer One.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Means your strength is the real deal."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ライデン, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「うぬは凄いな」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You''re amazing."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -2152,12 +2153,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*16]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ライデン, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「肌が冷えているようだ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　寒いだろう、我が暖めてやる」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[暖めてもらう, 遠慮する], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 暖めてもらう]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Your skin is blue from cold.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' You must be freezing, come, I''ll warm you up."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Get warmed up, Decline], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Get warmed up]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ライデン, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「うぬ。来るがいい」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Good. Now come here."']}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 205
@@ -2175,27 +2176,27 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, '163', 0, 0, 0, 0, 100, 100, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [1, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ライデンの暖もりに包まれる。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [意外にも、ふんわりと優しい力で抱いてくれた。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm wrapped in Leiden's all-encompassing warmth.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Surprisingly, she holds me with a gentle, almost fluffy force.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ライデン, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「我は力が好きだ。強者が好きだ。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　うぬの力を我はもっと見たい」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I like power. Like the strong.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' So I want to see more of your power."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ライデン, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「だから、千尋の谷に落とす心算で厳しくした。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　すまないな」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"That''s why I tossed you off a cliff to see']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' if you can climb back up. Sorry."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 遠慮する]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Decline]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [ライデン, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「やせ我慢しなくていいのだが。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　……解った」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You don''t need to act tough.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' ......Fine, I get it."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ライデン, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「白の城は目前だ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　我が舎弟達に先に侵攻させてある」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The white castle is just ahead. I''ve already']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' sent my little brothers to begin the invasion."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ライデン, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「我らも遅れず往くぞ」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Let''s not make them wait."']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205

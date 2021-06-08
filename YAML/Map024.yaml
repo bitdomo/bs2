@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 病みたる時計塔
+display_name: Sick Clock Tower
 tileset_id: 85
 width: 25
 height: 25
@@ -1757,7 +1757,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]その資格はない。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]You don''t deserve this...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   24: !ruby/object:RPG::Event
     id: 24
@@ -1936,8 +1936,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [24, 3, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [帽子屋の首吊り死体だ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼女はにこにこと笑いながら此方に手を振っている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's the hanging corpse of The Hatter.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [She's grinning and waving my way.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   28: !ruby/object:RPG::Event
     id: 28
@@ -1983,8 +1983,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [眠り鼠の首吊り死体だ。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [マフラーのせいでより苦しそうな表情で死んでいる。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's the hanging corpse of The Dormouse.\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Her expression in death seems that much more pained]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [because of the muffler.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   29: !ruby/object:RPG::Event
     id: 29
@@ -2030,7 +2031,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]三人組の墓標だ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Gravestone for trio.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   30: !ruby/object:RPG::Event
     id: 30
@@ -2076,8 +2077,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [三月兎の首吊り死体だ。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [股からぽたぽたと愛液が垂れている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's the hanging corpse of The March Hare.\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are love juices dripping down from her crotch.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   31: !ruby/object:RPG::Event
     id: 31
@@ -2123,5 +2124,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]歯車が止まらない…。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]The gears won''t stop...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

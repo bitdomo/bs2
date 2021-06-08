@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 紅城フリッセル
+display_name: Red Castle Frissel
 tileset_id: 71
 width: 65
 height: 26
@@ -559,7 +559,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [708, 708, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\C[2]悪夢霊 フランクリン・ボルヴォルト1世に侵入されました！\C[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\C[2]Invaded by Nightmare Spirit Franklin Bollvolt I!\C[0]']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -2008,7 +2008,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、悪夢霊がいるぞ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Nightmare Spirit ahead.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   18: !ruby/object:RPG::Event
     id: 18
@@ -2054,7 +2054,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]この先、デブに気を付けろ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Be wary of fatty ahead.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   19: !ruby/object:RPG::Event
     id: 19
@@ -2572,12 +2572,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 15, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 螢∝ｰｻ縺ｮ蜈]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「*縺九∋縺ｮ縺ｪ縺九↓縺?ｋ」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"\и}u@qv@Ёif@╤bttK"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 壁尻の兎]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「*かべのなかにいる」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"*I''m in the wall."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
@@ -2622,18 +2622,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 15, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 螢∝ｰｻ縺ｮ蜈]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「*縺九∋縺ｮ縺ｪ縺九↓縺?ｋ」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"\и}u@qv@Ёif@╤bttK"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 壁尻の兎]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「不具合を発見した場合、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　お手数かかりますが、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　イニミニマニモ?へご報告いただけると']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　ありがたいです」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I''m sorry to trouble you, but please send a bug']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' report to イニミニマニモ? in case you encounter any']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' bugs. You can find the address in the read_me."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 壁尻の兎]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「たとえば、すり抜けて天井歩けちゃうとかね」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"For example, if you slip through and start walking']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' on the ceiling."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2681,7 +2681,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]俺はやった！\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]I did it!\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   27: !ruby/object:RPG::Event
     id: 27

@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 寂れた雪道
+display_name: Deserted Snowy Road
 tileset_id: 122
 width: 30
 height: 20
@@ -639,7 +639,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Fire1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 153.0, b: 68.0, a: 255.0}, 30, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　　　　　　　　　　　　 \{\{\C[14]BONFIRE LIT\C[0]\}\}']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1042, 1042, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1243,16 +1243,17 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: チェシャ猫, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 猫８, pitch: 110, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「にゃんぢゅ～る」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Nyanjour～."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「目も覆いたくなるような悪劇でもケセラセラ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　どこに来てもここに来ても　味方はだあれもいないっ？]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　……お可哀想に！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Even if the play turns so cruel you want to cover']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' your eyes, que será, será. Wherever you come,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' wherever you go, there''s not an ally by your side?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' ...You poor thing!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [20, 6, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 猫５, pitch: 150, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [チェシャ猫, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　くっしゅんっ！」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Achoo!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [7, 7, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -1337,7 +1338,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]雪国よ！\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Snow Country!\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   23: !ruby/object:RPG::Event
     id: 23
@@ -1383,7 +1384,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]犠牲を払ってでも、善き未来の為に奔走せよ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Strive for the good future, no matter the cost.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   24: !ruby/object:RPG::Event
     id: 24

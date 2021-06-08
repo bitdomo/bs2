@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: 白の庭
+display_name: White Garden
 tileset_id: 127
 width: 26
 height: 45
@@ -430,12 +430,12 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [霧に包まれている……。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[足を踏み入れる, 立ち去る], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 足を踏み入れる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Dense fog wraps the path...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Traverse the white fog, Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Traverse the white fog]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [40]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 立ち去る]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -548,7 +548,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Darkness3, pitch: 85, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -68.0, g: -68.0, b: -68.0, a: 0.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]黒の気配がする……。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]I sense a black presence...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 馬走る, pitch: 70, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 204, p: [6, 4, 4]}
       - !ruby/object:RPG::EventCommand
@@ -592,7 +592,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [1, ! '', 0, 0, 0, -100, 100, 100, 255, 0, 70, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「――\!ようやく見つけたぞ。罪人\n[1]」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"――\!At last I found you. Sinner \n[1]."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand
         i: 0
@@ -766,29 +766,30 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [35, 35, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [8, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「久しいな。\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　俺を憶えているか」]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[リンダメア, 憶えていない], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, リンダメア]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"It''s been a while.\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Do you remember me?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Lindamea, No idea], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Lindamea]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「ふん……。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　俺は貴様という罪悪を片時も忘れた事はなかった。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　どうやら俺達は、地獄の底まで付き合う事になるらしい」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Hmph...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Not for a moment have I forgotten']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' the sin you are.\! It seems we''re']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' bound together to the depths of hell."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 憶えていない]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No idea]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「俺は忘れはしまいぞ、罪人\n[1]。']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　貴様の\c[2]カルマ\c[0]はもはや死では償えぬ」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I shan''t forget you, sinner \n[1].']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Your \c[2]sins\c[0] cannot be atoned by death alone."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「さあ、語り合いは不要だ。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　貴様が大人しく]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　首を差し出す愚者ではないことは知っている」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No more words are needed between us.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I''m well aware you aren''t fool enough to']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' willingly submit your neck to me."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「不死である我らを繋ぐのは唯一つ、\!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　\{\c[2]血と魂から成す闘争のみッ\c[0]」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Only one thing binds us, undead.\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' \{\c[2]The strife born of blood and souls!\c[0]"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 馬走る, pitch: 115, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [36, 36, 0]}
       - !ruby/object:RPG::EventCommand
@@ -833,27 +834,29 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*63]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [12]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「……ほう。]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　この穢らわしい箱庭で惰眠を貪っていると思ったが、]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　前と変わらぬ魂の強さ。いやそれ以上か……」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"......Hmph.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' I thought you''d laze about in this foul Garden,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' but the strength of your soul hasn''t changed.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' No, rather it has grown......"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [8, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「……貴様、\c[2]紅ずきん\c[0]とは行動を共にしていないのか？」']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[知らない, 彼女に手を出すな], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 知らない]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"......Tell me, do you act together with']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' \c[2]Red Hood\c[0]?"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Dunno, Don't you dare], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Dunno]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「そうか」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"That so?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 彼女に手を出すな]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Don't you dare]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [「くくくッ]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [　貴様ら、恋仲なのか？なんとも……」]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Kukuku.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' What, are you lovers now? Ridiculous..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「もし見つけたら、伝えておけ。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　\c[2]"貴様が罪人として生きる道を選ぶのなら、']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　俺は容赦なく命を駆り立てる"\c[0]と」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"If you find her, tell her this.\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' \c[2]''Choose to live as a sinner, and I''ll hunt']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' you down without mercy.''\c[0]"']}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 205
@@ -874,14 +877,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*66]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*67]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [リンダメア, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「俺は新しく\c[2]黒の裁判を再建\c[0]し、']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [　地上に巣食う罪人共を処刑する。\!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['  それまで、貴様らに執行猶予を与える」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I will \c[2]rebuild the Black Trial anew\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' and execute the sinners infesting the world.\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Until then, your sentence is suspended."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [922, 922, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 212, p: [8, 77, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]――そして、忘れるな。\!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [この世が箱庭である限り、その鋭角より俺は現れ出でるのだ。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\c[2]――And don''t forget.\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['For as long as the realm you''re in is a Garden,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [from its every sharp corner I'll appear to hunt.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [923, 923, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 313, p: [0, 0, 1, 12]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [7, 7, 1]}
@@ -977,7 +981,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]闇耐性が必要だ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Dark resistance required.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -1023,7 +1027,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]宿敵の予感……。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Visions of old foe...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -1235,7 +1239,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]ブレイク無効は強化解除が有効だ。\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Try break immunity dispel.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
