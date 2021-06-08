@@ -1,0 +1,7626 @@
+---
+- 
+- !ruby/object:RPG::Armor
+  description: "回避率＋5%　魔法防御＋5%　素早さ-3%\r\n気高い貴族どもの服。"
+  name: 貴族の服
+  icon_index: 442
+  price: 1000
+  note: 公爵夫人の館
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "攻撃力＋5%　魔力＋5%　素早さ-3%\r\n暴力者の血濡れた上衣。"
+  name: 暴力のマント
+  icon_index: 449
+  price: 1000
+  note: 公爵館
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "魔力＋15%　魔法防御＋15%　素早さ-10%\r\n闇に呑まれたアンドール国の王が着けていた上衣。"
+  name: 狂乱王のマント
+  icon_index: 454
+  price: 1000
+  note: フリッセル
+  id: 3
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "HP＋50%　素早さ-4%\r\n天使は堕ちた女神を捜しに地上へと堕ちていった。"
+  name: 天使の羽衣
+  icon_index: 448
+  price: 1000
+  note: 名無しの森
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "攻撃力＋8%　防御力＋5%　素早さ-3%\r\n魔獣の皮で作られた鎧。着ているだけで暴力衝動に襲われる。"
+  name: レザーアーマー
+  icon_index: 434
+  price: 1000
+  note: ラドウィッジ
+  id: 5
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.08
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "回避率＋10%　素早さ-2%　頭装備不可\r\n魔獣の血を払うために、狩人が着込む黒い狩装束。"
+  name: 狩人の装束
+  icon_index: 710
+  price: 1000
+  note: "初期\r\n橋のたもと"
+  id: 6
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "回避率＋5%　炎耐性＋80%　燃焼耐性＋80%\r\nマッチ売りの少女の上衣。懐かしき温もりが柔らかく包んでくれる。"
+  name: マッチ売りの服
+  icon_index: 450
+  price: 1000
+  note: ラドウィッジ
+  id: 7
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "回避率＋5%　油まみれ耐性＋100%\r\n屠殺場の解体者が身に付けるもの。血生臭い。"
+  name: 作業服
+  icon_index: 168
+  price: 1000
+  note: 屠殺場
+  id: 8
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "回避率＋5%　防御力＋3%　\r\n知識と教養を身につけた男が着るもの。"
+  name: 紳士のコート
+  icon_index: 726
+  price: 1000
+  note: ドロップ　紳士
+  id: 9
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "回避率＋5%　発狂耐性＋50%\r\n夜の女が着るもの。女装に手を出せばいよいよ見限られるだろう。"
+  name: 娼婦の服
+  icon_index: 441
+  price: 1000
+  note: グール　ドロップ
+  id: 10
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "防御力＋10%　素早さ-3%\r\n前面に金属の板を拵えただけの鎧。"
+  name: プレートメイル
+  icon_index: 432
+  price: 1000
+  note: 精神病棟
+  id: 11
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御力＋10%　全異常耐性＋30%　素早さ-10%\r\n深淵から生まれし悪魔の力が宿る鎧。"
+  name: 深淵の鎧
+  icon_index: 435
+  price: 1000
+  note: 病みたる時計塔
+  id: 12
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "攻撃力＋15%　防御力＋15%　素早さ-10%　\r\n太陽を求める熱き者の鎧。もっとも、この国では拝む事はないだろうが。"
+  name: 太陽の鎧
+  icon_index: 437
+  price: 1000
+  note: 燻りの森
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御力＋5%　魔法防御＋7%　回避率＋5%　素早さ-4%\r\n神の教えを説く為に旅の聖職者が身に付けるもの。"
+  name: 聖職者の装衣
+  icon_index: 456
+  price: 1000
+  note: "初期\r\nリポン大聖堂"
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.07
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "魔力＋5%　魔法防御＋10%　回避率＋5%　素早さ-4%\r\n魔術学院エルハイムの生徒が卒業記念として贈与されたコート。"
+  name: 魔術師のコート
+  icon_index: 443
+  price: 1000
+  note: "初期\r\n血涙の池"
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "防御力＋8%　回避率＋5%　素早さ-2%\r\n暗殺者や盗賊が付ける影に溶け込むためのもの。"
+  name: 影の装衣
+  icon_index: 171
+  price: 1000
+  note: "初期\r\nリデル墓地"
+  id: 16
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "防御力＋15%　素早さ-5%　スタン耐性+30%\r\n騎士の間で多く普及されている鋼の鎧。"
+  name: 騎士の鎧
+  icon_index: 436
+  price: 1000
+  note: "初期\r\n公爵夫人の館"
+  id: 17
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "攻撃力＋5%　防御力＋10%　素早さ-5%\r\n戦いに飢える戦士たちの鎧。"
+  name: 戦士の鎧
+  icon_index: 169
+  price: 1000
+  note: "初期\r\nビリングズゲート"
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御力＋10%　炎耐性＋25%　燃焼耐性＋25%　素早さ-3%\r\n羊神ミルトンの加護を持つ神殿騎士たちにとって名誉ある鎧。"
+  name: ミルトンの鎧
+  icon_index: 170
+  price: 1000
+  note: "初期\r\nフリッセル"
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.75
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御力＋30%　素早さ-20%\r\n巨塔の騎士たちの鎧。傲慢な彼らは小さき者を踏み潰したという。"
+  name: バベルの鎧
+  icon_index: 676
+  price: 1000
+  note: 屠殺場
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "回避率＋15%　防御力-10%\r\nアルセーヌ・ルパンが着用した軽い上衣。"
+  name: 怪盗のマント
+  icon_index: 446
+  price: 1000
+  note: 心臓の庭園
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "防御力＋2%　魔法防御＋3%　素早さ-1%\r\nそれは天使の輪を現しており、聖職者は神からの啓示を受けるという。"
+  name: 聖職者のサークレット
+  icon_index: 166
+  price: 1000
+  note: "初期\r\nリポン大聖堂"
+  id: 22
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "魔力＋3%　魔法防御＋5%　素早さ-2%\r\n魔術学院エルハイムの生徒が卒業記念として贈与された帽子。"
+  name: 魔術師の帽子
+  icon_index: 162
+  price: 1000
+  note: "初期\r\n血涙の池"
+  id: 23
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "防御力＋4%　素早さ-1%\r\n影に隠れ、声を殺し、顔を隠すために使われるマスク。"
+  name: 盗賊のマスク
+  icon_index: 163
+  price: 1000
+  note: "初期\r\nリデル墓地"
+  id: 24
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "防御力＋8%　素早さ-3%　スタン耐性+20%\r\n騎士の間で多く普及されている鋼の兜。"
+  name: 騎士の兜
+  icon_index: 164
+  price: 1000
+  note: "初期\r\n公爵夫人の館"
+  id: 25
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "攻撃力＋4%　防御力＋4%　素早さ-3%\r\n乱暴者の証である角の生えた兜。"
+  name: ヴァイキングヘッド
+  icon_index: 459
+  price: 1000
+  note: "初期\r\n血涙"
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.04
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御力＋6%　炎耐性＋25%　燃焼耐性＋25%　素早さ-3%\r\n羊神ミルトンの加護を持つ神殿騎士たちにとって名誉ある兜。"
+  name: ミルトンの兜
+  icon_index: 458
+  price: 1000
+  note: "初期\r\nフリッセル"
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.06
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.75
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "素早さ+5%　発狂耐性+50%\r\n不思議の国で二度三度、大流行を起こした付け耳。"
+  name: バニーヘッド
+  icon_index: 462
+  price: 1000
+  note: マリー・ハドソンイベント　死体
+  id: 28
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "魔法防御＋20%　素早さ-2%\r\n貴方に仕え、貴方を想い、貴方の為に命を賭したメイドのもの。"
+  name: ホワイトブリム
+  icon_index: 463
+  price: 1000
+  note: 名無しの森
+  id: 29
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "防御力＋20%　素早さ-10%\r\n巨塔の騎士たちの兜。傲慢な彼らは小さき者を踏み潰したという。"
+  name: バベルの兜
+  icon_index: 674
+  price: 1000
+  note: 屠殺場
+  id: 30
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  params:
+  - 0
+  - 0
+  - 0
+  - -1
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "攻撃力＋2%　防御力＋2%\r\n鉢巻きに金属の板を貼り付けて防具としたもの。"
+  name: ハチガネ
+  icon_index: 460
+  price: 1000
+  note: ラドウィッジ
+  id: 31
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "魔力＋8%　素早さ-4%\r\n被ると頭の中が幸福で満たされるおかしな帽子。"
+  name: ワンダーハット
+  icon_index: 165
+  price: 1000
+  note: 無限食
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.08
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "魔力＋15%　素早さ-2%　\r\n10/6は10シリング6ペンスという意味なんですヨ！-帽子屋"
+  name: 帽子屋の帽子
+  icon_index: 727
+  price: 57000
+  note: 帽子屋
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "回避率＋5%　\r\n蒼い空を自由に飛び回った騎士の帽子。"
+  name: 空騎士の帽子
+  icon_index: 457
+  price: 1000
+  note: ラドウィッジ街　上層
+  id: 34
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "魔法防御＋10%　防御力＋5%　素早さ-3%\r\n死刑が先、判決は後。可哀想なバリスターは首を刎ねられた。"
+  name: 弁護士のマスク
+  icon_index: 465
+  price: 1000
+  note: フリッセル
+  id: 35
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "攻撃力＋20%　魔力＋20%　素早さ-15%\r\n醜いイゴールが顔を隠す為に用いたマスク。"
+  name: イゴールのマスク
+  icon_index: 466
+  price: 1000
+  note: 名無しの森
+  id: 36
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.85
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "素早さ+5%　発狂耐性+50%\r\n露出が激しい為に規制された衣装。あの兎の女性に贈ってみようか。"
+  name: バニースーツ
+  icon_index: 826
+  price: 1000
+  note: ウィンターベル
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "防御効果率【小】 HP再生率+5% 素早さ-3%\r\n何かの肉、想像は容易いが。"
+  name: 食人族の盾
+  icon_index: 291
+  price: 1000
+  note: ソニー・ビーン
+  id: 38
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 魔力＋10%　素早さ-4%\r\n聖なる神殿を護る騎士の盾。"
+  name: 神殿騎士の盾
+  icon_index: 556
+  price: 1000
+  note: "初期\r\nフリッセル"
+  id: 39
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "攻撃力＋5%　素早さ-2%\r\n周りが刃で覆われた攻撃的な盾。"
+  name: 刃の盾
+  icon_index: 431
+  price: 1000
+  note: 血涙
+  id: 40
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【小】 素早さ＋5%\r\n紋章が縁取られた由来の分からぬ金属盾。"
+  name: 草紋の盾
+  icon_index: 430
+  price: 1000
+  note: 無限食　ミミック
+  id: 41
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【小】\r\n格好もつかないみじめな木の板の盾。"
+  name: 木の盾
+  icon_index: 505
+  price: 50
+  note: ラドウィッジ
+  id: 42
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "回避率＋10%\r\n攻撃を受け流すための小型盾。"
+  name: バックラー
+  icon_index: 160
+  price: 1000
+  note: ウサギ穴
+  id: 43
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【小】 毒耐性＋50%　毒率＋30% 素早さ-1%\r\n表面に毒茸が密集している盾。"
+  name: キノコの盾
+  icon_index: 504
+  price: 1000
+  note: 胞子の森
+  id: 44
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 2
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【小】 回避率＋5%　素早さ-2%\r\n標準的な円い木の盾。"
+  name: ラウンドシールド
+  icon_index: 502
+  price: 1000
+  note: ラドウィッジ
+  id: 45
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】　素早さ-1%\r\n一般兵士が使う円型の金属盾。"
+  name: 鉄の円盾
+  icon_index: 507
+  price: 1000
+  note: リデル墓地
+  id: 46
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【小】 攻撃力＋2%　素早さ-2%\r\n古代の戦士が使ったとされる金属盾。"
+  name: 戦士の円盾
+  icon_index: 508
+  price: 1000
+  note: 血涙
+  id: 47
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "回避率＋15%　素早さ-3%\r\n突起のある形で攻撃を受け流す金属の小盾。"
+  name: ターゲットシールド
+  icon_index: 161
+  price: 1000
+  note: 心臓の庭園
+  id: 48
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 反撃率+30%　出血率+30%　素早さ-3%\r\n表面にヤマアラシの様な棘がびっしりと生えている歪な盾。"
+  name: ヤマアラシの盾
+  icon_index: 666
+  price: 1000
+  note: 憂さ晴らしソウル
+  id: 49
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 26
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【小】 回避率＋15%　素早さ-5%\r\nグリフィが使う身軽で力強い盾。"
+  name: 鷲獅子の盾
+  icon_index: 501
+  price: 1000
+  note: ''
+  id: 50
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【大】 素早さ-2%　スタン耐性+50%\r\n騎士の間で多く普及されている鋼の盾。"
+  name: 騎士の盾
+  icon_index: 497
+  price: 1000
+  note: 公爵夫人の館
+  id: 51
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 回避率＋5%　素早さ-4%\r\nオーソドックスな中型の金属盾。"
+  name: カイトシールド
+  icon_index: 509
+  price: 1000
+  note: リポン　ミミック
+  id: 52
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 炎耐性＋50%　燃焼耐性＋50%　素早さ-2%\r\n放火を象徴する真っ赤な金属盾。"
+  name: 赤の盾
+  icon_index: 496
+  price: 1000
+  note: フランクリンボルヴォルト
+  id: 53
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 雷耐性＋50%　素早さ-2%\r\nウミガメモドキの甲羅。きっとこれもまがいものだろう。"
+  name: ウミガメモドキの甲羅
+  icon_index: 510
+  price: 1000
+  note: ウミガメレストラン
+  id: 54
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 出血耐性＋100%　素早さ-2%\r\n豚兄弟の末っ子が作った盾。獣の爪から防ぐ事は容易いだろう。"
+  name: 煉瓦の盾
+  icon_index: 503
+  price: 1000
+  note: 名無しの森
+  id: 55
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 闇耐性＋50%　素早さ-2%\r\n黒の尖兵が使ったとされる闇の盾。"
+  name: 黒尖兵の盾
+  icon_index: 500
+  price: 1000
+  note: オックス・ウォード
+  id: 56
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 光耐性＋50%　素早さ-2%\r\n聖騎士が使ったとされる光の盾。少し焦げた匂いがする。"
+  name: 聖騎士の盾
+  icon_index: 675
+  price: 10000
+  note: 燻りの森
+  id: 57
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】魔法耐性+50%　素早さ-3%\r\n頑丈で大きな変色している貝殻。中身は無い。"
+  name: シェルシールド
+  icon_index: 363
+  price: 1000
+  note: カキお使い
+  id: 58
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【特大】　素早さ-3%\r\n名高いアンドール騎士団の一人、デガーが使ったとされる大盾。"
+  name: デガーの大盾
+  icon_index: 499
+  price: 1000
+  note: フリッセル
+  id: 59
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【特大】 全属性耐性＋25%　素早さ-5%\r\n栄誉とされていた大盾。しかし、栄誉こそ怠惰の始まりなのである。"
+  name: 怠惰の大盾
+  icon_index: 498
+  price: 1000
+  note: イグゾー
+  id: 60
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【特大】 全異常耐性＋30%　素早さ-5%\r\n深淵から生まれし悪魔の力が宿る大盾。"
+  name: 深淵の大盾
+  icon_index: 690
+  price: 1000
+  note: クイーン・ランド
+  id: 61
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "防御効果率【特大】 弱体無効　素早さ-8%\r\n身侭な神は一匹の稚魚を盗み出し、紅の物語に利用した。"
+  name: 深海の大盾
+  icon_index: 686
+  price: 1000
+  note: 深海
+  id: 62
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.92
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 7
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "魔法反射率＋50%　素早さ-5%\r\nとある姫に愛用されていた真実を映し出す大鏡。"
+  name: 鏡の大盾
+  icon_index: 282
+  price: 10000
+  note: クイーン・ランド
+  id: 63
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 64
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "ブレイクがガンブレイクに変化する。命中率＋5%　\r\n狩人が獣狩りに用いる、銀の力が込められた銃。"
+  name: 銀の短銃
+  icon_index: 706
+  price: 1000
+  note: "初期\r\n橋のたもと"
+  id: 65
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 20
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "ブレイクがガンブレイクに変化する。命中率＋20% 素早さ-5%\r\n教会の狩人が用いる、命中精度を高めた長銃。"
+  name: 教会の長銃
+  icon_index: 633
+  price: 1000
+  note: リポン
+  id: 66
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 18
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  params:
+  - 0
+  - 0
+  - 35
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "ブレイクがガンブレイクに変化する。素早さ-5%\r\n切り裂きジャックが使う、威力の高い散弾銃。"
+  name: 殺人鬼の散弾銃
+  icon_index: 634
+  price: 1000
+  note: ジャックのソウル
+  id: 67
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 19
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "ブレイクがガンブレイクに変化する。会心率＋5%\r\n政争に巻き込まれた悲劇の海賊、キッドの拳銃。"
+  name: 海賊の拳銃
+  icon_index: 707
+  price: 1000
+  note: キャプテン・キッド
+  id: 68
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 20
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 40
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御力＋40%　素早さ-20%\r\n大工が制作した、深海の負荷に耐える為の防具。"
+  name: 深海騎士の兜
+  icon_index: 699
+  price: 1000
+  note: 深海
+  id: 69
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.4
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御力＋50%　素早さ-30%\r\n大工が制作した、深海の負荷に耐える為の防具。"
+  name: 深海騎士の鎧
+  icon_index: 700
+  price: 1000
+  note: 深海
+  id: 70
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "会心率＋5%　素早さ-1%\r\n生き残る為には、仲間の肉を食べるのも厭わなかった。"
+  name: 船員のバンダナ
+  icon_index: 685
+  price: 1000
+  note: エレバス号
+  id: 71
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "会心率＋15%　防御力＋15%　素早さ-10%\r\nその鬼武者は桃から産まれ、老夫婦に災いを齎した。"
+  name: 鬼武者の兜
+  icon_index: 683
+  price: 1000
+  note: 船の墓場
+  id: 72
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "会心率＋20%　防御力＋20%　素早さ-20%\r\nその鬼武者は桃から産まれ、老夫婦に災いを齎した。"
+  name: 鬼武者の鎧
+  icon_index: 684
+  price: 1000
+  note: 船の墓場
+  id: 73
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "会心率＋5%　回避率＋5%　\r\n多くの船乗りが自由を求めて外海へ飛び出したが、全て深海へと誘われた。"
+  name: 船員服
+  icon_index: 433
+  price: 1000
+  note: 船乗り　ドロップ
+  id: 74
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "ブレイクがガンブレイクに変化する。素早さ-20%\r\nバかげた重さにバカげた威力……漢のロマンだ-海の王者シンドバッド"
+  name: 大砲
+  icon_index: 655
+  price: 1000
+  note: ビリングズゲート
+  id: 75
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 17
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "回避率＋5% 猛毒率+100% 素早さ-2% 戦闘開始時に猛毒状態。\r\n中に蛇が蠢いている服。「フランシス・リデル」と刺繍されている。"
+  name: 毒蛇の服
+  icon_index: 440
+  price: 1000
+  note: "<戦闘前ステート付与:3,100>\r\nリデル墓地"
+  id: 76
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 全ステータス-99%
+  name: 脆き生命の指輪
+  icon_index: 513
+  price: 500
+  note: 首切り案内所
+  id: 77
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 78
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: HP+5%
+  name: 生命の指輪
+  icon_index: 513
+  price: 1500
+  note: "チェシャ贈り物\r\nリデル墓地\r\n"
+  id: 79
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御効果率【小】
+  name: 耐える者の指輪
+  icon_index: 513
+  price: 1500
+  note: 酒場
+  id: 80
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP再生率+3%
+  name: 邪眼の指輪
+  icon_index: 513
+  price: 1500
+  note: 橋のたもと
+  id: 81
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 物理耐性+20%
+  name: 鉄の加護の指輪
+  icon_index: 513
+  price: 1500
+  note: "橋のたもと\r\n大鷲のソウル"
+  id: 82
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 炎耐性+50%
+  name: 炎方石の指輪
+  icon_index: 513
+  price: 1500
+  note: "屠殺場\r\n燻りの森"
+  id: 83
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 雷耐性+50%
+  name: 雷方石の指輪
+  icon_index: 513
+  price: 1500
+  note: "胞子の森\r\nオイスター"
+  id: 84
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 闇耐性+50%
+  name: 闇方石の指輪
+  icon_index: 513
+  price: 1500
+  note: "ブラックウェル　魔獣\r\n名無しの森"
+  id: 85
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔法耐性+20%
+  name: 魔法方石の指輪
+  icon_index: 513
+  price: 1500
+  note: "精神病棟\r\n妊婦のソウル"
+  id: 86
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 敵から貰えるソウルが2倍になる。
+  name: 貪欲な銀の指輪
+  icon_index: 513
+  price: 0
+  note: "図書室の夢\r\n<保存禁止>"
+  id: 87
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 4
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ドロップ率2倍。
+  name: 貪欲な金の指輪
+  icon_index: 512
+  price: 0
+  note: "図書室の夢\r\n<保存禁止>"
+  id: 88
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 5
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 毒、猛毒耐性+100%
+  name: 毒咬みの指輪
+  icon_index: 513
+  price: 1500
+  note: ビル
+  id: 89
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 'HP再生率+2% 出血耐性+100% '
+  name: 血咬みの指輪
+  icon_index: 513
+  price: 1500
+  note: ブラウンリッグ
+  id: 90
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃力を上げる。
+  name: 刃の指輪
+  icon_index: 513
+  price: 1500
+  note: 血涙
+  id: 91
+  features: []
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 会心、即死無効。
+  name: 復活屋の指輪
+  icon_index: 513
+  price: 1500
+  note: 死体盗みヘア
+  id: 92
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: '会心率+20% '
+  name: スズメバチの指輪
+  icon_index: 513
+  price: 1500
+  note: 霧の公園
+  id: 93
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御力を上げる。
+  name: 護りの指輪
+  icon_index: 513
+  price: 1500
+  note: 無限食物
+  id: 94
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP再生率+5%
+  name: 女神の指輪
+  icon_index: 513
+  price: 1500
+  note: ウェインライト
+  id: 95
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 謎の液体。HP+15%
+  name: ぶよぶよ
+  icon_index: 99
+  price: 1500
+  note: ヘイグ
+  id: 96
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.15
+  params:
+  - 3000
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 謎の液体。MP+5%
+  name: ぷよぷよ
+  icon_index: 99
+  price: 1500
+  note: ヘイグ
+  id: 97
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.05
+  params:
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 素早さを上げる。
+  name: 風神の指輪
+  icon_index: 513
+  price: 1500
+  note: 胞子の森
+  id: 98
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔力を上げる。
+  name: 呪術の指輪
+  icon_index: 513
+  price: 1500
+  note: リポン大聖堂
+  id: 99
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: '狙われ率+300% '
+  name: 被虐の指輪
+  icon_index: 513
+  price: 10
+  note: 死んだ回数30
+  id: 100
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 装備者は高所から落下死せずに済む。
+  name: チェシャ猫の指輪
+  icon_index: 512
+  price: 10000
+  note: 霧の公園
+  id: 101
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 17
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ブレイクがハードブレイクに変化する。
+  name: 叛逆の指輪
+  icon_index: 513
+  price: 1500
+  note: アーチボルド
+  id: 102
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 恐怖率+50%　恐怖耐性+100%
+  name: 恐怖の指輪
+  icon_index: 513
+  price: 1500
+  note: フレデリック
+  id: 103
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 56
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP再生率-20%
+  name: 鉄の処女の指輪
+  icon_index: 513
+  price: 1500
+  note: 血涙
+  id: 104
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.2
+  params:
+  - 1000
+  - 100
+  - 50
+  - 50
+  - 50
+  - 50
+  - 50
+  - 50
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: スタン率+10%　スタン耐性+50%
+  name: 騎士の指輪
+  icon_index: 513
+  price: 1500
+  note: 逃亡騎士ジム
+  id: 105
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 13
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP再生率+3%
+  name: 天使の指輪
+  icon_index: 513
+  price: 1500
+  note: 悪夢霊　アメリア
+  id: 106
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 回避率+5%　睡眠耐性+100%
+  name: ティンカーベルの指輪
+  icon_index: 513
+  price: 1500
+  note: 病みたる時計塔
+  id: 107
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 回避率+10%　
+  name: 虚ろの指輪
+  icon_index: 513
+  price: 1500
+  note: クリスティ
+  id: 108
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "戦闘不能になった際に自動で復活する。\r\n75%の確率で壊れる。"
+  name: 竜の加護の指輪
+  icon_index: 512
+  price: 10000
+  note: "<自動蘇生:500,42,100>\r\n<自動蘇生破損:75>\r\nカボチャの拠点"
+  id: 109
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔力＋50%　HPMP-50%　
+  name: 宵闇の指冠
+  icon_index: 513
+  price: 1500
+  note: ハロルド
+  id: 110
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 回復効果+100%　割合被ダメージ+100%
+  name: 奇跡の指輪
+  icon_index: 513
+  price: 1500
+  note: オックス・ウォード
+  id: 111
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 被ダメージが倍になる。
+  name: 殺人道化の指輪
+  icon_index: 513
+  price: 1500
+  note: ピエロ
+  id: 112
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 200
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 全ステータスが大幅に上がるが、MPが0になる。
+  name: 黒山羊の指輪
+  icon_index: 176
+  price: 100000
+  note: "ぺろぺろちょうだい\r\n<合成設定:0,49,30>"
+  id: 113
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.2
+  params:
+  - 5000
+  - 0
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 回避率-50%
+  name: 死神の指輪
+  icon_index: 513
+  price: 1500
+  note: オイスター
+  id: 114
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.5
+  params:
+  - 0
+  - 0
+  - 400
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 弱体無効。
+  name: 理髪師の指輪
+  icon_index: 513
+  price: 1500
+  note: スウィーニートッド
+  id: 115
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 7
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP+100%　MP+100%　防御力-50%　魔法防御-50%
+  name: 虚飾の指輪
+  icon_index: 513
+  price: 1500
+  note: オックス・ウォード
+  id: 116
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: '睡眠率+50% 睡眠耐性+100% '
+  name: リンゴの指輪
+  icon_index: 513
+  price: 1500
+  note: 屠殺場
+  id: 117
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 6
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 全ステータス+5%　回避率-5%
+  name: ロンディニウムの指輪
+  icon_index: 513
+  price: 1500
+  note: キャロル川
+  id: 118
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃追加回数+1
+  name: カボチャ騎士の指輪
+  icon_index: 513
+  price: 1500
+  note: パンプキン・オー
+  id: 119
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 命中率+30%
+  name: 狙撃手の指輪
+  icon_index: 513
+  price: 1500
+  note: 精神病棟
+  id: 120
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP再生率+10%
+  name: 深者の指輪
+  icon_index: 513
+  price: 1500
+  note: ビリングズゲート
+  id: 121
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 素早さを上げる。
+  name: 白鴉の指輪
+  icon_index: 513
+  price: 1500
+  note: 嘆きの浜辺
+  id: 122
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 100
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "東の地で作られる特殊な指輪。\r\n回避がアクロバット回避に変化する。"
+  name: 暗い木目指輪
+  icon_index: 513
+  price: 1500
+  note: "ぺろぺろ\r\n<合成設定:0,49,5>"
+  id: 123
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 87
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 12
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 回復アイテムの効果が上昇する。
+  name: トトの指輪
+  icon_index: 513
+  price: 1500
+  note: 魔女の家の残骸
+  id: 124
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 3
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 運を上げる。
+  name: 四葉のクローバーの指輪
+  icon_index: 513
+  price: 1500
+  note: "名無しの森\r\nぺろぺろちょうだい\r\n<合成設定:0,49,5>"
+  id: 125
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 200
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 自動戦闘。
+  name: 傀儡の指輪
+  icon_index: 513
+  price: 1500
+  note: 亡者コック
+  id: 126
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 会心率+60%　防御力-99% 魔法防御-99%
+  name: 無謀な勇者の指輪
+  icon_index: 513
+  price: 5000
+  note: 屠殺場
+  id: 127
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 油まみれ率+100%　
+  name: 銀行家の指輪
+  icon_index: 513
+  price: 5000
+  note: 燻りの森
+  id: 128
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 5
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 光耐性+50%
+  name: 天の指輪
+  icon_index: 513
+  price: 1500
+  note: "輝星のビーストソウル\r\nオックス・ウォード"
+  id: 129
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 素早さ+15%
+  name: 靴磨きの指輪
+  icon_index: 513
+  price: 1500
+  note: ブージャム
+  id: 130
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 回避率+20%
+  name: リィフの指輪
+  icon_index: 512
+  price: 20000
+  note: "クイーン・ランド\r\n<保存禁止>"
+  id: 131
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 200
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 発狂耐性+100%　
+  name: ブッチャーの指輪
+  icon_index: 513
+  price: 5000
+  note: ブッチャーのソウル
+  id: 132
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 虚弱耐性+100%　行動回数追加＋10%
+  name: 娼婦の指輪
+  icon_index: 513
+  price: 5000
+  note: ラドウィッジ上層
+  id: 133
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 炎雷光闇耐性＋20%
+  name: 退魔の指輪
+  icon_index: 513
+  price: 5000
+  note: ラドウィッジ上層
+  id: 134
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: '会心率+40% '
+  name: 深淵の指輪
+  icon_index: 513
+  price: 5000
+  note: 名無しの森
+  id: 135
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.4
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: スタン耐性+50%　反撃率+10%
+  name: 闘士の指輪
+  icon_index: 513
+  price: 5000
+  note: バイロン
+  id: 136
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 行動回数追加＋100%　MP消費率2倍
+  name: 黒兎の指輪
+  icon_index: 512
+  price: 10000
+  note: 巨人の家のソウル
+  id: 137
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 4
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃力+50%　命中率-50%　会心率-50%
+  name: トロールの指輪
+  icon_index: 513
+  price: 5000
+  note: 時計塔
+  id: 138
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: -0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 毒率+30%　猛毒率+30%　出血率+30%
+  name: 蚊の指輪
+  icon_index: 513
+  price: 5000
+  note: ハノーヴァー
+  id: 139
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 2
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 3
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 26
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃力＋20%　魔力＋20%　アイテム回復効果半減。
+  name: 紅い涙石の指輪
+  icon_index: 513
+  price: 1500
+  note: 血涙
+  id: 140
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 3
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 装備者はオックス・ウォード学院の門を通り抜けられる。
+  name: イーディスの指輪
+  icon_index: 512
+  price: 0
+  note: "イーディス\r\n<保存禁止>\r\n"
+  id: 141
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP再生率+50%　HP-50%
+  name: セイウチの指輪
+  icon_index: 512
+  price: 10000
+  note: オイスター
+  id: 142
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃力＋50% 素早さ-50%
+  name: 獄滅の指輪
+  icon_index: 513
+  price: 1500
+  note: "ぺろぺろちょうだい\r\n<合成設定:0,49,15>"
+  id: 143
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP再生率+10% MP再生率+10%
+  name: ハートの騎士の指輪
+  icon_index: 513
+  price: 1500
+  note: ハートの騎士のソウル
+  id: 144
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 素早さ+20%
+  name: スペードの騎士の指輪
+  icon_index: 513
+  price: 1500
+  note: スペードの騎士のソウル
+  id: 145
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御力+10%　スタン耐性+50%
+  name: クラブの騎士の指輪
+  icon_index: 513
+  price: 1500
+  note: クラブの騎士のソウル
+  id: 146
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 行動回数追加＋50% 全ステータス+20%
+  name: 白兎の指輪
+  icon_index: 512
+  price: 10000
+  note: 童話コンプリート
+  id: 147
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御力+100%　HP回復無効。
+  name: 神魚の指輪
+  icon_index: 513
+  price: 10000
+  note: "<HP回復無効:100>\r\n神魚のソウル"
+  id: 148
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 会心率+50% 命中率+50% 物理回避率+50% 反撃率+50% 全ステータス-30%
+  name: 罪悪の指輪
+  icon_index: 513
+  price: 5000
+  note: 深海
+  id: 149
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃力＋100%　魔力-100%
+  name: 星辰の指輪
+  icon_index: 512
+  price: 10000
+  note: クティ
+  id: 150
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 即死率+20%
+  name: 黒髭の指輪
+  icon_index: 513
+  price: 5000
+  note: 黒髭
+  id: 151
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 1
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 愛しき少女の解せぬ言語を理解できる。
+  name: プリケットの指輪
+  icon_index: 512
+  price: 20000
+  note: "<保存禁止>\r\nプリケット誓約\r\n"
+  id: 152
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御力+50%　物理回避率-50%
+  name: オーガの指輪
+  icon_index: 513
+  price: 5000
+  note: 侯爵夫人の館
+  id: 153
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 戦闘開始時に回避状態になる。
+  name: ミツバチの指輪
+  icon_index: 513
+  price: 1500
+  note: "<戦闘前ステート付与:16,100>\r\nぺろぺろちょうだい\r\n<合成設定:0,49,5>"
+  id: 154
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 戦闘開始時に暴走状態になる。
+  name: 狂乱王の指輪
+  icon_index: 513
+  price: 1500
+  note: "<戦闘前ステート付与:38,100>\r\nぺろぺろちょうだい\r\n<合成設定:0,49,10>"
+  id: 155
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 素早さ＋50%
+  name: 韋駄天の指輪
+  icon_index: 513
+  price: 1500
+  note: "ぺろぺろちょうだい\r\n<合成設定:0,49,15>"
+  id: 156
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 戦闘開始時にステータスが上昇。
+  name: 我が闘争の指輪
+  icon_index: 513
+  price: 1500
+  note: "<戦闘前強化付与:2,10,100>\r\n<戦闘前強化付与:3,10,100>\r\n<戦闘前強化付与:4,10,100>\r\n<戦闘前強化付与:5,10,100>\r\n<戦闘前強化付与:6,10,100>\r\n<戦闘前強化付与:7,10,100>\r\nおぞましいヒンドリー"
+  id: 157
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃力-99%
+  name: 姦淫の指輪
+  icon_index: 513
+  price: 500
+  note: ハノーヴァー
+  id: 158
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP+10%
+  name: 生命の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 159
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP+25%
+  name: 生命の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 160
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.25
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP+50%
+  name: 生命の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\nクリミア"
+  id: 161
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御効果率【中】
+  name: 耐える者の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 162
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御効果率【大】
+  name: 耐える者の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 163
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御効果率【特大】
+  name: 耐える者の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n白の城下町"
+  id: 164
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "魔法防御＋25%　MP再生率+5%　素早さ-6%\r\n終末の女神に魂を奪われた教戒師が羽織ったとされる黒のローブ。"
+  name: 教戒師のローブ
+  icon_index: 714
+  price: 1000
+  note: 混沌ダンジョン
+  id: 165
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.94
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "防御力＋8%　全異常耐性＋20%　素早さ-6%\r\n深淵から生まれし悪魔の力が宿る兜。"
+  name: 深淵の兜
+  icon_index: 717
+  price: 1000
+  note: 混沌ダンジョン
+  id: 166
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.94
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御効果率【大】 HP再生率+5% 炎耐性-50% 素早さ-3%\r\n刃を通さぬ蔓で覆われた丈夫な盾。反面、炎には成す術がない。"
+  name: 豆の木の盾
+  icon_index: 716
+  price: 10000
+  note: 混沌ダンジョン
+  id: 167
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 会心、即死無効。 素早さ-3%\r\n伝承に語られる不老不死の王の盾。"
+  name: 水銀の盾
+  icon_index: 667
+  price: 10000
+  note: 混沌ダンジョン
+  id: 168
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "回避率＋30%　HP回復無効。\r\n夥しい黒血で塗られた上衣。羽織るだけで底知れぬ邪悪を抱いてしまう。"
+  name: 忌々しき上衣
+  icon_index: 715
+  price: 1000
+  note: "キャロル川\r\n<HP回復無効:100>"
+  id: 169
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "会心率＋15%　防御力＋15%　素早さ-10%　　\r\n武力帝国ロンガイアで作られた攻守万能の鎧。"
+  name: 武鉄の鎧
+  icon_index: 718
+  price: 1000
+  note: 混沌ダンジョン
+  id: 170
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 謎の液体。HP+30%
+  name: ぶよぶよ＋1
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 171
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.3
+  params:
+  - 4000
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 謎の液体。HP+40%
+  name: ぶよぶよ＋2
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 172
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.4
+  params:
+  - 4500
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 謎の液体。HP+50%
+  name: ぶよぶよ＋3
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 173
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  params:
+  - 5000
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 謎の液体。MP+10%
+  name: ぷよぷよ＋1
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 174
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.1
+  params:
+  - 0
+  - 300
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 謎の液体。MP+25%
+  name: ぷよぷよ＋2
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 175
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.25
+  params:
+  - 0
+  - 400
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 謎の液体。MP+40%
+  name: ぷよぷよ＋3
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 176
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.4
+  params:
+  - 0
+  - 500
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 回避率+15%　
+  name: 虚ろの指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 177
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 回避率+20%　
+  name: 虚ろの指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 178
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 回避率+25%　
+  name: 虚ろの指輪＋3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n白の城下町"
+  id: 179
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.25
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 180
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: HP再生率+8%
+  name: 邪眼の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 181
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.08
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP再生率+15%
+  name: 邪眼の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 182
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP再生率+20%
+  name: 邪眼の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 183
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP再生率+10%
+  name: 女神の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\nクリミア"
+  id: 184
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP再生率+15%
+  name: 女神の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 185
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP再生率+20%
+  name: 女神の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n白の城"
+  id: 186
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 物理耐性+25%
+  name: 鉄の加護の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 187
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.75
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 物理耐性+30%
+  name: 鉄の加護の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 188
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 物理耐性+35%
+  name: 鉄の加護の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n雪原"
+  id: 189
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.65
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔法耐性+25%
+  name: 魔法方石の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 190
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.75
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔法耐性+30%
+  name: 魔法方石の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 191
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔法耐性+35%
+  name: 魔法方石の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n雪原"
+  id: 192
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.65
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 命中率+40%
+  name: 狙撃手の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 精神病棟
+  id: 193
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.4
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 命中率+50%
+  name: 狙撃手の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 精神病棟
+  id: 194
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 命中率+60%
+  name: 狙撃手の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: "精神病棟\r\nクリミア"
+  id: 195
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.6
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: '会心率+30% '
+  name: スズメバチの指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 196
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: '会心率+40% '
+  name: スズメバチの指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 197
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.4
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: '会心率+50% '
+  name: スズメバチの指輪＋3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n雪原"
+  id: 198
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃力を上げる。
+  name: 刃の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 199
+  features: []
+  params:
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃力を上げる。
+  name: 刃の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 200
+  features: []
+  params:
+  - 0
+  - 0
+  - 150
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 攻撃力を上げる。
+  name: 刃の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 201
+  features: []
+  params:
+  - 0
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御力を上げる。
+  name: 護りの指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 202
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御力を上げる。
+  name: 護りの指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 203
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 150
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 防御力を上げる。
+  name: 護りの指輪＋3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 204
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 素早さを上げる。
+  name: 風神の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 205
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 100
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 素早さを上げる。
+  name: 風神の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 206
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 150
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 素早さを上げる。
+  name: 風神の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 207
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 200
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔力を上げる。
+  name: 呪術の指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 208
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔力を上げる。
+  name: 呪術の指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 209
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 150
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔力を上げる。
+  name: 呪術の指輪＋3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 210
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 全ステータス+10%　回避率-10%
+  name: ロンディニウムの指輪＋1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 211
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 全ステータス+20%　回避率-15%
+  name: ロンディニウムの指輪＋2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 212
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 全ステータス+30%　回避率-20%
+  name: ロンディニウムの指輪＋3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n白の城下街"
+  id: 213
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 割合被ダメージ-20%　回復効果-20%
+  name: 削落の指輪
+  icon_index: 513
+  price: 1500
+  note: 麻袋女
+  id: 214
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "素早さ+100%　発狂耐性-100%\r\n黄衣の王の布。信徒獲得の為に食屍鬼を欲しがる支配者は確かにいるらしい。"
+  name: 黄の布
+  icon_index: 824
+  price: 1000
+  note: クリミア
+  id: 215
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "戦闘不能時、80%の確率で復活する。防御力-30% 魔法防御-30%\r\n楽園追放のち、墓地と成り果てた病院に麗しき天使たちが産まれた。"
+  name: ガーディアンエンジェル
+  icon_index: 765
+  price: 1000
+  note: "<自動蘇生:500,42,80>\r\n乳母たちのソウル"
+  id: 216
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御効果率【小】 行動回数追加＋100% 素早さ-15%\r\n彼女への密かな欲望は全てハイドのせいです。私は悪くない。-ジキル博士"
+  name: 二面性の小盾
+  icon_index: 777
+  price: 1000
+  note: ジキルとハイド
+  id: 217
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.85
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "戦闘開始時に短い間、攻撃力+100% 魔力+100% 会心率+100% 命中率+100%\r\n地獄のプリンスと称された劇作家の頭巾。"
+  name: 劇作家の頭巾
+  icon_index: 781
+  price: 1000
+  note: "<戦闘前ステート付与:164,100>\r\nロルド"
+  id: 218
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "HP+30%　素早さ+50% \r\nランジェリーナから授かった花冠。何故か、血生臭い。"
+  name: 偽天使の花冠
+  icon_index: 315
+  price: 1000
+  note: ランジェリーナ
+  id: 219
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 500
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "HPMP再生率+30%　行動回数追加+50%\r\n夜空の彼方で編み出された、神秘そのもの。滑稽に視えるだろうか？"
+  name: 夜空の神秘
+  icon_index: 746
+  price: 500000
+  note: メイベル
+  id: 220
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 虚弱率+100%
+  name: 食屍鬼の指輪
+  icon_index: 513
+  price: 1500
+  note: クリミア
+  id: 221
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 55
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 全ステータスを上げる。
+  name: 全能の指輪
+  icon_index: 513
+  price: 1500
+  note: クリミア看護墓地
+  id: 222
+  features: []
+  params:
+  - 5000
+  - 100
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 会心率+55% 命中率+55% 物理回避率+55% 反撃率+55% 全ステータス-35%
+  name: 罪悪の指輪+1
+  icon_index: 513
+  price: 1500
+  note: 混沌
+  id: 223
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.55
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 会心率+60% 命中率+60% 物理回避率+60% 反撃率+60% 全ステータス-40%
+  name: 罪悪の指輪+2
+  icon_index: 513
+  price: 1500
+  note: 混沌
+  id: 224
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.6
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 会心率+70% 命中率+70% 物理回避率+70% 反撃率+70% 全ステータス-45%
+  name: 罪悪の指輪+3
+  icon_index: 513
+  price: 1500
+  note: "混沌\r\nウィンターベル"
+  id: 225
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 凍瘡耐性+100%　凍瘡率+50%
+  name: 一角獣の指輪
+  icon_index: 513
+  price: 1500
+  note: 一角獣の森
+  id: 226
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 162
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 裂傷耐性+100%　裂傷率+50%
+  name: 獅子の指輪
+  icon_index: 513
+  price: 1500
+  note: 獅子の砦
+  id: 227
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 163
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: '狙われ率-100% '
+  name: 虎狐の指輪
+  icon_index: 513
+  price: 1500
+  note: 心臓の庭園
+  id: 228
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 氷耐性+50%
+  name: 氷方石の指輪
+  icon_index: 513
+  price: 1500
+  note: "雪原\r\n城下街"
+  id: 229
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 魔力＋100%　攻撃力-100%
+  name: 古王の指輪
+  icon_index: 512
+  price: 10000
+  note: "ぺろぺろバード\r\nウィンターベル\r\n<合成設定:0,49,50>"
+  id: 230
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP-90%　会心率+100%
+  name: 白熊の指輪
+  icon_index: 512
+  price: 10000
+  note: "ぺろぺろバード\r\nウィンターベル\r\n<合成設定:0,49,50>"
+  id: 231
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 戦闘開始時に少しの間、防御力+900% 魔法防御+900% HP再生率+100%
+  name: 防王の指輪
+  icon_index: 513
+  price: 1500
+  note: "<戦闘前ステート付与:170,100>\r\n白の城下街\r\n"
+  id: 232
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "魔法防御+10% 氷耐性＋20%　魔法反射率＋15%　素早さ-5%\r\n冬魔導士の外套。彼らは劇場の刺客であり、演者の導き手でもある。"
+  name: 冬魔導士のコート
+  icon_index: 750
+  price: 1000
+  note: 白の城下
+  id: 233
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "防御力＋15%　素早さ-10%　会心回避率+50% 氷耐性+30%\r\n冬騎士の鎧。元は冬鐘の民であったが、往々にして傀儡となった。"
+  name: 冬騎士の鎧
+  icon_index: 751
+  price: 1000
+  note: 白の城下
+  id: 234
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御力＋8%　素早さ-6%　会心回避率+50% 氷耐性+20%\r\n冬騎士の鎧。元は冬鐘の民であったが、往々にして傀儡となった。"
+  name: 冬騎士の兜
+  icon_index: 735
+  price: 1000
+  note: 白の城下
+  id: 235
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.94
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "物理回避率+100% 氷耐性-50%\r\n彼にとって計画も陰謀も蚊帳の外であり、環境が良かったために居坐った。"
+  name: 無風の衣
+  icon_index: 447
+  price: 1000
+  note: 冬鐘の風のソウル
+  id: 236
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "防御効果率【中】 攻撃追加回数+2 攻撃力-50%\r\nカーナッキが使う盾。名声は富に繋がり、貧困から抜け出す光の道だ。"
+  name: 幽霊狩人の盾
+  icon_index: 767
+  price: 1000
+  note: カーナッキ
+  id: 237
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: 無防備耐性+100%
+  name: 破耐の指輪
+  icon_index: 513
+  price: 1500
+  note: クリミア
+  id: 238
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "防御効果率【大】 HP＋50% 素早さ-10%\r\n金で作られた大盾。強欲の罪人は熱せられた十字架を背負わされる。"
+  name: 十字架の大盾
+  icon_index: 281
+  price: 1000
+  note: 白の城下町
+  id: 239
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: 全異常耐性＋100%　
+  name: 黒騎士の指輪
+  icon_index: 512
+  price: 10000
+  note: リンダメア
+  id: 240
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 反撃率+100%
+  name: 逆襲の指輪
+  icon_index: 513
+  price: 1500
+  note: 狂気山脈
+  id: 241
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 500
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 全異常耐性＋30%
+  name: 聖森の指輪
+  icon_index: 513
+  price: 1000
+  note: "キャンディー\r\n<合成設定:0,49,1>"
+  id: 242
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "魔力+50%　魔法防御＋50%　MP-99%\r\n祟り祀る異形の社の御身は仰う。\"それはまさに奇怪な跡のような\""
+  name: 奇跡の巫女装束
+  icon_index: 825
+  price: 1000
+  note: 混沌ダンジョン
+  id: 243
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 魔法反射率+10%
+  name: 糖蜜の指輪
+  icon_index: 513
+  price: 1500
+  note: 白の城下町
+  id: 244
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 500
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 245
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 246
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 247
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 248
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 249
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 250
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 251
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 252
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 253
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 254
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 255
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 256
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 257
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 258
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 259
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 260
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
